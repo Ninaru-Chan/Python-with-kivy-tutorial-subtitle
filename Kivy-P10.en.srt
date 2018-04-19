@@ -1,0 +1,816 @@
+1
+00:00:02,330 --> 00:00:04,410
+what is going<font color="#E5E5E5"> on</font><font color="#CCCCCC"> everybody welcome to</font>
+
+2
+00:00:04,410 --> 00:00:07,799
+<font color="#E5E5E5">the 10th</font><font color="#CCCCCC"> Cavey tutorial video in this</font>
+
+3
+00:00:07,799 --> 00:00:08,970
+video<font color="#CCCCCC"> we're gonna be</font><font color="#E5E5E5"> talking</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> the</font>
+
+4
+00:00:08,970 --> 00:00:11,070
+screen manager<font color="#E5E5E5"> so I've</font><font color="#CCCCCC"> already talked</font>
+
+5
+00:00:11,070 --> 00:00:12,750
+about this what the purpose of<font color="#E5E5E5"> the</font>
+
+6
+00:00:12,750 --> 00:00:14,580
+screen manager is in the last video<font color="#CCCCCC"> so</font>
+
+7
+00:00:14,580 --> 00:00:15,719
+we're just<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to go ahead and hop</font>
+
+8
+00:00:15,719 --> 00:00:18,869
+<font color="#CCCCCC">right on into it</font><font color="#E5E5E5"> so to get the screen</font>
+
+9
+00:00:18,869 --> 00:00:20,369
+manager we<font color="#CCCCCC"> have to make another import</font>
+
+10
+00:00:20,369 --> 00:00:23,609
+<font color="#E5E5E5">and this one's going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> be from TV UI x</font>
+
+11
+00:00:23,609 --> 00:00:30,060
+dot screen<font color="#E5E5E5"> manager import screen manager</font>
+
+12
+00:00:30,060 --> 00:00:33,300
+we're gonna also need screen<font color="#CCCCCC"> and then</font>
+
+13
+00:00:33,300 --> 00:00:36,450
+we're gonna import fade transition<font color="#E5E5E5"> so</font>
+
+14
+00:00:36,450 --> 00:00:37,710
+not only<font color="#E5E5E5"> is it going to allow</font><font color="#CCCCCC"> us to</font>
+
+15
+00:00:37,710 --> 00:00:39,719
+change between screens<font color="#E5E5E5"> there's a quite</font>
+
+16
+00:00:39,719 --> 00:00:41,879
+<font color="#E5E5E5">well there's a handful of transitions</font>
+
+17
+00:00:41,879 --> 00:00:44,610
+that<font color="#CCCCCC"> you</font><font color="#E5E5E5"> can use</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> just kind of makes</font>
+
+18
+00:00:44,610 --> 00:00:46,140
+<font color="#E5E5E5">it look</font><font color="#CCCCCC"> a little better as you</font>
+
+19
+00:00:46,140 --> 00:00:48,719
+transition<font color="#E5E5E5"> and it literally a transition</font>
+
+20
+00:00:48,719 --> 00:00:51,059
+helps the user know that<font color="#E5E5E5"> transition is</font>
+
+21
+00:00:51,059 --> 00:00:53,219
+even<font color="#E5E5E5"> occurring right but it's also it's</font>
+
+22
+00:00:53,219 --> 00:00:54,480
+<font color="#CCCCCC">just more user friendly and it looks</font>
+
+23
+00:00:54,480 --> 00:00:57,270
+better<font color="#E5E5E5"> so anyway those are the things</font>
+
+24
+00:00:57,270 --> 00:00:58,559
+that<font color="#E5E5E5"> we need and</font><font color="#CCCCCC"> now we're ready to</font>
+
+25
+00:00:58,559 --> 00:01:01,230
+<font color="#E5E5E5">actually build our application luckily</font>
+
+26
+00:01:01,230 --> 00:01:03,840
+<font color="#E5E5E5">or at least for this</font><font color="#CCCCCC"> tutorial</font><font color="#E5E5E5"> we can do</font>
+
+27
+00:01:03,840 --> 00:01:05,369
+<font color="#E5E5E5">it pretty simply we're just going</font><font color="#CCCCCC"> to</font>
+
+28
+00:01:05,369 --> 00:01:06,900
+need a lot of classes that<font color="#E5E5E5"> happen to</font>
+
+29
+00:01:06,900 --> 00:01:09,810
+pass<font color="#E5E5E5"> but anyways</font><font color="#CCCCCC"> first</font><font color="#E5E5E5"> we're gonna have</font>
+
+30
+00:01:09,810 --> 00:01:11,250
+<font color="#CCCCCC">a class and we're gonna have a main</font>
+
+31
+00:01:11,250 --> 00:01:14,400
+screen and main screen is going<font color="#CCCCCC"> to</font>
+
+32
+00:01:14,400 --> 00:01:17,430
+<font color="#CCCCCC">inherit from</font><font color="#E5E5E5"> screen basically</font><font color="#CCCCCC"> to use a</font>
+
+33
+00:01:17,430 --> 00:01:19,320
+screen manager we need to import<font color="#E5E5E5"> from</font>
+
+34
+00:01:19,320 --> 00:01:22,280
+screen and inherit from screen rather
+
+35
+00:01:22,280 --> 00:01:26,130
+and then so main screen will pass<font color="#CCCCCC"> then</font>
+
+36
+00:01:26,130 --> 00:01:28,759
+we're gonna have class another screen
+
+37
+00:01:28,759 --> 00:01:31,320
+again it's<font color="#E5E5E5"> going to inherit from screen</font>
+
+38
+00:01:31,320 --> 00:01:34,470
+and again<font color="#CCCCCC"> it's just gonna</font><font color="#E5E5E5"> pass and then</font>
+
+39
+00:01:34,470 --> 00:01:38,570
+we'll have class screen<font color="#E5E5E5"> manage</font>
+
+40
+00:01:38,570 --> 00:01:42,509
+management it's really easy<font color="#CCCCCC"> to koi</font>
+
+41
+00:01:42,509 --> 00:01:44,250
+when you're like doing<font color="#CCCCCC"> tutorials or just</font>
+
+42
+00:01:44,250 --> 00:01:45,509
+like trying<font color="#E5E5E5"> to learn</font><font color="#CCCCCC"> about something</font>
+
+43
+00:01:45,509 --> 00:01:46,799
+<font color="#CCCCCC">it's really easy</font><font color="#E5E5E5"> to make the function</font>
+
+44
+00:01:46,799 --> 00:01:48,149
+<font color="#CCCCCC">named the same thing as what you're</font>
+
+45
+00:01:48,149 --> 00:01:51,270
+working<font color="#CCCCCC"> with either a module or</font><font color="#E5E5E5"> exactly</font>
+
+46
+00:01:51,270 --> 00:01:52,890
+this because generally they<font color="#E5E5E5"> name their</font>
+
+47
+00:01:52,890 --> 00:01:55,140
+things a pretty intuitive name as well
+
+48
+00:01:55,140 --> 00:01:57,090
+so you<font color="#E5E5E5"> can get in all kinds</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> trouble</font>
+
+49
+00:01:57,090 --> 00:02:00,719
+<font color="#E5E5E5">anyway screen manager don't do that</font><font color="#CCCCCC"> so</font>
+
+50
+00:02:00,719 --> 00:02:03,570
+this<font color="#E5E5E5"> will be a screen management class</font>
+
+51
+00:02:03,570 --> 00:02:05,280
+which we'll cover in just<font color="#CCCCCC"> a moment and</font>
+
+52
+00:02:05,280 --> 00:02:07,890
+<font color="#E5E5E5">then it's going</font><font color="#CCCCCC"> to inherit</font><font color="#E5E5E5"> from screen</font>
+
+53
+00:02:07,890 --> 00:02:12,510
+manager which is here
+
+54
+00:02:12,510 --> 00:02:15,690
+you guessed<font color="#E5E5E5"> it it's gonna pass</font><font color="#CCCCCC"> okay so</font>
+
+55
+00:02:15,690 --> 00:02:18,360
+we don't<font color="#CCCCCC"> really need any logic</font><font color="#E5E5E5"> at this</font>
+
+56
+00:02:18,360 --> 00:02:25,710
+point simply<font color="#E5E5E5"> because we are really</font><font color="#CCCCCC"> just</font>
+
+57
+00:02:25,710 --> 00:02:27,930
+<font color="#E5E5E5">doing like the visual and keavy kind of</font>
+
+58
+00:02:27,930 --> 00:02:30,000
+stuff at this point so we don't actually
+
+59
+00:02:30,000 --> 00:02:34,260
+need to<font color="#CCCCCC"> put any logic here but soon you</font>
+
+60
+00:02:34,260 --> 00:02:36,420
+can imagine<font color="#E5E5E5"> you might and that's</font>
+
+61
+00:02:36,420 --> 00:02:37,500
+basically it
+
+62
+00:02:37,500 --> 00:02:39,450
+although we need to get rid<font color="#CCCCCC"> of these</font>
+
+63
+00:02:39,450 --> 00:02:41,910
+right here<font color="#CCCCCC"> so presentation is not</font><font color="#E5E5E5"> a</font>
+
+64
+00:02:41,910 --> 00:02:44,490
+function it's<font color="#CCCCCC"> just a variable</font><font color="#E5E5E5"> so we're</font>
+
+65
+00:02:44,490 --> 00:02:46,650
+going<font color="#E5E5E5"> to go ahead and get rid</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> that</font>
+
+66
+00:02:46,650 --> 00:02:50,010
+<font color="#CCCCCC">and now we're ready</font><font color="#E5E5E5"> to move into our kv</font>
+
+67
+00:02:50,010 --> 00:02:52,800
+file<font color="#E5E5E5"> so we'll save</font><font color="#CCCCCC"> that there and we'll</font>
+
+68
+00:02:52,800 --> 00:02:54,900
+come<font color="#E5E5E5"> over to our</font><font color="#CCCCCC"> ki v file and I'm just</font>
+
+69
+00:02:54,900 --> 00:02:56,460
+going<font color="#CCCCCC"> to go ahead and</font><font color="#E5E5E5"> delete everything</font>
+
+70
+00:02:56,460 --> 00:02:58,740
+out of<font color="#E5E5E5"> this main</font><font color="#CCCCCC"> kv we don't really</font><font color="#E5E5E5"> need</font>
+
+71
+00:02:58,740 --> 00:03:02,430
+anything there<font color="#CCCCCC"> and if ya</font><font color="#E5E5E5"> I'm gonna</font>
+
+72
+00:03:02,430 --> 00:03:05,220
+<font color="#E5E5E5">delete</font><font color="#CCCCCC"> okay so now that we</font><font color="#E5E5E5"> want</font><font color="#CCCCCC"> to do is</font>
+
+73
+00:03:05,220 --> 00:03:07,050
+we want to utilizes<font color="#CCCCCC"> meet or fade</font>
+
+74
+00:03:07,050 --> 00:03:10,320
+transition<font color="#E5E5E5"> and later on you can actually</font>
+
+75
+00:03:10,320 --> 00:03:12,570
+you might do something<font color="#E5E5E5"> with</font><font color="#CCCCCC"> it but</font>
+
+76
+00:03:12,570 --> 00:03:14,100
+actually<font color="#E5E5E5"> probably the main use of fade</font>
+
+77
+00:03:14,100 --> 00:03:15,480
+transitions<font color="#E5E5E5"> going to be in the key V</font>
+
+78
+00:03:15,480 --> 00:03:19,140
+file anyways but<font color="#CCCCCC"> so to do</font><font color="#E5E5E5"> it import in</font>
+
+79
+00:03:19,140 --> 00:03:21,840
+your<font color="#E5E5E5"> ki V file it's really quite simple</font>
+
+80
+00:03:21,840 --> 00:03:24,480
+but I guess it's it's<font color="#E5E5E5"> kind of flipped</font>
+
+81
+00:03:24,480 --> 00:03:24,959
+around
+
+82
+00:03:24,959 --> 00:03:26,850
+but anyway it's<font color="#E5E5E5"> kind of I'll just show</font>
+
+83
+00:03:26,850 --> 00:03:29,520
+you<font color="#E5E5E5"> so we want to import what we want to</font>
+
+84
+00:03:29,520 --> 00:03:32,940
+import fade transition and then from
+
+85
+00:03:32,940 --> 00:03:39,570
+where<font color="#CCCCCC"> so</font><font color="#E5E5E5"> key v UI x dot screen</font><font color="#CCCCCC"> manager</font>
+
+86
+00:03:39,570 --> 00:03:45,030
+dot<font color="#E5E5E5"> fade transition okay</font><font color="#CCCCCC"> and that's our</font>
+
+87
+00:03:45,030 --> 00:03:46,350
+import that's really the only<font color="#CCCCCC"> thing we</font>
+
+88
+00:03:46,350 --> 00:03:48,510
+need<font color="#CCCCCC"> to right there</font><font color="#E5E5E5"> now we're gonna</font>
+
+89
+00:03:48,510 --> 00:03:51,480
+<font color="#CCCCCC">reference first screen management and</font>
+
+90
+00:03:51,480 --> 00:03:53,100
+basically<font color="#CCCCCC"> talk about</font><font color="#E5E5E5"> what screen</font>
+
+91
+00:03:53,100 --> 00:03:56,790
+management is<font color="#CCCCCC"> managing so first we have</font>
+
+92
+00:03:56,790 --> 00:04:02,640
+screen management<font color="#CCCCCC"> colon tab and first</font>
+
+93
+00:04:02,640 --> 00:04:04,610
+we're<font color="#E5E5E5"> going to reference transition</font>
+
+94
+00:04:04,610 --> 00:04:07,170
+<font color="#E5E5E5">transition is you know like an element</font>
+
+95
+00:04:07,170 --> 00:04:09,780
+of<font color="#E5E5E5"> our screen manager</font><font color="#CCCCCC"> okay so what we</font>
+
+96
+00:04:09,780 --> 00:04:12,540
+inherited<font color="#CCCCCC"> from to make our screen</font>
+
+97
+00:04:12,540 --> 00:04:15,060
+management class their transition you
+
+98
+00:04:15,060 --> 00:04:16,560
+guessed it we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> use the fade</font>
+
+99
+00:04:16,560 --> 00:04:22,108
+transition<font color="#E5E5E5"> then uh what are the screens</font>
+
+100
+00:04:22,108 --> 00:04:23,410
+that<font color="#E5E5E5"> we're managing will remain</font>
+
+101
+00:04:23,410 --> 00:04:25,630
+<font color="#E5E5E5">judging main screen</font><font color="#CCCCCC"> and we're gonna</font>
+
+102
+00:04:25,630 --> 00:04:29,530
+manage<font color="#E5E5E5"> another screen okay and later on</font>
+
+103
+00:04:29,530 --> 00:04:31,060
+<font color="#E5E5E5">you might be able to add some</font><font color="#CCCCCC"> stuff</font><font color="#E5E5E5"> here</font>
+
+104
+00:04:31,060 --> 00:04:32,530
+for now we'll<font color="#CCCCCC"> just leave</font><font color="#E5E5E5"> those actually</font>
+
+105
+00:04:32,530 --> 00:04:35,350
+completely blank<font color="#E5E5E5"> so now let's create our</font>
+
+106
+00:04:35,350 --> 00:04:41,680
+main screen<font color="#E5E5E5"> rules here and um again</font><font color="#CCCCCC"> TV</font>
+
+107
+00:04:41,680 --> 00:04:44,080
+files are not like spreadsheets<font color="#CCCCCC"> Earths</font>
+
+108
+00:04:44,080 --> 00:04:47,710
+<font color="#E5E5E5">spreadsheets style sheets</font><font color="#CCCCCC"> um in the</font>
+
+109
+00:04:47,710 --> 00:04:49,750
+sense that you know<font color="#CCCCCC"> like</font><font color="#E5E5E5"> you reference</font>
+
+110
+00:04:49,750 --> 00:04:53,560
+say an ID so main screen is our you know
+
+111
+00:04:53,560 --> 00:04:55,870
+<font color="#E5E5E5">parent and then we've got this child you</font>
+
+112
+00:04:55,870 --> 00:04:58,300
+know<font color="#E5E5E5"> ID basically and then we can pass</font>
+
+113
+00:04:58,300 --> 00:05:00,160
+some more things and<font color="#CCCCCC"> actually reference</font>
+
+114
+00:05:00,160 --> 00:05:01,840
+that ID and have<font color="#CCCCCC"> a user scroll to that</font>
+
+115
+00:05:01,840 --> 00:05:03,610
+<font color="#E5E5E5">ID and all that kind of stuff it's kind</font>
+
+116
+00:05:03,610 --> 00:05:04,810
+it's basically the same thing<font color="#E5E5E5"> here</font><font color="#CCCCCC"> so</font>
+
+117
+00:05:04,810 --> 00:05:07,240
+here we're gonna give<font color="#CCCCCC"> it a name in the</font>
+
+118
+00:05:07,240 --> 00:05:09,550
+name<font color="#E5E5E5"> of main screen we're just gonna say</font>
+
+119
+00:05:09,550 --> 00:05:13,480
+is main<font color="#CCCCCC"> and that's basically it</font><font color="#E5E5E5"> and then</font>
+
+120
+00:05:13,480 --> 00:05:16,300
+we we want a budding here<font color="#E5E5E5"> capital B for</font>
+
+121
+00:05:16,300 --> 00:05:19,060
+button by<font color="#E5E5E5"> the way we want a</font><font color="#CCCCCC"> button tab</font>
+
+122
+00:05:19,060 --> 00:05:20,410
+<font color="#CCCCCC">over</font><font color="#E5E5E5"> we're gonna have a few elements</font>
+
+123
+00:05:20,410 --> 00:05:22,360
+<font color="#E5E5E5">here and what this button is going to do</font>
+
+124
+00:05:22,360 --> 00:05:25,960
+is on release which is a function of<font color="#E5E5E5"> a</font>
+
+125
+00:05:25,960 --> 00:05:29,050
+<font color="#E5E5E5">button here</font><font color="#CCCCCC"> on release what do we want</font>
+
+126
+00:05:29,050 --> 00:05:31,990
+to<font color="#E5E5E5"> happen well app dot</font><font color="#CCCCCC"> root</font>
+
+127
+00:05:31,990 --> 00:05:35,530
+dot current<font color="#E5E5E5"> so our app is basically this</font>
+
+128
+00:05:35,530 --> 00:05:38,110
+<font color="#E5E5E5">right main app and then we're saying</font>
+
+129
+00:05:38,110 --> 00:05:40,660
+<font color="#E5E5E5">basically dot root dot current for the</font>
+
+130
+00:05:40,660 --> 00:05:42,730
+current<font color="#E5E5E5"> screen that we're looking at and</font>
+
+131
+00:05:42,730 --> 00:05:45,610
+we want to actually<font color="#CCCCCC"> change that to other</font>
+
+132
+00:05:45,610 --> 00:05:49,240
+if the button is going to<font color="#E5E5E5"> be the on so</font>
+
+133
+00:05:49,240 --> 00:05:50,830
+the main<font color="#E5E5E5"> screen and</font><font color="#CCCCCC"> it would</font><font color="#E5E5E5"> be like hey</font>
+
+134
+00:05:50,830 --> 00:05:52,450
+go to another page or go to<font color="#E5E5E5"> these</font>
+
+135
+00:05:52,450 --> 00:05:54,669
+settings<font color="#E5E5E5"> or whatever basically this</font><font color="#CCCCCC"> is</font>
+
+136
+00:05:54,669 --> 00:05:57,370
+what controls what this button does<font color="#CCCCCC"> so</font>
+
+137
+00:05:57,370 --> 00:06:00,160
+we want it to head to other for<font color="#CCCCCC"> another</font>
+
+138
+00:06:00,160 --> 00:06:02,770
+page so<font color="#CCCCCC"> the name of our say another</font>
+
+139
+00:06:02,770 --> 00:06:05,890
+screen for the<font color="#E5E5E5"> IDE like the ID anyways</font>
+
+140
+00:06:05,890 --> 00:06:08,410
+the name is<font color="#E5E5E5"> going to be other so that's</font>
+
+141
+00:06:08,410 --> 00:06:09,820
+kind of how<font color="#E5E5E5"> you reference them anyways</font>
+
+142
+00:06:09,820 --> 00:06:11,140
+that's on release but we need a<font color="#E5E5E5"> few</font>
+
+143
+00:06:11,140 --> 00:06:12,340
+<font color="#CCCCCC">other</font><font color="#E5E5E5"> things first of all we need some</font>
+
+144
+00:06:12,340 --> 00:06:14,380
+text<font color="#E5E5E5"> to let the user know what the heck</font>
+
+145
+00:06:14,380 --> 00:06:18,160
+is about to happen<font color="#CCCCCC"> well just look how</font>
+
+146
+00:06:18,160 --> 00:06:20,169
+this<font color="#E5E5E5"> actually next screen that's</font>
+
+147
+00:06:20,169 --> 00:06:22,330
+probably the easiest<font color="#CCCCCC"> and then finally</font>
+
+148
+00:06:22,330 --> 00:06:25,270
+font size will just say<font color="#E5E5E5"> 50 so it's nice</font>
+
+149
+00:06:25,270 --> 00:06:28,060
+and<font color="#E5E5E5"> clear and that's basically it with</font>
+
+150
+00:06:28,060 --> 00:06:30,130
+the main screen<font color="#CCCCCC"> and now we're going</font><font color="#E5E5E5"> to</font>
+
+151
+00:06:30,130 --> 00:06:33,160
+code the another screen I'm going<font color="#CCCCCC"> to</font>
+
+152
+00:06:33,160 --> 00:06:36,610
+<font color="#E5E5E5">just copy this paste this</font>
+
+153
+00:06:36,610 --> 00:06:40,180
+instead of a main screen it is<font color="#E5E5E5"> another</font>
+
+154
+00:06:40,180 --> 00:06:45,159
+screen name is other<font color="#E5E5E5"> when we release the</font>
+
+155
+00:06:45,159 --> 00:06:47,530
+<font color="#E5E5E5">button on this screen</font><font color="#CCCCCC"> we want to change</font>
+
+156
+00:06:47,530 --> 00:06:50,110
+back<font color="#CCCCCC"> to the main screen</font><font color="#E5E5E5"> and then of</font>
+
+157
+00:06:50,110 --> 00:06:52,000
+course<font color="#E5E5E5"> this will say something</font><font color="#CCCCCC"> about</font>
+
+158
+00:06:52,000 --> 00:06:54,699
+<font color="#E5E5E5">going back home so we'll just say back</font>
+
+159
+00:06:54,699 --> 00:06:59,139
+<font color="#E5E5E5">home</font><font color="#CCCCCC"> okay easy</font><font color="#E5E5E5"> enough and now we've got</font>
+
+160
+00:06:59,139 --> 00:07:02,800
+basically all<font color="#CCCCCC"> of our required you know</font>
+
+161
+00:07:02,800 --> 00:07:05,500
+TV stuff and we've got our buttons we've
+
+162
+00:07:05,500 --> 00:07:07,330
+got our screen manager managing our
+
+163
+00:07:07,330 --> 00:07:09,099
+screens or screens are willing to change
+
+164
+00:07:09,099 --> 00:07:11,139
+the<font color="#E5E5E5"> current screen to other and the way</font>
+
+165
+00:07:11,139 --> 00:07:12,719
+that we're doing<font color="#E5E5E5"> that is with a fade a</font>
+
+166
+00:07:12,719 --> 00:07:15,550
+transition<font color="#E5E5E5"> so I think we're</font><font color="#CCCCCC"> ready</font><font color="#E5E5E5"> to run</font>
+
+167
+00:07:15,550 --> 00:07:18,580
+let's see if we have<font color="#CCCCCC"> any</font><font color="#E5E5E5"> errors so you</font>
+
+168
+00:07:18,580 --> 00:07:21,610
+<font color="#E5E5E5">can run that our screen comes up short</font>
+
+169
+00:07:21,610 --> 00:07:24,219
+off we have next screen we click on<font color="#CCCCCC"> next</font>
+
+170
+00:07:24,219 --> 00:07:26,169
+screen and<font color="#E5E5E5"> we see it faded to this</font>
+
+171
+00:07:26,169 --> 00:07:28,330
+screen<font color="#E5E5E5"> here</font><font color="#CCCCCC"> we'll click it again</font><font color="#E5E5E5"> and we</font>
+
+172
+00:07:28,330 --> 00:07:30,310
+go back home so<font color="#CCCCCC"> we</font><font color="#E5E5E5"> can see that this</font>
+
+173
+00:07:30,310 --> 00:07:33,250
+basically worked the way that we at
+
+174
+00:07:33,250 --> 00:07:35,199
+least<font color="#E5E5E5"> for now have intended obviously</font>
+
+175
+00:07:35,199 --> 00:07:37,029
+the button is<font color="#E5E5E5"> giant</font><font color="#CCCCCC"> and we don't really</font>
+
+176
+00:07:37,029 --> 00:07:39,129
+do anything<font color="#E5E5E5"> else but we are able</font><font color="#CCCCCC"> to go</font>
+
+177
+00:07:39,129 --> 00:07:41,259
+<font color="#E5E5E5">back and forth between various screens</font>
+
+178
+00:07:41,259 --> 00:07:44,050
+and then obviously<font color="#E5E5E5"> as</font><font color="#CCCCCC"> time goes on</font><font color="#E5E5E5"> we</font>
+
+179
+00:07:44,050 --> 00:07:46,150
+can add some<font color="#CCCCCC"> information</font><font color="#E5E5E5"> it's more you</font>
+
+180
+00:07:46,150 --> 00:07:48,580
+know<font color="#CCCCCC"> kind of</font><font color="#E5E5E5"> gooey stuffs logic here and</font>
+
+181
+00:07:48,580 --> 00:07:52,419
+then come<font color="#CCCCCC"> into our</font><font color="#E5E5E5"> actual TV file add</font>
+
+182
+00:07:52,419 --> 00:07:54,430
+some more kind<font color="#CCCCCC"> of</font><font color="#E5E5E5"> graphics and</font>
+
+183
+00:07:54,430 --> 00:07:56,110
+customization<font color="#E5E5E5"> and maybe not make the</font>
+
+184
+00:07:56,110 --> 00:07:57,520
+button take up the whole<font color="#E5E5E5"> screen</font><font color="#CCCCCC"> that</font>
+
+185
+00:07:57,520 --> 00:07:59,889
+kind of stuff<font color="#CCCCCC"> so we're gonna add</font><font color="#E5E5E5"> stuff</font>
+
+186
+00:07:59,889 --> 00:08:02,409
+there<font color="#E5E5E5"> so I figured</font><font color="#CCCCCC"> that most</font><font color="#E5E5E5"> or the</font><font color="#CCCCCC"> best</font>
+
+187
+00:08:02,409 --> 00:08:04,210
+<font color="#E5E5E5">thing to do now</font><font color="#CCCCCC"> would be show since</font><font color="#E5E5E5"> in</font>
+
+188
+00:08:04,210 --> 00:08:06,129
+the previous video we<font color="#CCCCCC"> actually made an</font>
+
+189
+00:08:06,129 --> 00:08:08,349
+application<font color="#CCCCCC"> where we were drawing stuff</font>
+
+190
+00:08:08,349 --> 00:08:10,900
+<font color="#E5E5E5">right why not</font><font color="#CCCCCC"> just add that application</font>
+
+191
+00:08:10,900 --> 00:08:14,229
+as if it was you know<font color="#E5E5E5"> anything else</font><font color="#CCCCCC"> so</font>
+
+192
+00:08:14,229 --> 00:08:15,490
+<font color="#E5E5E5">we'll add</font><font color="#CCCCCC"> that application will</font>
+
+193
+00:08:15,490 --> 00:08:16,900
+basically come<font color="#CCCCCC"> to the main screen we'll</font>
+
+194
+00:08:16,900 --> 00:08:18,639
+hit this it'll come to our application
+
+195
+00:08:18,639 --> 00:08:19,689
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> then maybe there's a button that</font>
+
+196
+00:08:19,689 --> 00:08:21,849
+<font color="#E5E5E5">heads us back home okay something simple</font>
+
+197
+00:08:21,849 --> 00:08:23,889
+like<font color="#E5E5E5"> that</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> that's what we're gonna</font>
+
+198
+00:08:23,889 --> 00:08:25,330
+<font color="#CCCCCC">cover in the next video so stay</font><font color="#E5E5E5"> tuned</font>
+
+199
+00:08:25,330 --> 00:08:26,680
+<font color="#E5E5E5">for</font><font color="#CCCCCC"> that if you guys</font><font color="#E5E5E5"> have any questions</font>
+
+200
+00:08:26,680 --> 00:08:27,909
+<font color="#E5E5E5">or comments</font><font color="#CCCCCC"> on this video please feel</font>
+
+201
+00:08:27,909 --> 00:08:30,069
+<font color="#CCCCCC">free to leave them below otherwise as</font>
+
+202
+00:08:30,069 --> 00:08:31,389
+always thanks for<font color="#CCCCCC"> watching</font><font color="#E5E5E5"> thanks for</font>
+
+203
+00:08:31,389 --> 00:08:33,880
+<font color="#E5E5E5">all the support subscriptions until next</font>
+
+204
+00:08:33,880 --> 00:00:00,000
+time
+

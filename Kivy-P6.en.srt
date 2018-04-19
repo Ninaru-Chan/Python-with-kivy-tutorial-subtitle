@@ -1,0 +1,1112 @@
+1
+00:00:03,350 --> 00:00:05,490
+what's going<font color="#E5E5E5"> on everybody</font><font color="#CCCCCC"> welcome to</font><font color="#E5E5E5"> the</font>
+
+2
+00:00:05,490 --> 00:00:08,910
+<font color="#CCCCCC">sixth</font><font color="#E5E5E5"> TV basics tutorial video in</font><font color="#CCCCCC"> this</font>
+
+3
+00:00:08,910 --> 00:00:10,080
+video<font color="#E5E5E5"> what we're gonna be</font><font color="#CCCCCC"> talking about</font>
+
+4
+00:00:10,080 --> 00:00:12,780
+is<font color="#E5E5E5"> the float layout so this is another</font>
+
+5
+00:00:12,780 --> 00:00:15,059
+version of a<font color="#CCCCCC"> layout now as we can see</font>
+
+6
+00:00:15,059 --> 00:00:19,560
+<font color="#CCCCCC">this layout is is</font><font color="#E5E5E5"> fairly responsive</font><font color="#CCCCCC"> you</font>
+
+7
+00:00:19,560 --> 00:00:21,000
+know we can move<font color="#E5E5E5"> things around at least</font>
+
+8
+00:00:21,000 --> 00:00:23,300
+<font color="#E5E5E5">and the buttons are somewhat placed</font>
+
+9
+00:00:23,300 --> 00:00:25,980
+decently<font color="#E5E5E5"> but not the greatest</font><font color="#CCCCCC"> and you</font>
+
+10
+00:00:25,980 --> 00:00:28,050
+can do stuff<font color="#CCCCCC"> like this right and and you</font>
+
+11
+00:00:28,050 --> 00:00:29,849
+<font color="#E5E5E5">you can conceive there are some layouts</font>
+
+12
+00:00:29,849 --> 00:00:31,619
+that are some reasons<font color="#CCCCCC"> why</font><font color="#E5E5E5"> you wouldn't</font>
+
+13
+00:00:31,619 --> 00:00:32,940
+<font color="#CCCCCC">want this layout so I'm going</font><font color="#E5E5E5"> to show</font>
+
+14
+00:00:32,940 --> 00:00:34,290
+one<font color="#CCCCCC"> more layout and that's</font><font color="#E5E5E5"> going to be</font>
+
+15
+00:00:34,290 --> 00:00:36,660
+the float layout so the idea of<font color="#E5E5E5"> the</font>
+
+16
+00:00:36,660 --> 00:00:39,090
+float layout is that you can kind of
+
+17
+00:00:39,090 --> 00:00:42,510
+dynamically size and place things so I
+
+18
+00:00:42,510 --> 00:00:43,559
+don't<font color="#CCCCCC"> know stuff like this</font><font color="#E5E5E5"> doesn't</font>
+
+19
+00:00:43,559 --> 00:00:46,500
+really happen<font color="#CCCCCC"> so anyway let's go ahead</font>
+
+20
+00:00:46,500 --> 00:00:51,210
+<font color="#E5E5E5">and close this and talk</font><font color="#CCCCCC"> about that so</font>
+
+21
+00:00:51,210 --> 00:00:53,190
+for<font color="#E5E5E5"> me I'm going to make some changes</font>
+
+22
+00:00:53,190 --> 00:00:58,379
+<font color="#E5E5E5">again this will be my</font><font color="#CCCCCC"> kv file for I'm</font>
+
+23
+00:00:58,379 --> 00:01:00,989
+already regretting not keeping these the
+
+24
+00:01:00,989 --> 00:01:03,690
+<font color="#E5E5E5">same number</font><font color="#CCCCCC"> as the</font><font color="#E5E5E5"> video but that's okay</font>
+
+25
+00:01:03,690 --> 00:01:06,930
+so<font color="#CCCCCC"> case</font><font color="#E5E5E5"> 6 and this one's already saved</font>
+
+26
+00:01:06,930 --> 00:01:11,790
+as<font color="#CCCCCC"> for cool</font><font color="#E5E5E5"> so I'm gonna save that</font><font color="#CCCCCC"> ok</font>
+
+27
+00:01:11,790 --> 00:01:15,479
+<font color="#E5E5E5">now we're ready</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> go ahead and get</font>
+
+28
+00:01:15,479 --> 00:01:17,970
+started<font color="#E5E5E5"> so I'm going</font><font color="#CCCCCC"> to the</font><font color="#E5E5E5"> only</font><font color="#CCCCCC"> thing I</font>
+
+29
+00:01:17,970 --> 00:01:20,880
+<font color="#CCCCCC">would get rid of here let's see four</font>
+
+30
+00:01:20,880 --> 00:01:26,189
+button will be<font color="#CCCCCC"> size so we'll keep the</font>
+
+31
+00:01:26,189 --> 00:01:30,479
+font size as<font color="#E5E5E5"> 44 now I mean you might</font>
+
+32
+00:01:30,479 --> 00:01:31,680
+want to change<font color="#E5E5E5"> that something more</font>
+
+33
+00:01:31,680 --> 00:01:34,829
+dynamic later on but<font color="#E5E5E5"> we'll keep the font</font>
+
+34
+00:01:34,829 --> 00:01:37,799
+size as 40 and we'll talk about the
+
+35
+00:01:37,799 --> 00:01:39,060
+other<font color="#CCCCCC"> stuff later but then we'll just</font>
+
+36
+00:01:39,060 --> 00:01:41,130
+<font color="#E5E5E5">delete this so currently we'll just have</font>
+
+37
+00:01:41,130 --> 00:01:45,030
+a you<font color="#CCCCCC"> know this button definition so</font>
+
+38
+00:01:45,030 --> 00:01:47,040
+we'll save that<font color="#E5E5E5"> and no longer do we need</font>
+
+39
+00:01:47,040 --> 00:01:48,960
+<font color="#CCCCCC">our widgets class we're going</font><font color="#E5E5E5"> to</font><font color="#CCCCCC"> get</font><font color="#E5E5E5"> rid</font>
+
+40
+00:01:48,960 --> 00:01:50,159
+of<font color="#E5E5E5"> that for now we want to keep</font>
+
+41
+00:01:50,159 --> 00:01:51,960
+everything as<font color="#CCCCCC"> simple</font><font color="#E5E5E5"> as</font><font color="#CCCCCC"> possible so you</font>
+
+42
+00:01:51,960 --> 00:01:54,390
+<font color="#E5E5E5">can kind of see the required connections</font>
+
+43
+00:01:54,390 --> 00:01:56,159
+<font color="#CCCCCC">and nothing more</font>
+
+44
+00:01:56,159 --> 00:01:59,640
+so we're also going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> get getting learn</font>
+
+45
+00:01:59,640 --> 00:02:02,939
+to speak so<font color="#E5E5E5"> here</font><font color="#CCCCCC"> at</font><font color="#E5E5E5"> a widget we don't</font>
+
+46
+00:02:02,939 --> 00:02:06,210
+need that<font color="#E5E5E5"> anymore</font><font color="#CCCCCC"> and in fact we aren't</font>
+
+47
+00:02:06,210 --> 00:02:08,758
+even<font color="#E5E5E5"> going to need label we're just</font>
+
+48
+00:02:08,758 --> 00:02:10,889
+going to<font color="#E5E5E5"> have key v-app import app and</font>
+
+49
+00:02:10,889 --> 00:02:12,810
+then one more thing<font color="#CCCCCC"> we're going</font><font color="#E5E5E5"> to now</font>
+
+50
+00:02:12,810 --> 00:02:13,680
+say
+
+51
+00:02:13,680 --> 00:02:19,230
+from TV<font color="#CCCCCC"> Dai UI</font><font color="#E5E5E5"> x dot flow layout import</font>
+
+52
+00:02:19,230 --> 00:02:25,709
+capital F float<font color="#E5E5E5"> capital L layout now we</font>
+
+53
+00:02:25,709 --> 00:02:27,359
+deleted<font color="#E5E5E5"> our widgets class so we can't</font>
+
+54
+00:02:27,359 --> 00:02:28,769
+use that<font color="#CCCCCC"> anymore so we have to use float</font>
+
+55
+00:02:28,769 --> 00:02:31,709
+layout<font color="#E5E5E5"> so now our simple app is just</font>
+
+56
+00:02:31,709 --> 00:02:35,819
+<font color="#CCCCCC">gonna return</font><font color="#E5E5E5"> float layout now that's</font>
+
+57
+00:02:35,819 --> 00:02:38,219
+really<font color="#E5E5E5"> nothing</font><font color="#CCCCCC"> it should run</font><font color="#E5E5E5"> still but</font>
+
+58
+00:02:38,219 --> 00:02:39,599
+there's really nothing<font color="#CCCCCC"> to our float</font>
+
+59
+00:02:39,599 --> 00:02:41,609
+layout it's just a blank screen at the
+
+60
+00:02:41,609 --> 00:02:42,750
+moment<font color="#CCCCCC"> whoops</font>
+
+61
+00:02:42,750 --> 00:02:46,829
+<font color="#E5E5E5">so I guess</font><font color="#CCCCCC"> hold it here</font><font color="#E5E5E5"> yes so how do we</font>
+
+62
+00:02:46,829 --> 00:02:49,739
+<font color="#CCCCCC">add this float layout well all we need</font>
+
+63
+00:02:49,739 --> 00:02:52,470
+<font color="#CCCCCC">to do is you know these parent and</font>
+
+64
+00:02:52,470 --> 00:02:54,419
+children<font color="#E5E5E5"> so now we can specify this</font>
+
+65
+00:02:54,419 --> 00:02:57,180
+parent class that we have which is float
+
+66
+00:02:57,180 --> 00:02:58,769
+layout so let's just go ahead<font color="#CCCCCC"> and do</font>
+
+67
+00:02:58,769 --> 00:03:01,139
+<font color="#CCCCCC">that so add</font><font color="#E5E5E5"> our little tags for the</font>
+
+68
+00:03:01,139 --> 00:03:04,709
+parent<font color="#E5E5E5"> and this is float layout</font>
+
+69
+00:03:04,709 --> 00:03:06,900
+don't forget your colon it's really easy
+
+70
+00:03:06,900 --> 00:03:10,709
+<font color="#CCCCCC">for you</font><font color="#E5E5E5"> Python folk</font><font color="#CCCCCC"> 1 2 3 4 and</font><font color="#E5E5E5"> now</font>
+
+71
+00:03:10,709 --> 00:03:12,150
+we're ready<font color="#E5E5E5"> to kind of define some</font>
+
+72
+00:03:12,150 --> 00:03:15,209
+things about the float layout now for me
+
+73
+00:03:15,209 --> 00:03:16,349
+all<font color="#E5E5E5"> I say that we're going to have two</font>
+
+74
+00:03:16,349 --> 00:03:17,879
+<font color="#E5E5E5">buttons so we're gonna have a button</font>
+
+75
+00:03:17,879 --> 00:03:21,599
+here<font color="#CCCCCC"> and a button here</font><font color="#E5E5E5"> now we can add</font>
+
+76
+00:03:21,599 --> 00:03:24,359
+some<font color="#CCCCCC"> text to</font><font color="#E5E5E5"> our</font><font color="#CCCCCC"> buttons so 1 2 3 4</font><font color="#E5E5E5"> and</font>
+
+77
+00:03:24,359 --> 00:03:29,189
+we'll say text is a<font color="#CCCCCC"> key B and then down</font>
+
+78
+00:03:29,189 --> 00:03:30,569
+here<font color="#E5E5E5"> or - oops</font>
+
+79
+00:03:30,569 --> 00:03:38,370
+1 2 3 4 texts will be again<font color="#CCCCCC"> TV</font><font color="#E5E5E5"> so now</font>
+
+80
+00:03:38,370 --> 00:03:40,169
+<font color="#CCCCCC">we've got two buttons</font><font color="#E5E5E5"> with text we've</font>
+
+81
+00:03:40,169 --> 00:03:43,439
+got font size and color<font color="#CCCCCC"> but we</font><font color="#E5E5E5"> don't</font>
+
+82
+00:03:43,439 --> 00:03:46,109
+have the buttons<font color="#E5E5E5"> sighs now one</font><font color="#CCCCCC"> of the</font>
+
+83
+00:03:46,109 --> 00:03:47,639
+kind of things<font color="#E5E5E5"> about our float layout</font>
+
+84
+00:03:47,639 --> 00:03:49,049
+that's going to be cool is that we<font color="#CCCCCC"> can</font>
+
+85
+00:03:49,049 --> 00:03:52,620
+<font color="#CCCCCC">use a dynamic size with some hinting and</font>
+
+86
+00:03:52,620 --> 00:03:54,870
+we quite<font color="#E5E5E5"> literally</font><font color="#CCCCCC"> the parameter for</font>
+
+87
+00:03:54,870 --> 00:03:58,620
+<font color="#E5E5E5">this</font><font color="#CCCCCC"> is size underscore hint</font><font color="#E5E5E5"> and we want</font>
+
+88
+00:03:58,620 --> 00:04:01,819
+to say our size hint will say is point
+
+89
+00:04:01,819 --> 00:04:04,199
+<font color="#CCCCCC">four now we're going</font><font color="#E5E5E5"> to say</font><font color="#CCCCCC"> 0.3 I'll</font>
+
+90
+00:04:04,199 --> 00:04:07,229
+show you<font color="#CCCCCC"> I think the best thing is to</font>
+
+91
+00:04:07,229 --> 00:04:08,489
+kind<font color="#CCCCCC"> of write it</font><font color="#E5E5E5"> out and then show you</font>
+
+92
+00:04:08,489 --> 00:04:10,799
+<font color="#E5E5E5">how</font><font color="#CCCCCC"> everything affects things but this</font>
+
+93
+00:04:10,799 --> 00:04:13,349
+<font color="#E5E5E5">is basically 0.3 of the wit so in fact</font>
+
+94
+00:04:13,349 --> 00:04:16,470
+let's do 0.25 so it's<font color="#E5E5E5"> 1/4 of the X and</font>
+
+95
+00:04:16,470 --> 00:04:18,089
+<font color="#E5E5E5">then of the Y we're going to say</font><font color="#CCCCCC"> zero</font>
+
+96
+00:04:18,089 --> 00:04:19,488
+point
+
+97
+00:04:19,488 --> 00:04:24,819
+oh I guess<font color="#CCCCCC"> why actually let's do point</font>
+
+98
+00:04:24,819 --> 00:04:26,199
+<font color="#E5E5E5">okay</font>
+
+99
+00:04:26,199 --> 00:04:30,319
+we'll play<font color="#E5E5E5"> with these later anyway um so</font>
+
+100
+00:04:30,319 --> 00:04:33,319
+<font color="#CCCCCC">this</font><font color="#E5E5E5"> is our button so now</font><font color="#CCCCCC"> this is</font><font color="#E5E5E5"> the</font>
+
+101
+00:04:33,319 --> 00:04:35,240
+like<font color="#E5E5E5"> the parent information</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> this</font>
+
+102
+00:04:35,240 --> 00:04:38,660
+stuff is already being<font color="#CCCCCC"> applied</font><font color="#E5E5E5"> to these</font>
+
+103
+00:04:38,660 --> 00:04:41,000
+okay<font color="#CCCCCC"> the</font><font color="#E5E5E5"> only thing that's different is</font>
+
+104
+00:04:41,000 --> 00:04:43,759
+<font color="#E5E5E5">the text which I guess isn't different</font>
+
+105
+00:04:43,759 --> 00:04:45,889
+<font color="#CCCCCC">some make this tutorials I don't know</font>
+
+106
+00:04:45,889 --> 00:04:46,970
+why<font color="#CCCCCC"> row TV twice</font>
+
+107
+00:04:46,970 --> 00:04:49,069
+<font color="#E5E5E5">wasn't thinking</font><font color="#CCCCCC"> I guess so we've got</font>
+
+108
+00:04:49,069 --> 00:04:51,050
+text text and now the only<font color="#CCCCCC"> other thing</font>
+
+109
+00:04:51,050 --> 00:04:52,639
+that we really<font color="#CCCCCC"> need to</font><font color="#E5E5E5"> do is the</font>
+
+110
+00:04:52,639 --> 00:04:56,389
+position of the button<font color="#E5E5E5"> so for position</font>
+
+111
+00:04:56,389 --> 00:05:00,289
+it's kind of like<font color="#E5E5E5"> size hint and the term</font>
+
+112
+00:05:00,289 --> 00:05:02,180
+here is<font color="#E5E5E5"> going to be</font><font color="#CCCCCC"> posts underscore</font>
+
+113
+00:05:02,180 --> 00:05:04,729
+<font color="#E5E5E5">hence</font><font color="#CCCCCC"> : and this</font><font color="#E5E5E5"> is going to</font><font color="#CCCCCC"> actually be</font>
+
+114
+00:05:04,729 --> 00:05:06,440
+like a dictionary<font color="#E5E5E5"> okay so you've</font><font color="#CCCCCC"> got</font>
+
+115
+00:05:06,440 --> 00:05:08,300
+<font color="#E5E5E5">your key</font><font color="#CCCCCC"> and your</font><font color="#E5E5E5"> value and the key can</font>
+
+116
+00:05:08,300 --> 00:05:10,630
+<font color="#CCCCCC">be a lot of things</font><font color="#E5E5E5"> you've got X Y</font>
+
+117
+00:05:10,630 --> 00:05:14,270
+<font color="#E5E5E5">left/right up/down or top bottom press</font>
+
+118
+00:05:14,270 --> 00:05:17,139
+I'm sorry X Y left right top bottom
+
+119
+00:05:17,139 --> 00:05:20,539
+<font color="#CCCCCC">sorry</font><font color="#E5E5E5"> don't mean</font><font color="#CCCCCC"> to confuse anyone</font><font color="#E5E5E5"> so in</font>
+
+120
+00:05:20,539 --> 00:05:22,130
+each<font color="#E5E5E5"> one kind of has a slightly</font>
+
+121
+00:05:22,130 --> 00:05:24,259
+different<font color="#E5E5E5"> idea</font><font color="#CCCCCC"> to it but anyway well</font>
+
+122
+00:05:24,259 --> 00:05:25,789
+we'll use<font color="#CCCCCC"> them all or will</font><font color="#E5E5E5"> try to</font>
+
+123
+00:05:25,789 --> 00:05:28,310
+anyways<font color="#E5E5E5"> at least one from each of</font>
+
+124
+00:05:28,310 --> 00:05:32,150
+dichotomy<font color="#E5E5E5"> so we're going to say the X X</font>
+
+125
+00:05:32,150 --> 00:05:34,610
+will be and actually<font color="#CCCCCC"> this needs to</font><font color="#E5E5E5"> be in</font>
+
+126
+00:05:34,610 --> 00:05:37,849
+<font color="#CCCCCC">quotes</font><font color="#E5E5E5"> so X : and we're going to</font><font color="#CCCCCC"> say</font><font color="#E5E5E5"> X</font>
+
+127
+00:05:37,849 --> 00:05:40,969
+will be just<font color="#CCCCCC"> 0 so</font><font color="#E5E5E5"> this will</font><font color="#CCCCCC"> be the</font><font color="#E5E5E5"> 0</font>
+
+128
+00:05:40,969 --> 00:05:45,949
+with or the<font color="#CCCCCC"> no</font><font color="#E5E5E5"> X okay</font><font color="#CCCCCC"> so 0 basically</font>
+
+129
+00:05:45,949 --> 00:05:47,630
+<font color="#E5E5E5">these values all of them are going to be</font>
+
+130
+00:05:47,630 --> 00:05:49,789
+between<font color="#CCCCCC"> 0 and</font><font color="#E5E5E5"> they'll be somewhere</font>
+
+131
+00:05:49,789 --> 00:05:53,690
+between 0<font color="#CCCCCC"> and 1 1 being full complete 0</font>
+
+132
+00:05:53,690 --> 00:05:57,650
+being none so if<font color="#E5E5E5"> x is 0 that</font><font color="#CCCCCC"> should make</font>
+
+133
+00:05:57,650 --> 00:06:00,020
+total sense<font color="#E5E5E5"> to you where where is X 0</font>
+
+134
+00:06:00,020 --> 00:06:02,780
+well it that<font color="#E5E5E5"> means left all completely</font>
+
+135
+00:06:02,780 --> 00:06:05,840
+left then now we need some sort of<font color="#E5E5E5"> Y</font>
+
+136
+00:06:05,840 --> 00:06:07,699
+definition now we could we<font color="#E5E5E5"> could</font>
+
+137
+00:06:07,699 --> 00:06:11,810
+literally say Y and we say Y<font color="#E5E5E5"> is 0 or we</font>
+
+138
+00:06:11,810 --> 00:06:14,990
+can say I think it's<font color="#CCCCCC"> lower</font><font color="#E5E5E5"> case T top</font>
+
+139
+00:06:14,990 --> 00:06:19,400
+top but is top like top<font color="#E5E5E5"> the question</font>
+
+140
+00:06:19,400 --> 00:06:22,280
+it's like almost<font color="#E5E5E5"> like a degree of tapas</font>
+
+141
+00:06:22,280 --> 00:06:26,330
+<font color="#E5E5E5">so if we say top 0</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> means it has</font><font color="#CCCCCC"> 0</font>
+
+142
+00:06:26,330 --> 00:06:29,990
+degrees of<font color="#E5E5E5"> tapas so actually top 0 would</font>
+
+143
+00:06:29,990 --> 00:06:33,110
+<font color="#E5E5E5">be bottom</font><font color="#CCCCCC"> ok so we're going to say</font>
+
+144
+00:06:33,110 --> 00:06:37,970
+one so this key B button needs to<font color="#CCCCCC"> be or</font>
+
+145
+00:06:37,970 --> 00:06:41,509
+will be according<font color="#E5E5E5"> to the hints the top</font>
+
+146
+00:06:41,509 --> 00:06:44,150
+left now<font color="#E5E5E5"> that's not really that special</font>
+
+147
+00:06:44,150 --> 00:06:46,009
+<font color="#E5E5E5">we</font><font color="#CCCCCC"> could have done</font><font color="#E5E5E5"> that really easily</font>
+
+148
+00:06:46,009 --> 00:06:48,379
+but this button is<font color="#E5E5E5"> where it's going</font><font color="#CCCCCC"> to</font>
+
+149
+00:06:48,379 --> 00:06:51,919
+really<font color="#E5E5E5"> shine</font><font color="#CCCCCC"> so now we</font><font color="#E5E5E5"> will do a posts</font>
+
+150
+00:06:51,919 --> 00:06:55,370
+underscore<font color="#CCCCCC"> hint</font><font color="#E5E5E5"> and again this time</font>
+
+151
+00:06:55,370 --> 00:06:57,500
+<font color="#E5E5E5">we'll say instead</font><font color="#CCCCCC"> of X we'll use a</font>
+
+152
+00:06:57,500 --> 00:07:00,560
+different<font color="#CCCCCC"> one</font><font color="#E5E5E5"> we'll say</font><font color="#CCCCCC"> right and this</font>
+
+153
+00:07:00,560 --> 00:07:03,590
+is so our degree of<font color="#CCCCCC"> rightness</font><font color="#E5E5E5"> so if we</font>
+
+154
+00:07:03,590 --> 00:07:05,210
+wanted a button to be completely<font color="#E5E5E5"> right</font>
+
+155
+00:07:05,210 --> 00:07:07,520
+<font color="#E5E5E5">what degree of rightness</font><font color="#CCCCCC"> would we have</font>
+
+156
+00:07:07,520 --> 00:07:12,229
+complete full rightness<font color="#CCCCCC"> one then</font><font color="#E5E5E5"> we'll</font>
+
+157
+00:07:12,229 --> 00:07:14,900
+<font color="#E5E5E5">have another variable</font><font color="#CCCCCC"> here and we'll say</font>
+
+158
+00:07:14,900 --> 00:07:18,650
+for now<font color="#CCCCCC"> I will just</font><font color="#E5E5E5"> the top one again</font>
+
+159
+00:07:18,650 --> 00:07:21,740
+<font color="#E5E5E5">and let's</font><font color="#CCCCCC"> just make ups</font><font color="#E5E5E5"> one and let's</font>
+
+160
+00:07:21,740 --> 00:07:24,800
+<font color="#E5E5E5">make sure everything works up to</font><font color="#CCCCCC"> this</font>
+
+161
+00:07:24,800 --> 00:07:27,620
+point<font color="#E5E5E5"> so we haven't really tested</font>
+
+162
+00:07:27,620 --> 00:07:30,740
+<font color="#E5E5E5">anything right so now you've got key V</font>
+
+163
+00:07:30,740 --> 00:07:32,689
+and you've got tutorials and then what
+
+164
+00:07:32,689 --> 00:07:34,129
+we can<font color="#E5E5E5"> do is we can kind of move</font>
+
+165
+00:07:34,129 --> 00:07:36,949
+everything around<font color="#CCCCCC"> okay and</font><font color="#E5E5E5"> you can see</font>
+
+166
+00:07:36,949 --> 00:07:38,120
+<font color="#E5E5E5">that a couple</font><font color="#CCCCCC"> of things are happening</font>
+
+167
+00:07:38,120 --> 00:07:40,669
+<font color="#CCCCCC">not</font><font color="#E5E5E5"> only</font><font color="#CCCCCC"> are the buttons moving they're</font>
+
+168
+00:07:40,669 --> 00:07:44,870
+changing in size<font color="#E5E5E5"> so we could</font><font color="#CCCCCC"> even</font>
+
+169
+00:07:44,870 --> 00:07:46,219
+although<font color="#E5E5E5"> the text is going to run over</font>
+
+170
+00:07:46,219 --> 00:07:49,339
+<font color="#E5E5E5">but we could do this and you'll see</font><font color="#CCCCCC"> that</font>
+
+171
+00:07:49,339 --> 00:07:51,409
+the buttons themselves at<font color="#CCCCCC"> least will not</font>
+
+172
+00:07:51,409 --> 00:07:54,589
+run<font color="#E5E5E5"> into</font><font color="#CCCCCC"> each other</font><font color="#E5E5E5"> so this would be an</font>
+
+173
+00:07:54,589 --> 00:07:56,719
+<font color="#CCCCCC">example of having</font><font color="#E5E5E5"> you know many</font>
+
+174
+00:07:56,719 --> 00:07:59,180
+<font color="#CCCCCC">different screen resolutions</font><font color="#E5E5E5"> yet</font>
+
+175
+00:07:59,180 --> 00:08:01,250
+everything<font color="#E5E5E5"> still</font><font color="#CCCCCC"> fits and</font><font color="#E5E5E5"> you've got no</font>
+
+176
+00:08:01,250 --> 00:08:03,800
+run over so the float layout pretty much
+
+177
+00:08:03,800 --> 00:08:05,870
+can allow you<font color="#E5E5E5"> to stop things from</font>
+
+178
+00:08:05,870 --> 00:08:07,460
+running over<font color="#CCCCCC"> each other so long as</font>
+
+179
+00:08:07,460 --> 00:08:09,620
+you're using<font color="#E5E5E5"> the hints right because we</font>
+
+180
+00:08:09,620 --> 00:08:12,740
+<font color="#E5E5E5">can still make text run over well I'm</font>
+
+181
+00:08:12,740 --> 00:08:14,750
+going to<font color="#E5E5E5"> do it there we go okay you can</font>
+
+182
+00:08:14,750 --> 00:08:17,080
+make text run over each<font color="#E5E5E5"> other now um</font>
+
+183
+00:08:17,080 --> 00:08:19,099
+that's basically<font color="#E5E5E5"> it</font>
+
+184
+00:08:19,099 --> 00:08:21,199
+but let's just<font color="#CCCCCC"> really solidify what</font>
+
+185
+00:08:21,199 --> 00:08:24,800
+we're what<font color="#E5E5E5"> we're seeing here so let's</font>
+
+186
+00:08:24,800 --> 00:08:27,080
+leave well<font color="#CCCCCC"> now let's move</font><font color="#E5E5E5"> TV so we're</font>
+
+187
+00:08:27,080 --> 00:08:30,229
+<font color="#CCCCCC">going to say</font><font color="#E5E5E5"> top whatever</font><font color="#CCCCCC"> we'll say</font>
+
+188
+00:08:30,229 --> 00:08:33,708
+instead of<font color="#CCCCCC"> one zero point five</font><font color="#E5E5E5"> so this</font>
+
+189
+00:08:33,708 --> 00:08:39,289
+<font color="#E5E5E5">will be half topping this right so this</font>
+
+190
+00:08:39,289 --> 00:08:41,419
+can<font color="#E5E5E5"> get kind of</font><font color="#CCCCCC"> confusing because now</font>
+
+191
+00:08:41,419 --> 00:08:44,149
+when we say<font color="#E5E5E5"> top is 0.5 it almost looks</font>
+
+192
+00:08:44,149 --> 00:08:46,279
+like this<font color="#CCCCCC"> keavy element right</font>
+
+193
+00:08:46,279 --> 00:08:49,579
+like<font color="#CCCCCC"> here's the top 0.5 is here and now</font>
+
+194
+00:08:49,579 --> 00:08:51,560
+it's beginning<font color="#E5E5E5"> to look</font><font color="#CCCCCC"> like this element</font>
+
+195
+00:08:51,560 --> 00:08:53,959
+here is<font color="#E5E5E5"> being treated as if</font><font color="#CCCCCC"> it's moving</font>
+
+196
+00:08:53,959 --> 00:08:56,779
+<font color="#CCCCCC">around by the top-left corner right</font>
+
+197
+00:08:56,779 --> 00:09:00,680
+<font color="#E5E5E5">because this marks</font><font color="#CCCCCC"> 50% not this</font><font color="#E5E5E5"> okay so</font>
+
+198
+00:09:00,680 --> 00:09:03,910
+I can get pretty<font color="#CCCCCC"> confusing pretty fast</font>
+
+199
+00:09:03,910 --> 00:09:07,089
+<font color="#CCCCCC">or pretty challenging at least</font>
+
+200
+00:09:07,089 --> 00:09:09,139
+<font color="#E5E5E5">especially because this so now this</font>
+
+201
+00:09:09,139 --> 00:09:11,629
+application<font color="#E5E5E5"> could in theory be almost</font>
+
+202
+00:09:11,629 --> 00:09:13,550
+dictated by either the<font color="#E5E5E5"> bottom left or</font>
+
+203
+00:09:13,550 --> 00:09:17,600
+the top left<font color="#CCCCCC"> that kind</font><font color="#E5E5E5"> of sucks</font><font color="#CCCCCC"> I could</font>
+
+204
+00:09:17,600 --> 00:09:19,579
+get really<font color="#E5E5E5"> confusing really fast but I</font>
+
+205
+00:09:19,579 --> 00:09:21,889
+like the<font color="#CCCCCC"> idea that you can orient things</font>
+
+206
+00:09:21,889 --> 00:09:23,749
+by different different values<font color="#CCCCCC"> but let's</font>
+
+207
+00:09:23,749 --> 00:09:31,670
+try<font color="#E5E5E5"> now</font><font color="#CCCCCC"> Y 0.5 uh</font><font color="#E5E5E5"> what I must have hit f5</font>
+
+208
+00:09:31,670 --> 00:09:34,449
+on the TV<font color="#CCCCCC"> okay</font><font color="#E5E5E5"> let's drive over done</font>
+
+209
+00:09:34,449 --> 00:09:37,579
+right<font color="#E5E5E5"> so now and you can see how this is</font>
+
+210
+00:09:37,579 --> 00:09:42,410
+by the Y element you know half and this
+
+211
+00:09:42,410 --> 00:09:45,980
+is illustrating how Y is indeed
+
+212
+00:09:45,980 --> 00:09:49,879
+referencing the bottom left because this
+
+213
+00:09:49,879 --> 00:09:52,850
+marks<font color="#E5E5E5"> the halfway mark</font><font color="#CCCCCC"> right</font><font color="#E5E5E5"> down here</font>
+
+214
+00:09:52,850 --> 00:09:54,230
+this of<font color="#CCCCCC"> course doesn't</font><font color="#E5E5E5"> we can see this</font>
+
+215
+00:09:54,230 --> 00:09:56,720
+<font color="#E5E5E5">very easily visually so that's kind of</font>
+
+216
+00:09:56,720 --> 00:09:58,879
+corresponding to the rest of<font color="#CCCCCC"> keavy worst</font>
+
+217
+00:09:58,879 --> 00:10:01,699
+top does it but then what if<font color="#CCCCCC"> we said</font>
+
+218
+00:10:01,699 --> 00:10:05,680
+okay we come<font color="#CCCCCC"> over here</font><font color="#E5E5E5"> and we said</font>
+
+219
+00:10:05,680 --> 00:10:11,410
+bottom so the degree of bottom<font color="#CCCCCC"> miss</font>
+
+220
+00:10:12,370 --> 00:10:17,480
+there<font color="#CCCCCC"> but 0.5</font><font color="#E5E5E5"> right okay so anyway you</font>
+
+221
+00:10:17,480 --> 00:10:19,339
+can<font color="#CCCCCC"> imagine</font><font color="#E5E5E5"> that this can get pretty</font>
+
+222
+00:10:19,339 --> 00:10:21,980
+<font color="#CCCCCC">confusing pretty fast</font><font color="#E5E5E5"> especially like</font>
+
+223
+00:10:21,980 --> 00:10:23,360
+you can you start playing with<font color="#CCCCCC"> these</font>
+
+224
+00:10:23,360 --> 00:10:26,600
+like say bottom is<font color="#E5E5E5"> zero and then you're</font>
+
+225
+00:10:26,600 --> 00:10:30,529
+expecting right like my expectation of
+
+226
+00:10:30,529 --> 00:10:33,139
+bottom equals zero would<font color="#CCCCCC"> be actually top</font>
+
+227
+00:10:33,139 --> 00:10:35,179
+<font color="#E5E5E5">right like it would be zero degrees of</font>
+
+228
+00:10:35,179 --> 00:10:38,870
+bottomless but anyway I the reason<font color="#CCCCCC"> why</font>
+
+229
+00:10:38,870 --> 00:10:41,329
+that's<font color="#CCCCCC"> occurring I believe anyways</font><font color="#E5E5E5"> would</font>
+
+230
+00:10:41,329 --> 00:10:43,220
+<font color="#E5E5E5">be is because the degree of bottom is to</font>
+
+231
+00:10:43,220 --> 00:10:45,050
+<font color="#CCCCCC">zero but</font><font color="#E5E5E5"> since everything starts at zero</font>
+
+232
+00:10:45,050 --> 00:10:45,559
+<font color="#CCCCCC">zero</font>
+
+233
+00:10:45,559 --> 00:10:48,920
+it remains at<font color="#CCCCCC"> the bottom okay</font><font color="#E5E5E5"> so I</font><font color="#CCCCCC"> think</font>
+
+234
+00:10:48,920 --> 00:10:50,209
+that's what's happening<font color="#CCCCCC"> here and that</font>
+
+235
+00:10:50,209 --> 00:10:54,500
+<font color="#E5E5E5">would be why maybe you would say why you</font>
+
+236
+00:10:54,500 --> 00:10:57,500
+would<font color="#E5E5E5"> I it's hard because it just</font>
+
+237
+00:10:57,500 --> 00:10:58,699
+depends on which way you've always
+
+238
+00:10:58,699 --> 00:10:59,990
+you've been oriented
+
+239
+00:10:59,990 --> 00:11:01,730
+your program<font color="#E5E5E5"> as far</font><font color="#CCCCCC"> as</font><font color="#E5E5E5"> like where you</font>
+
+240
+00:11:01,730 --> 00:11:03,740
+want to you know what words you might
+
+241
+00:11:03,740 --> 00:11:06,050
+want to use<font color="#E5E5E5"> but anyway keep it in mind</font>
+
+242
+00:11:06,050 --> 00:11:08,630
+<font color="#E5E5E5">that it's going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> be somewhat</font><font color="#CCCCCC"> confusing</font>
+
+243
+00:11:08,630 --> 00:11:10,730
+sometimes<font color="#E5E5E5"> but</font><font color="#CCCCCC"> you've got all of</font><font color="#E5E5E5"> these</font>
+
+244
+00:11:10,730 --> 00:11:12,410
+values<font color="#E5E5E5"> and I think</font><font color="#CCCCCC"> the best way to</font>
+
+245
+00:11:12,410 --> 00:11:15,260
+envision<font color="#CCCCCC"> these values is in Ness right</font>
+
+246
+00:11:15,260 --> 00:11:18,550
+so<font color="#E5E5E5"> this is X Ness - top Ness rightness</font>
+
+247
+00:11:18,550 --> 00:11:20,870
+<font color="#CCCCCC">but you can do</font><font color="#E5E5E5"> stuff</font><font color="#CCCCCC"> like you know</font>
+
+248
+00:11:20,870 --> 00:11:24,200
+<font color="#E5E5E5">degrees like this</font><font color="#CCCCCC"> like</font><font color="#E5E5E5"> right 0.3 for</font>
+
+249
+00:11:24,200 --> 00:11:26,690
+example right let's do 0.5<font color="#E5E5E5"> for the one</font>
+
+250
+00:11:26,690 --> 00:11:29,600
+that's<font color="#E5E5E5"> over some and we can run that and</font>
+
+251
+00:11:29,600 --> 00:11:32,630
+you can see here<font color="#CCCCCC"> that it's</font><font color="#E5E5E5"> always going</font>
+
+252
+00:11:32,630 --> 00:11:35,180
+<font color="#E5E5E5">to start at about you know</font><font color="#CCCCCC"> 30%</font><font color="#E5E5E5"> so you</font>
+
+253
+00:11:35,180 --> 00:11:38,750
+can move<font color="#E5E5E5"> the window</font><font color="#CCCCCC"> all you want</font><font color="#E5E5E5"> and you</font>
+
+254
+00:11:38,750 --> 00:11:42,020
+pretty<font color="#E5E5E5"> much can always be comfortable as</font>
+
+255
+00:11:42,020 --> 00:11:43,459
+far as where the button will be<font color="#E5E5E5"> again</font>
+
+256
+00:11:43,459 --> 00:11:47,029
+<font color="#E5E5E5">the text is not meshing with us</font><font color="#CCCCCC"> but we</font>
+
+257
+00:11:47,029 --> 00:11:49,630
+can<font color="#E5E5E5"> work on that as well</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> anyway</font>
+
+258
+00:11:49,630 --> 00:11:51,589
+<font color="#CCCCCC">that's going to be it for</font><font color="#E5E5E5"> the float</font>
+
+259
+00:11:51,589 --> 00:11:54,050
+layout and all that hopefully that<font color="#E5E5E5"> made</font>
+
+260
+00:11:54,050 --> 00:11:54,830
+sense
+
+261
+00:11:54,830 --> 00:11:56,480
+the first time I saw float layout and
+
+262
+00:11:56,480 --> 00:11:57,800
+really still I have to<font color="#E5E5E5"> think about it</font>
+
+263
+00:11:57,800 --> 00:11:59,750
+when<font color="#E5E5E5"> I'm inputting these values because</font>
+
+264
+00:11:59,750 --> 00:12:02,120
+<font color="#E5E5E5">you just first of all they've already</font>
+
+265
+00:12:02,120 --> 00:12:04,399
+<font color="#E5E5E5">flipped you know where the</font><font color="#CCCCCC"> zero zero is</font>
+
+266
+00:12:04,399 --> 00:12:06,740
+on you and then you've got these degrees
+
+267
+00:12:06,740 --> 00:12:09,470
+<font color="#E5E5E5">of</font><font color="#CCCCCC"> these values that you can</font><font color="#E5E5E5"> input and</font>
+
+268
+00:12:09,470 --> 00:12:10,910
+it gives you a<font color="#E5E5E5"> lot of dynamic</font><font color="#CCCCCC"> nests and</font>
+
+269
+00:12:10,910 --> 00:12:13,040
+stuff like that but I can be<font color="#CCCCCC"> confusing</font>
+
+270
+00:12:13,040 --> 00:12:15,620
+<font color="#CCCCCC">so</font><font color="#E5E5E5"> anyway but you can always pretty</font><font color="#CCCCCC"> much</font>
+
+271
+00:12:15,620 --> 00:12:17,930
+get<font color="#CCCCCC"> away with using x and y but you</font>
+
+272
+00:12:17,930 --> 00:12:19,750
+should<font color="#E5E5E5"> probably know</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> these as well</font>
+
+273
+00:12:19,750 --> 00:12:22,490
+anyways that's it for<font color="#CCCCCC"> this</font><font color="#E5E5E5"> tutorial I</font>
+
+274
+00:12:22,490 --> 00:12:23,720
+have any questions or comments<font color="#E5E5E5"> please</font>
+
+275
+00:12:23,720 --> 00:12:25,520
+<font color="#CCCCCC">feel free to leave them below</font><font color="#E5E5E5"> otherwise</font>
+
+276
+00:12:25,520 --> 00:12:26,930
+as always thanks for watching<font color="#CCCCCC"> thanks for</font>
+
+277
+00:12:26,930 --> 00:12:29,300
+<font color="#E5E5E5">all the support subscriptions until next</font>
+
+278
+00:12:29,300 --> 00:00:00,000
+time
+

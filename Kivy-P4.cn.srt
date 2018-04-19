@@ -1,0 +1,892 @@
+1
+00:00:02,240 --> 00:00:04,620
+嘿家伙<font color="#CCCCCC">，欢迎来到这里 </font>
+
+2
+00:00:04,620 --> 00:00:07,589
+ <font color="#CCCCCC">第四个 </font><font color="#E5E5E5">Python与电视基础教程 </font>
+
+3
+00:00:07,589 --> 00:00:10,019
+上一个视频中<font color="#E5E5E5">的视频我们所做的是 </font>
+
+4
+00:00:10,019 --> 00:00:12,090
+ <font color="#CCCCCC">我们展示 </font><font color="#E5E5E5">了 </font><font color="#CCCCCC">我们如何使用keavy </font>
+
+5
+00:00:12,090 --> 00:00:15,900
+ <font color="#E5E5E5">我认为造型是语言</font>
+
+6
+00:00:15,900 --> 00:00:18,840
+我<font color="#CCCCCC">能 </font><font color="#E5E5E5">为它 </font><font color="#CCCCCC">考虑 </font><font color="#E5E5E5">的最佳词汇等等 </font>
+
+7
+00:00:18,840 --> 00:00:21,180
+我们看到了<font color="#E5E5E5">我们如何创造了我们基本的问候世界 </font>
+
+8
+00:00:21,180 --> 00:00:23,130
+应用程序和我们所做的一切
+
+9
+00:00:23,130 --> 00:00:25,920
+在Python中是返回<font color="#E5E5E5">标签 </font>
+
+10
+00:00:25,920 --> 00:00:29,939
+ <font color="#E5E5E5">现在我正在参考我们的关键 </font><font color="#CCCCCC">v文件 </font>
+
+11
+00:00:29,939 --> 00:00:32,070
+把这个<font color="#E5E5E5">简单的钥匙 </font><font color="#CCCCCC">V称为</font><font color="#E5E5E5">这个简单 </font>
+
+12
+00:00:32,070 --> 00:00:34,969
+关键<font color="#CCCCCC">v2和现在我们的实际关键 </font><font color="#E5E5E5">V文件是 </font>
+
+13
+00:00:34,969 --> 00:00:39,390
+简单的按键B <font color="#E5E5E5">现在放大</font>
+
+14
+00:00:39,390 --> 00:00:40,680
+我们将继续努力，做到的是我
+
+15
+00:00:40,680 --> 00:00:42,030
+去打电话<font color="#E5E5E5">这实际上让你 </font>
+
+16
+00:00:42,030 --> 00:00:47,190
+视频现在<font color="#CCCCCC">只要这个工程 </font>
+
+17
+00:00:47,190 --> 00:00:49,890
+你现在只有一个标签会发生什么
+
+18
+00:00:49,890 --> 00:00:51,539
+如果<font color="#E5E5E5">你想要像三个标签这样的术语 </font>
+
+19
+00:00:51,539 --> 00:00:55,230
+ <font color="#CCCCCC">像我们的 </font><font color="#E5E5E5">登录应用程序或各种 </font>
+
+20
+00:00:55,230 --> 00:00:57,000
+的<font color="#E5E5E5">东西 </font><font color="#CCCCCC">真的，然后我 </font><font color="#E5E5E5">也是 </font>
+
+21
+00:00:57,000 --> 00:00:58,559
+谈论<font color="#E5E5E5">你如何拥有父母和孩子 </font>
+
+22
+00:00:58,559 --> 00:00:59,969
+儿童小部件以及<font color="#E5E5E5">所有这些和如何 </font>
+
+23
+00:00:59,969 --> 00:01:02,579
+ <font color="#E5E5E5">你可以基于此自定义 </font>
+
+24
+00:01:02,579 --> 00:01:03,359
+ <font color="#E5E5E5">这就是我们要 </font><font color="#CCCCCC">谈论的 </font>
+
+25
+00:01:03,359 --> 00:01:07,710
+这里<font color="#E5E5E5">至少要开始，所以我们要走了 </font>
+
+26
+00:01:07,710 --> 00:01:11,880
+ <font color="#CCCCCC">提前做的是 </font><font color="#E5E5E5">证明至少 </font><font color="#CCCCCC">我们能做到 </font>
+
+27
+00:01:11,880 --> 00:01:14,970
+ <font color="#CCCCCC">例如 </font><font color="#E5E5E5">有两个按钮 </font>
+
+28
+00:01:14,970 --> 00:01:16,619
+当然，你可以说这样的<font color="#E5E5E5">按钮 </font>
+
+29
+00:01:16,619 --> 00:01:19,830
+ <font color="#E5E5E5">像 </font><font color="#CCCCCC">照明，然后添加这个文本 </font>
+
+30
+00:01:19,830 --> 00:01:23,310
+ <font color="#CCCCCC">那应该没有 </font><font color="#E5E5E5">问题，但那时候 </font>
+
+31
+00:01:23,310 --> 00:01:24,990
+如果你<font color="#E5E5E5">只想要按钮，该怎么办？ </font>
+
+32
+00:01:24,990 --> 00:01:27,450
+这与<font color="#E5E5E5">某个具体的事情有关</font>
+
+33
+00:01:27,450 --> 00:01:29,850
+屏幕<font color="#E5E5E5">让我们说或类似的东西 </font>
+
+34
+00:01:29,850 --> 00:01:32,130
+ <font color="#E5E5E5">所以这就是我们要在这里讨论的 </font>
+
+35
+00:01:32,130 --> 00:01:33,659
+ <font color="#CCCCCC">所以我们要做的是我们来了 </font>
+
+36
+00:01:33,659 --> 00:01:34,979
+在<font color="#CCCCCC">全国范围内，我们再做一次 </font>
+
+37
+00:01:34,979 --> 00:01:37,680
+导入，这将<font color="#E5E5E5">成为小部件 </font>
+
+38
+00:01:37,680 --> 00:01:40,560
+我们<font color="#E5E5E5">要做</font><font color="#CCCCCC">的是从电视 </font><font color="#E5E5E5">UI </font><font color="#CCCCCC">X点 </font>
+
+39
+00:01:40,560 --> 00:01:45,380
+小部件<font color="#E5E5E5">实际上是小部件导入小部件 </font>
+
+40
+00:01:45,380 --> 00:01:47,369
+ <font color="#E5E5E5">现在我们要到这里来 </font>
+
+41
+00:01:47,369 --> 00:01:49,380
+我们要<font color="#E5E5E5">讲课 </font><font color="#CCCCCC">，我们要走了 </font>
+
+42
+00:01:49,380 --> 00:01:53,070
+ <font color="#E5E5E5">说的类小部件 </font><font color="#CCCCCC">和小工具是 </font>
+
+43
+00:01:53,070 --> 00:01:56,280
+将<font color="#CCCCCC">继承而不是从继承 </font><font color="#E5E5E5">导入 </font>
+
+44
+00:01:56,280 --> 00:01:59,250
+这就是<font color="#CCCCCC">我们的小工具 </font>
+
+45
+00:01:59,250 --> 00:02:01,320
+小部件类现在我们会在<font color="#CCCCCC">这里下来</font>
+
+46
+00:02:01,320 --> 00:02:04,560
+ <font color="#CCCCCC">而我们的小部件类 </font><font color="#E5E5E5">实际上只是 </font>
+
+47
+00:02:04,560 --> 00:02:07,560
+ <font color="#E5E5E5">如果我们把 </font><font color="#CCCCCC">我们的东西 </font><font color="#E5E5E5">放在一边，现在 </font><font color="#CCCCCC">就要通过 </font>
+
+48
+00:02:07,560 --> 00:02:12,180
+ <font color="#CCCCCC">我们会 </font><font color="#E5E5E5">在 </font><font color="#CCCCCC">Python中使用 </font><font color="#E5E5E5">电视类型的代码 </font>
+
+49
+00:02:12,180 --> 00:02:13,830
+把所有的<font color="#E5E5E5">代码放在这里 </font>
+
+50
+00:02:13,830 --> 00:02:15,930
+但我会<font color="#E5E5E5">告诉你我们该怎么做 </font>
+
+51
+00:02:15,930 --> 00:02:18,300
+ <font color="#E5E5E5">它与 现在 </font><font color="#CCCCCC">的关键B文件 </font><font color="#E5E5E5">相反 </font>
+
+52
+00:02:18,300 --> 00:02:18,810
+至少
+
+53
+00:02:18,810 --> 00:02:22,730
+所以让我们把这个删除到这里<font color="#E5E5E5">和 </font>
+
+54
+00:02:22,730 --> 00:02:24,510
+ <font color="#E5E5E5">现在我们</font><font color="#CCCCCC">要做 </font><font color="#E5E5E5">的是我们</font><font color="#CCCCCC">要 </font>
+
+55
+00:02:24,510 --> 00:02:25,530
+说我们<font color="#E5E5E5">要使用这些 </font><font color="#CCCCCC">小 </font>
+
+56
+00:02:25,530 --> 00:02:28,020
+括号， <font color="#E5E5E5">这是一种参考 </font>
+
+57
+00:02:28,020 --> 00:02:31,140
+ <font color="#CCCCCC">你的父母我想是 </font><font color="#E5E5E5">这样的 </font>
+
+58
+00:02:31,140 --> 00:02:33,390
+我们会说widget的<font color="#E5E5E5">父窗口小部件</font>
+
+59
+00:02:33,390 --> 00:02:37,920
+ <font color="#E5E5E5">： </font><font color="#CCCCCC">1 2 3 4 4一个缩进 </font><font color="#E5E5E5">，现在我们想要 </font>
+
+60
+00:02:37,920 --> 00:02:39,090
+我们<font color="#E5E5E5">会说 </font><font color="#CCCCCC">好吗 </font>
+
+61
+00:02:39,090 --> 00:02:41,940
+在小部件<font color="#E5E5E5">类中，所以这是善良的 </font>
+
+62
+00:02:41,940 --> 00:02:43,530
+ <font color="#E5E5E5">这样的事情将会与之相符 </font>
+
+63
+00:02:43,530 --> 00:02:46,440
+这<font color="#E5E5E5">并且它会 </font><font color="#CCCCCC">知道kvo正在发生 </font>
+
+64
+00:02:46,440 --> 00:02:49,380
+知道<font color="#CCCCCC">我们正在那样做是因为 </font>
+
+65
+00:02:49,380 --> 00:02:53,100
+ <font color="#CCCCCC">它的名字就是简单的键v2， </font><font color="#E5E5E5">所以它是 </font>
+
+66
+00:02:53,100 --> 00:02:54,420
+简单的键<font color="#E5E5E5">v2将 </font><font color="#CCCCCC">参考 </font>
+
+67
+00:02:54,420 --> 00:02:57,840
+简单的<font color="#CCCCCC">q2 kv然后它会说好 </font>
+
+68
+00:02:57,840 --> 00:03:01,020
+ <font color="#E5E5E5">在这个小部件中，我们要做什么 </font>
+
+69
+00:03:01,020 --> 00:03:03,900
+想要<font color="#E5E5E5">然后 </font><font color="#CCCCCC">基于 </font><font color="#E5E5E5">它 </font><font color="#CCCCCC">返回它 </font>
+
+70
+00:03:03,900 --> 00:03:05,970
+在这里我们正在返回标签
+
+71
+00:03:05,970 --> 00:03:07,890
+但是<font color="#E5E5E5">我们可以复制 </font><font color="#CCCCCC">粘贴 </font>
+
+72
+00:03:07,890 --> 00:03:10,170
+ <font color="#E5E5E5">现在</font><font color="#CCCCCC">我们希望 </font><font color="#E5E5E5">它返回小部件和 </font>
+
+73
+00:03:10,170 --> 00:03:12,030
+它会<font color="#E5E5E5">引用这个关键的 </font><font color="#CCCCCC">v文件 </font>
+
+74
+00:03:12,030 --> 00:03:14,880
+ <font color="#E5E5E5">获取有关小部件的信息 </font>
+
+75
+00:03:14,880 --> 00:03:16,260
+我们要说的小工具有一个
+
+76
+00:03:16,260 --> 00:03:19,200
+ <font color="#E5E5E5">按钮和 </font><font color="#CCCCCC">那个按钮 </font><font color="#E5E5E5">将会有 </font>
+
+77
+00:03:19,200 --> 00:03:21,780
+一些参数， <font color="#E5E5E5">使这些</font><font color="#CCCCCC">参数 </font>
+
+78
+00:03:21,780 --> 00:03:23,959
+ <font color="#E5E5E5">将成为我们 </font><font color="#CCCCCC">将 </font><font color="#E5E5E5">有规模 </font>
+
+79
+00:03:23,959 --> 00:03:26,910
+ <font color="#CCCCCC">我们 </font><font color="#E5E5E5">将有一个 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">的位置 </font>
+
+80
+00:03:26,910 --> 00:03:29,940
+会有一些文字<font color="#CCCCCC">会有颜色 </font>
+
+81
+00:03:29,940 --> 00:03:36,000
+ <font color="#E5E5E5">然后字体大小和我们的实际大小 </font>
+
+82
+00:03:36,000 --> 00:03:38,550
+是按钮的<font color="#E5E5E5">宽度高度，所以我们是 </font>
+
+83
+00:03:38,550 --> 00:03:40,890
+将<font color="#E5E5E5">这个按钮设置为 </font><font color="#CCCCCC">100宽 </font>
+
+84
+00:03:40,890 --> 00:03:43,080
+它的像素为100像素宽，75像素
+
+85
+00:03:43,080 --> 00:03:45,390
+高大，现在我们有这个位置<font color="#CCCCCC">了 </font>
+
+86
+00:03:45,390 --> 00:03:47,640
+ <font color="#E5E5E5">在大多数GUI中很有趣 </font>
+
+87
+00:03:47,640 --> 00:03:52,110
+ <font color="#E5E5E5">计算机上的应用程序</font><font color="#CCCCCC">为零 </font>
+
+88
+00:03:52,110 --> 00:03:55,500
+通常对应于<font color="#E5E5E5">哪里 </font>
+
+89
+00:03:55,500 --> 00:03:58,560
+ <font color="#E5E5E5">如果你是左上角的话 </font>
+
+90
+00:03:58,560 --> 00:04:00,230
+引用让我们说一个<font color="#E5E5E5">尝试或一个 </font>
+
+91
+00:04:00,230 --> 00:04:05,190
+矩形现在是左上角或
+
+92
+00:04:05,190 --> 00:04:06,540
+如果你正在引用一个窗口的话
+
+93
+00:04:06,540 --> 00:04:08,220
+仍然<font color="#CCCCCC">左上角是零零 </font>
+
+94
+00:04:08,220 --> 00:04:09,810
+所以如果我们<font color="#E5E5E5">在定位按钮</font>
+
+95
+00:04:09,810 --> 00:04:12,090
+零<font color="#CCCCCC">通常是左上角 </font>
+
+96
+00:04:12,090 --> 00:04:15,989
+ <font color="#CCCCCC">凯维 </font><font color="#E5E5E5">不是这种情况零零是 </font>
+
+97
+00:04:15,989 --> 00:04:18,450
+ <font color="#CCCCCC">像图表一样左下角会是 </font><font color="#E5E5E5">或 </font>
+
+98
+00:04:18,450 --> 00:04:19,290
+ <font color="#E5E5E5">类似的东西 </font>
+
+99
+00:04:19,290 --> 00:04:20,459
+不知道他们为什么这样做
+
+100
+00:04:20,459 --> 00:04:23,940
+ <font color="#E5E5E5">其他的一切都像HTML CSS零零 </font>
+
+101
+00:04:23,940 --> 00:04:27,510
+ <font color="#E5E5E5">我曾经使用过的每一个图形用户界面或图形用户界面 </font>
+
+102
+00:04:27,510 --> 00:04:29,880
+开发工具包<font color="#CCCCCC">或其他东西 </font><font color="#E5E5E5">总是 </font>
+
+103
+00:04:29,880 --> 00:04:32,220
+一直是<font color="#E5E5E5">零 </font><font color="#CCCCCC">是左上角我 </font><font color="#E5E5E5">不确定 </font>
+
+104
+00:04:32,220 --> 00:04:33,210
+他们为什么这样<font color="#CCCCCC">做 </font><font color="#E5E5E5">我 </font><font color="#CCCCCC">相信他们有一个 </font>
+
+105
+00:04:33,210 --> 00:04:36,090
+ <font color="#E5E5E5">很好的理由，但他们反正这么做 </font>
+
+106
+00:04:36,090 --> 00:04:38,340
+零点零<font color="#CCCCCC">左下方 </font><font color="#E5E5E5">记住这一点 </font>
+
+107
+00:04:38,340 --> 00:04:40,290
+当<font color="#CCCCCC">你定位元素时，我们也是如此 </font>
+
+108
+00:04:40,290 --> 00:04:41,910
+当<font color="#E5E5E5">你定位一个元素时，你会说我 </font>
+
+109
+00:04:41,910 --> 00:04:43,980
+想要这个<font color="#CCCCCC">元素会说按钮是 </font>
+
+110
+00:04:43,980 --> 00:04:46,230
+在零点零点处<font color="#E5E5E5">将会是零点 </font>
+
+111
+00:04:46,230 --> 00:04:48,090
+ <font color="#CCCCCC">是的</font><font color="#E5E5E5">左下角 </font>
+
+112
+00:04:48,090 --> 00:04:51,120
+ <font color="#E5E5E5">元素， </font><font color="#CCCCCC">所以这个按钮 </font><font color="#E5E5E5">将在 </font>
+
+113
+00:04:51,120 --> 00:04:53,370
+零<font color="#CCCCCC">如此左下角现在 </font>
+
+114
+00:04:53,370 --> 00:04:56,190
+如果我们的窗户是100像素高
+
+115
+00:04:56,190 --> 00:04:58,350
+我们希望<font color="#CCCCCC">那个按钮 </font><font color="#E5E5E5">是完全的 </font>
+
+116
+00:04:58,350 --> 00:05:01,350
+ <font color="#CCCCCC">就在我们的窗口顶部，好吧 </font>
+
+117
+00:05:01,350 --> 00:05:05,220
+可以将<font color="#E5E5E5">它定位在100像素 </font><font color="#CCCCCC">右侧 </font><font color="#E5E5E5">或 </font>
+
+118
+00:05:05,220 --> 00:05:06,600
+实际上， <font color="#CCCCCC">我很 </font><font color="#E5E5E5">抱歉，这将是 </font><font color="#CCCCCC">零 </font>
+
+119
+00:05:06,600 --> 00:05:08,310
+ X，然后<font color="#CCCCCC">为什么你会说 </font><font color="#E5E5E5">让我们说 </font>
+
+120
+00:05:08,310 --> 00:05:10,920
+ 100个像素了，但会发生什么样<font color="#E5E5E5">的 </font>
+
+121
+00:05:10,920 --> 00:05:12,360
+因为<font color="#E5E5E5">我们正在 </font><font color="#CCCCCC">引用左下角 </font>
+
+122
+00:05:12,360 --> 00:05:14,760
+那个按钮<font color="#E5E5E5">就像是底部 </font>
+
+123
+00:05:14,760 --> 00:05:16,680
+ <font color="#E5E5E5">该按钮将在0 100和 </font>
+
+124
+00:05:16,680 --> 00:05:18,120
+那么<font color="#E5E5E5">按钮将继续关闭 </font>
+
+125
+00:05:18,120 --> 00:05:19,950
+屏幕上<font color="#E5E5E5">，所以你必须 </font><font color="#CCCCCC">保持 </font><font color="#E5E5E5">这些 </font>
+
+126
+00:05:19,950 --> 00:05:24,930
+ <font color="#E5E5E5">无论如何，现在0 0文本的 </font><font color="#CCCCCC">事情 </font>
+
+127
+00:05:24,930 --> 00:05:27,150
+ <font color="#E5E5E5">这个</font><font color="#CCCCCC">按钮 我们要去的文字说 </font>
+
+128
+00:05:27,150 --> 00:05:30,900
+是<font color="#E5E5E5">基利的颜色是一个RGB的哪一个 </font>
+
+129
+00:05:30,900 --> 00:05:33,150
+是红色<font color="#CCCCCC">绿色的蓝色阿尔法阿尔法作为a </font>
+
+130
+00:05:33,150 --> 00:05:35,370
+衡量不透明度不透明度
+
+131
+00:05:35,370 --> 00:05:36,240
+有些人认为这是一个衡量标准
+
+132
+00:05:36,240 --> 00:05:38,370
+ <font color="#E5E5E5">透明度与此相反 </font>
+
+133
+00:05:38,370 --> 00:05:44,100
+颜色<font color="#CCCCCC">我们会说是绿色的，所以0 </font><font color="#E5E5E5">1 0和 </font>
+
+134
+00:05:44,100 --> 00:05:48,540
+那么<font color="#E5E5E5">完全不透明 </font><font color="#CCCCCC">我想是这样 </font>
+
+135
+00:05:48,540 --> 00:05:51,900
+ <font color="#CCCCCC">你不能看到它的 </font><font color="#E5E5E5">字体大小 </font><font color="#CCCCCC">或 </font><font color="#E5E5E5">你 </font>
+
+136
+00:05:51,900 --> 00:05:55,080
+可以看到它，或者说它是一个坚实的<font color="#CCCCCC">字体 </font>
+
+137
+00:05:55,080 --> 00:06:00,180
+ <font color="#E5E5E5">大小40 </font><font color="#CCCCCC">OK </font><font color="#E5E5E5">现在这 </font><font color="#CCCCCC">只是 </font><font color="#E5E5E5">一个按钮，我们 </font>
+
+138
+00:06:00,180 --> 00:06:02,520
+可以拯救<font color="#CCCCCC">那希望简单的给 </font><font color="#E5E5E5">你 </font>
+
+139
+00:06:02,520 --> 00:06:04,380
+ <font color="#CCCCCC">两个简单的给 </font><font color="#E5E5E5">你一切都很好 </font>
+
+140
+00:06:04,380 --> 00:06:09,420
+让我们来<font color="#CCCCCC">看看 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">如何 </font><font color="#E5E5E5">做和做 </font>
+
+141
+00:06:09,420 --> 00:06:11,220
+是的，你可以看到<font color="#CCCCCC">我们在这里有一个按钮 </font>
+
+142
+00:06:11,220 --> 00:06:13,050
+ <font color="#CCCCCC">有趣的是 </font><font color="#E5E5E5">这个按钮 </font>
+
+143
+00:06:13,050 --> 00:06:14,730
+实际上<font color="#E5E5E5">我们可以有点互动 </font>
+
+144
+00:06:14,730 --> 00:06:16,410
+点击<font color="#CCCCCC">按钮，你会看到有 </font>
+
+145
+00:06:16,410 --> 00:06:20,100
+ <font color="#E5E5E5">某种不是超级酷的事件，但是 </font>
+
+146
+00:06:20,100 --> 00:06:23,150
+ <font color="#E5E5E5">点击它时会发生一个事件</font>
+
+147
+00:06:23,150 --> 00:06:27,420
+关闭这个， <font color="#CCCCCC">所以我们 现在 </font><font color="#E5E5E5">有那个按钮 </font>
+
+148
+00:06:27,420 --> 00:06:28,800
+ <font color="#CCCCCC">假设 </font><font color="#E5E5E5">我们想添加 </font><font color="#CCCCCC">另一个 </font>
+
+149
+00:06:28,800 --> 00:06:30,360
+按钮<font color="#E5E5E5">我们 </font><font color="#CCCCCC">怎么能 </font><font color="#E5E5E5">做得那么好 </font>
+
+150
+00:06:30,360 --> 00:06:32,790
+ <font color="#CCCCCC">只会做按钮： </font>
+
+151
+00:06:32,790 --> 00:06:35,910
+为了简单起见， <font color="#E5E5E5">我们只是 </font><font color="#CCCCCC">强调 </font><font color="#E5E5E5">一下 </font>
+
+152
+00:06:35,910 --> 00:06:39,990
+所有<font color="#E5E5E5">复制粘贴和我们的大小 </font>
+
+153
+00:06:39,990 --> 00:06:41,110
+ <font color="#CCCCCC">实际上 </font><font color="#E5E5E5">我们会打电话给这个 </font>
+
+154
+00:06:41,110 --> 00:06:43,690
+ <font color="#CCCCCC">然后这个 </font><font color="#E5E5E5">将会是教程 </font>
+
+155
+00:06:43,690 --> 00:06:46,300
+这将是一个<font color="#E5E5E5">电视教程，因为 </font>
+
+156
+00:06:46,300 --> 00:06:48,040
+教程是更长的，我们<font color="#E5E5E5">需要做到这一点 </font>
+
+157
+00:06:48,040 --> 00:06:52,290
+ <font color="#E5E5E5">更宽一点，所以170应该没问题 </font>
+
+158
+00:06:52,290 --> 00:06:55,300
+因为<font color="#E5E5E5">这一个是100像素 </font>
+
+159
+00:06:55,300 --> 00:06:57,910
+我们将把这<font color="#E5E5E5">一个放在100开始 </font>
+
+160
+00:06:57,910 --> 00:07:02,710
+在100 <font color="#CCCCCC">零教程 </font><font color="#E5E5E5">好 </font><font color="#CCCCCC">将使它 </font>
+
+161
+00:07:02,710 --> 00:07:04,060
+一个不同的颜色， <font color="#CCCCCC">我们会说它是红色的 </font>
+
+162
+00:07:04,060 --> 00:07:06,970
+相反<font color="#E5E5E5">，字体大小可以保持不变 </font>
+
+163
+00:07:06,970 --> 00:07:11,070
+同样<font color="#E5E5E5">让我们保存， </font><font color="#CCCCCC">让我们运行该 </font><font color="#E5E5E5">和 </font>
+
+164
+00:07:11,070 --> 00:07:13,090
+现在你可以<font color="#CCCCCC">看到我们有这两个 </font>
+
+165
+00:07:13,090 --> 00:07:19,660
+ <font color="#E5E5E5">按钮电视教程现在 </font><font color="#CCCCCC">我是什么 </font>
+
+166
+00:07:19,660 --> 00:07:20,740
+要<font color="#CCCCCC">谈论 </font><font color="#E5E5E5">他们的定位 </font>
+
+167
+00:07:20,740 --> 00:07:22,330
+顶部，但我认为<font color="#CCCCCC">我们会实际 </font><font color="#E5E5E5">保存 </font>
+
+168
+00:07:22,330 --> 00:07:25,480
+对于后来的视频，但就像我说的
+
+169
+00:07:25,480 --> 00:07:28,840
+ <font color="#CCCCCC">然后 </font><font color="#E5E5E5">才能真正放置一些代码 </font>
+
+170
+00:07:28,840 --> 00:07:32,020
+进入<font color="#CCCCCC">这里例如让我们 </font><font color="#E5E5E5">说叹息 </font>
+
+171
+00:07:32,020 --> 00:07:37,180
+好吧<font color="#CCCCCC">呃大小让我们 </font><font color="#E5E5E5">说字体大小40 </font><font color="#CCCCCC">嗯 </font>
+
+172
+00:07:37,180 --> 00:07:43,030
+ <font color="#E5E5E5">我们可以说字体大小等于我没有 </font>
+
+173
+00:07:43,030 --> 00:07:45,010
+知道我们只<font color="#E5E5E5">说80 </font><font color="#CCCCCC">除以2 </font>
+
+174
+00:07:45,010 --> 00:07:46,570
+ <font color="#CCCCCC">只是</font><font color="#E5E5E5">作秀 </font>
+
+175
+00:07:46,570 --> 00:07:50,950
+所以字体大小是80以上<font color="#CCCCCC">来运行和 </font>
+
+176
+00:07:50,950 --> 00:07:52,720
+你可以看到仍然<font color="#CCCCCC">有效， </font><font color="#E5E5E5">所以我们是 </font>
+
+177
+00:07:52,720 --> 00:07:55,240
+能够<font color="#CCCCCC">让你知道一些逻辑 </font><font color="#E5E5E5">在那里 </font>
+
+178
+00:07:55,240 --> 00:07:56,980
+然后<font color="#E5E5E5">你可以引用你 </font>
+
+179
+00:07:56,980 --> 00:08:00,010
+ <font color="#CCCCCC">采取字体大小一定的纵横比 </font>
+
+180
+00:08:00,010 --> 00:08:04,060
+像整个窗户可以<font color="#CCCCCC">这么说 </font>
+
+181
+00:08:04,060 --> 00:08:05,770
+那么<font color="#CCCCCC">当你放置按钮时也是如此 </font>
+
+182
+00:08:05,770 --> 00:08:07,480
+ <font color="#E5E5E5">要</font><font color="#CCCCCC">放置</font><font color="#E5E5E5">在</font><font color="#CCCCCC">一个按钮右侧 </font>
+
+183
+00:08:07,480 --> 00:08:09,160
+顶<font color="#CCCCCC">你可以用 </font><font color="#E5E5E5">一些数学 </font><font color="#CCCCCC">如何 </font>
+
+184
+00:08:09,160 --> 00:08:10,810
+ <font color="#CCCCCC">身高 </font><font color="#E5E5E5">是我们的窗口 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">多高 </font><font color="#CCCCCC">我们 </font>
+
+185
+00:08:10,810 --> 00:08:13,090
+按钮转到<font color="#E5E5E5">窗口高度 </font><font color="#CCCCCC">减去 </font>
+
+186
+00:08:13,090 --> 00:08:14,470
+按钮繁荣的高度，这是你的
+
+187
+00:08:14,470 --> 00:08:17,260
+ <font color="#E5E5E5">的 左下角的 </font><font color="#CCCCCC">位置 </font>
+
+188
+00:08:17,260 --> 00:08:21,250
+可以这么说， <font color="#E5E5E5">所以无论如何，我们 </font><font color="#CCCCCC">还有更多 </font>
+
+189
+00:08:21,250 --> 00:08:23,530
+ <font color="#E5E5E5">那以后那些 </font><font color="#CCCCCC">只是快速的 </font>
+
+190
+00:08:23,530 --> 00:08:27,040
+这个基础知识，但你<font color="#CCCCCC">可以看到 </font>
+
+191
+00:08:27,040 --> 00:08:28,390
+ <font color="#E5E5E5">我们其实 </font><font color="#CCCCCC">已经有了 </font><font color="#E5E5E5">一些 </font>
+
+192
+00:08:28,390 --> 00:08:30,490
+ <font color="#E5E5E5">当然冗余和字体大小 </font>
+
+193
+00:08:30,490 --> 00:08:32,620
+我们可以<font color="#CCCCCC">在 </font><font color="#E5E5E5">Python中在这里你 </font>
+
+194
+00:08:32,620 --> 00:08:34,120
+ <font color="#E5E5E5">可以说 </font><font color="#CCCCCC">你 </font><font color="#E5E5E5">可以设置一个 </font>
+
+195
+00:08:34,120 --> 00:08:36,549
+全局<font color="#CCCCCC">变量，你会发现80 </font>
+
+196
+00:08:36,549 --> 00:08:39,610
+ <font color="#E5E5E5">这是 </font><font color="#CCCCCC">事实， </font><font color="#E5E5E5">但随着事情的发展 </font>
+
+197
+00:08:39,610 --> 00:08:41,830
+ <font color="#E5E5E5">你可能会发现更复杂的一点 </font>
+
+198
+00:08:41,830 --> 00:08:44,320
+这<font color="#CCCCCC">是 再次 </font><font color="#E5E5E5">优越的方法 </font>
+
+199
+00:08:44,320 --> 00:08:46,540
+ <font color="#CCCCCC">只是一种 </font><font color="#E5E5E5">取决于你的种类 </font>
+
+200
+00:08:46,540 --> 00:08:49,420
+ <font color="#E5E5E5">的兴趣是你的舒适程度 </font>
+
+201
+00:08:49,420 --> 00:08:51,490
+是你用什么做<font color="#CCCCCC">了 </font><font color="#E5E5E5">很多 </font><font color="#CCCCCC">的 </font>
+
+202
+00:08:51,490 --> 00:08:53,590
+人们喜欢用<font color="#CCCCCC">Python很多 </font>
+
+203
+00:08:53,590 --> 00:08:54,730
+ <font color="#E5E5E5">我的一些投诉 </font>
+
+204
+00:08:54,730 --> 00:08:56,980
+视频<font color="#CCCCCC">一直是我喜欢编码的 </font>
+
+205
+00:08:56,980 --> 00:08:58,839
+多到一个文件而不是
+
+206
+00:08:58,839 --> 00:09:00,339
+ <font color="#E5E5E5">把所有东西都分离出来 </font>
+
+207
+00:09:00,339 --> 00:09:02,889
+ <font color="#E5E5E5">小文件对我来说更是如此 </font>
+
+208
+00:09:02,889 --> 00:09:05,050
+ <font color="#E5E5E5">比必要的 </font><font color="#CCCCCC">复杂 </font><font color="#E5E5E5">更复杂 </font>
+
+209
+00:09:05,050 --> 00:09:06,040
+ <font color="#CCCCCC">使一堆不同的一点 </font>
+
+210
+00:09:06,040 --> 00:09:08,170
+档案， <font color="#E5E5E5">但对其他人而言 </font>
+
+211
+00:09:08,170 --> 00:09:09,190
+很多<font color="#E5E5E5">意义 </font>
+
+212
+00:09:09,190 --> 00:09:11,139
+它<font color="#E5E5E5">只是取决于 </font><font color="#CCCCCC">你所知道的那种 </font>
+
+213
+00:09:11,139 --> 00:09:13,449
+一个什么样<font color="#E5E5E5">的</font><font color="#CCCCCC">风格 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">也是 </font>
+
+214
+00:09:13,449 --> 00:09:14,800
+ <font color="#CCCCCC">有时你的程序很 </font><font color="#E5E5E5">复杂 </font>
+
+215
+00:09:14,800 --> 00:09:17,410
+ <font color="#CCCCCC">这 </font><font color="#E5E5E5">将会变得更有意义 </font>
+
+216
+00:09:17,410 --> 00:09:19,930
+用<font color="#E5E5E5">这么反正就是它</font><font color="#CCCCCC">这个 </font>
+
+217
+00:09:19,930 --> 00:09:20,440
+教程
+
+218
+00:09:20,440 --> 00:09:21,639
+如果<font color="#E5E5E5">你们有任何问题或者 </font>
+
+219
+00:09:21,639 --> 00:09:23,079
+ <font color="#E5E5E5">对此视频的评论请 </font><font color="#CCCCCC">随意 </font>
+
+220
+00:09:23,079 --> 00:09:25,029
+离开<font color="#E5E5E5">他们 </font><font color="#CCCCCC">下面 </font><font color="#E5E5E5">另有一如既往 </font>
+
+221
+00:09:25,029 --> 00:09:26,199
+感谢<font color="#E5E5E5">所有的 </font><font color="#CCCCCC">观看 </font><font color="#E5E5E5">感谢 </font>
+
+222
+00:09:26,199 --> 00:09:27,850
+ <font color="#CCCCCC">支持和订阅 </font><font color="#E5E5E5">，直到下一次 </font>
+
+223
+00:09:27,850 --> 00:00:00,000
+ <font color="#E5E5E5">时间 </font>
+

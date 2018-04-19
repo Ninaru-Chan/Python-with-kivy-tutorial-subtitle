@@ -1,0 +1,516 @@
+1
+00:00:02,240 --> 00:00:04,710
+大家好<font color="#CCCCCC">，欢迎 </font><font color="#E5E5E5">来到9号 </font>
+
+2
+00:00:04,710 --> 00:00:07,230
+ <font color="#CCCCCC">本 </font><font color="#E5E5E5">视频中的电视基础教程视频 </font>
+
+3
+00:00:07,230 --> 00:00:08,760
+我们会<font color="#E5E5E5">谈论 </font><font color="#CCCCCC">几个 </font>
+
+4
+00:00:08,760 --> 00:00:10,710
+ <font color="#E5E5E5">屏幕管理员将会做的事情之一 </font>
+
+5
+00:00:10,710 --> 00:00:12,360
+在移动之前几乎没有碰到那个
+
+6
+00:00:12,360 --> 00:00:14,700
+进入<font color="#E5E5E5">它的下一个视频以及 </font>
+
+7
+00:00:14,700 --> 00:00:17,340
+生成器<font color="#E5E5E5">将成为主要 </font><font color="#CCCCCC">焦点 </font>
+
+8
+00:00:17,340 --> 00:00:20,279
+这个视频， <font color="#E5E5E5">所以一旦你 </font><font color="#CCCCCC">开始 </font>
+
+9
+00:00:20,279 --> 00:00:23,039
+构建足够大的应用程序
+
+10
+00:00:23,039 --> 00:00:25,170
+ <font color="#E5E5E5">无论你使用的框架是什么 </font>
+
+11
+00:00:25,170 --> 00:00:27,210
+你<font color="#E5E5E5">会发现你 </font><font color="#CCCCCC">会需要的 </font>
+
+12
+00:00:27,210 --> 00:00:29,250
+一个基本的<font color="#E5E5E5">东西，那就是 </font><font color="#CCCCCC">移动 </font>
+
+13
+00:00:29,250 --> 00:00:32,640
+ <font color="#CCCCCC">窗口之间基本上还是</font><font color="#E5E5E5">能够 </font>
+
+14
+00:00:32,640 --> 00:00:34,410
+改变屏幕， <font color="#E5E5E5">所以你需要能够 </font>
+
+15
+00:00:34,410 --> 00:00:36,480
+让<font color="#CCCCCC">你知道 </font><font color="#E5E5E5">的用户 </font><font color="#CCCCCC">说 </font><font color="#E5E5E5">点击 </font>
+
+16
+00:00:36,480 --> 00:00:39,120
+设置和<font color="#E5E5E5">设置菜单弹出或 </font>
+
+17
+00:00:39,120 --> 00:00:42,960
+你知道<font color="#E5E5E5">我不知道 </font><font color="#CCCCCC">之间的导航</font>
+
+18
+00:00:42,960 --> 00:00:45,390
+各种类型<font color="#E5E5E5">的 </font><font color="#CCCCCC">Windows和这 </font><font color="#E5E5E5">是 </font>
+
+19
+00:00:45,390 --> 00:00:47,129
+实际上传统上有点<font color="#E5E5E5">困难 </font>
+
+20
+00:00:47,129 --> 00:00:49,530
+尤其<font color="#E5E5E5">不像tkinter，如果你记得 </font>
+
+21
+00:00:49,530 --> 00:00:51,629
+ <font color="#E5E5E5">在 </font><font color="#CCCCCC">pygame中，我们这样做的方式就是这样 </font>
+
+22
+00:00:51,629 --> 00:00:53,850
+ <font color="#E5E5E5">通过清洁整个石板然后 </font>
+
+23
+00:00:53,850 --> 00:00:56,039
+我们用tkinter重新绘制它
+
+24
+00:00:56,039 --> 00:00:57,449
+基本上<font color="#E5E5E5">所有 </font><font color="#CCCCCC">的窗口都在 </font>
+
+25
+00:00:57,449 --> 00:00:59,609
+背景，然后我们加载一个
+
+26
+00:00:59,609 --> 00:01:00,719
+我们目前<font color="#E5E5E5">最感兴趣的是 </font>
+
+27
+00:01:00,719 --> 00:01:03,870
+ <font color="#E5E5E5">基本上 </font><font color="#CCCCCC">，这 </font><font color="#E5E5E5">基本上是 </font><font color="#CCCCCC">如何keavy </font>
+
+28
+00:01:03,870 --> 00:01:06,570
+作品，但幸运的是<font color="#CCCCCC">电视写了代码 </font>
+
+29
+00:01:06,570 --> 00:01:08,670
+我们<font color="#E5E5E5">喜欢tkinter，我们必须善良 </font>
+
+30
+00:01:08,670 --> 00:01:10,950
+ <font color="#CCCCCC">编写代码这样反正我们走吧 </font>
+
+31
+00:01:10,950 --> 00:01:13,799
+提前<font color="#E5E5E5">并谈论 </font><font color="#CCCCCC">这两件事情 </font>
+
+32
+00:01:13,799 --> 00:01:15,180
+但<font color="#E5E5E5">主要是我们要谈这个 </font>
+
+33
+00:01:15,180 --> 00:01:19,409
+ <font color="#CCCCCC">关于Builder的教程</font><font color="#E5E5E5">视频 </font><font color="#CCCCCC">如此 </font>
+
+34
+00:01:19,409 --> 00:01:21,240
+这些<font color="#E5E5E5">关键 </font><font color="#CCCCCC">诉诉的建设者的想法是如此</font>
+
+35
+00:01:21,240 --> 00:01:24,090
+ <font color="#E5E5E5">我们看到的文件基本上是我们必须的 </font>
+
+36
+00:01:24,090 --> 00:01:26,369
+ <font color="#CCCCCC">至少还有 </font><font color="#E5E5E5">那个关键的 </font><font color="#CCCCCC">v文件 </font>
+
+37
+00:01:26,369 --> 00:01:29,759
+ <font color="#E5E5E5">应用这个词是需要成为的话 </font>
+
+38
+00:01:29,759 --> 00:01:32,579
+关键的<font color="#CCCCCC">v文件 </font><font color="#E5E5E5">， </font><font color="#CCCCCC">我不太 </font><font color="#E5E5E5">喜欢 </font>
+
+39
+00:01:32,579 --> 00:01:34,409
+ <font color="#CCCCCC">我认为那是一种混乱和在 </font>
+
+40
+00:01:34,409 --> 00:01:36,960
+ <font color="#E5E5E5">特别是 </font><font color="#CCCCCC">我们最不在乎的地方 </font>
+
+41
+00:01:36,960 --> 00:01:38,579
+像<font color="#CCCCCC">说的版本和东西改变</font>
+
+42
+00:01:38,579 --> 00:01:42,180
+就像那样<font color="#E5E5E5">，它会变得 </font><font color="#CCCCCC">乏味和尴尬 </font>
+
+43
+00:01:42,180 --> 00:01:44,850
+讨厌<font color="#E5E5E5">它不是很明确 </font>
+
+44
+00:01:44,850 --> 00:01:46,439
+它几乎就像一种隐含的
+
+45
+00:01:46,439 --> 00:01:47,689
+它<font color="#E5E5E5">只是需要的东西</font>
+
+46
+00:01:47,689 --> 00:01:50,369
+ <font color="#E5E5E5">基本上就像应用程序需要的根源一样 </font>
+
+47
+00:01:50,369 --> 00:01:52,560
+ <font color="#E5E5E5">是这个词，它只是一种混乱的 </font><font color="#CCCCCC">我 </font>
+
+48
+00:01:52,560 --> 00:01:55,259
+ <font color="#E5E5E5">不管怎么说，不要那么喜欢它</font>
+
+49
+00:01:55,259 --> 00:01:58,770
+是另一种<font color="#E5E5E5">引入方法</font>
+
+50
+00:01:58,770 --> 00:02:00,899
+关键<font color="#CCCCCC">v文件 </font><font color="#E5E5E5">，这是与 </font><font color="#CCCCCC">生成器 </font>
+
+51
+00:02:00,899 --> 00:02:02,759
+所以<font color="#E5E5E5">我 </font><font color="#CCCCCC">会 </font><font color="#E5E5E5">删除基本上所有的 </font>
+
+52
+00:02:02,759 --> 00:02:07,049
+这里的代码<font color="#CCCCCC">真的我想我们会的 </font>
+
+53
+00:02:07,049 --> 00:02:09,720
+离开这一点，我们会离开<font color="#E5E5E5">，但 </font>
+
+54
+00:02:09,720 --> 00:02:11,610
+基本上<font color="#CCCCCC">所有这些代码现在你可能 </font>
+
+55
+00:02:11,610 --> 00:02:12,629
+想要<font color="#E5E5E5">留在这里， </font><font color="#CCCCCC">因为 </font><font color="#E5E5E5">我们是 </font>
+
+56
+00:02:12,629 --> 00:02:13,300
+ <font color="#E5E5E5">即将到来 </font>
+
+57
+00:02:13,300 --> 00:02:14,590
+ <font color="#CCCCCC"> - 我们将使用这个小部件 </font>
+
+58
+00:02:14,590 --> 00:02:17,260
+它再次在一<font color="#E5E5E5">点点 </font><font color="#CCCCCC">，但 </font><font color="#E5E5E5">我正在努力 </font>
+
+59
+00:02:17,260 --> 00:02:18,850
+ <font color="#E5E5E5">确保 </font><font color="#CCCCCC">我们将所有东西都配对 </font>
+
+60
+00:02:18,850 --> 00:02:21,550
+ <font color="#E5E5E5">最基本的价值，所以当我们添加 </font><font color="#CCCCCC">新的 </font>
+
+61
+00:02:21,550 --> 00:02:22,690
+ <font color="#E5E5E5">你明白在哪里的东西 </font>
+
+62
+00:02:22,690 --> 00:02:25,300
+这些新<font color="#E5E5E5">事物的基础， 所以我是 </font>
+
+63
+00:02:25,300 --> 00:02:26,500
+ <font color="#CCCCCC">要 </font><font color="#E5E5E5">删除一切基本上达到 </font>
+
+64
+00:02:26,500 --> 00:02:28,900
+到<font color="#E5E5E5">这里 </font><font color="#CCCCCC">，我们 </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">就离开主应用程序 </font>
+
+65
+00:02:28,900 --> 00:02:31,410
+ <font color="#E5E5E5">接下来 </font><font color="#CCCCCC">我们要做的是 </font>
+
+66
+00:02:31,410 --> 00:02:37,960
+而不是<font color="#E5E5E5">实际上我们不能做什么 </font>
+
+67
+00:02:37,960 --> 00:02:42,520
+我<font color="#CCCCCC">现在要做， 我们会离开 </font><font color="#E5E5E5">对不起， </font><font color="#CCCCCC">所以 </font>
+
+68
+00:02:42,520 --> 00:02:43,990
+我们现在想要的第一件事就是建造者
+
+69
+00:02:43,990 --> 00:02:45,580
+必须导入那不是<font color="#E5E5E5">什么东西 </font>
+
+70
+00:02:45,580 --> 00:02:48,040
+ <font color="#E5E5E5">就像自然而然地带着钥匙一样 </font>
+
+71
+00:02:48,040 --> 00:02:50,770
+或自然是与说的<font color="#E5E5E5">应用程序进口</font>
+
+72
+00:02:50,770 --> 00:02:52,780
+关键<font color="#E5E5E5">V，所以我们 </font><font color="#CCCCCC">要说的是 </font>
+
+73
+00:02:52,780 --> 00:02:59,170
+从<font color="#CCCCCC">关键V点郎进口建设者和 </font>
+
+74
+00:02:59,170 --> 00:03:01,390
+那么我们<font color="#E5E5E5">只是需要一个参考 </font>
+
+75
+00:03:01,390 --> 00:03:03,970
+建设者<font color="#E5E5E5">，所以我们 </font><font color="#CCCCCC">会基本上说 </font>
+
+76
+00:03:03,970 --> 00:03:06,310
+像这样你会说<font color="#E5E5E5">例如 </font>
+
+77
+00:03:06,310 --> 00:03:08,920
+ <font color="#CCCCCC">我们会说 基尼 </font><font color="#E5E5E5">以来的 </font><font color="#CCCCCC">演讲 </font>
+
+78
+00:03:08,920 --> 00:03:10,930
+文件确实<font color="#E5E5E5">只是</font><font color="#CCCCCC">演示 </font>
+
+79
+00:03:10,930 --> 00:03:12,850
+我<font color="#E5E5E5">喜欢用这个词表达 </font>
+
+80
+00:03:12,850 --> 00:03:17,530
+等于<font color="#CCCCCC">builder daunt </font><font color="#E5E5E5">加载下划线 </font>
+
+81
+00:03:17,530 --> 00:03:19,780
+文件和我们<font color="#E5E5E5">要加载的文件是 </font>
+
+82
+00:03:19,780 --> 00:03:22,120
+只是<font color="#CCCCCC">在我们的KB文件的名称</font>
+
+83
+00:03:22,120 --> 00:03:26,170
+这种情况<font color="#CCCCCC">我称为我的主要点电视 </font>
+
+84
+00:03:26,170 --> 00:03:30,580
+这个<font color="#E5E5E5">文件在这里，所以现在会吹 </font>
+
+85
+00:03:30,580 --> 00:03:32,080
+ <font color="#E5E5E5">该文件，它真的没有 </font>
+
+86
+00:03:32,080 --> 00:03:35,650
+ <font color="#CCCCCC">不管 </font><font color="#E5E5E5">这个班的名字是 </font><font color="#CCCCCC">什么 </font>
+
+87
+00:03:35,650 --> 00:03:39,040
+ <font color="#CCCCCC">真的，这基本上 </font><font color="#E5E5E5">是唯一的 </font>
+
+88
+00:03:39,040 --> 00:03:40,360
+ <font color="#E5E5E5">你真的</font><font color="#CCCCCC">需要</font><font color="#E5E5E5">其他变化 </font>
+
+89
+00:03:40,360 --> 00:03:42,610
+ <font color="#E5E5E5">make是你 </font><font color="#CCCCCC">会采取 </font><font color="#E5E5E5">演示文稿和 </font>
+
+90
+00:03:42,610 --> 00:03:45,550
+ <font color="#E5E5E5">现在有它返回演示文稿 </font>
+
+91
+00:03:45,550 --> 00:03:47,110
+真的没有<font color="#CCCCCC">这个应用程序我们 </font>
+
+92
+00:03:47,110 --> 00:03:48,790
+ <font color="#E5E5E5">在这里没有任何东西 </font>
+
+93
+00:03:48,790 --> 00:03:51,180
+ <font color="#CCCCCC">所以我们必须补充 </font>
+
+94
+00:03:51,180 --> 00:03:53,500
+这里<font color="#E5E5E5">介绍了一些东西</font>
+
+95
+00:03:53,500 --> 00:03:56,050
+有些东西<font color="#CCCCCC">要呈现， </font><font color="#E5E5E5">但我只是想要 </font>
+
+96
+00:03:56,050 --> 00:03:57,880
+ <font color="#E5E5E5">在我们跳进去之前覆盖建筑商</font>
+
+97
+00:03:57,880 --> 00:03:59,950
+接下来的事情将是<font color="#E5E5E5">实际的 </font>
+
+98
+00:03:59,950 --> 00:04:02,110
+ <font color="#E5E5E5">屏幕管理器，但要使用我们 </font>
+
+99
+00:04:02,110 --> 00:04:04,090
+也将<font color="#E5E5E5">使用建设者和那个 </font>
+
+100
+00:04:04,090 --> 00:04:05,560
+应该能帮<font color="#CCCCCC">我 做 </font><font color="#E5E5E5">这些 前进 </font>
+
+101
+00:04:05,560 --> 00:04:07,030
+ <font color="#CCCCCC">教程更容易，因为 </font><font color="#E5E5E5">我保持 </font>
+
+102
+00:04:07,030 --> 00:04:08,590
+忘记<font color="#E5E5E5">改变这个名字和这个 </font>
+
+103
+00:04:08,590 --> 00:04:10,660
+ <font color="#E5E5E5">名字，这是非常烦人的 </font>
+
+104
+00:04:10,660 --> 00:04:13,180
+反正就是它<font color="#E5E5E5">这</font><font color="#CCCCCC">一个真正的 </font>
+
+105
+00:04:13,180 --> 00:04:15,510
+ <font color="#E5E5E5">使用 </font><font color="#CCCCCC">Builder快速</font><font color="#E5E5E5">简单的教程 </font>
+
+106
+00:04:15,510 --> 00:04:17,980
+ <font color="#E5E5E5">在我们猜测之前， </font><font color="#CCCCCC">我们继续前进 </font>
+
+107
+00:04:17,980 --> 00:04:19,750
+ <font color="#E5E5E5">我 </font><font color="#CCCCCC">只会说建造者你可以 </font>
+
+108
+00:04:19,750 --> 00:04:22,000
+也做而不是加载文件给你
+
+109
+00:04:22,000 --> 00:04:24,030
+ <font color="#E5E5E5">像 </font><font color="#CCCCCC">加载字符串 </font>
+
+110
+00:04:24,030 --> 00:04:26,730
+你可以加载像这样<font color="#E5E5E5">因此字符串</font>
+
+111
+00:04:26,730 --> 00:04:28,800
+ <font color="#E5E5E5">你可以在这里得到你的三重引号 </font>
+
+112
+00:04:28,800 --> 00:04:31,710
+ <font color="#E5E5E5">三重引号在这里，然后你可以 </font>
+
+113
+00:04:31,710 --> 00:04:33,419
+基本上复制并粘贴你的<font color="#E5E5E5">密钥 </font><font color="#CCCCCC">D文件 </font>
+
+114
+00:04:33,419 --> 00:04:36,360
+在那里<font color="#CCCCCC">就像 </font><font color="#E5E5E5">这样，那就是了 </font>
+
+115
+00:04:36,360 --> 00:04:38,160
+完全<font color="#CCCCCC">可以接受的 </font><font color="#E5E5E5">工作 </font>
+
+116
+00:04:38,160 --> 00:04:40,620
+以及<font color="#E5E5E5">关键V我不会 </font><font color="#CCCCCC">真的 </font>
+
+117
+00:04:40,620 --> 00:04:42,690
+ <font color="#E5E5E5">这样做，我不觉得 </font><font color="#CCCCCC">这就是你 </font>
+
+118
+00:04:42,690 --> 00:04:44,310
+不妨把它写<font color="#E5E5E5">在 </font><font color="#CCCCCC">Python中 </font>
+
+119
+00:04:44,310 --> 00:04:45,450
+你会这样做的
+
+120
+00:04:45,450 --> 00:04:48,930
+呃所以<font color="#E5E5E5">无论如何 </font><font color="#CCCCCC">我 </font><font color="#E5E5E5">真的不会做 </font>
+
+121
+00:04:48,930 --> 00:04:51,240
+ <font color="#E5E5E5">我认为我更喜欢加载文件 </font>
+
+122
+00:04:51,240 --> 00:04:53,010
+ <font color="#CCCCCC">这非常好主意 </font>
+
+123
+00:04:53,010 --> 00:04:54,720
+无论如何<font color="#E5E5E5">，这是我们将要做的事情 </font>
+
+124
+00:04:54,720 --> 00:04:56,580
+ <font color="#E5E5E5">转发 </font><font color="#CCCCCC">非常简单的教程，但如果 </font>
+
+125
+00:04:56,580 --> 00:04:58,080
+你有任何问题<font color="#CCCCCC">或意见 </font>
+
+126
+00:04:58,080 --> 00:04:59,070
+ <font color="#CCCCCC">请随时给 </font><font color="#E5E5E5">他们 </font><font color="#CCCCCC">留下 </font><font color="#E5E5E5">下方 </font>
+
+127
+00:04:59,070 --> 00:05:01,350
+ <font color="#CCCCCC">否则一如既往感谢收看 </font>
+
+128
+00:05:01,350 --> 00:05:02,669
+ <font color="#E5E5E5">感谢 </font><font color="#CCCCCC">所有支持 </font><font color="#E5E5E5">订阅 </font>
+
+129
+00:05:02,669 --> 00:00:00,000
+直到下<font color="#E5E5E5">一次 </font>
+

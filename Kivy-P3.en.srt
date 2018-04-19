@@ -1,0 +1,932 @@
+1
+00:00:02,330 --> 00:00:04,440
+<font color="#E5E5E5">hello everybody what is going on welcome</font>
+
+2
+00:00:04,440 --> 00:00:07,429
+<font color="#E5E5E5">to</font><font color="#CCCCCC"> the third TV with python tutorial</font>
+
+3
+00:00:07,429 --> 00:00:10,349
+basics video<font color="#E5E5E5"> in this video we're going</font>
+
+4
+00:00:10,349 --> 00:00:12,570
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> be talking about the key</font><font color="#CCCCCC"> D</font><font color="#E5E5E5"> language</font>
+
+5
+00:00:12,570 --> 00:00:14,400
+so this is where you might<font color="#CCCCCC"> see these</font><font color="#E5E5E5"> dot</font>
+
+6
+00:00:14,400 --> 00:00:17,609
+<font color="#E5E5E5">K V files now it's actually</font><font color="#CCCCCC"> the</font><font color="#E5E5E5"> case</font>
+
+7
+00:00:17,609 --> 00:00:21,119
+that you<font color="#E5E5E5"> don't ever need to</font><font color="#CCCCCC"> use the key</font>
+
+8
+00:00:21,119 --> 00:00:24,150
+<font color="#CCCCCC">V language it's</font><font color="#E5E5E5"> really there for just</font>
+
+9
+00:00:24,150 --> 00:00:26,010
+for you if that's<font color="#CCCCCC"> what you want to use</font>
+
+10
+00:00:26,010 --> 00:00:27,630
+<font color="#E5E5E5">but you</font><font color="#CCCCCC"> can actually</font><font color="#E5E5E5"> write the identical</font>
+
+11
+00:00:27,630 --> 00:00:31,230
+application using pure Python code<font color="#CCCCCC"> so as</font>
+
+12
+00:00:31,230 --> 00:00:33,660
+you can<font color="#E5E5E5"> see here we've actually we've</font>
+
+13
+00:00:33,660 --> 00:00:36,420
+utilized<font color="#E5E5E5"> some key language only we've</font>
+
+14
+00:00:36,420 --> 00:00:38,790
+written it in pure Python<font color="#E5E5E5"> but what you</font>
+
+15
+00:00:38,790 --> 00:00:40,680
+can do is you can<font color="#CCCCCC"> use these dot K V</font>
+
+16
+00:00:40,680 --> 00:00:46,879
+files<font color="#E5E5E5"> ah -</font><font color="#CCCCCC"> maybe</font><font color="#E5E5E5"> better organize your</font>
+
+17
+00:00:47,690 --> 00:00:51,270
+<font color="#E5E5E5">presentation of the GUI and</font><font color="#CCCCCC"> keep the</font>
+
+18
+00:00:51,270 --> 00:00:54,870
+Python files for the logic<font color="#E5E5E5"> so depending</font>
+
+19
+00:00:54,870 --> 00:00:56,460
+on<font color="#E5E5E5"> which way you</font><font color="#CCCCCC"> think</font><font color="#E5E5E5"> you might want to</font>
+
+20
+00:00:56,460 --> 00:00:58,829
+use our things separately<font color="#CCCCCC"> but again it</font>
+
+21
+00:00:58,829 --> 00:01:00,270
+might<font color="#E5E5E5"> actually be the</font><font color="#CCCCCC"> case that your</font>
+
+22
+00:01:00,270 --> 00:01:03,090
+application or your<font color="#E5E5E5"> program is simpler</font>
+
+23
+00:01:03,090 --> 00:01:05,610
+if you keep it all together<font color="#E5E5E5"> in just pure</font>
+
+24
+00:01:05,610 --> 00:01:08,640
+Python or if you're<font color="#E5E5E5"> using a lot</font><font color="#CCCCCC"> of</font>
+
+25
+00:01:08,640 --> 00:01:11,010
+<font color="#CCCCCC">customization</font><font color="#E5E5E5"> or maybe you're using a</font>
+
+26
+00:01:11,010 --> 00:01:12,240
+lot<font color="#E5E5E5"> of customization but a lot of that</font>
+
+27
+00:01:12,240 --> 00:01:14,610
+<font color="#CCCCCC">customization is very redundant</font><font color="#E5E5E5"> then it</font>
+
+28
+00:01:14,610 --> 00:01:16,890
+would make a whole lot<font color="#CCCCCC"> of sense</font><font color="#E5E5E5"> to use</font>
+
+29
+00:01:16,890 --> 00:01:21,869
+<font color="#E5E5E5">the K V files so I think you can get by</font>
+
+30
+00:01:21,869 --> 00:01:24,180
+<font color="#CCCCCC">using you know doing one or the other it</font>
+
+31
+00:01:24,180 --> 00:01:27,030
+really<font color="#E5E5E5"> doesn't matter but in programming</font>
+
+32
+00:01:27,030 --> 00:01:28,380
+in<font color="#CCCCCC"> general there's a</font><font color="#E5E5E5"> million different</font>
+
+33
+00:01:28,380 --> 00:01:31,020
+<font color="#E5E5E5">ways</font><font color="#CCCCCC"> to do something</font><font color="#E5E5E5"> and everyone has</font>
+
+34
+00:01:31,020 --> 00:01:32,250
+their<font color="#CCCCCC"> opinion on</font><font color="#E5E5E5"> what the best way is</font>
+
+35
+00:01:32,250 --> 00:01:34,880
+<font color="#CCCCCC">and they'll ridicule you if you disagree</font>
+
+36
+00:01:34,880 --> 00:01:38,159
+<font color="#CCCCCC">so I'll go ahead</font><font color="#E5E5E5"> and show both versions</font>
+
+37
+00:01:38,159 --> 00:01:39,630
+here but<font color="#E5E5E5"> honestly don't worry about what</font>
+
+38
+00:01:39,630 --> 00:01:41,159
+other<font color="#CCCCCC"> people</font><font color="#E5E5E5"> say is the</font><font color="#CCCCCC"> best just try</font>
+
+39
+00:01:41,159 --> 00:01:43,079
+and<font color="#CCCCCC"> bolt out see what fits best to you</font>
+
+40
+00:01:43,079 --> 00:01:46,409
+<font color="#CCCCCC">and use that so</font><font color="#E5E5E5"> anyway that's what we're</font>
+
+41
+00:01:46,409 --> 00:01:47,610
+going to<font color="#E5E5E5"> cover here is the key V</font>
+
+42
+00:01:47,610 --> 00:01:50,490
+language so first I'm<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to do is I'm</font>
+
+43
+00:01:50,490 --> 00:01:52,619
+just going<font color="#CCCCCC"> to go ahead and we'll get rid</font>
+
+44
+00:01:52,619 --> 00:01:53,850
+of this we're<font color="#E5E5E5"> not going to be using it</font>
+
+45
+00:01:53,850 --> 00:01:55,920
+for<font color="#E5E5E5"> now</font><font color="#CCCCCC"> and even we don't</font><font color="#E5E5E5"> need these</font>
+
+46
+00:01:55,920 --> 00:01:58,619
+imports anymore either<font color="#CCCCCC"> so this is kind</font>
+
+47
+00:01:58,619 --> 00:02:02,219
+of<font color="#E5E5E5"> one</font><font color="#CCCCCC"> of our initial scripts only the</font>
+
+48
+00:02:02,219 --> 00:02:03,990
+<font color="#E5E5E5">only difference</font><font color="#CCCCCC"> here was</font><font color="#E5E5E5"> this was label</font>
+
+49
+00:02:03,990 --> 00:02:09,479
+and the parameter was text and it said
+
+50
+00:02:09,479 --> 00:02:10,169
+hello
+
+51
+00:02:10,169 --> 00:02:13,530
+<font color="#CCCCCC">old worlds like this so save and run</font>
+
+52
+00:02:13,530 --> 00:02:15,810
+that and that was<font color="#E5E5E5"> our original</font>
+
+53
+00:02:15,810 --> 00:02:19,380
+application if you<font color="#CCCCCC"> recall so that's that</font>
+
+54
+00:02:19,380 --> 00:02:21,360
+<font color="#CCCCCC">and this is you know written in pure</font>
+
+55
+00:02:21,360 --> 00:02:23,670
+Python now what if we wanted to<font color="#E5E5E5"> write</font>
+
+56
+00:02:23,670 --> 00:02:26,520
+this in or at least utilize the<font color="#CCCCCC"> keavy</font>
+
+57
+00:02:26,520 --> 00:02:28,980
+language so what<font color="#E5E5E5"> I'm going to do is I'm</font>
+
+58
+00:02:28,980 --> 00:02:30,390
+going<font color="#CCCCCC"> to use notepad plus plus if you</font>
+
+59
+00:02:30,390 --> 00:02:32,430
+don't have it I highly<font color="#CCCCCC"> suggest you get</font>
+
+60
+00:02:32,430 --> 00:02:33,989
+it you could write all this in just<font color="#CCCCCC"> a</font>
+
+61
+00:02:33,989 --> 00:02:36,090
+regular notepad file and then use the
+
+62
+00:02:36,090 --> 00:02:37,560
+same saving practices<font color="#CCCCCC"> that we're about</font>
+
+63
+00:02:37,560 --> 00:02:41,030
+to<font color="#CCCCCC"> use</font><font color="#E5E5E5"> but anyway so within your key</font><font color="#CCCCCC"> V</font><font color="#E5E5E5"> a</font>
+
+64
+00:02:41,030 --> 00:02:43,980
+file here what you<font color="#E5E5E5"> can do is it's always</font>
+
+65
+00:02:43,980 --> 00:02:46,110
+<font color="#CCCCCC">a</font><font color="#E5E5E5"> good idea to reference the file that</font>
+
+66
+00:02:46,110 --> 00:02:49,830
+<font color="#E5E5E5">you</font><font color="#CCCCCC"> are kind of like associated with</font>
+
+67
+00:02:49,830 --> 00:02:52,799
+<font color="#CCCCCC">because I</font><font color="#E5E5E5"> have seen a second um the way</font>
+
+68
+00:02:52,799 --> 00:02:55,819
+that<font color="#E5E5E5"> the</font><font color="#CCCCCC"> Python</font><font color="#E5E5E5"> script is going</font><font color="#CCCCCC"> to know</font>
+
+69
+00:02:55,819 --> 00:02:59,819
+the dot<font color="#E5E5E5"> K V file to use is really kind</font>
+
+70
+00:02:59,819 --> 00:03:01,200
+of screwy
+
+71
+00:03:01,200 --> 00:03:03,120
+I'm not quite<font color="#E5E5E5"> sure why they went with</font>
+
+72
+00:03:03,120 --> 00:03:05,190
+<font color="#E5E5E5">the way that they went but they did so</font>
+
+73
+00:03:05,190 --> 00:03:07,470
+anyway<font color="#CCCCCC"> oh it's supposed</font><font color="#E5E5E5"> to say you know</font>
+
+74
+00:03:07,470 --> 00:03:10,170
+file name and this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> going to be in</font>
+
+75
+00:03:10,170 --> 00:03:12,840
+conjunction<font color="#E5E5E5"> with</font><font color="#CCCCCC"> our a key B video three</font>
+
+76
+00:03:12,840 --> 00:03:15,840
+for example<font color="#CCCCCC"> so key V video three pi put</font>
+
+77
+00:03:15,840 --> 00:03:18,810
+whatever your file name is you<font color="#E5E5E5"> can</font>
+
+78
+00:03:18,810 --> 00:03:21,150
+<font color="#E5E5E5">require a key V version</font><font color="#CCCCCC"> here by using</font>
+
+79
+00:03:21,150 --> 00:03:25,620
+the<font color="#CCCCCC"> hash tag colon</font><font color="#E5E5E5"> and then</font><font color="#CCCCCC"> we can say</font>
+
+80
+00:03:25,620 --> 00:03:29,700
+key<font color="#E5E5E5"> V one point</font><font color="#CCCCCC"> 8.0 and that</font><font color="#E5E5E5"> will also</font>
+
+81
+00:03:29,700 --> 00:03:31,829
+<font color="#E5E5E5">put a requirement for the the key B</font>
+
+82
+00:03:31,829 --> 00:03:35,010
+language<font color="#CCCCCC"> file</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> uh</font><font color="#E5E5E5"> now let's kind of</font>
+
+83
+00:03:35,010 --> 00:03:37,109
+consult here<font color="#CCCCCC"> we've got</font><font color="#E5E5E5"> you know simple</font>
+
+84
+00:03:37,109 --> 00:03:39,120
+key<font color="#E5E5E5"> V app</font><font color="#CCCCCC"> we've got a label</font><font color="#E5E5E5"> and it says</font>
+
+85
+00:03:39,120 --> 00:03:41,489
+<font color="#E5E5E5">text hello world so you can kind of</font>
+
+86
+00:03:41,489 --> 00:03:44,730
+envision your K V files now someone's
+
+87
+00:03:44,730 --> 00:03:45,870
+<font color="#CCCCCC">going to</font><font color="#E5E5E5"> like jump down my throat for</font>
+
+88
+00:03:45,870 --> 00:03:48,720
+this but dot K V files are a lot like
+
+89
+00:03:48,720 --> 00:03:50,609
+CSS<font color="#E5E5E5"> right so it's a lot like I having a</font>
+
+90
+00:03:50,609 --> 00:03:54,720
+<font color="#CCCCCC">stylesheet okay and so just</font><font color="#E5E5E5"> like with</font>
+
+91
+00:03:54,720 --> 00:03:57,930
+HTML and<font color="#CCCCCC"> CSS</font><font color="#E5E5E5"> you</font><font color="#CCCCCC"> can kind of write you</font>
+
+92
+00:03:57,930 --> 00:03:59,760
+know text attributes<font color="#E5E5E5"> right in the</font>
+
+93
+00:03:59,760 --> 00:04:01,530
+<font color="#E5E5E5">paragraph tags let's say for</font><font color="#CCCCCC"> example and</font>
+
+94
+00:04:01,530 --> 00:04:03,000
+you can<font color="#CCCCCC"> give</font><font color="#E5E5E5"> kind</font><font color="#CCCCCC"> of some style</font>
+
+95
+00:04:03,000 --> 00:04:06,389
+attributes to it or you can<font color="#CCCCCC"> have a style</font>
+
+96
+00:04:06,389 --> 00:04:07,950
+sheet<font color="#CCCCCC"> that says hey everything with a</font>
+
+97
+00:04:07,950 --> 00:04:10,980
+<font color="#E5E5E5">paragraph tag class article right looks</font>
+
+98
+00:04:10,980 --> 00:04:14,549
+<font color="#CCCCCC">like X</font><font color="#E5E5E5"> right looks</font><font color="#CCCCCC"> like this or you can</font>
+
+99
+00:04:14,549 --> 00:04:16,228
+<font color="#CCCCCC">actually you don't</font><font color="#E5E5E5"> even need a CSS</font><font color="#CCCCCC"> sheet</font>
+
+100
+00:04:16,228 --> 00:04:18,029
+<font color="#CCCCCC">you could</font><font color="#E5E5E5"> always just create custom</font>
+
+101
+00:04:18,029 --> 00:04:20,399
+styles as you<font color="#CCCCCC"> went like we can see with</font>
+
+102
+00:04:20,399 --> 00:04:21,870
+websites<font color="#E5E5E5"> it makes a whole lot</font><font color="#CCCCCC"> of sense</font>
+
+103
+00:04:21,870 --> 00:04:23,220
+<font color="#E5E5E5">to have a style sheet</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> you don't</font><font color="#CCCCCC"> have</font>
+
+104
+00:04:23,220 --> 00:04:23,580
+to
+
+105
+00:04:23,580 --> 00:04:27,020
+continuously keep using classes now with
+
+106
+00:04:27,020 --> 00:04:28,979
+applications depend on the<font color="#E5E5E5"> application</font>
+
+107
+00:04:28,979 --> 00:04:30,360
+if you<font color="#CCCCCC"> have a small application</font><font color="#E5E5E5"> or you</font>
+
+108
+00:04:30,360 --> 00:04:32,039
+don't<font color="#E5E5E5"> have</font><font color="#CCCCCC"> a lot of redundancy it's</font>
+
+109
+00:04:32,039 --> 00:04:33,330
+sometimes<font color="#E5E5E5"> that actually</font><font color="#CCCCCC"> I think is a</font>
+
+110
+00:04:33,330 --> 00:04:34,740
+<font color="#CCCCCC">little</font><font color="#E5E5E5"> simpler</font><font color="#CCCCCC"> to use</font><font color="#E5E5E5"> it within the</font>
+
+111
+00:04:34,740 --> 00:04:38,520
+application<font color="#E5E5E5"> at least for me but again it</font>
+
+112
+00:04:38,520 --> 00:04:40,379
+<font color="#CCCCCC">doesn't</font><font color="#E5E5E5"> matter which one you use both of</font>
+
+113
+00:04:40,379 --> 00:04:42,030
+<font color="#CCCCCC">them are very</font><font color="#E5E5E5"> effective and both of</font><font color="#CCCCCC"> them</font>
+
+114
+00:04:42,030 --> 00:04:43,800
+will<font color="#CCCCCC"> work in the way</font><font color="#E5E5E5"> that you expect</font>
+
+115
+00:04:43,800 --> 00:04:46,669
+<font color="#E5E5E5">them to so anyways this is a</font><font color="#CCCCCC"> kb file TV</font>
+
+116
+00:04:46,669 --> 00:04:48,900
+<font color="#E5E5E5">requirement now how would</font><font color="#CCCCCC"> we do this</font>
+
+117
+00:04:48,900 --> 00:04:52,710
+well like a CSS stylesheet<font color="#E5E5E5"> first you're</font>
+
+118
+00:04:52,710 --> 00:04:55,319
+going<font color="#CCCCCC"> to have you</font><font color="#E5E5E5"> know the attribute so</font>
+
+119
+00:04:55,319 --> 00:04:57,810
+to speak so for us it's going to<font color="#E5E5E5"> be we</font>
+
+120
+00:04:57,810 --> 00:04:59,340
+<font color="#E5E5E5">want to say label now but this is</font>
+
+121
+00:04:59,340 --> 00:05:02,490
+<font color="#E5E5E5">basically it's a parent okay so this is</font>
+
+122
+00:05:02,490 --> 00:05:04,979
+referencing any time we use labels<font color="#E5E5E5"> so</font>
+
+123
+00:05:04,979 --> 00:05:07,289
+that's referencing right here but you
+
+124
+00:05:07,289 --> 00:05:08,669
+<font color="#CCCCCC">could</font><font color="#E5E5E5"> take it a step</font><font color="#CCCCCC"> further and</font><font color="#E5E5E5"> add</font>
+
+125
+00:05:08,669 --> 00:05:10,740
+other<font color="#CCCCCC"> attributes</font><font color="#E5E5E5"> within here we are</font>
+
+126
+00:05:10,740 --> 00:05:12,389
+going<font color="#CCCCCC"> to do</font><font color="#E5E5E5"> that but you</font><font color="#CCCCCC"> could actually</font>
+
+127
+00:05:12,389 --> 00:05:14,430
+have<font color="#E5E5E5"> a button or like other stuff within</font>
+
+128
+00:05:14,430 --> 00:05:16,830
+<font color="#E5E5E5">here there would be a child all the</font>
+
+129
+00:05:16,830 --> 00:05:19,919
+<font color="#CCCCCC">labels so</font><font color="#E5E5E5"> every child of a label with X</font>
+
+130
+00:05:19,919 --> 00:05:21,479
+attribute<font color="#CCCCCC"> would be a certain way but</font>
+
+131
+00:05:21,479 --> 00:05:23,279
+<font color="#E5E5E5">anyway not</font><font color="#CCCCCC"> to get too</font><font color="#E5E5E5"> far ahead of</font>
+
+132
+00:05:23,279 --> 00:05:25,620
+ourselves I will show<font color="#E5E5E5"> that when we get</font>
+
+133
+00:05:25,620 --> 00:05:28,289
+there<font color="#CCCCCC"> but anyway</font><font color="#E5E5E5"> so label</font><font color="#CCCCCC"> 1 2 3 4 just</font>
+
+134
+00:05:28,289 --> 00:05:29,219
+use the same kind of indentation
+
+135
+00:05:29,219 --> 00:05:31,469
+practices and then you can have your
+
+136
+00:05:31,469 --> 00:05:33,840
+<font color="#CCCCCC">actual values here so text we're saying</font>
+
+137
+00:05:33,840 --> 00:05:37,940
+<font color="#E5E5E5">text colon</font><font color="#CCCCCC"> and</font><font color="#E5E5E5"> then we can say</font><font color="#CCCCCC"> hello</font>
+
+138
+00:05:37,940 --> 00:05:42,120
+world<font color="#E5E5E5"> like this now that's it well it's</font>
+
+139
+00:05:42,120 --> 00:05:43,349
+all we're<font color="#E5E5E5"> going to add right this</font>
+
+140
+00:05:43,349 --> 00:05:45,240
+instant<font color="#CCCCCC"> and</font><font color="#E5E5E5"> what we can do now</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> we'll</font>
+
+141
+00:05:45,240 --> 00:05:48,629
+go file save<font color="#CCCCCC"> as and I'm going to save</font>
+
+142
+00:05:48,629 --> 00:05:53,550
+mine<font color="#E5E5E5"> um we'll go save file type as and</font>
+
+143
+00:05:53,550 --> 00:05:55,110
+go to the very<font color="#CCCCCC"> top and</font><font color="#E5E5E5"> we'll say all</font>
+
+144
+00:05:55,110 --> 00:05:58,529
+types so this gets saved here is like
+
+145
+00:05:58,529 --> 00:06:00,330
+all types like that and then what we're
+
+146
+00:06:00,330 --> 00:06:01,740
+<font color="#E5E5E5">going to do is we're going to save this</font>
+
+147
+00:06:01,740 --> 00:06:10,020
+as a simple<font color="#CCCCCC"> key v dot K</font><font color="#E5E5E5"> V okay so hit</font>
+
+148
+00:06:10,020 --> 00:06:14,729
+save<font color="#E5E5E5"> and then instead of return label</font>
+
+149
+00:06:14,729 --> 00:06:16,440
+and then specifying an attribute let's
+
+150
+00:06:16,440 --> 00:06:18,839
+just say return<font color="#E5E5E5"> label so there's nothing</font>
+
+151
+00:06:18,839 --> 00:06:20,759
+<font color="#E5E5E5">else there so we'll save that and</font><font color="#CCCCCC"> let's</font>
+
+152
+00:06:20,759 --> 00:06:23,279
+<font color="#CCCCCC">go ahead</font><font color="#E5E5E5"> and run that and</font><font color="#CCCCCC"> see if we</font><font color="#E5E5E5"> work</font>
+
+153
+00:06:23,279 --> 00:06:25,770
+no we didn't work hold on let's<font color="#E5E5E5"> see what</font>
+
+154
+00:06:25,770 --> 00:06:28,039
+says
+
+155
+00:06:30,760 --> 00:06:33,380
+apparently simple caveat<font color="#E5E5E5"> okay well I</font>
+
+156
+00:06:33,380 --> 00:06:35,300
+guess<font color="#E5E5E5"> I didn't</font><font color="#CCCCCC"> want</font><font color="#E5E5E5"> us to be all cat or</font>
+
+157
+00:06:35,300 --> 00:06:39,880
+to do camel casing<font color="#E5E5E5"> let's go</font>
+
+158
+00:06:39,880 --> 00:06:45,199
+<font color="#CCCCCC">where here it is okay so it was yelling</font>
+
+159
+00:06:45,199 --> 00:06:47,419
+at me<font color="#CCCCCC"> for the camel casing so I'm gonna</font>
+
+160
+00:06:47,419 --> 00:06:52,400
+on camel<font color="#E5E5E5"> case here</font><font color="#CCCCCC"> so simple kv or</font>
+
+161
+00:06:52,400 --> 00:06:54,500
+simple<font color="#CCCCCC"> ki</font><font color="#E5E5E5"> v under like all under case so</font>
+
+162
+00:06:54,500 --> 00:06:56,930
+I called it<font color="#CCCCCC"> capitalize cap</font><font color="#E5E5E5"> okay for some</font>
+
+163
+00:06:56,930 --> 00:06:58,340
+reason it didn't like that<font color="#CCCCCC"> I don't call</font>
+
+164
+00:06:58,340 --> 00:07:00,650
+that being an issue before<font color="#E5E5E5"> man I still</font>
+
+165
+00:07:00,650 --> 00:07:06,800
+getting angry at me simple<font color="#CCCCCC"> TV I'm</font>
+
+166
+00:07:06,800 --> 00:07:08,180
+looking at<font color="#CCCCCC"> it man I don't</font><font color="#E5E5E5"> know why</font>
+
+167
+00:07:08,180 --> 00:07:11,350
+you're<font color="#E5E5E5"> telling me you can't find it</font>
+
+168
+00:07:15,580 --> 00:07:18,290
+seems there's a<font color="#CCCCCC"> fist</font><font color="#E5E5E5"> ups and takes</font>
+
+169
+00:07:18,290 --> 00:07:25,789
+lessons TV<font color="#CCCCCC"> / simple TV oh it's not dot</font>
+
+170
+00:07:25,789 --> 00:07:34,039
+<font color="#E5E5E5">oh okay a simple TV</font><font color="#CCCCCC"> now I'm gonna go</font>
+
+171
+00:07:34,039 --> 00:07:37,039
+<font color="#E5E5E5">back I had used apparently a let's try</font>
+
+172
+00:07:37,039 --> 00:07:42,410
+this one<font color="#E5E5E5"> more time</font><font color="#CCCCCC"> okay save and run</font>
+
+173
+00:07:42,410 --> 00:07:45,919
+that there we go okay<font color="#E5E5E5"> so that's that's</font>
+
+174
+00:07:45,919 --> 00:07:47,840
+why okay<font color="#CCCCCC"> so the the problem was actually</font>
+
+175
+00:07:47,840 --> 00:07:51,020
+instead of dot<font color="#CCCCCC"> K V</font><font color="#E5E5E5"> I hit comma K V</font>
+
+176
+00:07:51,020 --> 00:07:53,539
+apparently so the camel casing was<font color="#CCCCCC"> fun I</font>
+
+177
+00:07:53,539 --> 00:07:55,070
+<font color="#CCCCCC">just reverted it back to the camel</font>
+
+178
+00:07:55,070 --> 00:07:57,650
+casing actually so now you can see we
+
+179
+00:07:57,650 --> 00:08:00,590
+have our<font color="#E5E5E5"> application hello world</font><font color="#CCCCCC"> just</font>
+
+180
+00:08:00,590 --> 00:08:02,450
+the same<font color="#E5E5E5"> as it was before</font><font color="#CCCCCC"> it's</font><font color="#E5E5E5"> just now</font>
+
+181
+00:08:02,450 --> 00:08:05,060
+we're<font color="#E5E5E5"> referencing this label now before</font>
+
+182
+00:08:05,060 --> 00:08:06,770
+<font color="#E5E5E5">we move too</font><font color="#CCCCCC"> much further I do want to</font>
+
+183
+00:08:06,770 --> 00:08:10,210
+show<font color="#CCCCCC"> that</font>
+
+184
+00:08:10,500 --> 00:08:14,490
+<font color="#E5E5E5">this one yeah there's the comma</font><font color="#CCCCCC"> it's</font>
+
+185
+00:08:14,490 --> 00:08:16,170
+kind of really<font color="#E5E5E5"> hard to see actually it</font>
+
+186
+00:08:16,170 --> 00:08:19,830
+is a comma<font color="#CCCCCC"> I'll just say no there and</font>
+
+187
+00:08:19,830 --> 00:08:22,280
+let me<font color="#CCCCCC"> open this up one last</font><font color="#E5E5E5"> time</font><font color="#CCCCCC"> and</font>
+
+188
+00:08:22,280 --> 00:08:25,290
+interestingly enough<font color="#E5E5E5"> the</font><font color="#CCCCCC"> quv language is</font>
+
+189
+00:08:25,290 --> 00:08:27,090
+kind<font color="#CCCCCC"> of like a I</font><font color="#E5E5E5"> don't know hybrid of</font>
+
+190
+00:08:27,090 --> 00:08:29,670
+Python almost and<font color="#CCCCCC"> so what you</font><font color="#E5E5E5"> can</font>
+
+191
+00:08:29,670 --> 00:08:32,070
+actually<font color="#CCCCCC"> say is text equals hello world</font>
+
+192
+00:08:32,070 --> 00:08:34,620
+<font color="#CCCCCC">but what if we said text equals</font><font color="#E5E5E5"> for</font>
+
+193
+00:08:34,620 --> 00:08:39,809
+example<font color="#E5E5E5"> hello world</font><font color="#CCCCCC"> and hello</font><font color="#E5E5E5"> plus space</font>
+
+194
+00:08:39,809 --> 00:08:42,890
+world let's say so we'll save<font color="#CCCCCC"> that</font><font color="#E5E5E5"> and</font>
+
+195
+00:08:42,890 --> 00:08:46,620
+we'll run it<font color="#E5E5E5"> and you still see that we</font>
+
+196
+00:08:46,620 --> 00:08:48,960
+have the exact same hello world<font color="#CCCCCC"> but then</font>
+
+197
+00:08:48,960 --> 00:08:50,640
+what<font color="#E5E5E5"> we can do is we can go in further</font>
+
+198
+00:08:50,640 --> 00:09:03,600
+<font color="#E5E5E5">and we can do hello world</font><font color="#CCCCCC"> and comma 1</font>
+
+199
+00:09:03,600 --> 00:09:09,300
+plus<font color="#CCCCCC"> 1 super get away with that we're an</font>
+
+200
+00:09:09,300 --> 00:09:11,820
+untested<font color="#E5E5E5"> territories at the moment I got</font>
+
+201
+00:09:11,820 --> 00:09:17,610
+angry<font color="#CCCCCC"> okay uh only accepts the string</font>
+
+202
+00:09:17,610 --> 00:09:19,740
+<font color="#CCCCCC">okay</font><font color="#E5E5E5"> that's fine</font><font color="#CCCCCC"> so anyway we'll come</font>
+
+203
+00:09:19,740 --> 00:09:22,080
+back<font color="#CCCCCC"> over here so that was actually a</font>
+
+204
+00:09:22,080 --> 00:09:25,260
+parameter issue<font color="#E5E5E5"> so let's just do string</font>
+
+205
+00:09:25,260 --> 00:09:27,089
+1<font color="#E5E5E5"> plus 1 let's see if we get</font><font color="#CCCCCC"> away with</font>
+
+206
+00:09:27,089 --> 00:09:32,430
+that version<font color="#E5E5E5"> at least still angry with</font>
+
+207
+00:09:32,430 --> 00:09:32,940
+me
+
+208
+00:09:32,940 --> 00:09:36,330
+source<font color="#E5E5E5"> I converted it to a string you</font>
+
+209
+00:09:36,330 --> 00:09:40,830
+make me very angry<font color="#CCCCCC"> um okay</font><font color="#E5E5E5"> well</font>
+
+210
+00:09:40,830 --> 00:09:44,220
+apparently<font color="#CCCCCC"> with our text labels it's</font>
+
+211
+00:09:44,220 --> 00:09:47,010
+very stringent as far as<font color="#E5E5E5"> uh that it just</font>
+
+212
+00:09:47,010 --> 00:09:50,790
+wants text elements only<font color="#E5E5E5"> but when you're</font>
+
+213
+00:09:50,790 --> 00:09:52,710
+not let's say you're<font color="#E5E5E5"> not using the text</font>
+
+214
+00:09:52,710 --> 00:09:54,180
+element<font color="#CCCCCC"> you can actually</font><font color="#E5E5E5"> incorporate</font>
+
+215
+00:09:54,180 --> 00:09:57,600
+Python logic<font color="#E5E5E5"> on the other side of the</font>
+
+216
+00:09:57,600 --> 00:09:59,220
+colon so<font color="#CCCCCC"> at least you</font><font color="#E5E5E5"> can see here with</font>
+
+217
+00:09:59,220 --> 00:10:02,550
+the plus we've incorporated<font color="#E5E5E5"> some Python</font>
+
+218
+00:10:02,550 --> 00:10:04,380
+logic but again this one's very
+
+219
+00:10:04,380 --> 00:10:06,990
+stringent<font color="#E5E5E5"> in it only wants text but</font>
+
+220
+00:10:06,990 --> 00:10:09,180
+maybe later I'll show<font color="#E5E5E5"> you guys some</font>
+
+221
+00:10:09,180 --> 00:10:12,720
+actual logic<font color="#E5E5E5"> within our</font><font color="#CCCCCC"> keavy language</font>
+
+222
+00:10:12,720 --> 00:10:15,150
+here<font color="#E5E5E5"> but like I</font><font color="#CCCCCC"> said I think the only</font>
+
+223
+00:10:15,150 --> 00:10:17,430
+reason you<font color="#E5E5E5"> would</font><font color="#CCCCCC"> use this dot KB is</font>
+
+224
+00:10:17,430 --> 00:10:19,770
+strictly<font color="#E5E5E5"> to actually separate the logic</font>
+
+225
+00:10:19,770 --> 00:10:23,490
+<font color="#CCCCCC">and make the keavy file just</font>
+
+226
+00:10:23,490 --> 00:10:24,250
+presentation
+
+227
+00:10:24,250 --> 00:10:26,620
+and the Python<font color="#CCCCCC"> file just logic but</font>
+
+228
+00:10:26,620 --> 00:10:29,440
+anyway that's that<font color="#CCCCCC"> so if you guys have</font>
+
+229
+00:10:29,440 --> 00:10:31,330
+any<font color="#E5E5E5"> questions or comments</font><font color="#CCCCCC"> please feel</font>
+
+230
+00:10:31,330 --> 00:10:32,890
+<font color="#CCCCCC">free to leave them below</font><font color="#E5E5E5"> otherwise as</font>
+
+231
+00:10:32,890 --> 00:10:34,240
+always thanks for watching things for
+
+232
+00:10:34,240 --> 00:10:35,530
+all<font color="#E5E5E5"> the supported subscriptions</font>
+
+233
+00:10:35,530 --> 00:00:00,000
+until next time
+

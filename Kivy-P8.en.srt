@@ -1,0 +1,456 @@
+1
+00:00:02,120 --> 00:00:04,200
+hello everybody<font color="#CCCCCC"> and welcome to the</font>
+
+2
+00:00:04,200 --> 00:00:07,080
+<font color="#E5E5E5">eighth TV basics tutorial video with</font>
+
+3
+00:00:07,080 --> 00:00:09,330
+<font color="#E5E5E5">Python in this video we're going to</font><font color="#CCCCCC"> make</font>
+
+4
+00:00:09,330 --> 00:00:13,320
+<font color="#CCCCCC">a sort of drawing application</font><font color="#E5E5E5"> so to do</font>
+
+5
+00:00:13,320 --> 00:00:15,240
+<font color="#E5E5E5">that</font><font color="#CCCCCC"> from</font><font color="#E5E5E5"> where we</font><font color="#CCCCCC"> are it's actually not</font>
+
+6
+00:00:15,240 --> 00:00:17,310
+very<font color="#E5E5E5"> much code because</font><font color="#CCCCCC"> we are already</font>
+
+7
+00:00:17,310 --> 00:00:19,859
+tracking<font color="#CCCCCC"> on touch</font><font color="#E5E5E5"> down on touch and on</font>
+
+8
+00:00:19,859 --> 00:00:22,260
+touch move<font color="#E5E5E5"> we actually aren't going to</font>
+
+9
+00:00:22,260 --> 00:00:24,480
+need on touch up but I'm<font color="#CCCCCC"> just</font><font color="#E5E5E5"> going to</font>
+
+10
+00:00:24,480 --> 00:00:25,980
+<font color="#E5E5E5">leave</font><font color="#CCCCCC"> it here because it's cool that we</font>
+
+11
+00:00:25,980 --> 00:00:28,560
+even have<font color="#CCCCCC"> that so with that let's go</font>
+
+12
+00:00:28,560 --> 00:00:31,170
+<font color="#CCCCCC">ahead and import one more thing and that</font>
+
+13
+00:00:31,170 --> 00:00:35,190
+<font color="#E5E5E5">is going to be from TV graphics we want</font>
+
+14
+00:00:35,190 --> 00:00:37,890
+to import<font color="#E5E5E5"> line with a capital L and</font>
+
+15
+00:00:37,890 --> 00:00:40,590
+that's to actually draw a line basically
+
+16
+00:00:40,590 --> 00:00:44,280
+<font color="#E5E5E5">now what we want to do is on touch down</font>
+
+17
+00:00:44,280 --> 00:00:48,120
+we want to begin<font color="#CCCCCC"> a line</font><font color="#E5E5E5"> so think of like</font>
+
+18
+00:00:48,120 --> 00:00:50,070
+<font color="#CCCCCC">you know you have a pencil you put the</font>
+
+19
+00:00:50,070 --> 00:00:51,629
+pencil to the paper<font color="#E5E5E5"> and it starts to</font>
+
+20
+00:00:51,629 --> 00:00:52,949
+<font color="#E5E5E5">make a mark and then as you drag it</font>
+
+21
+00:00:52,949 --> 00:00:54,899
+<font color="#E5E5E5">around it continues you know marking on</font>
+
+22
+00:00:54,899 --> 00:00:57,149
+the paper so that's what we<font color="#CCCCCC"> kind</font><font color="#E5E5E5"> of want</font>
+
+23
+00:00:57,149 --> 00:00:58,590
+to<font color="#E5E5E5"> do is want touch down if we want to</font>
+
+24
+00:00:58,590 --> 00:01:00,449
+begin<font color="#E5E5E5"> that mark and then we want to</font>
+
+25
+00:01:00,449 --> 00:01:02,730
+continue<font color="#CCCCCC"> that mark</font><font color="#E5E5E5"> as long as our touch</font>
+
+26
+00:01:02,730 --> 00:01:05,670
+is moving on even though in theory<font color="#E5E5E5"> you</font>
+
+27
+00:01:05,670 --> 00:01:07,229
+<font color="#CCCCCC">might think in your head</font><font color="#E5E5E5"> well don't we</font>
+
+28
+00:01:07,229 --> 00:01:10,290
+have<font color="#CCCCCC"> to do</font><font color="#E5E5E5"> something on touch up to stop</font>
+
+29
+00:01:10,290 --> 00:01:12,630
+the line drawing<font color="#E5E5E5"> no because on touch</font>
+
+30
+00:01:12,630 --> 00:01:15,000
+move<font color="#CCCCCC"> will just cease to exist anymore</font><font color="#E5E5E5"> so</font>
+
+31
+00:01:15,000 --> 00:01:16,950
+<font color="#CCCCCC">we actually don't</font><font color="#E5E5E5"> need to do</font><font color="#CCCCCC"> anything</font>
+
+32
+00:01:16,950 --> 00:01:19,950
+there but<font color="#E5E5E5"> anyway uh we need line and</font>
+
+33
+00:01:19,950 --> 00:01:22,380
+that's really all we have to add as far
+
+34
+00:01:22,380 --> 00:01:23,880
+as imports are concerned and<font color="#E5E5E5"> now we just</font>
+
+35
+00:01:23,880 --> 00:01:25,740
+<font color="#CCCCCC">need to code the on touch down</font><font color="#E5E5E5"> and move</font>
+
+36
+00:01:25,740 --> 00:01:30,540
+stuff so I'm going to<font color="#E5E5E5"> call this uh I</font>
+
+37
+00:01:30,540 --> 00:01:31,740
+don't<font color="#CCCCCC"> know</font>
+
+38
+00:01:31,740 --> 00:01:36,090
+draw<font color="#CCCCCC"> clash draw</font><font color="#E5E5E5"> input and then before we</font>
+
+39
+00:01:36,090 --> 00:01:38,009
+<font color="#CCCCCC">forget we need to take this right here</font>
+
+40
+00:01:38,009 --> 00:01:40,560
+<font color="#CCCCCC">and</font><font color="#E5E5E5"> instead of touch input down here it</font>
+
+41
+00:01:40,560 --> 00:01:42,780
+needs<font color="#CCCCCC"> to be draw input so I</font><font color="#E5E5E5"> just want to</font>
+
+42
+00:01:42,780 --> 00:01:44,790
+<font color="#E5E5E5">change that other than the other</font><font color="#CCCCCC"> mat</font>
+
+43
+00:01:44,790 --> 00:01:47,540
+we're ready<font color="#E5E5E5"> to go</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> now we say with</font>
+
+44
+00:01:47,540 --> 00:01:51,630
+self dot canvas and this is the<font color="#CCCCCC"> canvas</font>
+
+45
+00:01:51,630 --> 00:01:54,899
+of our application<font color="#CCCCCC"> so self dot canvas is</font>
+
+46
+00:01:54,899 --> 00:01:56,579
+just<font color="#CCCCCC"> referring to</font><font color="#E5E5E5"> that so you don't</font>
+
+47
+00:01:56,579 --> 00:01:58,619
+really need<font color="#E5E5E5"> to like define canvas or</font>
+
+48
+00:01:58,619 --> 00:02:01,770
+anything<font color="#E5E5E5"> so with self dot canvas what do</font>
+
+49
+00:02:01,770 --> 00:02:03,270
+we actually<font color="#CCCCCC"> want to do well we're going</font>
+
+50
+00:02:03,270 --> 00:02:08,190
+<font color="#E5E5E5">to say touch dot u D and you D now we're</font>
+
+51
+00:02:08,190 --> 00:02:10,470
+going<font color="#E5E5E5"> to reference the line element in</font>
+
+52
+00:02:10,470 --> 00:02:12,360
+there<font color="#E5E5E5"> and we're going</font><font color="#CCCCCC"> to say that is</font>
+
+53
+00:02:12,360 --> 00:02:13,720
+equal<font color="#CCCCCC"> to</font>
+
+54
+00:02:13,720 --> 00:02:15,490
+line<font color="#E5E5E5"> and we're going</font><font color="#CCCCCC"> to say the points</font>
+
+55
+00:02:15,490 --> 00:02:17,710
+<font color="#CCCCCC">over</font><font color="#E5E5E5"> that line is right now going to</font>
+
+56
+00:02:17,710 --> 00:02:20,320
+only be<font color="#E5E5E5"> a single point in the line but</font>
+
+57
+00:02:20,320 --> 00:02:24,640
+the points for now are equal to touch<font color="#E5E5E5"> X</font>
+
+58
+00:02:24,640 --> 00:02:28,270
+<font color="#CCCCCC">touch dot Y so literally the x and y</font>
+
+59
+00:02:28,270 --> 00:02:33,520
+values<font color="#E5E5E5"> of where we touch down so line at</font>
+
+60
+00:02:33,520 --> 00:02:37,420
+the<font color="#E5E5E5"> moment is literally just</font><font color="#CCCCCC"> actually a</font>
+
+61
+00:02:37,420 --> 00:02:39,730
+point it's not<font color="#E5E5E5"> really</font><font color="#CCCCCC"> a line it's simply</font>
+
+62
+00:02:39,730 --> 00:02:41,950
+a point but then what we do<font color="#CCCCCC"> is we've</font>
+
+63
+00:02:41,950 --> 00:02:44,260
+since we've got that now what we're
+
+64
+00:02:44,260 --> 00:02:46,510
+going to do is that should I'm going to
+
+65
+00:02:46,510 --> 00:02:47,770
+just<font color="#E5E5E5"> make sure</font><font color="#CCCCCC"> we</font><font color="#E5E5E5"> close that off right</font>
+
+66
+00:02:47,770 --> 00:02:50,260
+yes<font color="#E5E5E5"> so now we've got a line there and</font>
+
+67
+00:02:50,260 --> 00:02:52,360
+that will<font color="#CCCCCC"> actually show something but</font>
+
+68
+00:02:52,360 --> 00:02:56,080
+<font color="#E5E5E5">not very much</font><font color="#CCCCCC"> and now on</font><font color="#E5E5E5"> touch move what</font>
+
+69
+00:02:56,080 --> 00:02:57,130
+we want to do is we're<font color="#E5E5E5"> going to say</font>
+
+70
+00:02:57,130 --> 00:03:00,160
+touch<font color="#E5E5E5"> UD</font><font color="#CCCCCC"> and then again we're</font>
+
+71
+00:03:00,160 --> 00:03:02,040
+referencing<font color="#E5E5E5"> the line element</font><font color="#CCCCCC"> whoops</font>
+
+72
+00:03:02,040 --> 00:03:05,320
+line like this and then we're<font color="#E5E5E5"> going to</font>
+
+73
+00:03:05,320 --> 00:03:10,510
+say dot points plus equals and we want
+
+74
+00:03:10,510 --> 00:03:12,280
+to plus equals the exact same thing
+
+75
+00:03:12,280 --> 00:03:15,280
+pretty much<font color="#E5E5E5"> right here so plus equals</font>
+
+76
+00:03:15,280 --> 00:03:17,890
+this<font color="#E5E5E5"> so again this is</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> the this</font><font color="#CCCCCC"> is</font>
+
+77
+00:03:17,890 --> 00:03:19,630
+the line function<font color="#E5E5E5"> we're saying we</font>
+
+78
+00:03:19,630 --> 00:03:23,519
+already<font color="#CCCCCC"> established touch UD line equals</font>
+
+79
+00:03:23,519 --> 00:03:26,980
+line which we<font color="#CCCCCC"> imported up here and where</font>
+
+80
+00:03:26,980 --> 00:03:29,290
+we say the points of line so<font color="#E5E5E5"> where we</font>
+
+81
+00:03:29,290 --> 00:03:31,209
+basically<font color="#E5E5E5"> said line dot points because</font>
+
+82
+00:03:31,209 --> 00:03:33,910
+touch<font color="#E5E5E5"> UD a line is equal</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> basically</font>
+
+83
+00:03:33,910 --> 00:03:36,700
+<font color="#E5E5E5">this line right up here so now we're</font>
+
+84
+00:03:36,700 --> 00:03:38,860
+saying line dot points which<font color="#E5E5E5"> originally</font>
+
+85
+00:03:38,860 --> 00:03:41,019
+line dot points was touch just<font color="#CCCCCC"> X&Y of</font>
+
+86
+00:03:41,019 --> 00:03:42,940
+the original touch now we're saying we
+
+87
+00:03:42,940 --> 00:03:44,920
+want<font color="#CCCCCC"> to add to</font><font color="#E5E5E5"> those points and we're</font>
+
+88
+00:03:44,920 --> 00:03:47,410
+adding every single movement<font color="#E5E5E5"> of touch</font><font color="#CCCCCC"> X</font>
+
+89
+00:03:47,410 --> 00:03:49,540
+and touch<font color="#CCCCCC"> y we</font><font color="#E5E5E5"> just add all</font><font color="#CCCCCC"> of those</font>
+
+90
+00:03:49,540 --> 00:03:52,330
+movements<font color="#E5E5E5"> and that's really it that's</font>
+
+91
+00:03:52,330 --> 00:03:54,250
+all<font color="#CCCCCC"> we have to do with this and so now</font>
+
+92
+00:03:54,250 --> 00:03:58,510
+<font color="#CCCCCC">we can just</font><font color="#E5E5E5"> save and run this hopefully</font>
+
+93
+00:03:58,510 --> 00:04:00,910
+<font color="#E5E5E5">and here we have our application</font><font color="#CCCCCC"> and</font>
+
+94
+00:04:00,910 --> 00:04:03,280
+yeah sure enough you<font color="#E5E5E5"> can click and you</font>
+
+95
+00:04:03,280 --> 00:04:07,420
+<font color="#CCCCCC">can start to write things so</font><font color="#E5E5E5"> hi awesome</font>
+
+96
+00:04:07,420 --> 00:04:09,970
+<font color="#E5E5E5">and then we can</font><font color="#CCCCCC"> actually you know resize</font>
+
+97
+00:04:09,970 --> 00:04:11,410
+this<font color="#E5E5E5"> and we'll see that okay we just</font>
+
+98
+00:04:11,410 --> 00:04:15,640
+<font color="#E5E5E5">gained a lot</font><font color="#CCCCCC"> more space and now we</font><font color="#E5E5E5"> can</font>
+
+99
+00:04:15,640 --> 00:04:17,529
+write<font color="#E5E5E5"> even more stuff and I'm really</font>
+
+100
+00:04:17,529 --> 00:04:20,108
+<font color="#CCCCCC">good at writing</font><font color="#E5E5E5"> with the mouse tutorials</font>
+
+101
+00:04:20,108 --> 00:04:21,820
+<font color="#CCCCCC">you</font><font color="#E5E5E5"> probably won't even know that was</font>
+
+102
+00:04:21,820 --> 00:04:24,280
+tutorials immediately
+
+103
+00:04:24,280 --> 00:04:27,010
+anyway so that's that that's<font color="#CCCCCC"> pretty</font><font color="#E5E5E5"> much</font>
+
+104
+00:04:27,010 --> 00:04:31,000
+<font color="#E5E5E5">all</font><font color="#CCCCCC"> of the basics for</font><font color="#E5E5E5"> using</font><font color="#CCCCCC"> canvas</font>
+
+105
+00:04:31,000 --> 00:04:32,770
+anyways but that's<font color="#E5E5E5"> pretty cool like</font><font color="#CCCCCC"> how</font>
+
+106
+00:04:32,770 --> 00:04:35,800
+<font color="#E5E5E5">quickly you</font><font color="#CCCCCC"> can actually</font><font color="#E5E5E5"> you know</font>
+
+107
+00:04:35,800 --> 00:04:38,050
+reference the drawing ability in the
+
+108
+00:04:38,050 --> 00:04:41,590
+canvas ability of<font color="#CCCCCC"> TV</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> anyways I</font>
+
+109
+00:04:41,590 --> 00:04:42,940
+<font color="#E5E5E5">hopefully you guys enjoyed if you have</font>
+
+110
+00:04:42,940 --> 00:04:44,470
+any questions<font color="#CCCCCC"> or comments please please</font>
+
+111
+00:04:44,470 --> 00:04:45,760
+feel free to leave<font color="#E5E5E5"> them below otherwise</font>
+
+112
+00:04:45,760 --> 00:04:47,380
+as always thanks for watching<font color="#CCCCCC"> thanks for</font>
+
+113
+00:04:47,380 --> 00:04:49,450
+<font color="#E5E5E5">all the support subscriptions and until</font>
+
+114
+00:04:49,450 --> 00:00:00,000
+next time
+

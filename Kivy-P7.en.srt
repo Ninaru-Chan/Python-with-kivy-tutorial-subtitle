@@ -1,0 +1,756 @@
+1
+00:00:02,330 --> 00:00:05,190
+hello everybody<font color="#E5E5E5"> and</font><font color="#CCCCCC"> welcome to</font><font color="#E5E5E5"> part</font><font color="#CCCCCC"> 7 of</font>
+
+2
+00:00:05,190 --> 00:00:07,620
+<font color="#E5E5E5">our TV basics with</font><font color="#CCCCCC"> Python</font><font color="#E5E5E5"> tutorial</font>
+
+3
+00:00:07,620 --> 00:00:09,389
+series<font color="#E5E5E5"> in this video</font><font color="#CCCCCC"> we're going to</font><font color="#E5E5E5"> be</font>
+
+4
+00:00:09,389 --> 00:00:10,889
+talking about<font color="#E5E5E5"> is getting mouse input</font>
+
+5
+00:00:10,889 --> 00:00:13,740
+information<font color="#CCCCCC"> actually when I say</font><font color="#E5E5E5"> Mouse</font>
+
+6
+00:00:13,740 --> 00:00:16,350
+<font color="#E5E5E5">it's actually not just the mouse it's</font>
+
+7
+00:00:16,350 --> 00:00:21,119
+any coordinate input so to speak so if
+
+8
+00:00:21,119 --> 00:00:22,859
+you have a phone and you're<font color="#E5E5E5"> touching the</font>
+
+9
+00:00:22,859 --> 00:00:24,600
+<font color="#E5E5E5">phone this would include</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> kind of</font>
+
+10
+00:00:24,600 --> 00:00:26,789
+input<font color="#CCCCCC"> so again</font><font color="#E5E5E5"> that's kind of the point</font>
+
+11
+00:00:26,789 --> 00:00:28,439
+of<font color="#E5E5E5"> keavy is that we can have</font><font color="#CCCCCC"> actually</font>
+
+12
+00:00:28,439 --> 00:00:31,820
+multiple input to a device but anyways
+
+13
+00:00:31,820 --> 00:00:33,989
+that's<font color="#CCCCCC"> what</font><font color="#E5E5E5"> we're gonna cover now is how</font>
+
+14
+00:00:33,989 --> 00:00:36,210
+to get you know what's where<font color="#E5E5E5"> are the</font>
+
+15
+00:00:36,210 --> 00:00:37,500
+coordinates that<font color="#CCCCCC"> are being actually I</font>
+
+16
+00:00:37,500 --> 00:00:39,719
+don't<font color="#E5E5E5"> know input or clicked or I don't</font>
+
+17
+00:00:39,719 --> 00:00:41,190
+know what you would touched<font color="#E5E5E5"> because</font>
+
+18
+00:00:41,190 --> 00:00:42,360
+<font color="#E5E5E5">that's literally what it's being called</font>
+
+19
+00:00:42,360 --> 00:00:44,129
+as a touch so I guess that's<font color="#CCCCCC"> probably</font>
+
+20
+00:00:44,129 --> 00:00:45,899
+the best<font color="#E5E5E5"> thing</font><font color="#CCCCCC"> to do</font><font color="#E5E5E5"> so we're gonna be</font>
+
+21
+00:00:45,899 --> 00:00:49,440
+<font color="#E5E5E5">touching stuff</font><font color="#CCCCCC"> okay so now this is</font><font color="#E5E5E5"> where</font>
+
+22
+00:00:49,440 --> 00:00:50,789
+we<font color="#E5E5E5"> left off we had this nice little</font>
+
+23
+00:00:50,789 --> 00:00:52,739
+application<font color="#E5E5E5"> that's cool</font>
+
+24
+00:00:52,739 --> 00:00:55,140
+we could work with<font color="#CCCCCC"> that</font><font color="#E5E5E5"> a little bit</font>
+
+25
+00:00:55,140 --> 00:00:56,820
+more<font color="#E5E5E5"> later in buttons and all that but</font>
+
+26
+00:00:56,820 --> 00:00:58,260
+for<font color="#CCCCCC"> now we're</font><font color="#E5E5E5"> going to again kind</font><font color="#CCCCCC"> of</font>
+
+27
+00:00:58,260 --> 00:00:59,670
+break this down<font color="#CCCCCC"> to a really simple</font>
+
+28
+00:00:59,670 --> 00:01:02,489
+element so<font color="#E5E5E5"> you can see at the most basic</font>
+
+29
+00:01:02,489 --> 00:01:05,220
+<font color="#CCCCCC">level</font><font color="#E5E5E5"> what's involved in getting a mouse</font>
+
+30
+00:01:05,220 --> 00:01:06,960
+you know input or a finger input or
+
+31
+00:01:06,960 --> 00:01:10,799
+whatever so uh we're going to<font color="#E5E5E5"> delete</font>
+
+32
+00:01:10,799 --> 00:01:14,010
+this we don't<font color="#CCCCCC"> really actually</font><font color="#E5E5E5"> delete</font>
+
+33
+00:01:14,010 --> 00:01:15,390
+that<font color="#E5E5E5"> I'm gonna just rename it basically</font>
+
+34
+00:01:15,390 --> 00:01:19,500
+<font color="#E5E5E5">but from</font><font color="#CCCCCC"> kvu</font><font color="#E5E5E5"> Y X dot widget</font><font color="#CCCCCC"> now we're</font>
+
+35
+00:01:19,500 --> 00:01:21,540
+going<font color="#E5E5E5"> to import just widget again we'll</font>
+
+36
+00:01:21,540 --> 00:01:25,049
+use<font color="#CCCCCC"> that for now</font><font color="#E5E5E5"> and now we need a new</font>
+
+37
+00:01:25,049 --> 00:01:29,060
+class<font color="#E5E5E5"> so we're going to say class uh</font>
+
+38
+00:01:29,060 --> 00:01:31,729
+we're going to<font color="#E5E5E5"> call this class</font><font color="#CCCCCC"> touch</font>
+
+39
+00:01:31,729 --> 00:01:35,280
+touch input and it's just going<font color="#E5E5E5"> to</font>
+
+40
+00:01:35,280 --> 00:01:39,780
+inherit<font color="#E5E5E5"> from widget and then we'll do :</font>
+
+41
+00:01:39,780 --> 00:01:43,790
+and now we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> define def um on</font>
+
+42
+00:01:43,790 --> 00:01:46,979
+underscore touch underscore down and
+
+43
+00:01:46,979 --> 00:01:50,820
+then self just for typical standards
+
+44
+00:01:50,820 --> 00:01:55,740
+there<font color="#E5E5E5"> and then touch ok so then : now</font>
+
+45
+00:01:55,740 --> 00:02:00,329
+let's just print the touch now this on
+
+46
+00:02:00,329 --> 00:02:03,990
+touch down is<font color="#CCCCCC"> key V code okay so</font><font color="#E5E5E5"> bring</font>
+
+47
+00:02:03,990 --> 00:02:08,280
+<font color="#E5E5E5">this up and over so here we go input</font>
+
+48
+00:02:08,280 --> 00:02:10,050
+management<font color="#E5E5E5"> okay</font><font color="#CCCCCC"> so if you go to kiva.org</font>
+
+49
+00:02:10,050 --> 00:02:13,040
+<font color="#CCCCCC">then go to docs</font><font color="#E5E5E5"> guide</font>
+
+50
+00:02:13,040 --> 00:02:14,659
+and we come<font color="#CCCCCC"> down to</font><font color="#E5E5E5"> input management</font>
+
+51
+00:02:14,659 --> 00:02:16,939
+here you can see these are basically all
+
+52
+00:02:16,939 --> 00:02:18,709
+of<font color="#CCCCCC"> the things that</font><font color="#E5E5E5"> you have at</font><font color="#CCCCCC"> your</font>
+
+53
+00:02:18,709 --> 00:02:21,530
+disposal<font color="#E5E5E5"> on touch down on touch move on</font>
+
+54
+00:02:21,530 --> 00:02:24,290
+touch up which basically means a release
+
+55
+00:02:24,290 --> 00:02:26,540
+<font color="#E5E5E5">right so you can hold your mouse key</font>
+
+56
+00:02:26,540 --> 00:02:28,659
+down<font color="#CCCCCC"> and then you can you know</font><font color="#E5E5E5"> let it go</font>
+
+57
+00:02:28,659 --> 00:02:31,310
+so you've got those or you<font color="#CCCCCC"> can you know</font>
+
+58
+00:02:31,310 --> 00:02:32,900
+<font color="#E5E5E5">touch the screen</font><font color="#CCCCCC"> and stop touching the</font>
+
+59
+00:02:32,900 --> 00:02:35,870
+<font color="#E5E5E5">screen and so on anyway this on touch</font>
+
+60
+00:02:35,870 --> 00:02:39,079
+down for<font color="#E5E5E5"> example is a kind</font><font color="#CCCCCC"> of like part</font>
+
+61
+00:02:39,079 --> 00:02:42,200
+of you know<font color="#CCCCCC"> TV almost</font><font color="#E5E5E5"> so anyway on touch</font>
+
+62
+00:02:42,200 --> 00:02:46,400
+down<font color="#E5E5E5"> self touch moving over what we're</font>
+
+63
+00:02:46,400 --> 00:02:48,170
+going to<font color="#E5E5E5"> do now is we're just printing</font>
+
+64
+00:02:48,170 --> 00:02:49,730
+<font color="#CCCCCC">the touch so that's easy enough</font>
+
+65
+00:02:49,730 --> 00:02:52,250
+instead of having simple<font color="#E5E5E5"> TV for return</font>
+
+66
+00:02:52,250 --> 00:02:54,200
+float layout however<font color="#E5E5E5"> we're going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> have</font>
+
+67
+00:02:54,200 --> 00:02:58,129
+it<font color="#CCCCCC"> return</font><font color="#E5E5E5"> touch input and that should</font>
+
+68
+00:02:58,129 --> 00:03:00,230
+<font color="#CCCCCC">really be it as far as adding touch</font>
+
+69
+00:03:00,230 --> 00:03:01,849
+input is concerned<font color="#CCCCCC"> now we should see it</font>
+
+70
+00:03:01,849 --> 00:03:05,239
+printed<font color="#CCCCCC"> out to our console so here is</font>
+
+71
+00:03:05,239 --> 00:03:08,419
+our TV application<font color="#E5E5E5"> here is our console</font>
+
+72
+00:03:08,419 --> 00:03:12,260
+let's<font color="#E5E5E5"> make some clicks</font><font color="#CCCCCC"> okay so as you</font>
+
+73
+00:03:12,260 --> 00:03:16,209
+<font color="#E5E5E5">can</font><font color="#CCCCCC"> see as we click we get various</font>
+
+74
+00:03:16,209 --> 00:03:19,909
+elements here for the position<font color="#CCCCCC"> okay</font>
+
+75
+00:03:19,909 --> 00:03:23,389
+and<font color="#E5E5E5"> so let's click</font><font color="#CCCCCC"> write right here for</font>
+
+76
+00:03:23,389 --> 00:03:26,120
+example<font color="#CCCCCC"> so if we click right here we get</font>
+
+77
+00:03:26,120 --> 00:03:27,620
+<font color="#E5E5E5">a couple of</font><font color="#CCCCCC"> things right we get</font>
+
+78
+00:03:27,620 --> 00:03:32,419
+<font color="#CCCCCC">basically the you</font><font color="#E5E5E5"> wear it so</font><font color="#CCCCCC"> here and</font>
+
+79
+00:03:32,419 --> 00:03:34,579
+then let's click see this would be<font color="#E5E5E5"> zeros</font>
+
+80
+00:03:34,579 --> 00:03:37,579
+<font color="#E5E5E5">here let's click</font><font color="#CCCCCC"> here okay</font><font color="#E5E5E5"> so I remember</font>
+
+81
+00:03:37,579 --> 00:03:40,069
+<font color="#E5E5E5">what I was talking</font><font color="#CCCCCC"> about before with</font>
+
+82
+00:03:40,069 --> 00:03:43,159
+using<font color="#CCCCCC"> X&Y</font><font color="#E5E5E5"> and zero is nothingness and</font>
+
+83
+00:03:43,159 --> 00:03:45,650
+one is fullness<font color="#CCCCCC"> so as you</font><font color="#E5E5E5"> can</font><font color="#CCCCCC"> see we</font>
+
+84
+00:03:45,650 --> 00:03:47,150
+clicked right<font color="#CCCCCC"> at the bottom left corner</font>
+
+85
+00:03:47,150 --> 00:03:50,329
+<font color="#E5E5E5">and pretty close to zero elements then</font>
+
+86
+00:03:50,329 --> 00:03:53,090
+<font color="#CCCCCC">we click kind of towards the top right</font>
+
+87
+00:03:53,090 --> 00:03:55,879
+there<font color="#E5E5E5"> almost</font><font color="#CCCCCC"> a</font><font color="#E5E5E5"> 1:1 so you get that</font>
+
+88
+00:03:55,879 --> 00:03:59,500
+<font color="#E5E5E5">information</font><font color="#CCCCCC"> plus you get the actual</font><font color="#E5E5E5"> X&Y</font>
+
+89
+00:03:59,500 --> 00:04:02,810
+coordinate information<font color="#CCCCCC"> so this is a</font>
+
+90
+00:04:02,810 --> 00:04:05,449
+little more relative so if you're
+
+91
+00:04:05,449 --> 00:04:06,799
+expecting that<font color="#E5E5E5"> you're going to be using</font>
+
+92
+00:04:06,799 --> 00:04:08,750
+<font color="#CCCCCC">a lot of</font><font color="#E5E5E5"> different sizes</font><font color="#CCCCCC"> and you want</font>
+
+93
+00:04:08,750 --> 00:04:10,519
+more<font color="#CCCCCC"> of the relative</font><font color="#E5E5E5"> because you might</font>
+
+94
+00:04:10,519 --> 00:04:12,829
+be<font color="#CCCCCC"> using a float layout for example this</font>
+
+95
+00:04:12,829 --> 00:04:15,139
+might be the superior<font color="#E5E5E5"> method to use</font>
+
+96
+00:04:15,139 --> 00:04:17,180
+<font color="#E5E5E5">because position might change and then</font>
+
+97
+00:04:17,180 --> 00:04:19,488
+<font color="#E5E5E5">you would have to input all kind I don't</font>
+
+98
+00:04:19,488 --> 00:04:20,839
+know some<font color="#CCCCCC"> sort of algorithm to calculate</font>
+
+99
+00:04:20,839 --> 00:04:22,639
+<font color="#E5E5E5">what are the new dimensions or where</font>
+
+100
+00:04:22,639 --> 00:04:25,729
+might the new<font color="#E5E5E5"> I don't know think</font><font color="#CCCCCC"> that</font>
+
+101
+00:04:25,729 --> 00:04:26,400
+the<font color="#E5E5E5"> person's</font>
+
+102
+00:04:26,400 --> 00:04:28,740
+possibly clicking<font color="#CCCCCC"> B&R</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> closed a lot of</font>
+
+103
+00:04:28,740 --> 00:04:30,810
+it is a lot<font color="#CCCCCC"> of</font><font color="#E5E5E5"> what</font><font color="#CCCCCC"> goes on in game</font>
+
+104
+00:04:30,810 --> 00:04:33,570
+development<font color="#E5E5E5"> GUI development is where is</font>
+
+105
+00:04:33,570 --> 00:04:35,070
+the user clicking and are they actually
+
+106
+00:04:35,070 --> 00:04:37,020
+clicking on something<font color="#E5E5E5"> or especially in a</font>
+
+107
+00:04:37,020 --> 00:04:39,419
+game<font color="#CCCCCC"> has there been a collision</font><font color="#E5E5E5"> or have</font>
+
+108
+00:04:39,419 --> 00:04:42,290
+we actually<font color="#E5E5E5"> shot the</font><font color="#CCCCCC"> person or</font><font color="#E5E5E5"> whatever</font>
+
+109
+00:04:42,290 --> 00:04:45,150
+<font color="#CCCCCC">so it for it</font><font color="#E5E5E5"> to have this is actually</font>
+
+110
+00:04:45,150 --> 00:04:46,680
+<font color="#CCCCCC">quite nice</font><font color="#E5E5E5"> because it's more</font><font color="#CCCCCC"> of a</font>
+
+111
+00:04:46,680 --> 00:04:49,350
+relative positioning<font color="#E5E5E5"> not an actual hard</font>
+
+112
+00:04:49,350 --> 00:04:54,840
+static-x<font color="#CCCCCC"> and</font><font color="#E5E5E5"> why anyway</font><font color="#CCCCCC"> that's that I'm</font>
+
+113
+00:04:54,840 --> 00:04:56,940
+actually<font color="#E5E5E5"> gonna like well</font><font color="#CCCCCC"> IIM</font><font color="#E5E5E5"> fitting the</font>
+
+114
+00:04:56,940 --> 00:04:58,500
+other one<font color="#CCCCCC"> too so</font><font color="#E5E5E5"> so another thing that</font>
+
+115
+00:04:58,500 --> 00:05:00,000
+<font color="#E5E5E5">you might</font><font color="#CCCCCC"> want to have is you might want</font>
+
+116
+00:05:00,000 --> 00:05:02,280
+<font color="#CCCCCC">to have just general Mouse position</font><font color="#E5E5E5"> but</font>
+
+117
+00:05:02,280 --> 00:05:06,990
+a probably<font color="#CCCCCC"> not and and</font><font color="#E5E5E5"> also the reason</font>
+
+118
+00:05:06,990 --> 00:05:09,180
+why<font color="#CCCCCC"> that's not really useful for</font><font color="#E5E5E5"> keavy</font>
+
+119
+00:05:09,180 --> 00:05:16,500
+is the idea of<font color="#E5E5E5"> key</font><font color="#CCCCCC"> v is to be um a you</font>
+
+120
+00:05:16,500 --> 00:05:19,020
+know all kinds of applications<font color="#CCCCCC"> so in</font>
+
+121
+00:05:19,020 --> 00:05:23,820
+theory<font color="#CCCCCC"> 8</font><font color="#E5E5E5"> with</font><font color="#CCCCCC"> kv</font><font color="#E5E5E5"> to work on a phone you</font>
+
+122
+00:05:23,820 --> 00:05:25,710
+can't<font color="#E5E5E5"> really have a mouse like just</font>
+
+123
+00:05:25,710 --> 00:05:27,630
+general<font color="#CCCCCC"> mouse position on a phone like</font>
+
+124
+00:05:27,630 --> 00:05:28,979
+the only way you would<font color="#CCCCCC"> possibly do that</font>
+
+125
+00:05:28,979 --> 00:05:31,160
+<font color="#E5E5E5">is by</font><font color="#CCCCCC"> using</font><font color="#E5E5E5"> your phone and like</font><font color="#CCCCCC"> in</font>
+
+126
+00:05:31,160 --> 00:05:33,510
+<font color="#E5E5E5">touchdown and then move</font><font color="#CCCCCC"> right</font><font color="#E5E5E5"> otherwise</font>
+
+127
+00:05:33,510 --> 00:05:35,970
+you can't move a mouse<font color="#CCCCCC"> so the same</font><font color="#E5E5E5"> thing</font>
+
+128
+00:05:35,970 --> 00:05:38,220
+is<font color="#CCCCCC"> true over here</font><font color="#E5E5E5"> so the only so the</font>
+
+129
+00:05:38,220 --> 00:05:39,360
+<font color="#E5E5E5">next thing you would really want to</font>
+
+130
+00:05:39,360 --> 00:05:42,870
+track is after a touchdown<font color="#CCCCCC"> where is the</font>
+
+131
+00:05:42,870 --> 00:05:44,310
+<font color="#CCCCCC">movement and then obviously you</font><font color="#E5E5E5"> would</font>
+
+132
+00:05:44,310 --> 00:05:45,900
+want<font color="#CCCCCC"> to track maybe</font><font color="#E5E5E5"> a touch up movement</font>
+
+133
+00:05:45,900 --> 00:05:49,380
+so for example let's um let's<font color="#CCCCCC"> just close</font>
+
+134
+00:05:49,380 --> 00:05:51,270
+out of this and<font color="#CCCCCC"> so we've got on touch</font>
+
+135
+00:05:51,270 --> 00:05:55,740
+<font color="#CCCCCC">down now we can do define on underscore</font>
+
+136
+00:05:55,740 --> 00:05:59,160
+touch underscore move again it's just
+
+137
+00:05:59,160 --> 00:06:04,530
+self<font color="#E5E5E5"> touch polling print touch</font><font color="#CCCCCC"> okay</font><font color="#E5E5E5"> so</font>
+
+138
+00:06:04,530 --> 00:06:08,630
+basically the same parameters<font color="#E5E5E5"> and then I</font>
+
+139
+00:06:08,630 --> 00:06:10,680
+believe the other<font color="#E5E5E5"> one is just touch up</font>
+
+140
+00:06:10,680 --> 00:06:12,000
+so I was<font color="#E5E5E5"> going to go</font><font color="#CCCCCC"> ahead and just add</font>
+
+141
+00:06:12,000 --> 00:06:16,080
+that one as<font color="#CCCCCC"> well on touch up right so</font>
+
+142
+00:06:16,080 --> 00:06:17,580
+then let's<font color="#E5E5E5"> go</font><font color="#CCCCCC"> ahead let's just copy this</font>
+
+143
+00:06:17,580 --> 00:06:19,560
+because it's basically all<font color="#CCCCCC"> the same</font><font color="#E5E5E5"> so</font>
+
+144
+00:06:19,560 --> 00:06:23,520
+<font color="#E5E5E5">copy paste on touch move now</font><font color="#CCCCCC"> on</font><font color="#E5E5E5"> touch up</font>
+
+145
+00:06:23,520 --> 00:06:30,720
+and print let's just add here at least
+
+146
+00:06:30,720 --> 00:06:34,160
+<font color="#CCCCCC">oh okay save and run that real quick</font>
+
+147
+00:06:34,160 --> 00:06:37,920
+<font color="#E5E5E5">okay so now let</font><font color="#CCCCCC"> me</font><font color="#E5E5E5"> move this</font><font color="#CCCCCC"> down so you</font>
+
+148
+00:06:37,920 --> 00:06:40,260
+can<font color="#E5E5E5"> see it whizzing by and so we're</font>
+
+149
+00:06:40,260 --> 00:06:41,670
+holding<font color="#E5E5E5"> the mouse now and we're moving</font>
+
+150
+00:06:41,670 --> 00:06:43,710
+<font color="#E5E5E5">around we can see</font><font color="#CCCCCC"> all those elements</font><font color="#E5E5E5"> and</font>
+
+151
+00:06:43,710 --> 00:06:45,330
+then<font color="#E5E5E5"> we release</font><font color="#CCCCCC"> and sure enough we got</font>
+
+152
+00:06:45,330 --> 00:06:47,370
+our released message so<font color="#E5E5E5"> this is where</font>
+
+153
+00:06:47,370 --> 00:06:48,690
+the mouse was released in the
+
+154
+00:06:48,690 --> 00:06:50,780
+<font color="#E5E5E5">coordinates and then again the general</font>
+
+155
+00:06:50,780 --> 00:06:53,490
+relative<font color="#E5E5E5"> I don't know trying to think of</font>
+
+156
+00:06:53,490 --> 00:06:56,390
+a better better word for<font color="#CCCCCC"> it but anyway</font>
+
+157
+00:06:56,390 --> 00:06:58,620
+<font color="#CCCCCC">but</font><font color="#E5E5E5"> yeah so</font><font color="#CCCCCC"> that was where I was raised</font>
+
+158
+00:06:58,620 --> 00:07:01,050
+in terms of<font color="#E5E5E5"> 0</font><font color="#CCCCCC"> &</font><font color="#E5E5E5"> 1</font><font color="#CCCCCC"> so I suppose for</font>
+
+159
+00:07:01,050 --> 00:07:04,980
+relative or normalized maybe<font color="#E5E5E5"> I think of</font>
+
+160
+00:07:04,980 --> 00:07:08,490
+a good<font color="#E5E5E5"> word for it anyway so that's how</font>
+
+161
+00:07:08,490 --> 00:07:10,140
+you<font color="#E5E5E5"> get like Mouse events and stuff like</font>
+
+162
+00:07:10,140 --> 00:07:11,790
+that<font color="#CCCCCC"> and so from here we</font><font color="#E5E5E5"> can actually do</font>
+
+163
+00:07:11,790 --> 00:07:14,610
+<font color="#CCCCCC">quite a few</font><font color="#E5E5E5"> cool stuff and I think</font><font color="#CCCCCC"> my</font>
+
+164
+00:07:14,610 --> 00:07:15,990
+<font color="#E5E5E5">favorite example has always been the</font>
+
+165
+00:07:15,990 --> 00:07:17,970
+paint application<font color="#CCCCCC"> and because it kind of</font>
+
+166
+00:07:17,970 --> 00:07:20,640
+shows<font color="#CCCCCC"> off the canvas ability of keavy so</font>
+
+167
+00:07:20,640 --> 00:07:22,320
+keavy has a pretty<font color="#CCCCCC"> cool canvas ability</font>
+
+168
+00:07:22,320 --> 00:07:23,790
+and we can actually<font color="#E5E5E5"> draw</font><font color="#CCCCCC"> on the canvas</font>
+
+169
+00:07:23,790 --> 00:07:26,480
+with our mouse and since we now have
+
+170
+00:07:26,480 --> 00:07:28,860
+what's required to<font color="#CCCCCC"> track when the mouse</font>
+
+171
+00:07:28,860 --> 00:07:31,050
+is<font color="#CCCCCC"> pressed</font><font color="#E5E5E5"> when the mouse</font><font color="#CCCCCC"> moves and</font>
+
+172
+00:07:31,050 --> 00:07:32,730
+where that<font color="#CCCCCC"> mouse moves</font><font color="#E5E5E5"> like literally</font>
+
+173
+00:07:32,730 --> 00:07:34,650
+every<font color="#CCCCCC"> movement is being tracked here</font>
+
+174
+00:07:34,650 --> 00:07:36,780
+<font color="#E5E5E5">where the mouse moves and then when it's</font>
+
+175
+00:07:36,780 --> 00:07:39,480
+<font color="#E5E5E5">done moving we have</font><font color="#CCCCCC"> all that so moving</font>
+
+176
+00:07:39,480 --> 00:07:41,669
+<font color="#E5E5E5">and creating some sort of paint</font>
+
+177
+00:07:41,669 --> 00:07:43,020
+application or somewhere<font color="#CCCCCC"> where we can</font>
+
+178
+00:07:43,020 --> 00:07:46,790
+actually draw<font color="#E5E5E5"> like you know</font><font color="#CCCCCC"> hi okay</font>
+
+179
+00:07:46,790 --> 00:07:48,930
+<font color="#CCCCCC">should be relatively simple from</font><font color="#E5E5E5"> here</font>
+
+180
+00:07:48,930 --> 00:07:51,450
+<font color="#E5E5E5">right</font><font color="#CCCCCC"> so anyways that's</font><font color="#E5E5E5"> what we're going</font>
+
+181
+00:07:51,450 --> 00:07:53,580
+<font color="#CCCCCC">to be moving</font><font color="#E5E5E5"> on to in the next video is</font>
+
+182
+00:07:53,580 --> 00:07:55,200
+<font color="#CCCCCC">just creating</font><font color="#E5E5E5"> like a simple application</font>
+
+183
+00:07:55,200 --> 00:07:58,080
+<font color="#CCCCCC">where we</font><font color="#E5E5E5"> can draw stuff to the actual</font>
+
+184
+00:07:58,080 --> 00:08:00,390
+<font color="#CCCCCC">screen so stay tuned for that</font><font color="#E5E5E5"> if you</font>
+
+185
+00:08:00,390 --> 00:08:01,919
+guys have any<font color="#E5E5E5"> questions or comments</font><font color="#CCCCCC"> on</font>
+
+186
+00:08:01,919 --> 00:08:03,030
+this<font color="#CCCCCC"> video please feel free to leave</font>
+
+187
+00:08:03,030 --> 00:08:04,770
+<font color="#E5E5E5">them below otherwise as always thanks</font>
+
+188
+00:08:04,770 --> 00:08:05,729
+for watching<font color="#E5E5E5"> thanks</font><font color="#CCCCCC"> for</font><font color="#E5E5E5"> all the support</font>
+
+189
+00:08:05,729 --> 00:00:00,000
+subscriptions<font color="#E5E5E5"> until next time</font>
+

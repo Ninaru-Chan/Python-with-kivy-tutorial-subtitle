@@ -1,0 +1,448 @@
+1
+00:00:02,360 --> 00:00:04,440
+ wat aan die gang is <font color="#E5E5E5">almal welkom </font><font color="#CCCCCC">om </font>
+
+2
+00:00:04,440 --> 00:00:06,990
+ die vyfde TV-basiese beginsels met python-tutoriaal 
+
+3
+00:00:06,990 --> 00:00:08,910
+ video in <font color="#E5E5E5">hierdie video gaan ons net </font>
+
+4
+00:00:08,910 --> 00:00:13,429
+ <font color="#E5E5E5">Voeg stadig </font><font color="#CCCCCC">by die laaste video so </font>
+
+5
+00:00:13,429 --> 00:00:15,150
+ <font color="#E5E5E5">Wat </font><font color="#CCCCCC">ek gaan doen, is ek gaan </font>
+
+6
+00:00:15,150 --> 00:00:19,020
+ noem <font color="#E5E5E5">dit nou eenvoudige </font><font color="#CCCCCC">sleutel </font><font color="#E5E5E5">VIII se </font><font color="#CCCCCC">TV 3 </font>
+
+7
+00:00:19,020 --> 00:00:23,910
+ stoor dit en my verwysde <font color="#CCCCCC">kv lêer sal </font>
+
+8
+00:00:23,910 --> 00:00:29,970
+ <font color="#CCCCCC">wees eenvoudige sleutel v </font><font color="#E5E5E5">3 hier </font><font color="#CCCCCC">ok, laat ons net </font>
+
+9
+00:00:29,970 --> 00:00:31,230
+ <font color="#CCCCCC">hardloop wat seker maak dat ek </font><font color="#E5E5E5">alles </font><font color="#CCCCCC">gedoen </font><font color="#E5E5E5">het </font>
+
+10
+00:00:31,230 --> 00:00:33,030
+ korrek het ek <font color="#E5E5E5">gedoen </font>
+
+11
+00:00:33,030 --> 00:00:36,180
+ Dit lyk <font color="#CCCCCC">goed asof ek gesê het </font>
+
+12
+00:00:36,180 --> 00:00:41,690
+ <font color="#E5E5E5">voor wat as jy byvoorbeeld het </font>
+
+13
+00:00:41,690 --> 00:00:47,340
+ <font color="#E5E5E5">Kom ons doen 'n stokknoppie hier, so </font><font color="#CCCCCC">ons het </font>
+
+14
+00:00:47,340 --> 00:00:49,680
+ het <font color="#E5E5E5">knoppies by die knoppies en dan het jy dit </font>
+
+15
+00:00:49,680 --> 00:00:52,980
+ Ons sien hier ons het 'n lettergrootte <font color="#E5E5E5">40 font </font>
+
+16
+00:00:52,980 --> 00:00:55,110
+ grootte 40 Wel, as ons dit so gedoen het 
+
+17
+00:00:55,110 --> 00:00:57,750
+ font grootte 40 <font color="#CCCCCC">ok dit is goed, so ek gaan </font>
+
+18
+00:00:57,750 --> 00:01:00,059
+ <font color="#CCCCCC">om dit te sny en </font><font color="#E5E5E5">nou </font><font color="#CCCCCC">sal hier kom en </font>
+
+19
+00:01:00,059 --> 00:01:04,019
+ kom ons sê knoppie as die <font color="#CCCCCC">ouer: </font>
+
+20
+00:01:04,019 --> 00:01:09,560
+ <font color="#E5E5E5">1 2 3 4 plak </font><font color="#CCCCCC">lettergrootte 40 wieops 40 </font>
+
+21
+00:01:09,560 --> 00:01:15,330
+ behalwe dat ons dit nou laat hardloop en <font color="#E5E5E5">jy kan </font>
+
+22
+00:01:15,330 --> 00:01:17,759
+ sien nou, ons het grootte 40 op albei 
+
+23
+00:01:17,759 --> 00:01:19,890
+ knoppies, <font color="#E5E5E5">maar ons hoef nie te spesifiseer nie </font>
+
+24
+00:01:19,890 --> 00:01:23,430
+ <font color="#CCCCCC">dit omdat ons nou 'n ouer gebruik </font>
+
+25
+00:01:23,430 --> 00:01:25,110
+ knoppie sodat ons dieselfde <font color="#CCCCCC">ding kon doen </font>
+
+26
+00:01:25,110 --> 00:01:29,900
+ <font color="#CCCCCC">weereens, </font><font color="#E5E5E5">ons sê die grootte sal dit sny </font>
+
+27
+00:01:29,900 --> 00:01:34,590
+ los <font color="#E5E5E5">plak daardie posisie moet </font><font color="#CCCCCC">wees </font>
+
+28
+00:01:34,590 --> 00:01:37,170
+ jy ken persoonlike <font color="#E5E5E5">en dan ken jy kleur </font>
+
+29
+00:01:37,170 --> 00:01:41,400
+ kan <font color="#E5E5E5">dieselfde wees en </font><font color="#CCCCCC">ek hou van groen </font>
+
+30
+00:01:41,400 --> 00:01:44,100
+ beter so ons gaan <font color="#E5E5E5">goed doen en </font>
+
+31
+00:01:44,100 --> 00:01:46,500
+ <font color="#E5E5E5">ons sal ontslae raak van kleur en ons sal ontslae raak </font>
+
+32
+00:01:46,500 --> 00:01:48,750
+ van grootte so <font color="#CCCCCC">nou het ons net </font><font color="#E5E5E5">posisie </font><font color="#CCCCCC">in </font>
+
+33
+00:01:48,750 --> 00:01:53,430
+ teks, <font color="#CCCCCC">byvoorbeeld, red dit en ons kan </font>
+
+34
+00:01:53,430 --> 00:01:57,390
+ hardloop <font color="#E5E5E5">dit op hulle het in </font><font color="#CCCCCC">mekaar </font><font color="#E5E5E5">geloop </font>
+
+35
+00:01:57,390 --> 00:02:00,030
+ <font color="#CCCCCC">Ek </font><font color="#E5E5E5">dink dit </font><font color="#CCCCCC">sou </font><font color="#E5E5E5">die posisie geskroef </font>
+
+36
+00:02:00,030 --> 00:02:02,340
+ <font color="#E5E5E5">Kom ons gaan terug. Ek weet nie wat nie </font>
+
+37
+00:02:02,340 --> 00:02:04,110
+ Ek <font color="#E5E5E5">het gedink </font><font color="#CCCCCC">ja </font><font color="#E5E5E5">ok so so posisie </font>
+
+38
+00:02:04,110 --> 00:02:08,899
+ <font color="#CCCCCC">Hierdie </font><font color="#E5E5E5">een moet </font><font color="#CCCCCC">170 Stoor wees </font>
+
+39
+00:02:08,940 --> 00:02:12,910
+ <font color="#CCCCCC">daar gaan ons TV-tutoriale goed, oke </font>
+
+40
+00:02:12,910 --> 00:02:16,530
+ so <font color="#CCCCCC">ons kan dit graag sien </font>
+
+41
+00:02:16,530 --> 00:02:21,250
+ <font color="#E5E5E5">waar die krag van hierdie </font><font color="#CCCCCC">sleutel V die sleutel </font>
+
+42
+00:02:21,250 --> 00:02:23,500
+ <font color="#CCCCCC">met behulp van die sleutel </font><font color="#E5E5E5">V taal kan kom is </font>
+
+43
+00:02:23,500 --> 00:02:25,330
+ waar ons soort <font color="#CCCCCC">van </font><font color="#E5E5E5">hierdie wêreldwye het </font>
+
+44
+00:02:25,330 --> 00:02:27,730
+ veranderlikes <font color="#E5E5E5">en natuurlik kan jy dit </font>
+
+45
+00:02:27,730 --> 00:02:30,010
+ soort van doen <font color="#E5E5E5">dit binne die Python script </font>
+
+46
+00:02:30,010 --> 00:02:32,890
+ <font color="#CCCCCC">so goed, dit sou </font><font color="#E5E5E5">'n bietjie messier wees </font>
+
+47
+00:02:32,890 --> 00:02:35,709
+ as om <font color="#E5E5E5">dit so te doen, </font><font color="#CCCCCC">maar </font><font color="#E5E5E5">jy kan dit </font>
+
+48
+00:02:35,709 --> 00:02:37,599
+ <font color="#E5E5E5">kan dit doen en so is </font><font color="#CCCCCC">dit baie reg </font>
+
+49
+00:02:37,599 --> 00:02:39,459
+ <font color="#CCCCCC">gaan </font><font color="#E5E5E5">afhang hoeveel dinamiese kode doen </font>
+
+50
+00:02:39,459 --> 00:02:42,610
+ jy wil hê hoeveel <font color="#E5E5E5">struktuur dit doen </font>
+
+51
+00:02:42,610 --> 00:02:43,959
+ jy wil en al hierdie soort dinge <font color="#CCCCCC">so </font>
+
+52
+00:02:43,959 --> 00:02:46,690
+ In elk geval <font color="#E5E5E5">is dit die enigste ander ding </font>
+
+53
+00:02:46,690 --> 00:02:47,950
+ Ek wil <font color="#CCCCCC">graag </font><font color="#E5E5E5">nou doen </font><font color="#CCCCCC">is laat kom ons </font><font color="#E5E5E5">praat </font>
+
+54
+00:02:47,950 --> 00:02:49,510
+ <font color="#E5E5E5">oor </font><font color="#CCCCCC">posisie </font><font color="#E5E5E5">en ons </font><font color="#CCCCCC">gaan praat </font>
+
+55
+00:02:49,510 --> 00:02:51,760
+ <font color="#CCCCCC">oor 'n bietjie </font><font color="#E5E5E5">van relatiewe </font>
+
+56
+00:02:51,760 --> 00:02:55,959
+ posisionering so byvoorbeeld wat ons kon 
+
+57
+00:02:55,959 --> 00:02:59,709
+ doen is, ons weet <font color="#CCCCCC">jy het die </font><font color="#E5E5E5">grootte wat heeltemal is </font>
+
+58
+00:02:59,709 --> 00:03:00,790
+ fyn 
+
+59
+00:03:00,790 --> 00:03:04,599
+ grootte alhoewel <font color="#E5E5E5">grootte 'n bietjie van a kan wees </font>
+
+60
+00:03:04,599 --> 00:03:06,670
+ funksioneer as <font color="#E5E5E5">goed, maar wat ons </font><font color="#CCCCCC">gaan </font>
+
+61
+00:03:06,670 --> 00:03:09,130
+ maak ' <font color="#CCCCCC">n posisie vir </font><font color="#E5E5E5">nou so kom ons sê </font>
+
+62
+00:03:09,130 --> 00:03:12,220
+ wou iets <font color="#CCCCCC">naby die posisie plaas </font>
+
+63
+00:03:12,220 --> 00:03:15,130
+ boonop <font color="#CCCCCC">, hoe kan ons dit </font><font color="#E5E5E5">goed doen, laat ons </font>
+
+64
+00:03:15,130 --> 00:03:20,019
+ doen met TV <font color="#CCCCCC">en laat ons sê um laat ons sê ons </font>
+
+65
+00:03:20,019 --> 00:03:25,769
+ wil <font color="#E5E5E5">dit 'n posisie </font><font color="#CCCCCC">sal roete dot X doen </font>
+
+66
+00:03:25,769 --> 00:03:32,859
+ komma <font color="#E5E5E5">roetes dot top um </font><font color="#CCCCCC">en dit is </font><font color="#E5E5E5">laat </font>
+
+67
+00:03:32,859 --> 00:03:36,370
+ <font color="#E5E5E5">ek moet doen - </font><font color="#CCCCCC">selkol </font>
+
+68
+00:03:36,370 --> 00:03:40,269
+ hoogte <font color="#CCCCCC">ok, </font><font color="#E5E5E5">laat ons </font><font color="#CCCCCC">die lopie wat maak, </font><font color="#E5E5E5">red </font>
+
+69
+00:03:40,269 --> 00:03:41,380
+ seker <font color="#E5E5E5">dat dit werk en dan sal </font><font color="#CCCCCC">ek verduidelik </font>
+
+70
+00:03:41,380 --> 00:03:44,079
+ <font color="#E5E5E5">wat gebeur goed, so ons het sleutel V </font>
+
+71
+00:03:44,079 --> 00:03:47,500
+ nou regs bo <font color="#E5E5E5">en sleutel sigbaar of </font>
+
+72
+00:03:47,500 --> 00:03:49,989
+ moet ten minste bo-aan bly soos ons 
+
+73
+00:03:49,989 --> 00:03:52,209
+ Verander die grootte van die venster en maak seker dit 
+
+74
+00:03:52,209 --> 00:03:53,560
+ doen en die venster het verander 
+
+75
+00:03:53,560 --> 00:03:55,799
+ Natuurlik kan <font color="#CCCCCC">ons ook tutoriale sien </font>
+
+76
+00:03:55,799 --> 00:03:58,329
+ <font color="#CCCCCC">beweeg so goed, </font><font color="#E5E5E5">maar anyways sluit uit van </font>
+
+77
+00:03:58,329 --> 00:04:01,739
+ dit laat ons verduidelik wat <font color="#E5E5E5">hier gebeur het </font>
+
+78
+00:04:01,739 --> 00:04:04,359
+ <font color="#E5E5E5">okay </font><font color="#CCCCCC">so wat </font><font color="#E5E5E5">hier </font><font color="#CCCCCC">gebeur </font><font color="#E5E5E5">is jy </font>
+
+79
+00:04:04,359 --> 00:04:07,389
+ het <font color="#E5E5E5">wortel </font><font color="#CCCCCC">X gekry wat verwys na die X van </font>
+
+80
+00:04:07,389 --> 00:04:09,790
+ die <font color="#E5E5E5">wortel regs so die wortel widget wat </font>
+
+81
+00:04:09,790 --> 00:04:11,889
+ sou of <font color="#E5E5E5">die wortelprogram eerder sou </font>
+
+82
+00:04:11,889 --> 00:04:14,230
+ wees eenvoudig TV <font color="#E5E5E5">jy weet app reg dit is </font>
+
+83
+00:04:14,230 --> 00:04:18,519
+ <font color="#E5E5E5">ons wortelklas en dan die wortelpuntpunt is </font>
+
+84
+00:04:18,519 --> 00:04:20,320
+ verwys na <font color="#CCCCCC">die top </font>
+
+85
+00:04:20,320 --> 00:04:24,850
+ van daardie app en <font color="#E5E5E5">dan selfdot Hyatt is </font>
+
+86
+00:04:24,850 --> 00:04:27,940
+ verwys na <font color="#E5E5E5">die self van die widgets reg </font>
+
+87
+00:04:27,940 --> 00:04:30,790
+ <font color="#CCCCCC">self is daardie spesifieke widget en ons is </font>
+
+88
+00:04:30,790 --> 00:04:32,560
+ <font color="#CCCCCC">verwys na die hoogte soos ek gesê het </font>
+
+89
+00:04:32,560 --> 00:04:35,770
+ <font color="#E5E5E5">voor so 0 </font><font color="#CCCCCC">0 is die </font><font color="#E5E5E5">onderste linker so as </font>
+
+90
+00:04:35,770 --> 00:04:40,090
+ <font color="#E5E5E5">U het 'n knoppie by 0 0 geplaas </font><font color="#CCCCCC">of ons het </font>
+
+91
+00:04:40,090 --> 00:04:42,580
+ sê ons sê die venster <font color="#E5E5E5">is 100 </font>
+
+92
+00:04:42,580 --> 00:04:44,770
+ pixels <font color="#CCCCCC">lank </font><font color="#E5E5E5">en jy posisioneer </font><font color="#CCCCCC">die element </font>
+
+93
+00:04:44,770 --> 00:04:48,400
+ by 0 100 dit <font color="#E5E5E5">is die </font><font color="#CCCCCC">boonste linkerhoek van </font>
+
+94
+00:04:48,400 --> 00:04:50,410
+ <font color="#E5E5E5">daardie venster </font><font color="#CCCCCC">maar </font><font color="#E5E5E5">dan is die knoppie geteken </font>
+
+95
+00:04:50,410 --> 00:04:52,450
+ bo daardie punt <font color="#CCCCCC">sodat die knoppie sou </font><font color="#E5E5E5">wees </font>
+
+96
+00:04:52,450 --> 00:04:55,900
+ van die <font color="#CCCCCC">skerm af, dus gebruik ons ​​min selfprent </font>
+
+97
+00:04:55,900 --> 00:04:59,560
+ Hoogte <font color="#CCCCCC">om die knoppies wat </font><font color="#E5E5E5">jy ken, </font><font color="#CCCCCC">te beweeg </font>
+
+98
+00:04:59,560 --> 00:05:03,580
+ onderaan <font color="#CCCCCC">die hoogte van die </font>
+
+99
+00:05:03,580 --> 00:05:05,410
+ knoppie wat <font color="#E5E5E5">eintlik verwysings is </font>
+
+100
+00:05:05,410 --> 00:05:11,230
+ <font color="#E5E5E5">hier die 75 so in elk geval </font><font color="#CCCCCC">dit is </font><font color="#E5E5E5">hoe dit is </font>
+
+101
+00:05:11,230 --> 00:05:12,700
+ wat is daar aan die gang <font color="#CCCCCC">, so is dit 'n bietjie </font>
+
+102
+00:05:12,700 --> 00:05:18,250
+ <font color="#CCCCCC">meer dinamiese </font><font color="#E5E5E5">van kode en ook soort van </font>
+
+103
+00:05:18,250 --> 00:05:20,980
+ <font color="#E5E5E5">wys </font><font color="#CCCCCC">wat ek voorheen </font><font color="#E5E5E5">gesê het </font>
+
+104
+00:05:20,980 --> 00:05:23,230
+ <font color="#CCCCCC">jy kan 'n paar Python logika op die </font>
+
+105
+00:05:23,230 --> 00:05:26,530
+ <font color="#CCCCCC">ander kant </font><font color="#E5E5E5">van hierdie dikke darms, hoe dan ook </font>
+
+106
+00:05:26,530 --> 00:05:28,210
+ dit <font color="#CCCCCC">gaan </font><font color="#E5E5E5">hierdie </font><font color="#CCCCCC">aflei </font>
+
+107
+00:05:28,210 --> 00:05:29,920
+ handleiding video <font color="#CCCCCC">as jy enigiemand het </font>
+
+108
+00:05:29,920 --> 00:05:31,300
+ vrae <font color="#CCCCCC">of kommentaar voel asseblief vry </font>
+
+109
+00:05:31,300 --> 00:05:33,130
+ om <font color="#E5E5E5">hulle onder anders te laat soos altyd </font>
+
+110
+00:05:33,130 --> 00:05:34,240
+ dankie vir die <font color="#CCCCCC">dankie </font><font color="#E5E5E5">vir al die </font>
+
+111
+00:05:34,240 --> 00:05:36,040
+ ondersteuning <font color="#CCCCCC">en intekeninge </font><font color="#E5E5E5">tot volgende </font>
+
+112
+00:05:36,040 --> 00:00:00,000
+ tyd 
+

@@ -1,0 +1,932 @@
+1
+00:00:02,330 --> 00:00:04,440
+ <font color="#E5E5E5">大家好，欢迎光临 </font>
+
+2
+00:00:04,440 --> 00:00:07,429
+ <font color="#E5E5E5">到 </font><font color="#CCCCCC">python教程的第三台电视 </font>
+
+3
+00:00:07,429 --> 00:00:10,349
+基本视频<font color="#E5E5E5">在这个视频中，我们要去 </font>
+
+4
+00:00:10,349 --> 00:00:12,570
+ <font color="#CCCCCC">要</font><font color="#E5E5E5">谈论的重点 </font><font color="#CCCCCC">d </font><font color="#E5E5E5">语言 </font>
+
+5
+00:00:12,570 --> 00:00:14,400
+所以这是你可能会<font color="#CCCCCC">看到这些 </font><font color="#E5E5E5">点的地方 </font>
+
+6
+00:00:14,400 --> 00:00:17,609
+ <font color="#E5E5E5">现在KV文件就是 </font><font color="#CCCCCC">这种 </font><font color="#E5E5E5">情况 </font>
+
+7
+00:00:17,609 --> 00:00:21,119
+你<font color="#E5E5E5">永远不需要 </font><font color="#CCCCCC">使用密钥 </font>
+
+8
+00:00:21,119 --> 00:00:24,150
+ <font color="#CCCCCC">V语言，它 </font><font color="#E5E5E5">真的就在那里 </font>
+
+9
+00:00:24,150 --> 00:00:26,010
+对你来说，如果这<font color="#CCCCCC">就是你想要使用的 </font>
+
+10
+00:00:26,010 --> 00:00:27,630
+ <font color="#E5E5E5">但你 </font><font color="#CCCCCC">实际上可以 </font><font color="#E5E5E5">写出相同的东西 </font>
+
+11
+00:00:27,630 --> 00:00:31,230
+应用程序使用纯Python代码<font color="#CCCCCC">，如 </font>
+
+12
+00:00:31,230 --> 00:00:33,660
+你可以<font color="#E5E5E5">在这里看到我们实际上已经 </font>
+
+13
+00:00:33,660 --> 00:00:36,420
+只使用了<font color="#E5E5E5">一些关键语言 </font>
+
+14
+00:00:36,420 --> 00:00:38,790
+用纯Python编写， <font color="#E5E5E5">但是你的 </font>
+
+15
+00:00:38,790 --> 00:00:40,680
+可以做的是你可以<font color="#CCCCCC">使用这些点KV </font>
+
+16
+00:00:40,680 --> 00:00:46,879
+文件<font color="#E5E5E5">啊 - </font><font color="#CCCCCC">也许 </font><font color="#E5E5E5">更好的组织你的 </font>
+
+17
+00:00:47,690 --> 00:00:51,270
+ <font color="#E5E5E5">介绍的GUI和 </font><font color="#CCCCCC">保持 </font>
+
+18
+00:00:51,270 --> 00:00:54,870
+ Python文件的逻辑<font color="#E5E5E5">如此而定 </font>
+
+19
+00:00:54,870 --> 00:00:56,460
+ <font color="#E5E5E5">你 </font><font color="#CCCCCC">认为 </font><font color="#E5E5E5">你可能想要 哪种方式 </font>
+
+20
+00:00:56,460 --> 00:00:58,829
+分开使用我们的东西， <font color="#CCCCCC">但它又一次 </font>
+
+21
+00:00:58,829 --> 00:01:00,270
+ <font color="#E5E5E5">实际上可能是你的 </font><font color="#CCCCCC">情况 </font>
+
+22
+00:01:00,270 --> 00:01:03,090
+应用程序或您的<font color="#E5E5E5">程序更简单 </font>
+
+23
+00:01:03,090 --> 00:01:05,610
+如果你把它们全部放在一起<font color="#E5E5E5">纯粹 </font>
+
+24
+00:01:05,610 --> 00:01:08,640
+ Python或如果您<font color="#E5E5E5">使用的是大量 </font><font color="#CCCCCC">的 </font>
+
+25
+00:01:08,640 --> 00:01:11,010
+ <font color="#CCCCCC">定制 </font><font color="#E5E5E5">或者你正在使用一个 </font>
+
+26
+00:01:11,010 --> 00:01:12,240
+很多<font color="#E5E5E5">的定制，但很多 </font>
+
+27
+00:01:12,240 --> 00:01:14,610
+ <font color="#CCCCCC">定制是非常多余的 </font><font color="#E5E5E5">呢 </font>
+
+28
+00:01:14,610 --> 00:01:16,890
+会<font color="#E5E5E5">使用很多</font><font color="#CCCCCC">意义 </font>
+
+29
+00:01:16,890 --> 00:01:21,869
+ <font color="#E5E5E5">KV档案，所以我认为你可以通过 </font>
+
+30
+00:01:21,869 --> 00:01:24,180
+ <font color="#CCCCCC">使用你知道做一个或另一个 </font>
+
+31
+00:01:24,180 --> 00:01:27,030
+真的<font color="#E5E5E5">没关系，但在编程方面 </font>
+
+32
+00:01:27,030 --> 00:01:28,380
+ <font color="#CCCCCC">一般来说有 </font><font color="#E5E5E5">一百万种不同的 </font>
+
+33
+00:01:28,380 --> 00:01:31,020
+ <font color="#E5E5E5">如何 </font><font color="#CCCCCC">做一些事情 </font><font color="#E5E5E5">，每个人都有 </font>
+
+34
+00:01:31,020 --> 00:01:32,250
+他们<font color="#CCCCCC">对 </font><font color="#E5E5E5">最佳方式的</font><font color="#CCCCCC">看法 </font>
+
+35
+00:01:32,250 --> 00:01:34,880
+ <font color="#CCCCCC">如果你不同意他们会嘲笑你 </font>
+
+36
+00:01:34,880 --> 00:01:38,159
+ <font color="#CCCCCC">所以我会继续 </font><font color="#E5E5E5">并显示两个版本 </font>
+
+37
+00:01:38,159 --> 00:01:39,630
+在这里，但<font color="#E5E5E5">老实说，不要担心什么 </font>
+
+38
+00:01:39,630 --> 00:01:41,159
+ <font color="#CCCCCC">别人 </font><font color="#E5E5E5">说是 </font><font color="#CCCCCC">最好的尝试 </font>
+
+39
+00:01:41,159 --> 00:01:43,079
+并<font color="#CCCCCC">拧出看看最适合你的东西 </font>
+
+40
+00:01:43,079 --> 00:01:46,409
+ <font color="#CCCCCC">并使用如此 </font><font color="#E5E5E5">反正这就是我们 </font>
+
+41
+00:01:46,409 --> 00:01:47,610
+ <font color="#E5E5E5">这里要介绍的是关键的V </font>
+
+42
+00:01:47,610 --> 00:01:50,490
+语言所以首先我<font color="#E5E5E5">要做</font><font color="#CCCCCC">的就是我 </font>
+
+43
+00:01:50,490 --> 00:01:52,619
+只要继续<font color="#CCCCCC">前进，我们就会摆脱 </font>
+
+44
+00:01:52,619 --> 00:01:53,850
+我们<font color="#E5E5E5">不打算使用它 </font>
+
+45
+00:01:53,850 --> 00:01:55,920
+ <font color="#E5E5E5">现在 </font><font color="#CCCCCC">甚至我们 </font><font color="#E5E5E5">不需要这些 </font>
+
+46
+00:01:55,920 --> 00:01:58,619
+再也不输入任何东西， <font color="#CCCCCC">所以这是实物 </font>
+
+47
+00:01:58,619 --> 00:02:02,219
+ <font color="#CCCCCC">只有我们最初的脚本</font><font color="#E5E5E5">之一的</font>
+
+48
+00:02:02,219 --> 00:02:03,990
+ <font color="#E5E5E5">唯一的区别 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">这是标签 </font>
+
+49
+00:02:03,990 --> 00:02:09,479
+和参数是文本，它说
+
+50
+00:02:09,479 --> 00:02:10,169
+你好
+
+51
+00:02:10,169 --> 00:02:13,530
+ <font color="#CCCCCC">像这样的旧世界如此保存和运行 </font>
+
+52
+00:02:13,530 --> 00:02:15,810
+那和那是<font color="#E5E5E5">我们的原创 </font>
+
+53
+00:02:15,810 --> 00:02:19,380
+应用程序，如果你<font color="#CCCCCC">记得这样的话 </font>
+
+54
+00:02:19,380 --> 00:02:21,360
+ <font color="#CCCCCC">这是你知道纯粹写的 </font>
+
+55
+00:02:21,360 --> 00:02:23,670
+ Python的现在，如果我们<font color="#E5E5E5">想写 </font>
+
+56
+00:02:23,670 --> 00:02:26,520
+这在或至少利用了<font color="#CCCCCC">重剑 </font>
+
+57
+00:02:26,520 --> 00:02:28,980
+语言，所以<font color="#E5E5E5">我要做的就是我 </font>
+
+58
+00:02:28,980 --> 00:02:30,390
+ <font color="#CCCCCC">如果你要使用记事本加plus </font>
+
+59
+00:02:30,390 --> 00:02:32,430
+没有它我强烈<font color="#CCCCCC">建议你得到 </font>
+
+60
+00:02:32,430 --> 00:02:33,989
+它可以把所有这一切都写入<font color="#CCCCCC">一个 </font>
+
+61
+00:02:33,989 --> 00:02:36,090
+定期记事本文件，然后使用
+
+62
+00:02:36,090 --> 00:02:37,560
+与<font color="#CCCCCC">我们有关的相同的保存实践</font>
+
+63
+00:02:37,560 --> 00:02:41,030
+ <font color="#CCCCCC">使用 </font><font color="#E5E5E5">但无论如何，这样你的钥匙 伏 内 </font>
+
+64
+00:02:41,030 --> 00:02:43,980
+在这里文件你<font color="#E5E5E5">可以做的是它永远 </font>
+
+65
+00:02:43,980 --> 00:02:46,110
+ <font color="#E5E5E5">引用文件的 </font><font color="#CCCCCC">一个 </font><font color="#E5E5E5">好主意 </font>
+
+66
+00:02:46,110 --> 00:02:49,830
+ <font color="#E5E5E5">你 </font><font color="#CCCCCC">有点像关联 </font>
+
+67
+00:02:49,830 --> 00:02:52,799
+ <font color="#CCCCCC">因为我 </font><font color="#E5E5E5">已经看到了第二个 </font>
+
+68
+00:02:52,799 --> 00:02:55,819
+ <font color="#E5E5E5">该 </font><font color="#CCCCCC">Python </font><font color="#E5E5E5">脚本会 </font><font color="#CCCCCC">知道 </font>
+
+69
+00:02:55,819 --> 00:02:59,819
+使用的点<font color="#E5E5E5">KV文件真的很亲切 </font>
+
+70
+00:02:59,819 --> 00:03:01,200
+的扭曲
+
+71
+00:03:01,200 --> 00:03:03,120
+我不太<font color="#E5E5E5">确定他们为什么要这样做 </font>
+
+72
+00:03:03,120 --> 00:03:05,190
+ <font color="#E5E5E5">他们去的方式，但他们这样做 </font>
+
+73
+00:03:05,190 --> 00:03:07,470
+无论如何， <font color="#CCCCCC">哦，它应该 </font><font color="#E5E5E5">说你知道 </font>
+
+74
+00:03:07,470 --> 00:03:10,170
+文件名，这<font color="#CCCCCC">将</font><font color="#E5E5E5">是</font><font color="#CCCCCC">在 </font>
+
+75
+00:03:10,170 --> 00:03:12,840
+ <font color="#E5E5E5">我们</font><font color="#CCCCCC">的一个B键第三部影片结合</font>
+
+76
+00:03:12,840 --> 00:03:15,840
+例如<font color="#CCCCCC">关键V视频三个pi放 </font>
+
+77
+00:03:15,840 --> 00:03:18,810
+无论你的文件名是什么，你<font color="#E5E5E5">都可以 </font>
+
+78
+00:03:18,810 --> 00:03:21,150
+ <font color="#CCCCCC">通过使用 </font><font color="#E5E5E5">需要一个关键的V版本 </font>
+
+79
+00:03:21,150 --> 00:03:25,620
+ <font color="#CCCCCC">散列标签冒号 </font><font color="#E5E5E5">，然后 </font><font color="#CCCCCC">我们可以说 </font>
+
+80
+00:03:25,620 --> 00:03:29,700
+关键<font color="#E5E5E5">V点 </font><font color="#CCCCCC">8.0，这 </font><font color="#E5E5E5">也将 </font>
+
+81
+00:03:29,700 --> 00:03:31,829
+ <font color="#E5E5E5">对关键B提出要求 </font>
+
+82
+00:03:31,829 --> 00:03:35,010
+语言<font color="#CCCCCC">文件 </font><font color="#E5E5E5">，以便 </font><font color="#CCCCCC">呃 </font><font color="#E5E5E5">现在，让我们种 </font>
+
+83
+00:03:35,010 --> 00:03:37,109
+在这里咨询<font color="#CCCCCC">我们已经 </font><font color="#E5E5E5">知道简单 </font>
+
+84
+00:03:37,109 --> 00:03:39,120
+关键<font color="#E5E5E5">V app </font><font color="#CCCCCC">我们有一个标签 </font><font color="#E5E5E5">，它说 </font>
+
+85
+00:03:39,120 --> 00:03:41,489
+ <font color="#E5E5E5">文本你好，世界，所以你可以种 </font>
+
+86
+00:03:41,489 --> 00:03:44,730
+设想你的KV档案现在是某人的
+
+87
+00:03:44,730 --> 00:03:45,870
+ <font color="#CCCCCC">想要 </font><font color="#E5E5E5">跳下我的喉咙 </font>
+
+88
+00:03:45,870 --> 00:03:48,720
+但这个点KV文件很像
+
+89
+00:03:48,720 --> 00:03:50,609
+ CSS的<font color="#E5E5E5">权利，所以这很像我有一个 </font>
+
+90
+00:03:50,609 --> 00:03:54,720
+ <font color="#CCCCCC">样式表可以，所以 </font><font color="#E5E5E5">就像 </font>
+
+91
+00:03:54,720 --> 00:03:57,930
+ HTML和<font color="#CCCCCC">CSS </font><font color="#E5E5E5">你 </font><font color="#CCCCCC">可以写你 </font>
+
+92
+00:03:57,930 --> 00:03:59,760
+知道<font color="#E5E5E5">正确的文本属性</font>
+
+93
+00:03:59,760 --> 00:04:01,530
+ <font color="#E5E5E5">段落标签让我们说， </font><font color="#CCCCCC">例如和 </font>
+
+94
+00:04:01,530 --> 00:04:03,000
+你<font color="#CCCCCC">能给 </font><font color="#E5E5E5">样 </font><font color="#CCCCCC">的一些样式 </font>
+
+95
+00:04:03,000 --> 00:04:06,389
+属性，或者你可以<font color="#CCCCCC">有一个风格 </font>
+
+96
+00:04:06,389 --> 00:04:07,950
+表单<font color="#CCCCCC">嘿，所有的一切 </font>
+
+97
+00:04:07,950 --> 00:04:10,980
+ <font color="#E5E5E5">段落标签类文章右看起来 </font>
+
+98
+00:04:10,980 --> 00:04:14,549
+ <font color="#CCCCCC">像X </font><font color="#E5E5E5">右看起来 </font><font color="#CCCCCC">像这样或者你可以 </font>
+
+99
+00:04:14,549 --> 00:04:16,228
+ <font color="#CCCCCC">实际上你 </font><font color="#E5E5E5">甚至不需要CSS </font><font color="#CCCCCC">表格 </font>
+
+100
+00:04:16,228 --> 00:04:18,029
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">总是可以创建自定义 </font>
+
+101
+00:04:18,029 --> 00:04:20,399
+如你<font color="#CCCCCC">所见的样式， 就像我们可以看到的一样 </font>
+
+102
+00:04:20,399 --> 00:04:21,870
+ <font color="#E5E5E5">它使网站变得非常 </font><font color="#CCCCCC">有意义 </font>
+
+103
+00:04:21,870 --> 00:04:23,220
+ <font color="#E5E5E5">有一个样式表， </font><font color="#CCCCCC">所以 </font><font color="#E5E5E5">你</font><font color="#CCCCCC">不必 </font>
+
+104
+00:04:23,220 --> 00:04:23,580
+至
+
+105
+00:04:23,580 --> 00:04:27,020
+不断继续使用类与现在
+
+106
+00:04:27,020 --> 00:04:28,979
+应用程序取决于<font color="#E5E5E5">应用程序 </font>
+
+107
+00:04:28,979 --> 00:04:30,360
+如果你<font color="#CCCCCC">有一个小应用程序 </font><font color="#E5E5E5">或你 </font>
+
+108
+00:04:30,360 --> 00:04:32,039
+ <font color="#E5E5E5">没有 </font><font color="#CCCCCC">很多的冗余它 </font>
+
+109
+00:04:32,039 --> 00:04:33,330
+有时候<font color="#E5E5E5">，实际上 </font><font color="#CCCCCC">我认为是 </font>
+
+110
+00:04:33,330 --> 00:04:34,740
+ <font color="#E5E5E5">简单 </font><font color="#CCCCCC">一点 到 </font><font color="#E5E5E5">内</font><font color="#CCCCCC">使用 </font>
+
+111
+00:04:34,740 --> 00:04:38,520
+ <font color="#E5E5E5">至少对我来说至少应用它 </font>
+
+112
+00:04:38,520 --> 00:04:40,379
+ <font color="#CCCCCC">不要紧</font><font color="#E5E5E5"> ，你同时使用的哪一个 </font>
+
+113
+00:04:40,379 --> 00:04:42,030
+ <font color="#CCCCCC">他们是非常 </font><font color="#E5E5E5">有效的， </font><font color="#CCCCCC">他们 </font><font color="#E5E5E5">两个 </font>
+
+114
+00:04:42,030 --> 00:04:43,800
+将以<font color="#E5E5E5">您期望 </font><font color="#CCCCCC">的方式工作 </font>
+
+115
+00:04:43,800 --> 00:04:46,669
+ <font color="#E5E5E5">他们这样反正这是一个 </font><font color="#CCCCCC">kb文件电视 </font>
+
+116
+00:04:46,669 --> 00:04:48,900
+ <font color="#E5E5E5">现在要求 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">如何 </font><font color="#CCCCCC">做到这一点 </font>
+
+117
+00:04:48,900 --> 00:04:52,710
+就像<font color="#E5E5E5">你最初的CSS样式表一样</font>
+
+118
+00:04:52,710 --> 00:04:55,319
+ <font color="#CCCCCC">会让你 </font><font color="#E5E5E5">知道属性 </font>
+
+119
+00:04:55,319 --> 00:04:57,810
+为我们说话，这将<font color="#E5E5E5">是我们 </font>
+
+120
+00:04:57,810 --> 00:04:59,340
+ <font color="#E5E5E5">现在想说标签，但这是 </font>
+
+121
+00:04:59,340 --> 00:05:02,490
+ <font color="#E5E5E5">基本上这是一个父母好，所以这是 </font>
+
+122
+00:05:02,490 --> 00:05:04,979
+参考我们任何时候使用标签的<font color="#E5E5E5">情况 </font>
+
+123
+00:05:04,979 --> 00:05:07,289
+这是在这里引用，但你
+
+124
+00:05:07,289 --> 00:05:08,669
+ <font color="#CCCCCC">可以 </font><font color="#E5E5E5">把它 </font><font color="#CCCCCC">更进 </font><font color="#E5E5E5">了一步 </font><font color="#CCCCCC">，并 </font><font color="#E5E5E5">添加 </font>
+
+125
+00:05:08,669 --> 00:05:10,740
+ <font color="#E5E5E5">我们在这里的其他</font><font color="#CCCCCC">属性 </font>
+
+126
+00:05:10,740 --> 00:05:12,389
+要<font color="#CCCCCC">做到 </font><font color="#E5E5E5">这 </font><font color="#CCCCCC">一点 </font><font color="#E5E5E5">，但 </font><font color="#CCCCCC">实际上 </font><font color="#E5E5E5">你 </font><font color="#CCCCCC">可以 </font>
+
+127
+00:05:12,389 --> 00:05:14,430
+有<font color="#E5E5E5">一个按钮或其他内容 </font>
+
+128
+00:05:14,430 --> 00:05:16,830
+ <font color="#E5E5E5">这里会有一个小孩 </font>
+
+129
+00:05:16,830 --> 00:05:19,919
+ <font color="#E5E5E5">用X </font><font color="#CCCCCC">标记标签中的 </font><font color="#E5E5E5">每个孩子 </font>
+
+130
+00:05:19,919 --> 00:05:21,479
+属性<font color="#CCCCCC">会是某种方式，但是 </font>
+
+131
+00:05:21,479 --> 00:05:23,279
+ <font color="#E5E5E5">无论如何不要 </font><font color="#CCCCCC">过于 </font><font color="#E5E5E5">遥遥领先 </font>
+
+132
+00:05:23,279 --> 00:05:25,620
+我们自己<font color="#E5E5E5">，当我们得到时 ，我会表明</font>
+
+133
+00:05:25,620 --> 00:05:28,289
+ <font color="#CCCCCC">但无论如何， </font><font color="#E5E5E5">所以标签 </font><font color="#CCCCCC">1 2 3 4只是 </font>
+
+134
+00:05:28,289 --> 00:05:29,219
+使用相同类型的缩进
+
+135
+00:05:29,219 --> 00:05:31,469
+实践，然后你可以拥有你的
+
+136
+00:05:31,469 --> 00:05:33,840
+ <font color="#CCCCCC">实际值在这里，所以我们说的文字 </font>
+
+137
+00:05:33,840 --> 00:05:37,940
+ <font color="#E5E5E5">文字冒号 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">然后我们可以 </font><font color="#CCCCCC">打招呼 </font>
+
+138
+00:05:37,940 --> 00:05:42,120
+ <font color="#E5E5E5">像这样的世界现在就是这样 </font>
+
+139
+00:05:42,120 --> 00:05:43,349
+所有我们<font color="#E5E5E5">要添加这个 </font>
+
+140
+00:05:43,349 --> 00:05:45,240
+瞬间<font color="#CCCCCC">， </font><font color="#E5E5E5">我们现在可以做的 </font><font color="#CCCCCC">是 </font><font color="#E5E5E5">我们会 </font>
+
+141
+00:05:45,240 --> 00:05:48,629
+将文件另存<font color="#CCCCCC">为，我将保存 </font>
+
+142
+00:05:48,629 --> 00:05:53,550
+我的<font color="#E5E5E5">嗯，我们会去保存文件类型为和 </font>
+
+143
+00:05:53,550 --> 00:05:55,110
+去最<font color="#CCCCCC">高层， </font><font color="#E5E5E5">我们会说全部 </font>
+
+144
+00:05:55,110 --> 00:05:58,529
+所以这里得到保存的类型就像
+
+145
+00:05:58,529 --> 00:06:00,330
+所有类型都是这样，然后我们是什么
+
+146
+00:06:00,330 --> 00:06:01,740
+ <font color="#E5E5E5">要做的是我们要保存这个 </font>
+
+147
+00:06:01,740 --> 00:06:10,020
+作为一个简单的<font color="#CCCCCC">关键v点K </font><font color="#E5E5E5">V没关系，所以命中 </font>
+
+148
+00:06:10,020 --> 00:06:14,729
+保存<font color="#E5E5E5">，然后代替返回标签 </font>
+
+149
+00:06:14,729 --> 00:06:16,440
+然后指定一个属性让我们
+
+150
+00:06:16,440 --> 00:06:18,839
+只是说退货<font color="#E5E5E5">标签，所以没有什么 </font>
+
+151
+00:06:18,839 --> 00:06:20,759
+ <font color="#E5E5E5">否则，我们将保存它， </font><font color="#CCCCCC">让我们 </font>
+
+152
+00:06:20,759 --> 00:06:23,279
+ <font color="#CCCCCC">继续 </font><font color="#E5E5E5">并运行， </font><font color="#CCCCCC">看看我们的 </font><font color="#E5E5E5">工作 </font>
+
+153
+00:06:23,279 --> 00:06:25,770
+不，我们不努力，让我们<font color="#E5E5E5">看看是什么 </font>
+
+154
+00:06:25,770 --> 00:06:28,039
+说
+
+155
+00:06:30,760 --> 00:06:33,380
+显然简单的告诫<font color="#E5E5E5">好吧，我 </font>
+
+156
+00:06:33,380 --> 00:06:35,300
+ <font color="#E5E5E5">我猜我 </font><font color="#CCCCCC">不想让 </font><font color="#E5E5E5">我们成为猫或者猫 </font>
+
+157
+00:06:35,300 --> 00:06:39,880
+做骆驼套<font color="#E5E5E5">让我们走吧 </font>
+
+158
+00:06:39,880 --> 00:06:45,199
+ <font color="#CCCCCC">在这里它是好的，所以它是大喊大叫 </font>
+
+159
+00:06:45,199 --> 00:06:47,419
+在我身上<font color="#CCCCCC">的骆驼套，所以我会去的 </font>
+
+160
+00:06:47,419 --> 00:06:52,400
+在骆驼<font color="#E5E5E5">案例这里 </font><font color="#CCCCCC">如此简单的KV或 </font>
+
+161
+00:06:52,400 --> 00:06:54,500
+ <font color="#E5E5E5">下像所有简单</font><font color="#CCCCCC">き </font><font color="#E5E5E5">五之下的情况下，使 </font>
+
+162
+00:06:54,500 --> 00:06:56,930
+我把它称为<font color="#CCCCCC">帽子 </font><font color="#E5E5E5">好的一些 </font>
+
+163
+00:06:56,930 --> 00:06:58,340
+它不喜欢<font color="#CCCCCC">我不打电话的原因 </font>
+
+164
+00:06:58,340 --> 00:07:00,650
+这仍然是<font color="#E5E5E5">人类面临的一个问题</font>
+
+165
+00:07:00,650 --> 00:07:06,800
+生我的简单<font color="#CCCCCC">电视就生我的气</font>
+
+166
+00:07:06,800 --> 00:07:08,180
+看着<font color="#CCCCCC">它的男人我不 </font><font color="#E5E5E5">知道为什么 </font>
+
+167
+00:07:08,180 --> 00:07:11,350
+你<font color="#E5E5E5">告诉我你找不到它 </font>
+
+168
+00:07:15,580 --> 00:07:18,290
+似乎有一个<font color="#CCCCCC">拳头 </font><font color="#E5E5E5">ups和采取 </font>
+
+169
+00:07:18,290 --> 00:07:25,789
+教训电视<font color="#CCCCCC">/简单的电视哦，它不是点 </font>
+
+170
+00:07:25,789 --> 00:07:34,039
+ <font color="#E5E5E5">哦，好吧， </font><font color="#CCCCCC">现在我要去 </font><font color="#E5E5E5">一个简单的电视 </font>
+
+171
+00:07:34,039 --> 00:07:37,039
+ <font color="#E5E5E5">回来我显然使用过，我们试试吧 </font>
+
+172
+00:07:37,039 --> 00:07:42,410
+这一个<font color="#E5E5E5">更好的时间 </font><font color="#CCCCCC">保存并运行 </font>
+
+173
+00:07:42,410 --> 00:07:45,919
+我们会好起来的， <font color="#E5E5E5">所以就是这样 </font>
+
+174
+00:07:45,919 --> 00:07:47,840
+为什么好， <font color="#CCCCCC">所以问题实际上是这样 </font>
+
+175
+00:07:47,840 --> 00:07:51,020
+而不是点<font color="#CCCCCC">KV </font><font color="#E5E5E5">我打逗号KV </font>
+
+176
+00:07:51,020 --> 00:07:53,539
+显然这样骆驼套很<font color="#CCCCCC">有趣我 </font>
+
+177
+00:07:53,539 --> 00:07:55,070
+ <font color="#CCCCCC">只是把它还给了骆驼 </font>
+
+178
+00:07:55,070 --> 00:07:57,650
+现在的套管现在你可以看到我们了
+
+179
+00:07:57,650 --> 00:08:00,590
+有我们的<font color="#E5E5E5">应用程序的Hello World </font><font color="#CCCCCC">只是 </font>
+
+180
+00:08:00,590 --> 00:08:02,450
+与<font color="#E5E5E5">之前 </font><font color="#CCCCCC">的情况 </font><font color="#E5E5E5">一样 </font>
+
+181
+00:08:02,450 --> 00:08:05,060
+我们现在正在<font color="#E5E5E5">引用这个标签 </font>
+
+182
+00:08:05,060 --> 00:08:06,770
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">想要进一步 </font><font color="#E5E5E5">移动得 </font><font color="#CCCCCC">更远 </font>
+
+183
+00:08:06,770 --> 00:08:10,210
+表明<font color="#CCCCCC">这一点 </font>
+
+184
+00:08:10,500 --> 00:08:14,490
+ <font color="#E5E5E5">这一个是啊有 </font><font color="#CCCCCC">它</font><font color="#E5E5E5">的 逗号 </font>
+
+185
+00:08:14,490 --> 00:08:16,170
+实际上<font color="#E5E5E5">很难看到它 </font>
+
+186
+00:08:16,170 --> 00:08:19,830
+是一个逗号， <font color="#CCCCCC">我只会在那里说不 </font>
+
+187
+00:08:19,830 --> 00:08:22,280
+让我<font color="#CCCCCC">开这件事最后 </font><font color="#E5E5E5">一次 </font><font color="#CCCCCC">和 </font>
+
+188
+00:08:22,280 --> 00:08:25,290
+有趣的是<font color="#E5E5E5">， </font><font color="#CCCCCC">quv语言是 </font>
+
+189
+00:08:25,290 --> 00:08:27,090
+有点<font color="#CCCCCC">像我 </font><font color="#E5E5E5">不认识的混血儿 </font>
+
+190
+00:08:27,090 --> 00:08:29,670
+几乎<font color="#CCCCCC">是 Python， 所以你 </font><font color="#E5E5E5">可以 </font>
+
+191
+00:08:29,670 --> 00:08:32,070
+实际上<font color="#CCCCCC">说的是文本等于你好世界 </font>
+
+192
+00:08:32,070 --> 00:08:34,620
+ <font color="#CCCCCC">但是，如果我们所说的文本等于 </font><font color="#E5E5E5">为 </font>
+
+193
+00:08:34,620 --> 00:08:39,809
+例如<font color="#E5E5E5">hello world </font><font color="#CCCCCC">和hello </font><font color="#E5E5E5">plus space </font>
+
+194
+00:08:39,809 --> 00:08:42,890
+世界让我们这么说，我们将<font color="#CCCCCC">保存 </font><font color="#E5E5E5">和 </font>
+
+195
+00:08:42,890 --> 00:08:46,620
+我们会运行它<font color="#E5E5E5">，你仍然看到我们 </font>
+
+196
+00:08:46,620 --> 00:08:48,960
+有完全相同的问候世界， <font color="#CCCCCC">但然后 </font>
+
+197
+00:08:48,960 --> 00:08:50,640
+ <font color="#E5E5E5">我们能做的是我们可以进一步走下去 </font>
+
+198
+00:08:50,640 --> 00:09:03,600
+ <font color="#E5E5E5">我们可以做你好世界 </font><font color="#CCCCCC">和逗号1 </font>
+
+199
+00:09:03,600 --> 00:09:09,300
+再加上<font color="#CCCCCC">1个超级玩家，我们就是这样 </font>
+
+200
+00:09:09,300 --> 00:09:11,820
+ <font color="#E5E5E5">在我得到的那一刻未经测试的领土 </font>
+
+201
+00:09:11,820 --> 00:09:17,610
+生气<font color="#CCCCCC">好吧呃只接受字符串 </font>
+
+202
+00:09:17,610 --> 00:09:19,740
+ <font color="#CCCCCC">好吧 </font><font color="#E5E5E5">，这很好 </font><font color="#CCCCCC">，无论如何我们会来 </font>
+
+203
+00:09:19,740 --> 00:09:22,080
+回到<font color="#CCCCCC">这里，这实际上是一个 </font>
+
+204
+00:09:22,080 --> 00:09:25,260
+参数问题， <font color="#E5E5E5">所以我们只是做字符串 </font>
+
+205
+00:09:25,260 --> 00:09:27,089
+ 1 <font color="#E5E5E5">加1让我们看看我们是否 </font><font color="#CCCCCC">逃避 </font>
+
+206
+00:09:27,089 --> 00:09:32,430
+该版本<font color="#E5E5E5">至少仍然生气 </font>
+
+207
+00:09:32,430 --> 00:09:32,940
+我
+
+208
+00:09:32,940 --> 00:09:36,330
+ <font color="#E5E5E5">我将它转换为一个字符串你 </font>
+
+209
+00:09:36,330 --> 00:09:40,830
+让我很生气<font color="#CCCCCC">嗯还好 </font><font color="#E5E5E5">好 </font>
+
+210
+00:09:40,830 --> 00:09:44,220
+显然<font color="#CCCCCC">与我们的文字标签是一样的 </font>
+
+211
+00:09:44,220 --> 00:09:47,010
+非常严格，只要<font color="#E5E5E5">它就是这样 </font>
+
+212
+00:09:47,010 --> 00:09:50,790
+只需要文本元素， <font color="#E5E5E5">但是当你的时候 </font>
+
+213
+00:09:50,790 --> 00:09:52,710
+不要说你<font color="#E5E5E5">不使用文本 </font>
+
+214
+00:09:52,710 --> 00:09:54,180
+元素， <font color="#CCCCCC">你可以实际 </font><font color="#E5E5E5">纳入 </font>
+
+215
+00:09:54,180 --> 00:09:57,600
+ Python <font color="#E5E5E5">的另一边的逻辑</font>
+
+216
+00:09:57,600 --> 00:09:59,220
+所以<font color="#CCCCCC">至少你 </font><font color="#E5E5E5">可以在这里看到冒号</font>
+
+217
+00:09:59,220 --> 00:10:02,550
+我们加入了<font color="#E5E5E5">一些Python </font>
+
+218
+00:10:02,550 --> 00:10:04,380
+逻辑，但又是这个
+
+219
+00:10:04,380 --> 00:10:06,990
+严格<font color="#E5E5E5">的只是想要文字而已 </font>
+
+220
+00:10:06,990 --> 00:10:09,180
+也许以后我会告诉<font color="#E5E5E5">你们一些 </font>
+
+221
+00:10:09,180 --> 00:10:12,720
+ <font color="#E5E5E5">我们的 </font><font color="#CCCCCC">重要语言中的实际逻辑</font>
+
+222
+00:10:12,720 --> 00:10:15,150
+在这里， <font color="#E5E5E5">但像我 </font><font color="#CCCCCC">说的我认为唯一的 </font>
+
+223
+00:10:15,150 --> 00:10:17,430
+你<font color="#E5E5E5">会 </font><font color="#CCCCCC">使用这个点的原因是KB </font>
+
+224
+00:10:17,430 --> 00:10:19,770
+严格<font color="#E5E5E5">地将逻辑分开 </font>
+
+225
+00:10:19,770 --> 00:10:23,490
+ <font color="#CCCCCC">并制作keavy文件 </font>
+
+226
+00:10:23,490 --> 00:10:24,250
+介绍
+
+227
+00:10:24,250 --> 00:10:26,620
+而Python <font color="#CCCCCC">文件只是逻辑而已 </font>
+
+228
+00:10:26,620 --> 00:10:29,440
+无论如何，这就是<font color="#CCCCCC">如此，如果你们有 </font>
+
+229
+00:10:29,440 --> 00:10:31,330
+任何<font color="#E5E5E5">问题或意见， </font><font color="#CCCCCC">请感受 </font>
+
+230
+00:10:31,330 --> 00:10:32,890
+ <font color="#CCCCCC">免费将他们留下， </font><font color="#E5E5E5">否则如下 </font>
+
+231
+00:10:32,890 --> 00:10:34,240
+总是感谢你收看东西
+
+232
+00:10:34,240 --> 00:10:35,530
+所有<font color="#E5E5E5">受支持的订阅 </font>
+
+233
+00:10:35,530 --> 00:00:00,000
+直到下一次
+

@@ -1,0 +1,456 @@
+1
+00:00:02,120 --> 00:00:04,200
+大家好<font color="#CCCCCC">，欢迎来到 </font>
+
+2
+00:00:04,200 --> 00:00:07,080
+ <font color="#E5E5E5">第八节电视基础教程视频带 </font>
+
+3
+00:00:07,080 --> 00:00:09,330
+ <font color="#E5E5E5">我们即将 </font><font color="#CCCCCC">制作的 </font><font color="#E5E5E5">视频中的Python </font>
+
+4
+00:00:09,330 --> 00:00:13,320
+ <font color="#CCCCCC">一种绘图应用程序， </font><font color="#E5E5E5">这样做 </font>
+
+5
+00:00:13,320 --> 00:00:15,240
+ <font color="#CCCCCC">从 </font><font color="#E5E5E5">我们</font><font color="#CCCCCC">所处 它实际上不是 </font>
+
+6
+00:00:15,240 --> 00:00:17,310
+非常<font color="#E5E5E5">多的代码，因为 </font><font color="#CCCCCC">我们已经 </font>
+
+7
+00:00:17,310 --> 00:00:19,859
+ <font color="#CCCCCC">触摸 </font><font color="#E5E5E5">跟踪触摸以及 </font>
+
+8
+00:00:19,859 --> 00:00:22,260
+触摸移动<font color="#E5E5E5">我们实际上不会去 </font>
+
+9
+00:00:22,260 --> 00:00:24,480
+需要联系，但我<font color="#CCCCCC">只是 </font><font color="#E5E5E5">要去 </font>
+
+10
+00:00:24,480 --> 00:00:25,980
+ <font color="#E5E5E5">把 </font><font color="#CCCCCC">它留在这里是因为我们很酷 </font>
+
+11
+00:00:25,980 --> 00:00:28,560
+即使有<font color="#CCCCCC">这样的让我们走吧 </font>
+
+12
+00:00:28,560 --> 00:00:31,170
+ <font color="#CCCCCC">提前并导入一件事 </font>
+
+13
+00:00:31,170 --> 00:00:35,190
+ <font color="#E5E5E5">将来自我们想要的电视图像 </font>
+
+14
+00:00:35,190 --> 00:00:37,890
+导入<font color="#E5E5E5">大写字母L和 </font>
+
+15
+00:00:37,890 --> 00:00:40,590
+这实际上是基本上画出一条线
+
+16
+00:00:40,590 --> 00:00:44,280
+ <font color="#E5E5E5">现在我们想要做的是接触下来 </font>
+
+17
+00:00:44,280 --> 00:00:48,120
+我们想要开始<font color="#CCCCCC">一条线， </font><font color="#E5E5E5">所以想想 </font>
+
+18
+00:00:48,120 --> 00:00:50,070
+ <font color="#CCCCCC">你知道你有一支铅笔你放 </font>
+
+19
+00:00:50,070 --> 00:00:51,629
+铅笔在纸上<font color="#E5E5E5">开始 </font>
+
+20
+00:00:51,629 --> 00:00:52,949
+ <font color="#E5E5E5">做一个标记，然后拖动它 </font>
+
+21
+00:00:52,949 --> 00:00:54,899
+ <font color="#E5E5E5">围绕它继续你知道标记 </font>
+
+22
+00:00:54,899 --> 00:00:57,149
+纸所以这就是我们<font color="#CCCCCC">有种</font><font color="#E5E5E5">想 </font>
+
+23
+00:00:57,149 --> 00:00:58,590
+ <font color="#E5E5E5">如果我们想要的话，想做的事情就是想要降下来 </font>
+
+24
+00:00:58,590 --> 00:01:00,449
+开始<font color="#E5E5E5">那个标记然后我们想要 </font>
+
+25
+00:01:00,449 --> 00:01:02,730
+ <font color="#E5E5E5">只要我们的触摸，继续</font><font color="#CCCCCC">这个标志 </font>
+
+26
+00:01:02,730 --> 00:01:05,670
+即使理论上<font color="#E5E5E5">你也在继续前进</font>
+
+27
+00:01:05,670 --> 00:01:07,229
+ <font color="#CCCCCC">可能会认为在你的头上 </font><font color="#E5E5E5">好了，不要我们 </font>
+
+28
+00:01:07,229 --> 00:01:10,290
+必须<font color="#CCCCCC">要做 </font><font color="#E5E5E5">点事情来阻止 </font>
+
+29
+00:01:10,290 --> 00:01:12,630
+这条线<font color="#E5E5E5">不会因为触摸而画</font>
+
+30
+00:01:12,630 --> 00:01:15,000
+此举<font color="#CCCCCC">将刚刚停止了 </font><font color="#E5E5E5">，所以 </font><font color="#CCCCCC">存在 </font>
+
+31
+00:01:15,000 --> 00:01:16,950
+ <font color="#CCCCCC">我们实际上 </font><font color="#E5E5E5">不需要做 </font><font color="#CCCCCC">任何事情 </font>
+
+32
+00:01:16,950 --> 00:01:19,950
+但<font color="#E5E5E5">无论如何，我们需要线路和线路 </font>
+
+33
+00:01:19,950 --> 00:01:22,380
+这实际上是我们必须增加的一切
+
+34
+00:01:22,380 --> 00:01:23,880
+因为进口是关心的， <font color="#E5E5E5">现在我们只是 </font>
+
+35
+00:01:23,880 --> 00:01:25,740
+ <font color="#CCCCCC">需要编写接下来的代码 </font><font color="#E5E5E5">并移动 </font>
+
+36
+00:01:25,740 --> 00:01:30,540
+所以我打算<font color="#E5E5E5">把这个叫做我 </font>
+
+37
+00:01:30,540 --> 00:01:31,740
+不<font color="#CCCCCC">知道 </font>
+
+38
+00:01:31,740 --> 00:01:36,090
+绘制<font color="#CCCCCC">冲突绘制 </font><font color="#E5E5E5">输入，然后在我们之前 </font>
+
+39
+00:01:36,090 --> 00:01:38,009
+ <font color="#CCCCCC">忘记我们需要把它放在这里 </font>
+
+40
+00:01:38,009 --> 00:01:40,560
+ <font color="#CCCCCC">而 </font><font color="#E5E5E5">不是在这里触摸输入 </font>
+
+41
+00:01:40,560 --> 00:01:42,780
+需要<font color="#CCCCCC">绘制输入，所以我 </font><font color="#E5E5E5">只是想 </font>
+
+42
+00:01:42,780 --> 00:01:44,790
+ <font color="#E5E5E5">改变其他 </font><font color="#CCCCCC">垫子 </font><font color="#E5E5E5">以外的其他 </font><font color="#CCCCCC">垫子 </font>
+
+43
+00:01:44,790 --> 00:01:47,540
+我们现在准备好<font color="#E5E5E5">了 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">现在我们说出来 </font>
+
+44
+00:01:47,540 --> 00:01:51,630
+自我点画布，这是<font color="#CCCCCC">画布 </font>
+
+45
+00:01:51,630 --> 00:01:54,899
+我们的应用程序<font color="#CCCCCC">如此自我点画布 </font>
+
+46
+00:01:54,899 --> 00:01:56,579
+只是<font color="#CCCCCC">指 </font><font color="#E5E5E5">那个，所以你没有 </font>
+
+47
+00:01:56,579 --> 00:01:58,619
+真的需要<font color="#E5E5E5">像定义画布或 </font>
+
+48
+00:01:58,619 --> 00:02:01,770
+什么都<font color="#E5E5E5">如此自我点画布是什么 </font>
+
+49
+00:02:01,770 --> 00:02:03,270
+我们实际上<font color="#CCCCCC">想要做得很好，我们要去 </font>
+
+50
+00:02:03,270 --> 00:02:08,190
+ <font color="#E5E5E5">说点触你的D和你D我们现在是 </font>
+
+51
+00:02:08,190 --> 00:02:10,470
+将<font color="#E5E5E5">引用行元素 </font>
+
+52
+00:02:10,470 --> 00:02:12,360
+那里<font color="#E5E5E5">，我们 </font><font color="#CCCCCC">要说的是 </font>
+
+53
+00:02:12,360 --> 00:02:13,720
+ <font color="#CCCCCC">等于 </font>
+
+54
+00:02:13,720 --> 00:02:15,490
+线<font color="#E5E5E5">，我们 </font><font color="#CCCCCC">要说的要点 </font>
+
+55
+00:02:15,490 --> 00:02:17,710
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">那一行上现在正在进行 </font>
+
+56
+00:02:17,710 --> 00:02:20,320
+只有<font color="#E5E5E5">一个点在线，但 </font>
+
+57
+00:02:20,320 --> 00:02:24,640
+现在的点数等于触摸<font color="#E5E5E5">X </font>
+
+58
+00:02:24,640 --> 00:02:28,270
+ <font color="#CCCCCC">触摸点Y，从字面上看是x和y </font>
+
+59
+00:02:28,270 --> 00:02:33,520
+ <font color="#E5E5E5">我们接触到的位置的值</font>
+
+60
+00:02:33,520 --> 00:02:37,420
+这个<font color="#E5E5E5">时刻实际上只是 </font><font color="#CCCCCC">一个 </font>
+
+61
+00:02:37,420 --> 00:02:39,730
+点它不是<font color="#CCCCCC">一个 </font><font color="#E5E5E5">真正 </font><font color="#CCCCCC">的线，它只是 </font>
+
+62
+00:02:39,730 --> 00:02:41,950
+一点，但是我们所做的<font color="#CCCCCC">就是我们 </font>
+
+63
+00:02:41,950 --> 00:02:44,260
+因为我们现在知道了我们的
+
+64
+00:02:44,260 --> 00:02:46,510
+要做的是，我应该去
+
+65
+00:02:46,510 --> 00:02:47,770
+只要<font color="#E5E5E5">确保 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">关闭了这一点 </font>
+
+66
+00:02:47,770 --> 00:02:50,260
+是的<font color="#E5E5E5">，现在我们已经有一条线了 </font>
+
+67
+00:02:50,260 --> 00:02:52,360
+那<font color="#CCCCCC">实际上会显示一些东西 </font>
+
+68
+00:02:52,360 --> 00:02:56,080
+ <font color="#E5E5E5">不是很多 </font><font color="#CCCCCC">，现在 </font><font color="#E5E5E5">接触移动什么 </font>
+
+69
+00:02:56,080 --> 00:02:57,130
+我们想要做的是我们<font color="#E5E5E5">要说 </font>
+
+70
+00:02:57,130 --> 00:03:00,160
+触摸<font color="#E5E5E5">UD </font><font color="#CCCCCC">，然后再次我们 </font>
+
+71
+00:03:00,160 --> 00:03:02,040
+引用<font color="#E5E5E5">行元素 </font><font color="#CCCCCC">哎呀 </font>
+
+72
+00:03:02,040 --> 00:03:05,320
+像这样的线，然后我们会<font color="#E5E5E5">去 </font>
+
+73
+00:03:05,320 --> 00:03:10,510
+说点加上等于我们想要的
+
+74
+00:03:10,510 --> 00:03:12,280
+加上等于完全相同的东西
+
+75
+00:03:12,280 --> 00:03:15,280
+几乎<font color="#E5E5E5">就在这里，所以加上等于 </font>
+
+76
+00:03:15,280 --> 00:03:17,890
+这个<font color="#E5E5E5">如此反复，这 </font><font color="#CCCCCC">仅仅 </font><font color="#E5E5E5">是 </font><font color="#CCCCCC">这 </font>
+
+77
+00:03:17,890 --> 00:03:19,630
+ <font color="#E5E5E5">我们所说的线路功能</font>
+
+78
+00:03:19,630 --> 00:03:23,519
+已经<font color="#CCCCCC">建立了触摸UD线等于 </font>
+
+79
+00:03:23,519 --> 00:03:26,980
+我们<font color="#CCCCCC">在这里和哪里输入的行</font>
+
+80
+00:03:26,980 --> 00:03:29,290
+我们说我们的位置在<font color="#E5E5E5">哪里 </font>
+
+81
+00:03:29,290 --> 00:03:31,209
+基本上<font color="#E5E5E5">说线点点是因为 </font>
+
+82
+00:03:31,209 --> 00:03:33,910
+触摸<font color="#E5E5E5">UD的线</font><font color="#CCCCCC">等于 </font><font color="#E5E5E5">基本上 </font>
+
+83
+00:03:33,910 --> 00:03:36,700
+ <font color="#E5E5E5">这条线就在这里，所以现在我们是 </font>
+
+84
+00:03:36,700 --> 00:03:38,860
+说<font color="#E5E5E5">最初的线点点</font>
+
+85
+00:03:38,860 --> 00:03:41,019
+点线点只是触摸<font color="#CCCCCC">X和Y的 </font>
+
+86
+00:03:41,019 --> 00:03:42,940
+现在我们说的是原始的触摸
+
+87
+00:03:42,940 --> 00:03:44,920
+想要<font color="#CCCCCC">添加到 </font><font color="#E5E5E5">这些点，我们是 </font>
+
+88
+00:03:44,920 --> 00:03:47,410
+添加<font color="#E5E5E5">触摸 </font><font color="#CCCCCC">X的每一个动作</font>
+
+89
+00:03:47,410 --> 00:03:49,540
+并触摸<font color="#CCCCCC">y我们 </font><font color="#E5E5E5">只是添加所有 </font><font color="#CCCCCC">这些 </font>
+
+90
+00:03:49,540 --> 00:03:52,330
+运动<font color="#E5E5E5">，那真的就是这样 </font>
+
+91
+00:03:52,330 --> 00:03:54,250
+ <font color="#CCCCCC">我们现在所需要做的就是这一点 </font>
+
+92
+00:03:54,250 --> 00:03:58,510
+ <font color="#CCCCCC">我们可以 </font><font color="#E5E5E5">保存并有希望地运行 </font>
+
+93
+00:03:58,510 --> 00:04:00,910
+ <font color="#E5E5E5">在这里我们有我们的应用程序 </font><font color="#CCCCCC">和 </font>
+
+94
+00:04:00,910 --> 00:04:03,280
+当然，你<font color="#E5E5E5">可以点击你 </font>
+
+95
+00:04:03,280 --> 00:04:07,420
+ <font color="#CCCCCC">可以开始写东西，所以 </font><font color="#E5E5E5">嗨真棒 </font>
+
+96
+00:04:07,420 --> 00:04:09,970
+ <font color="#E5E5E5">然后我们可以 </font><font color="#CCCCCC">真正知道调整大小 </font>
+
+97
+00:04:09,970 --> 00:04:11,410
+这个<font color="#E5E5E5">，我们会看到，没关系，我们只是 </font>
+
+98
+00:04:11,410 --> 00:04:15,640
+ <font color="#E5E5E5">获得了 </font><font color="#CCCCCC">更多的空间，现在我们 </font><font color="#E5E5E5">可以 </font>
+
+99
+00:04:15,640 --> 00:04:17,529
+写<font color="#E5E5E5">更多的东西，我真的 </font>
+
+100
+00:04:17,529 --> 00:04:20,108
+ <font color="#CCCCCC">善于 </font><font color="#E5E5E5">用鼠标教程 </font><font color="#CCCCCC">写作 </font>
+
+101
+00:04:20,108 --> 00:04:21,820
+ <font color="#CCCCCC">你 </font><font color="#E5E5E5">可能甚至不知道那是 </font>
+
+102
+00:04:21,820 --> 00:04:24,280
+教程立即
+
+103
+00:04:24,280 --> 00:04:27,010
+反正不过就是这样这<font color="#CCCCCC">几乎 </font><font color="#E5E5E5">是 </font>
+
+104
+00:04:27,010 --> 00:04:31,000
+ <font color="#E5E5E5">所有 使用 </font><font color="#CCCCCC">画布 的基础知识 </font>
+
+105
+00:04:31,000 --> 00:04:32,770
+无论如何，但<font color="#CCCCCC">如何 </font><font color="#E5E5E5">非常酷 </font>
+
+106
+00:04:32,770 --> 00:04:35,800
+ <font color="#E5E5E5">很快你 </font><font color="#CCCCCC">可以真正 </font><font color="#E5E5E5">知道 </font>
+
+107
+00:04:35,800 --> 00:04:38,050
+参考中的绘图能力
+
+108
+00:04:38,050 --> 00:04:41,590
+ <font color="#CCCCCC">电视帆布能力</font><font color="#E5E5E5">，使 </font><font color="#CCCCCC">反正我 </font>
+
+109
+00:04:41,590 --> 00:04:42,940
+ <font color="#E5E5E5">希望你们喜欢，如果你有 </font>
+
+110
+00:04:42,940 --> 00:04:44,470
+ <font color="#CCCCCC">请提出任何问题或意见 </font>
+
+111
+00:04:44,470 --> 00:04:45,760
+随意将<font color="#E5E5E5">它们留在下面 </font>
+
+112
+00:04:45,760 --> 00:04:47,380
+一如既往感谢您收看<font color="#CCCCCC">谢谢 </font>
+
+113
+00:04:47,380 --> 00:04:49,450
+ <font color="#E5E5E5">所有支持订阅和直到 </font>
+
+114
+00:04:49,450 --> 00:00:00,000
+下次
+

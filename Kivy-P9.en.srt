@@ -1,0 +1,516 @@
+1
+00:00:02,240 --> 00:00:04,710
+hello everybody<font color="#CCCCCC"> and welcome</font><font color="#E5E5E5"> to the 9th</font>
+
+2
+00:00:04,710 --> 00:00:07,230
+TV basics tutorial<font color="#CCCCCC"> video in this</font><font color="#E5E5E5"> video</font>
+
+3
+00:00:07,230 --> 00:00:08,760
+we're gonna be<font color="#E5E5E5"> talking</font><font color="#CCCCCC"> about a couple of</font>
+
+4
+00:00:08,760 --> 00:00:10,710
+things<font color="#E5E5E5"> one is the screen manager will</font>
+
+5
+00:00:10,710 --> 00:00:12,360
+just barely touch on that before moving
+
+6
+00:00:12,360 --> 00:00:14,700
+into<font color="#E5E5E5"> it the next video as well as the</font>
+
+7
+00:00:14,700 --> 00:00:17,340
+Builder<font color="#E5E5E5"> which will be the primary</font><font color="#CCCCCC"> focus</font>
+
+8
+00:00:17,340 --> 00:00:20,279
+of this this video<font color="#E5E5E5"> so once you</font><font color="#CCCCCC"> start</font>
+
+9
+00:00:20,279 --> 00:00:23,039
+building a large enough application
+
+10
+00:00:23,039 --> 00:00:25,170
+<font color="#E5E5E5">whatever the framework you're using is</font>
+
+11
+00:00:25,170 --> 00:00:27,210
+you're<font color="#E5E5E5"> gonna find that you're</font><font color="#CCCCCC"> gonna need</font>
+
+12
+00:00:27,210 --> 00:00:29,250
+a fundamental<font color="#E5E5E5"> thing and that's to</font><font color="#CCCCCC"> move</font>
+
+13
+00:00:29,250 --> 00:00:32,640
+<font color="#CCCCCC">between windows basically or be</font><font color="#E5E5E5"> able to</font>
+
+14
+00:00:32,640 --> 00:00:34,410
+change the screen<font color="#E5E5E5"> so you need to be able</font>
+
+15
+00:00:34,410 --> 00:00:36,480
+to<font color="#E5E5E5"> have the user</font><font color="#CCCCCC"> you know say</font><font color="#E5E5E5"> click on</font>
+
+16
+00:00:36,480 --> 00:00:39,120
+settings and<font color="#E5E5E5"> settings menu pops up or</font>
+
+17
+00:00:39,120 --> 00:00:42,960
+you know navigate<font color="#CCCCCC"> between</font><font color="#E5E5E5"> I don't know</font>
+
+18
+00:00:42,960 --> 00:00:45,390
+various types<font color="#E5E5E5"> of</font><font color="#CCCCCC"> Windows and this</font><font color="#E5E5E5"> is</font>
+
+19
+00:00:45,390 --> 00:00:47,129
+actually traditionally kind<font color="#E5E5E5"> of difficult</font>
+
+20
+00:00:47,129 --> 00:00:49,530
+especially<font color="#E5E5E5"> unlike tkinter if you recall</font>
+
+21
+00:00:49,530 --> 00:00:51,629
+<font color="#E5E5E5">in</font><font color="#CCCCCC"> pygame the way that we do it is just</font>
+
+22
+00:00:51,629 --> 00:00:53,850
+<font color="#E5E5E5">by cleaning the entire slate and then</font>
+
+23
+00:00:53,850 --> 00:00:56,039
+redrawing on it with tkinter we have
+
+24
+00:00:56,039 --> 00:00:57,449
+basically<font color="#E5E5E5"> all</font><font color="#CCCCCC"> of the windows in the</font>
+
+25
+00:00:57,449 --> 00:00:59,609
+background and then we load the one that
+
+26
+00:00:59,609 --> 00:01:00,719
+we're<font color="#E5E5E5"> most interested in at the moment</font>
+
+27
+00:01:00,719 --> 00:01:03,870
+<font color="#CCCCCC">make that on top</font><font color="#E5E5E5"> basically</font><font color="#CCCCCC"> how keavy</font>
+
+28
+00:01:03,870 --> 00:01:06,570
+works but luckily<font color="#CCCCCC"> TV wrote that code for</font>
+
+29
+00:01:06,570 --> 00:01:08,670
+us<font color="#E5E5E5"> on like tkinter which we had to kind</font>
+
+30
+00:01:08,670 --> 00:01:10,950
+<font color="#CCCCCC">of write the code so anyways let's go</font>
+
+31
+00:01:10,950 --> 00:01:13,799
+ahead<font color="#E5E5E5"> and talk</font><font color="#CCCCCC"> about those two things</font>
+
+32
+00:01:13,799 --> 00:01:15,180
+but<font color="#E5E5E5"> mainly we're going to talk in this</font>
+
+33
+00:01:15,180 --> 00:01:19,409
+tutorial<font color="#E5E5E5"> video</font><font color="#CCCCCC"> about the Builder so the</font>
+
+34
+00:01:19,409 --> 00:01:21,240
+idea of builder is so with these<font color="#E5E5E5"> key</font><font color="#CCCCCC"> v</font>
+
+35
+00:01:21,240 --> 00:01:24,090
+files<font color="#E5E5E5"> we saw that basically we have to</font>
+
+36
+00:01:24,090 --> 00:01:26,369
+have<font color="#E5E5E5"> that key</font><font color="#CCCCCC"> v file at least besides</font>
+
+37
+00:01:26,369 --> 00:01:29,759
+<font color="#E5E5E5">app this word is needs to be the word of</font>
+
+38
+00:01:29,759 --> 00:01:32,579
+the key<font color="#CCCCCC"> v file</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> i don't really</font><font color="#E5E5E5"> like</font>
+
+39
+00:01:32,579 --> 00:01:34,409
+that<font color="#CCCCCC"> i think that's kind of messy and at</font>
+
+40
+00:01:34,409 --> 00:01:36,960
+<font color="#E5E5E5">least is especially here where</font><font color="#CCCCCC"> we're</font>
+
+41
+00:01:36,960 --> 00:01:38,579
+changing like<font color="#CCCCCC"> say versions and stuff</font>
+
+42
+00:01:38,579 --> 00:01:42,180
+like<font color="#E5E5E5"> that um it gets kind of</font><font color="#CCCCCC"> tedious and</font>
+
+43
+00:01:42,180 --> 00:01:44,850
+annoying<font color="#E5E5E5"> that it's not really explicit</font>
+
+44
+00:01:44,850 --> 00:01:46,439
+it's almost like an implied kind of
+
+45
+00:01:46,439 --> 00:01:47,689
+thing where it<font color="#E5E5E5"> just needs to be</font>
+
+46
+00:01:47,689 --> 00:01:50,369
+<font color="#E5E5E5">basically like the root of app needs to</font>
+
+47
+00:01:50,369 --> 00:01:52,560
+<font color="#E5E5E5">be the word it's just kind of messy</font><font color="#CCCCCC"> I</font>
+
+48
+00:01:52,560 --> 00:01:55,259
+don't really like it<font color="#E5E5E5"> so anyways uh there</font>
+
+49
+00:01:55,259 --> 00:01:58,770
+is another methodology<font color="#E5E5E5"> to bringing in</font>
+
+50
+00:01:58,770 --> 00:02:00,899
+key<font color="#CCCCCC"> v files</font><font color="#E5E5E5"> and that's with the</font><font color="#CCCCCC"> Builder</font>
+
+51
+00:02:00,899 --> 00:02:02,759
+so<font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> delete basically all of</font>
+
+52
+00:02:02,759 --> 00:02:07,049
+this code here<font color="#CCCCCC"> really I guess we'll</font>
+
+53
+00:02:07,049 --> 00:02:09,720
+leave that and we'll leave<font color="#E5E5E5"> that but</font>
+
+54
+00:02:09,720 --> 00:02:11,610
+basically<font color="#CCCCCC"> all of this code now you might</font>
+
+55
+00:02:11,610 --> 00:02:12,629
+want to<font color="#E5E5E5"> leave it here</font><font color="#CCCCCC"> because</font><font color="#E5E5E5"> we're</font>
+
+56
+00:02:12,629 --> 00:02:13,300
+<font color="#E5E5E5">going to come</font>
+
+57
+00:02:13,300 --> 00:02:14,590
+<font color="#CCCCCC">- this little widget we're going to use</font>
+
+58
+00:02:14,590 --> 00:02:17,260
+it again in a little<font color="#E5E5E5"> bit</font><font color="#CCCCCC"> but</font><font color="#E5E5E5"> I'm trying</font>
+
+59
+00:02:17,260 --> 00:02:18,850
+<font color="#E5E5E5">to make sure</font><font color="#CCCCCC"> we pair everything down to</font>
+
+60
+00:02:18,850 --> 00:02:21,550
+the<font color="#E5E5E5"> most basic values so when we add</font><font color="#CCCCCC"> new</font>
+
+61
+00:02:21,550 --> 00:02:22,690
+<font color="#E5E5E5">things you understand where the</font>
+
+62
+00:02:22,690 --> 00:02:25,300
+fundamentals of those new<font color="#E5E5E5"> things so I'm</font>
+
+63
+00:02:25,300 --> 00:02:26,500
+going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> delete everything basically up</font>
+
+64
+00:02:26,500 --> 00:02:28,900
+to<font color="#E5E5E5"> here</font><font color="#CCCCCC"> and we'll leave the main app</font><font color="#E5E5E5"> now</font>
+
+65
+00:02:28,900 --> 00:02:31,410
+<font color="#E5E5E5">the next thing</font><font color="#CCCCCC"> that we're going to do is</font>
+
+66
+00:02:31,410 --> 00:02:37,960
+instead of<font color="#E5E5E5"> in fact what we can't what</font>
+
+67
+00:02:37,960 --> 00:02:42,520
+I'll do<font color="#CCCCCC"> now we'll leave</font><font color="#E5E5E5"> it sorry</font><font color="#CCCCCC"> so the</font>
+
+68
+00:02:42,520 --> 00:02:43,990
+first thing we want is builder now we
+
+69
+00:02:43,990 --> 00:02:45,580
+have to import that that's not<font color="#E5E5E5"> something</font>
+
+70
+00:02:45,580 --> 00:02:48,040
+that<font color="#E5E5E5"> just like naturally comes with key</font>
+
+71
+00:02:48,040 --> 00:02:50,770
+or naturally is imported with say<font color="#E5E5E5"> app of</font>
+
+72
+00:02:50,770 --> 00:02:52,780
+key<font color="#E5E5E5"> V and so what we're</font><font color="#CCCCCC"> going to say is</font>
+
+73
+00:02:52,780 --> 00:02:59,170
+from<font color="#CCCCCC"> key V dot Lang imports builder and</font>
+
+74
+00:02:59,170 --> 00:03:01,390
+then we're just<font color="#E5E5E5"> we just need a reference</font>
+
+75
+00:03:01,390 --> 00:03:03,970
+builder<font color="#E5E5E5"> and so we're</font><font color="#CCCCCC"> gonna say basically</font>
+
+76
+00:03:03,970 --> 00:03:06,310
+like this you would say for<font color="#E5E5E5"> example</font>
+
+77
+00:03:06,310 --> 00:03:08,920
+<font color="#CCCCCC">we'll say presentation</font><font color="#E5E5E5"> since the</font><font color="#CCCCCC"> kini</font>
+
+78
+00:03:08,920 --> 00:03:10,930
+files really<font color="#E5E5E5"> are</font><font color="#CCCCCC"> just your presentation</font>
+
+79
+00:03:10,930 --> 00:03:12,850
+I<font color="#E5E5E5"> like to use the word presentation</font>
+
+80
+00:03:12,850 --> 00:03:17,530
+equals<font color="#CCCCCC"> builder daunt</font><font color="#E5E5E5"> load underscore</font>
+
+81
+00:03:17,530 --> 00:03:19,780
+file and the file we<font color="#E5E5E5"> want to load is</font>
+
+82
+00:03:19,780 --> 00:03:22,120
+just the name of<font color="#CCCCCC"> that KB file in our</font>
+
+83
+00:03:22,120 --> 00:03:26,170
+case<font color="#CCCCCC"> I've called mine main dot TV that's</font>
+
+84
+00:03:26,170 --> 00:03:30,580
+this<font color="#E5E5E5"> file here so now that will blow</font>
+
+85
+00:03:30,580 --> 00:03:32,080
+<font color="#E5E5E5">that file in and it really doesn't</font>
+
+86
+00:03:32,080 --> 00:03:35,650
+<font color="#CCCCCC">matter what</font><font color="#E5E5E5"> the name of this class is</font>
+
+87
+00:03:35,650 --> 00:03:39,040
+<font color="#CCCCCC">really so that's basically</font><font color="#E5E5E5"> it the only</font>
+
+88
+00:03:39,040 --> 00:03:40,360
+<font color="#E5E5E5">other change you would really need</font><font color="#CCCCCC"> to</font>
+
+89
+00:03:40,360 --> 00:03:42,610
+<font color="#E5E5E5">make is you</font><font color="#CCCCCC"> would take</font><font color="#E5E5E5"> presentation and</font>
+
+90
+00:03:42,610 --> 00:03:45,550
+have it<font color="#E5E5E5"> return presentation now there's</font>
+
+91
+00:03:45,550 --> 00:03:47,110
+really nothing to<font color="#CCCCCC"> this application we</font>
+
+92
+00:03:47,110 --> 00:03:48,790
+don't<font color="#E5E5E5"> really have anything here at the</font>
+
+93
+00:03:48,790 --> 00:03:51,180
+moment<font color="#CCCCCC"> so we're gonna have to add</font>
+
+94
+00:03:51,180 --> 00:03:53,500
+something here<font color="#E5E5E5"> so presentation has</font>
+
+95
+00:03:53,500 --> 00:03:56,050
+something<font color="#CCCCCC"> to present</font><font color="#E5E5E5"> but I did just want</font>
+
+96
+00:03:56,050 --> 00:03:57,880
+to cover builder<font color="#E5E5E5"> before we hop into the</font>
+
+97
+00:03:57,880 --> 00:03:59,950
+next next thing which will be the<font color="#E5E5E5"> actual</font>
+
+98
+00:03:59,950 --> 00:04:02,110
+<font color="#E5E5E5">screen manager but to use that we're</font>
+
+99
+00:04:02,110 --> 00:04:04,090
+also going to<font color="#E5E5E5"> use builder and that</font>
+
+100
+00:04:04,090 --> 00:04:05,560
+should help<font color="#CCCCCC"> me</font><font color="#E5E5E5"> moving forward</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> these</font>
+
+101
+00:04:05,560 --> 00:04:07,030
+<font color="#CCCCCC">tutorials a lot easier because</font><font color="#E5E5E5"> I kept</font>
+
+102
+00:04:07,030 --> 00:04:08,590
+forgetting<font color="#E5E5E5"> to change this name and this</font>
+
+103
+00:04:08,590 --> 00:04:10,660
+<font color="#E5E5E5">name and it was quite annoying so</font>
+
+104
+00:04:10,660 --> 00:04:13,180
+anyways that's it<font color="#E5E5E5"> for</font><font color="#CCCCCC"> this one real</font>
+
+105
+00:04:13,180 --> 00:04:15,510
+quick<font color="#E5E5E5"> simple tutorial with</font><font color="#CCCCCC"> Builder</font>
+
+106
+00:04:15,510 --> 00:04:17,980
+<font color="#E5E5E5">before I guess suppose before</font><font color="#CCCCCC"> we move on</font>
+
+107
+00:04:17,980 --> 00:04:19,750
+<font color="#E5E5E5">I will</font><font color="#CCCCCC"> just say that builder you can</font>
+
+108
+00:04:19,750 --> 00:04:22,000
+also do instead of load file give you
+
+109
+00:04:22,000 --> 00:04:24,030
+something<font color="#E5E5E5"> like</font><font color="#CCCCCC"> load string</font>
+
+110
+00:04:24,030 --> 00:04:26,730
+and you could load the string like so<font color="#E5E5E5"> so</font>
+
+111
+00:04:26,730 --> 00:04:28,800
+<font color="#E5E5E5">you could have your triple quotes here</font>
+
+112
+00:04:28,800 --> 00:04:31,710
+<font color="#E5E5E5">triple quotes here and then you could</font>
+
+113
+00:04:31,710 --> 00:04:33,419
+basically copy and paste your<font color="#E5E5E5"> key</font><font color="#CCCCCC"> D file</font>
+
+114
+00:04:33,419 --> 00:04:36,360
+right in there<font color="#CCCCCC"> so like</font><font color="#E5E5E5"> this and that's</font>
+
+115
+00:04:36,360 --> 00:04:38,160
+completely<font color="#CCCCCC"> acceptable</font><font color="#E5E5E5"> that would work as</font>
+
+116
+00:04:38,160 --> 00:04:40,620
+well<font color="#E5E5E5"> with key V I'm not</font><font color="#CCCCCC"> going to really</font>
+
+117
+00:04:40,620 --> 00:04:42,690
+<font color="#E5E5E5">do that I don't feel like</font><font color="#CCCCCC"> that's you</font>
+
+118
+00:04:42,690 --> 00:04:44,310
+might as well just write it<font color="#E5E5E5"> in</font><font color="#CCCCCC"> Python if</font>
+
+119
+00:04:44,310 --> 00:04:45,450
+you're gonna do that
+
+120
+00:04:45,450 --> 00:04:48,930
+uh so<font color="#E5E5E5"> anyway</font><font color="#CCCCCC"> I'm</font><font color="#E5E5E5"> not really gonna do</font>
+
+121
+00:04:48,930 --> 00:04:51,240
+<font color="#E5E5E5">that I like the load file better I think</font>
+
+122
+00:04:51,240 --> 00:04:53,010
+<font color="#CCCCCC">that's pretty pretty good idea so</font>
+
+123
+00:04:53,010 --> 00:04:54,720
+anyways<font color="#E5E5E5"> that's what we will do moving</font>
+
+124
+00:04:54,720 --> 00:04:56,580
+<font color="#E5E5E5">forward</font><font color="#CCCCCC"> pretty simple tutorial but if</font>
+
+125
+00:04:56,580 --> 00:04:58,080
+you do have any questions<font color="#CCCCCC"> or comments</font>
+
+126
+00:04:58,080 --> 00:04:59,070
+<font color="#CCCCCC">please feel free to leave</font><font color="#E5E5E5"> them below</font>
+
+127
+00:04:59,070 --> 00:05:01,350
+<font color="#CCCCCC">otherwise as always thanks for watching</font>
+
+128
+00:05:01,350 --> 00:05:02,669
+<font color="#E5E5E5">thanks</font><font color="#CCCCCC"> for all the support</font><font color="#E5E5E5"> subscriptions</font>
+
+129
+00:05:02,669 --> 00:00:00,000
+and until next<font color="#E5E5E5"> time</font>
+

@@ -1,0 +1,936 @@
+1
+00:00:02,389 --> 00:00:04,560
+ <font color="#CCCCCC">剧本 </font><font color="#E5E5E5">是怎么回事欢迎 </font><font color="#CCCCCC">的 </font>
+
+2
+00:00:04,560 --> 00:00:07,710
+ <font color="#CCCCCC">第二个akivi教程基础视频中 </font>
+
+3
+00:00:07,710 --> 00:00:08,790
+ <font color="#E5E5E5">这个视频，我们只是会种 </font>
+
+4
+00:00:08,790 --> 00:00:11,610
+ <font color="#E5E5E5">建立</font><font color="#CCCCCC">在 </font><font color="#E5E5E5">最后一个视频 的顶部 ，这样的 </font>
+
+5
+00:00:11,610 --> 00:00:12,960
+最后一个视频， <font color="#CCCCCC">我们有这个基本的 </font>
+
+6
+00:00:12,960 --> 00:00:14,820
+应用程序和发生的事情<font color="#CCCCCC">是 </font>
+
+7
+00:00:14,820 --> 00:00:16,410
+ <font color="#CCCCCC">他们 </font><font color="#E5E5E5">只是</font><font color="#CCCCCC">弹出 </font><font color="#E5E5E5">一个简单的 </font>
+
+8
+00:00:16,410 --> 00:00:19,560
+ <font color="#E5E5E5">你好世界的标签，但我们可以看到它 </font>
+
+9
+00:00:19,560 --> 00:00:21,510
+已经<font color="#E5E5E5">调整到你知道的水平 </font>
+
+10
+00:00:21,510 --> 00:00:23,160
+它基本上有很多不同的<font color="#CCCCCC">尺寸 </font>
+
+11
+00:00:23,160 --> 00:00:24,630
+将<font color="#E5E5E5">在各种 不同 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">工作 </font>
+
+12
+00:00:24,630 --> 00:00:28,349
+ <font color="#E5E5E5">设备和屏幕 </font><font color="#CCCCCC">，显然我们 </font><font color="#E5E5E5">可以 </font>
+
+13
+00:00:28,349 --> 00:00:30,420
+看到<font color="#CCCCCC">那已经 </font><font color="#E5E5E5">至少你可以 </font>
+
+14
+00:00:30,420 --> 00:00:31,650
+知道<font color="#E5E5E5">那种</font><font color="#CCCCCC">关闭窗口和 </font>
+
+15
+00:00:31,650 --> 00:00:33,180
+ <font color="#E5E5E5">是关于它我 </font><font color="#CCCCCC">真的 </font><font color="#E5E5E5">没有 </font>
+
+16
+00:00:33,180 --> 00:00:36,809
+其他<font color="#CCCCCC">我不知道 </font><font color="#E5E5E5">用于其他 </font>
+
+17
+00:00:36,809 --> 00:00:38,550
+比<font color="#CCCCCC">我们只想 </font><font color="#E5E5E5">展示一些文字 </font>
+
+18
+00:00:38,550 --> 00:00:40,500
+现在<font color="#E5E5E5">让我们说我们真的想要建立 </font>
+
+19
+00:00:40,500 --> 00:00:42,629
+ <font color="#E5E5E5">一个简单的应用程序，让我们说 </font>
+
+20
+00:00:42,629 --> 00:00:44,760
+第一个<font color="#E5E5E5">屏幕是某种登录 </font>
+
+21
+00:00:44,760 --> 00:00:47,399
+那么<font color="#E5E5E5">我们该如何做好这件事 </font>
+
+22
+00:00:47,399 --> 00:00:49,410
+ <font color="#E5E5E5">所有这一切正在发生 </font>
+
+23
+00:00:49,410 --> 00:00:52,260
+ <font color="#E5E5E5">远远是我们有这个 </font><font color="#CCCCCC">ki V应用程序类 </font>
+
+24
+00:00:52,260 --> 00:00:53,969
+在这里，我们<font color="#E5E5E5">继承了一个 </font>
+
+25
+00:00:53,969 --> 00:00:56,850
+ <font color="#E5E5E5">我们自己继承的简单关键v类 </font>
+
+26
+00:00:56,850 --> 00:00:58,710
+ <font color="#CCCCCC">从那里，然后我们定义 </font><font color="#E5E5E5">构建 </font>
+
+27
+00:00:58,710 --> 00:01:00,329
+以及<font color="#CCCCCC">发生 </font><font color="#E5E5E5">的 </font><font color="#CCCCCC">唯一事情 </font>
+
+28
+00:01:00,329 --> 00:01:01,680
+我们的构建<font color="#E5E5E5">是我们 </font><font color="#CCCCCC">只是返回一个 </font>
+
+29
+00:01:01,680 --> 00:01:04,229
+标签<font color="#CCCCCC">，这是我们所有的应用程序所做的 </font>
+
+30
+00:01:04,229 --> 00:01:07,770
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">显然返回</font><font color="#CCCCCC">一个标签 </font><font color="#E5E5E5">，这是一个 </font>
+
+31
+00:01:07,770 --> 00:01:09,210
+这实际上不太实际
+
+32
+00:01:09,210 --> 00:01:10,950
+让我们<font color="#CCCCCC">说，我们想 </font><font color="#E5E5E5">要这样做 </font>
+
+33
+00:01:10,950 --> 00:01:14,369
+现在<font color="#CCCCCC">我们的应用程序 </font><font color="#E5E5E5">只有登录屏幕 </font>
+
+34
+00:01:14,369 --> 00:01:17,790
+我们想要<font color="#E5E5E5">最终返回登录 </font>
+
+35
+00:01:17,790 --> 00:01:21,840
+屏幕<font color="#E5E5E5">好，所以现在我们需要 </font><font color="#CCCCCC">定义 </font>
+
+36
+00:01:21,840 --> 00:01:24,390
+登录屏幕没有登录屏幕
+
+37
+00:01:24,390 --> 00:01:27,390
+ <font color="#E5E5E5">我很 </font><font color="#CCCCCC">幸运地 </font><font color="#E5E5E5">知道 </font><font color="#CCCCCC">我们的 </font><font color="#E5E5E5">电视 </font>
+
+38
+00:01:27,390 --> 00:01:30,630
+ <font color="#E5E5E5">电视还有其他一些东西 </font>
+
+39
+00:01:30,630 --> 00:01:32,340
+ <font color="#CCCCCC">丕游戏</font><font color="#E5E5E5">只要 你知道</font><font color="#CCCCCC">那种 </font><font color="#E5E5E5">建 </font>
+
+40
+00:01:32,340 --> 00:01:36,090
+ <font color="#E5E5E5">在你可以使用的东西中， </font><font color="#CCCCCC">但我不知道 </font>
+
+41
+00:01:36,090 --> 00:01:37,369
+ <font color="#E5E5E5">相信登录屏幕就是其中之一 </font>
+
+42
+00:01:37,369 --> 00:01:40,290
+无论如何，我们会<font color="#E5E5E5">降低 </font><font color="#CCCCCC">哎呀 </font>
+
+43
+00:01:40,290 --> 00:01:43,079
+ <font color="#CCCCCC">错了 </font><font color="#E5E5E5">按钮 </font><font color="#CCCCCC">现在 </font><font color="#E5E5E5">下来吧</font><font color="#CCCCCC">这里 </font>
+
+44
+00:01:43,079 --> 00:01:46,259
+现在让<font color="#E5E5E5">我们继续并定义我们的登录 </font>
+
+45
+00:01:46,259 --> 00:01:47,700
+屏幕现在这将<font color="#E5E5E5">是一个小的 </font>
+
+46
+00:01:47,700 --> 00:01:50,970
+比<font color="#E5E5E5">上 </font><font color="#CCCCCC">一篇教程厚一些</font>
+
+47
+00:01:50,970 --> 00:01:52,439
+和<font color="#CCCCCC">我一起，但我会尽我所能解释 </font>
+
+48
+00:01:52,439 --> 00:01:55,259
+ <font color="#E5E5E5">所有我 首先 </font><font color="#CCCCCC">做的事情 </font>
+
+49
+00:01:55,259 --> 00:01:58,920
+所有我们可以离开这个标签导入，但
+
+50
+00:01:58,920 --> 00:02:00,860
+现在我们<font color="#E5E5E5">要实际做的是 </font>
+
+51
+00:02:00,860 --> 00:02:04,950
+我们将这样<font color="#E5E5E5">引入布局 </font>
+
+52
+00:02:04,950 --> 00:02:09,149
+首先让我<font color="#CCCCCC">从K v UI x中输入它 </font>
+
+53
+00:02:09,149 --> 00:02:13,000
+点网格布局我们想要在
+
+54
+00:02:13,000 --> 00:02:17,980
+ <font color="#CCCCCC">贫穷的资本 </font><font color="#E5E5E5">G电网资本L布局 </font><font color="#CCCCCC">呃 </font>
+
+55
+00:02:17,980 --> 00:02:21,400
+ <font color="#CCCCCC">我们将离开它和网格 </font><font color="#E5E5E5">布局 </font>
+
+56
+00:02:21,400 --> 00:02:23,890
+我<font color="#E5E5E5">想有五 </font><font color="#CCCCCC">六个 </font>
+
+57
+00:02:23,890 --> 00:02:26,080
+ <font color="#E5E5E5">不同类型的布局， </font><font color="#CCCCCC">我们会 </font>
+
+58
+00:02:26,080 --> 00:02:27,640
+那种<font color="#E5E5E5">涵盖那些在一 点点 </font>
+
+59
+00:02:27,640 --> 00:02:31,330
+但基本上<font color="#E5E5E5">布局被用于他们的 </font>
+
+60
+00:02:31,330 --> 00:02:33,760
+布局<font color="#E5E5E5">它有点像tkinter </font>
+
+61
+00:02:33,760 --> 00:02:35,650
+例如你有两种主要的<font color="#E5E5E5">类型 </font>
+
+62
+00:02:35,650 --> 00:02:37,150
+ <font color="#CCCCCC">你有一个网格布局的布局 </font>
+
+63
+00:02:37,150 --> 00:02:38,380
+ <font color="#E5E5E5">几乎 </font><font color="#CCCCCC">像 </font><font color="#E5E5E5">在看什么其他 </font>
+
+64
+00:02:38,380 --> 00:02:40,060
+ <font color="#E5E5E5">一个是它更像是一种相对的种类 </font>
+
+65
+00:02:40,060 --> 00:02:43,570
+的布局<font color="#CCCCCC">和网格布局，你可以 </font>
+
+66
+00:02:43,570 --> 00:02:45,430
+想象一下，你知道基于网格和
+
+67
+00:02:45,430 --> 00:02:46,959
+ <font color="#E5E5E5">有各种 </font><font color="#CCCCCC">不同的布局 </font>
+
+68
+00:02:46,959 --> 00:02:49,570
+ <font color="#E5E5E5">与 </font><font color="#CCCCCC">keavy </font><font color="#E5E5E5">这只是 </font><font color="#CCCCCC">其中</font><font color="#E5E5E5">之一</font><font color="#CCCCCC"> ，所以 </font>
+
+69
+00:02:49,570 --> 00:02:51,100
+ <font color="#E5E5E5">无论如何，我们要 </font><font color="#CCCCCC">使用网格 </font>
+
+70
+00:02:51,100 --> 00:02:53,800
+ <font color="#E5E5E5">布局 </font><font color="#CCCCCC">，然后最终因为它是一个 </font>
+
+71
+00:02:53,800 --> 00:02:55,270
+登录屏幕我们<font color="#E5E5E5">需要一些方法来 </font>
+
+72
+00:02:55,270 --> 00:02:59,890
+实际导入<font color="#E5E5E5">她的 </font><font color="#CCCCCC">输入，而 </font><font color="#E5E5E5">这样 </font><font color="#CCCCCC">的文字 </font>
+
+73
+00:02:59,890 --> 00:03:02,230
+ <font color="#E5E5E5">接下来 </font><font color="#CCCCCC">我们 </font><font color="#E5E5E5">要做的是从 </font><font color="#CCCCCC">a </font>
+
+74
+00:03:02,230 --> 00:03:06,010
+电视<font color="#E5E5E5">用户界面 </font><font color="#CCCCCC">X </font><font color="#E5E5E5">点文本输入我们将 </font><font color="#CCCCCC">要 </font>
+
+75
+00:03:06,010 --> 00:03:09,870
+ <font color="#E5E5E5">进口资本T文本我输入 </font>
+
+76
+00:03:09,870 --> 00:03:13,209
+那真的<font color="#CCCCCC">应该是我认为我们 </font>
+
+77
+00:03:13,209 --> 00:03:15,790
+可能需要<font color="#CCCCCC">导入基本密钥 </font><font color="#E5E5E5">V但是 </font>
+
+78
+00:03:15,790 --> 00:03:18,700
+ <font color="#E5E5E5">无论如何 ，我相信这是必要的 </font>
+
+79
+00:03:18,700 --> 00:03:20,200
+我们会看看<font color="#CCCCCC">我们 </font><font color="#E5E5E5">是否首先 </font><font color="#CCCCCC">遇到 </font><font color="#E5E5E5">它 </font>
+
+80
+00:03:20,200 --> 00:03:22,180
+ <font color="#CCCCCC">我们要说的是我们要走了 </font>
+
+81
+00:03:22,180 --> 00:03:24,580
+ <font color="#E5E5E5">打电话给 </font><font color="#CCCCCC">我们的 </font><font color="#E5E5E5">班级，显然我们需要 </font>
+
+82
+00:03:24,580 --> 00:03:26,170
+为了<font color="#E5E5E5">命名它的登录屏幕，所以我要去 </font>
+
+83
+00:03:26,170 --> 00:03:29,670
+复制<font color="#CCCCCC">启动 </font><font color="#E5E5E5">主类登录屏幕和 </font>
+
+84
+00:03:29,670 --> 00:03:32,769
+ <font color="#E5E5E5">有什么我们想要 </font><font color="#CCCCCC">继承 </font>
+
+85
+00:03:32,769 --> 00:03:36,070
+ <font color="#E5E5E5">我们希望从网格继承 </font>
+
+86
+00:03:36,070 --> 00:03:38,680
+布局，所以这是你的<font color="#E5E5E5">那种 后端 </font>
+
+87
+00:03:38,680 --> 00:03:42,010
+ <font color="#E5E5E5">这是你的后端布局，所以它是 </font>
+
+88
+00:03:42,010 --> 00:03:43,750
+ <font color="#E5E5E5">不仅仅是 我们想要 </font><font color="#CCCCCC">的简单 </font><font color="#E5E5E5">课程 </font>
+
+89
+00:03:43,750 --> 00:03:45,730
+ <font color="#E5E5E5">实际上我们要继承 </font>
+
+90
+00:03:45,730 --> 00:03:48,489
+ <font color="#E5E5E5">这整个网格布局，所以我要去 </font>
+
+91
+00:03:48,489 --> 00:03:51,040
+ <font color="#E5E5E5">复制 </font><font color="#CCCCCC">粘贴，如果你是 </font>
+
+92
+00:03:51,040 --> 00:03:52,930
+不舒服<font color="#E5E5E5">的 </font><font color="#CCCCCC">想法 </font>
+
+93
+00:03:52,930 --> 00:03:55,630
+继承<font color="#E5E5E5">检查崩溃过程 </font>
+
+94
+00:03:55,630 --> 00:03:57,880
+ <font color="#E5E5E5">到面向对象的程序设计教程 </font>
+
+95
+00:03:57,880 --> 00:04:01,810
+我有一个类登录屏幕网格
+
+96
+00:04:01,810 --> 00:04:03,880
+布局<font color="#E5E5E5">和你可能很熟悉 </font>
+
+97
+00:04:03,880 --> 00:04:05,890
+ <font color="#E5E5E5">如果你明白面向对象的话 </font>
+
+98
+00:04:05,890 --> 00:04:07,600
+编程是<font color="#CCCCCC">我们的第一堂课 </font>
+
+99
+00:04:07,600 --> 00:04:09,760
+ <font color="#E5E5E5">要写或第一个呃抱歉 </font>
+
+100
+00:04:09,760 --> 00:04:11,650
+我们<font color="#E5E5E5">要写的第一种方法是 </font>
+
+101
+00:04:11,650 --> 00:04:13,180
+ <font color="#CCCCCC">将成为我们的init </font><font color="#E5E5E5">方法，如此定义 </font>
+
+102
+00:04:13,180 --> 00:04:15,370
+下划线下划线<font color="#E5E5E5">init下划线 </font>
+
+103
+00:04:15,370 --> 00:04:18,790
+强调<font color="#E5E5E5">哎呦，然后我们 </font>
+
+104
+00:04:18,790 --> 00:04:20,500
+只是去<font color="#CCCCCC">自我，然后我们会 </font>
+
+105
+00:04:20,500 --> 00:04:22,960
+ <font color="#E5E5E5">有 </font><font color="#CCCCCC">机构单位这仅仅是 </font><font color="#E5E5E5">一种像一个 </font>
+
+106
+00:04:22,960 --> 00:04:24,430
+ <font color="#CCCCCC">任意 </font><font color="#E5E5E5">数量 </font>
+
+107
+00:04:24,430 --> 00:04:27,639
+添加了关键字参数和第一个
+
+108
+00:04:27,639 --> 00:04:29,500
+我们要做的事情是超级和
+
+109
+00:04:29,500 --> 00:04:33,000
+我们要<font color="#E5E5E5">超级登录屏幕 </font>
+
+110
+00:04:33,000 --> 00:04:36,340
+ <font color="#CCCCCC">单元格 </font><font color="#E5E5E5">，然后点下划线下划线 </font>
+
+111
+00:04:36,340 --> 00:04:39,310
+ <font color="#CCCCCC">init强调下划线然后 </font>
+
+112
+00:04:39,310 --> 00:04:43,930
+ <font color="#E5E5E5">星号星号kwargs好吧 </font>
+
+113
+00:04:43,930 --> 00:04:46,000
+基本上<font color="#CCCCCC">这是怎么 </font><font color="#E5E5E5">做的 </font>
+
+114
+00:04:46,000 --> 00:04:47,710
+我们<font color="#E5E5E5">实际上并不需要 </font><font color="#CCCCCC">引用我们的 </font>
+
+115
+00:04:47,710 --> 00:04:52,030
+基类<font color="#CCCCCC">好， </font><font color="#E5E5E5">所以这 </font><font color="#CCCCCC">将使我们能够 </font>
+
+116
+00:04:52,030 --> 00:04:54,280
+有点<font color="#E5E5E5">用多重继承 </font>
+
+117
+00:04:54,280 --> 00:04:57,130
+不仅仅是你知道<font color="#E5E5E5">网格布局如此定义 </font>
+
+118
+00:04:57,130 --> 00:04:58,290
+在里面<font color="#E5E5E5">哦 </font>
+
+119
+00:04:58,290 --> 00:05:00,550
+基本上<font color="#E5E5E5">我们的init类就是这么做的 </font>
+
+120
+00:05:00,550 --> 00:05:02,050
+我们要说自己的<font color="#CCCCCC">点 </font>
+
+121
+00:05:02,050 --> 00:05:06,850
+ <font color="#E5E5E5">呃呼吁列等于 </font><font color="#CCCCCC">我们要去 </font>
+
+122
+00:05:06,850 --> 00:05:08,710
+说<font color="#E5E5E5">两个，然后我们会 </font><font color="#CCCCCC">说 </font>
+
+123
+00:05:08,710 --> 00:05:13,330
+自我<font color="#E5E5E5">点添加下划线小部件和 </font>
+
+124
+00:05:13,330 --> 00:05:15,430
+我们要添加的小部件就是这个标签
+
+125
+00:05:15,430 --> 00:05:18,039
+小部件<font color="#E5E5E5">在这里等标签 </font>
+
+126
+00:05:18,039 --> 00:05:20,470
+小部件和<font color="#E5E5E5">我们要做的 </font>
+
+127
+00:05:20,470 --> 00:05:24,789
+ <font color="#E5E5E5">说文字等于在 </font><font color="#CCCCCC">那里 </font><font color="#E5E5E5">失去了我的 </font><font color="#CCCCCC">嘴 </font>
+
+128
+00:05:24,789 --> 00:05:25,750
+我们去
+
+129
+00:05:25,750 --> 00:05:30,970
+ <font color="#CCCCCC">用户名好，所以这是我们的 </font><font color="#E5E5E5">第一个小部件 </font>
+
+130
+00:05:30,970 --> 00:05:35,289
+ <font color="#CCCCCC">现在你可以 </font><font color="#E5E5E5">猜测现在是什么 </font>
+
+131
+00:05:35,289 --> 00:05:38,020
+可能接下来是但我们需要<font color="#E5E5E5">的 </font>
+
+132
+00:05:38,020 --> 00:05:40,000
+下一个基本上是文本的小部件
+
+133
+00:05:40,000 --> 00:05:43,919
+ <font color="#E5E5E5">输入小部件，所以现在我们会说自我点 </font>
+
+134
+00:05:43,919 --> 00:05:46,599
+ <font color="#CCCCCC">用户名，这显然会 </font>
+
+135
+00:05:46,599 --> 00:05:48,160
+ <font color="#E5E5E5">引用他们输入的内容 </font>
+
+136
+00:05:48,160 --> 00:05:50,889
+在这里<font color="#E5E5E5">，我们如何参考这个好 </font>
+
+137
+00:05:50,889 --> 00:05:52,419
+我们将<font color="#E5E5E5">使用equals来说自己的点 </font>
+
+138
+00:05:52,419 --> 00:05:56,349
+ <font color="#E5E5E5">文本输入引用这个文本 </font>
+
+139
+00:05:56,349 --> 00:05:59,010
+输入，然后我们<font color="#E5E5E5">会说 </font>
+
+140
+00:05:59,010 --> 00:06:01,870
+多线等于错误， <font color="#E5E5E5">这是 </font>
+
+141
+00:06:01,870 --> 00:06:03,849
+因为这<font color="#E5E5E5">不是一个段落 </font>
+
+142
+00:06:03,849 --> 00:06:06,700
+单个<font color="#CCCCCC">用户名， </font><font color="#E5E5E5">所以我们不需要很多 </font>
+
+143
+00:06:06,700 --> 00:06:09,729
+这里的<font color="#E5E5E5">多行代码等于false </font>
+
+144
+00:06:09,729 --> 00:06:12,930
+ <font color="#E5E5E5">然后我们可以说自己点 </font><font color="#CCCCCC">添加 </font>
+
+145
+00:06:12,930 --> 00:06:17,560
+ <font color="#E5E5E5">用JIT强调，现在我们想要 </font>
+
+146
+00:06:17,560 --> 00:06:22,590
+添加<font color="#E5E5E5">自我点用户名和小部件</font>
+
+147
+00:06:22,590 --> 00:06:26,470
+这基本上<font color="#E5E5E5">是 </font><font color="#CCCCCC">为了添加一个 </font>
+
+148
+00:06:26,470 --> 00:06:28,389
+ <font color="#E5E5E5">用户名，所以我认为我们应该能够 </font>
+
+149
+00:06:28,389 --> 00:06:30,130
+ <font color="#E5E5E5">逃避这种真正的快速运行 </font>
+
+150
+00:06:30,130 --> 00:06:32,680
+ <font color="#E5E5E5">看看我们的立场，我们会看到肯定 </font>
+
+151
+00:06:32,680 --> 00:06:34,210
+足够<font color="#CCCCCC">我们去我们有一个用户名 </font>
+
+152
+00:06:34,210 --> 00:06:37,100
+ <font color="#CCCCCC">如果我们点击这里，我们 </font><font color="#E5E5E5">已经 </font><font color="#CCCCCC">可以 </font>
+
+153
+00:06:37,100 --> 00:06:39,980
+ <font color="#CCCCCC">正在 </font><font color="#E5E5E5">我们的文字 </font><font color="#CCCCCC">中输入 </font><font color="#E5E5E5">再次出现 </font>
+
+154
+00:06:39,980 --> 00:06:42,260
+ <font color="#E5E5E5">所有 </font><font color="#CCCCCC">这些事情都会 </font><font color="#E5E5E5">发生 </font>
+
+155
+00:06:42,260 --> 00:06:44,750
+ <font color="#E5E5E5">我们这是因为它 </font><font color="#CCCCCC">不是多线的 </font>
+
+156
+00:06:44,750 --> 00:06:47,390
+ <font color="#E5E5E5">你可以打进来，我们 </font><font color="#CCCCCC">其实是 </font>
+
+157
+00:06:47,390 --> 00:06:50,180
+ <font color="#CCCCCC">当我们 </font><font color="#E5E5E5">击中 </font><font color="#CCCCCC">时，在这个文本框的外面 </font>
+
+158
+00:06:50,180 --> 00:06:53,840
+ <font color="#E5E5E5">进入 </font><font color="#CCCCCC">这么酷， </font><font color="#E5E5E5">所以我们可以关闭 </font>
+
+159
+00:06:53,840 --> 00:06:55,610
+这关闭<font color="#CCCCCC">了， </font><font color="#E5E5E5">现在 </font><font color="#CCCCCC">让我们继续 </font>
+
+160
+00:06:55,610 --> 00:06:57,350
+ <font color="#CCCCCC">让我们来添加一些更多的 </font><font color="#E5E5E5">东西 </font>
+
+161
+00:06:57,350 --> 00:06:59,390
+我们有<font color="#CCCCCC">两列，但 </font><font color="#E5E5E5">基本上可以 </font>
+
+162
+00:06:59,390 --> 00:07:02,900
+继续添加新的小部件， <font color="#E5E5E5">这样我们就可以 </font>
+
+163
+00:07:02,900 --> 00:07:04,820
+理论上我们只是试试这个<font color="#E5E5E5">让我们来复制 </font>
+
+164
+00:07:04,820 --> 00:07:09,170
+这和我们输入粘贴<font color="#E5E5E5">，现在让我们来 </font>
+
+165
+00:07:09,170 --> 00:07:14,950
+说这是<font color="#E5E5E5">密码 </font><font color="#CCCCCC">自我点密码 </font>
+
+166
+00:07:14,950 --> 00:07:18,170
+等于<font color="#E5E5E5">该复制密码粘贴在这里 </font>
+
+167
+00:07:18,170 --> 00:07:25,970
+ <font color="#CCCCCC">现在让我们保存并运行它 </font><font color="#E5E5E5">等等 </font>
+
+168
+00:07:25,970 --> 00:07:29,030
+ <font color="#E5E5E5">现在你有你的 </font><font color="#CCCCCC">用户名 </font><font color="#E5E5E5">是发送X. </font>
+
+169
+00:07:29,030 --> 00:07:30,710
+和你的密码
+
+170
+00:07:30,710 --> 00:07:34,910
+ <font color="#E5E5E5">oops </font><font color="#CCCCCC">int X </font><font color="#E5E5E5">和你的密码真棒 </font>
+
+171
+00:07:34,910 --> 00:07:36,890
+ <font color="#E5E5E5">哦，不，我们的密码 </font><font color="#CCCCCC">实际上是显示 </font>
+
+172
+00:07:36,890 --> 00:07:39,110
+ <font color="#E5E5E5">那么这段文字就有点问题了吧 </font>
+
+173
+00:07:39,110 --> 00:07:41,690
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">如何 </font><font color="#E5E5E5">编写一些代码 </font><font color="#CCCCCC">来解决这个问题 </font>
+
+174
+00:07:41,690 --> 00:07:44,360
+ <font color="#CCCCCC">好电视为你做 </font>
+
+175
+00:07:44,360 --> 00:07:46,730
+所以当你<font color="#CCCCCC">在 </font><font color="#E5E5E5">这里 </font><font color="#CCCCCC">下来时你就会得到 </font>
+
+176
+00:07:46,730 --> 00:07:48,500
+ <font color="#E5E5E5">实际上多行等于假我们可以 </font>
+
+177
+00:07:48,500 --> 00:07:50,360
+ <font color="#E5E5E5">只需在此添加另一个参数 </font>
+
+178
+00:07:50,360 --> 00:07:53,510
+ <font color="#E5E5E5">多行等于false密码等于 </font>
+
+179
+00:07:53,510 --> 00:07:57,110
+它只是<font color="#E5E5E5">一个文本中 </font><font color="#CCCCCC">的参数 </font>
+
+180
+00:07:57,110 --> 00:07:59,030
+输入和密码等于真正的东西
+
+181
+00:07:59,030 --> 00:08:00,440
+要做的只是让<font color="#E5E5E5">你的密码 </font>
+
+182
+00:08:00,440 --> 00:08:03,320
+星号，所以现在我们可以保存并运行
+
+183
+00:08:03,320 --> 00:08:07,370
+那个<font color="#E5E5E5">和用户名可以是语法 </font>
+
+184
+00:08:07,370 --> 00:08:10,340
+然后我<font color="#CCCCCC">继续 </font><font color="#E5E5E5">打标签为我 </font>
+
+185
+00:08:10,340 --> 00:08:14,090
+ <font color="#CCCCCC">无论如何，期待它工作密码是 </font>
+
+186
+00:08:14,090 --> 00:08:16,640
+真棒， <font color="#E5E5E5">但你看不到它的星号 </font>
+
+187
+00:08:16,640 --> 00:08:20,870
+ <font color="#CCCCCC">现在 </font><font color="#E5E5E5">非常酷，所以 </font><font color="#CCCCCC">现在实际上呢 </font>
+
+188
+00:08:20,870 --> 00:08:24,020
+ <font color="#E5E5E5">我有点好奇， </font><font color="#CCCCCC">看看我们是否可以复制 </font>
+
+189
+00:08:24,020 --> 00:08:28,010
+这个<font color="#E5E5E5">如果 </font><font color="#CCCCCC">来这里粘贴哦，他们 </font><font color="#E5E5E5">是 </font>
+
+190
+00:08:28,010 --> 00:08:31,490
+ <font color="#E5E5E5">无论如何，无论如何，无论如何，无论如何，都可以 </font>
+
+191
+00:08:31,490 --> 00:08:33,169
+你的用户名<font color="#E5E5E5">密码是我的意思 </font>
+
+192
+00:08:33,169 --> 00:08:34,760
+名单<font color="#E5E5E5">可以继续下去，所以我们可以 </font>
+
+193
+00:08:34,760 --> 00:08:36,950
+说<font color="#CCCCCC">我们可以得到另一个我们可以说自己 </font>
+
+194
+00:08:36,950 --> 00:08:41,059
+点<font color="#E5E5E5">添加小部件 </font><font color="#CCCCCC">一个双因素 </font><font color="#E5E5E5">认证 </font>
+
+195
+00:08:41,059 --> 00:08:43,309
+对<font color="#E5E5E5">你的 </font><font color="#CCCCCC">双因素认证 </font>
+
+196
+00:08:43,309 --> 00:08:45,830
+我们不需要离开<font color="#E5E5E5">密码栏 </font>
+
+197
+00:08:45,830 --> 00:08:49,220
+那里<font color="#CCCCCC">，然后我们可以说TF一个， </font><font color="#E5E5E5">所以我们 </font>
+
+198
+00:08:49,220 --> 00:08:49,769
+做不到
+
+199
+00:08:49,769 --> 00:08:54,350
+ <font color="#CCCCCC">2fa但无论如何 </font><font color="#E5E5E5">TFA保存并运行该和 </font>
+
+200
+00:08:54,350 --> 00:08:56,730
+ <font color="#E5E5E5">现在你已经知道了用户名 </font>
+
+201
+00:08:56,730 --> 00:08:58,410
+ <font color="#CCCCCC">你可以输入 </font><font color="#E5E5E5">密码 </font><font color="#CCCCCC">双因素 </font>
+
+202
+00:08:58,410 --> 00:08:59,759
+ <font color="#E5E5E5">所有 </font><font color="#CCCCCC">我们并没有登录的人 </font>
+
+203
+00:08:59,759 --> 00:09:01,980
+ <font color="#CCCCCC">按钮，但我想我们可以谈谈 </font>
+
+204
+00:09:01,980 --> 00:09:04,679
+关于<font color="#CCCCCC">一点点， </font><font color="#E5E5E5">这样 </font>
+
+205
+00:09:04,679 --> 00:09:06,989
+这些就像你知道的一些<font color="#CCCCCC">基础知识</font>
+
+206
+00:09:06,989 --> 00:09:11,369
+创建一些简单输入<font color="#E5E5E5">一些简单的 </font>
+
+207
+00:09:11,369 --> 00:09:14,220
+交互性<font color="#E5E5E5">，就像之前一样 </font>
+
+208
+00:09:14,220 --> 00:09:16,230
+实际<font color="#E5E5E5">编码相当或我们有 </font><font color="#CCCCCC">一个 </font>
+
+209
+00:09:16,230 --> 00:09:18,179
+应用程序<font color="#CCCCCC">需要 </font><font color="#E5E5E5">相当</font><font color="#CCCCCC">多 </font><font color="#E5E5E5">的 </font>
+
+210
+00:09:18,179 --> 00:09:20,639
+代码，但由于<font color="#CCCCCC">千伏大部分的 </font><font color="#E5E5E5">工作 </font>
+
+211
+00:09:20,639 --> 00:09:22,619
+ <font color="#CCCCCC">对我们来说， </font><font color="#E5E5E5">我们并不需要写作 </font>
+
+212
+00:09:22,619 --> 00:09:24,389
+ <font color="#E5E5E5">我的意思是 </font><font color="#CCCCCC">这个 </font><font color="#E5E5E5">代码的 大部分 是 </font>
+
+213
+00:09:24,389 --> 00:09:26,639
+ <font color="#CCCCCC">其实相当多余的权利这一切 </font>
+
+214
+00:09:26,639 --> 00:09:28,889
+ <font color="#E5E5E5">这 </font><font color="#CCCCCC">几乎 </font><font color="#E5E5E5">只是 </font><font color="#CCCCCC">复制和粘贴 </font>
+
+215
+00:09:28,889 --> 00:09:31,920
+ <font color="#E5E5E5">我们稍微改变了一下标签，但是为了 </font>
+
+216
+00:09:31,920 --> 00:09:33,420
+ <font color="#E5E5E5">我的意思是大部分并不是 </font><font color="#CCCCCC">真的 </font>
+
+217
+00:09:33,420 --> 00:09:35,249
+这个<font color="#CCCCCC">复杂的，但我们已经做得很好 </font>
+
+218
+00:09:35,249 --> 00:09:37,049
+ <font color="#E5E5E5">你 </font><font color="#CCCCCC">知道 </font><font color="#E5E5E5">我的意思是窗户本身 </font>
+
+219
+00:09:37,049 --> 00:09:39,269
+我们<font color="#E5E5E5">创造的非常简单，但是 </font>
+
+220
+00:09:39,269 --> 00:09:40,889
+真正需要的代码量
+
+221
+00:09:40,889 --> 00:09:42,389
+ <font color="#CCCCCC">后端权利，如果我们看看所有 </font><font color="#E5E5E5">的 </font>
+
+222
+00:09:42,389 --> 00:09:44,279
+代码<font color="#E5E5E5">涉及文本输入和网格 </font>
+
+223
+00:09:44,279 --> 00:09:47,309
+布局和标签和<font color="#E5E5E5">关键 </font><font color="#CCCCCC">V点应用程序 </font>
+
+224
+00:09:47,309 --> 00:09:49,259
+我们已经看到了，我<font color="#CCCCCC">想我已经展示过了 </font>
+
+225
+00:09:49,259 --> 00:09:51,749
+在以前的视频标签<font color="#E5E5E5">很多 </font>
+
+226
+00:09:51,749 --> 00:09:53,369
+ <font color="#E5E5E5">的代码，因此可以节省 </font><font color="#CCCCCC">您很多 </font><font color="#E5E5E5">时间 </font>
+
+227
+00:09:53,369 --> 00:09:56,399
+这<font color="#CCCCCC">对于快速而言 </font><font color="#E5E5E5">绝对 </font><font color="#CCCCCC">不错 </font>
+
+228
+00:09:56,399 --> 00:09:59,699
+ <font color="#E5E5E5">无论如何发展，就是这样 </font>
+
+229
+00:09:59,699 --> 00:10:01,079
+视频如果<font color="#E5E5E5">你有 </font><font color="#CCCCCC">任何 </font><font color="#E5E5E5">问题或 </font>
+
+230
+00:10:01,079 --> 00:10:02,189
+评论<font color="#CCCCCC">请随时 </font><font color="#E5E5E5">离开他们 </font>
+
+231
+00:10:02,189 --> 00:10:03,689
+ <font color="#CCCCCC">一如以往感谢 </font>
+
+232
+00:10:03,689 --> 00:10:04,740
+ <font color="#CCCCCC">感谢所有的支持 </font>
+
+233
+00:10:04,740 --> 00:10:06,149
+订阅，直到下一个
+
+234
+00:10:06,149 --> 00:00:00,000
+ <font color="#E5E5E5">视频 </font>
+

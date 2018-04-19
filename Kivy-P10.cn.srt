@@ -1,0 +1,816 @@
+1
+00:00:02,330 --> 00:00:04,410
+到底是怎么<font color="#E5E5E5">回事 </font><font color="#CCCCCC">大家欢迎 </font>
+
+2
+00:00:04,410 --> 00:00:07,799
+ <font color="#CCCCCC">在这 </font><font color="#E5E5E5">第十个 </font><font color="#CCCCCC">Cavey教程视频 </font>
+
+3
+00:00:07,799 --> 00:00:08,970
+视频<font color="#CCCCCC">我们要去谈论 </font><font color="#E5E5E5">的 </font>
+
+4
+00:00:08,970 --> 00:00:11,070
+屏幕管理员， <font color="#E5E5E5">所以我 </font><font color="#CCCCCC">已经说过了 </font>
+
+5
+00:00:11,070 --> 00:00:12,750
+这个什么<font color="#E5E5E5">的目的</font>
+
+6
+00:00:12,750 --> 00:00:14,580
+屏幕管理器是在最后一个视频<font color="#CCCCCC">所以 </font>
+
+7
+00:00:14,580 --> 00:00:15,719
+我们<font color="#E5E5E5">将 </font><font color="#CCCCCC">继续前进并跳跃 </font>
+
+8
+00:00:15,719 --> 00:00:18,869
+ <font color="#CCCCCC">直接进入它 </font><font color="#E5E5E5">，以获得屏幕 </font>
+
+9
+00:00:18,869 --> 00:00:20,369
+我们<font color="#CCCCCC">必须再次进口 </font>
+
+10
+00:00:20,369 --> 00:00:23,609
+ <font color="#E5E5E5">而这一次</font><font color="#CCCCCC">将</font><font color="#E5E5E5"> 是 从电视UI X </font>
+
+11
+00:00:23,609 --> 00:00:30,060
+点屏幕<font color="#E5E5E5">管理器导入屏幕管理器 </font>
+
+12
+00:00:30,060 --> 00:00:33,300
+我们还需要屏幕<font color="#CCCCCC">，然后 </font>
+
+13
+00:00:33,300 --> 00:00:36,450
+我们要进口淡出过渡<font color="#E5E5E5">等等 </font>
+
+14
+00:00:36,450 --> 00:00:37,710
+这不仅<font color="#E5E5E5">会让 </font><font color="#CCCCCC">我们做到 </font>
+
+15
+00:00:37,710 --> 00:00:39,719
+屏幕<font color="#E5E5E5">之间的变化是相当的 </font>
+
+16
+00:00:39,719 --> 00:00:41,879
+ <font color="#E5E5E5">还有一些过渡 </font>
+
+17
+00:00:41,879 --> 00:00:44,610
+ <font color="#CCCCCC">您 </font><font color="#E5E5E5">可以使用 </font><font color="#CCCCCC">， </font><font color="#E5E5E5">只是一种使 </font>
+
+18
+00:00:44,610 --> 00:00:46,140
+ <font color="#E5E5E5">它看起来 </font><font color="#CCCCCC">好像你一样 </font>
+
+19
+00:00:46,140 --> 00:00:48,719
+过渡<font color="#E5E5E5">，它实际上是一个过渡 </font>
+
+20
+00:00:48,719 --> 00:00:51,059
+帮助用户知道<font color="#E5E5E5">过渡 </font>
+
+21
+00:00:51,059 --> 00:00:53,219
+即使<font color="#E5E5E5">发生的权利，但它也是 </font>
+
+22
+00:00:53,219 --> 00:00:54,480
+ <font color="#CCCCCC">只是更多的用户友好，它看起来 </font>
+
+23
+00:00:54,480 --> 00:00:57,270
+ <font color="#E5E5E5">无论如何，这些都是好事 </font>
+
+24
+00:00:57,270 --> 00:00:58,559
+ <font color="#E5E5E5">我们需要， </font><font color="#CCCCCC">现在我们准备好了 </font>
+
+25
+00:00:58,559 --> 00:01:01,230
+ <font color="#E5E5E5">真幸运地建立我们的应用程序 </font>
+
+26
+00:01:01,230 --> 00:01:03,840
+ <font color="#E5E5E5">或者至少对于 我们可以做的 这个 </font><font color="#CCCCCC">教程 </font>
+
+27
+00:01:03,840 --> 00:01:05,369
+ <font color="#E5E5E5">它非常简单，我们只是</font><font color="#CCCCCC">要 </font>
+
+28
+00:01:05,369 --> 00:01:06,900
+需要大量的类， <font color="#E5E5E5">碰巧 </font>
+
+29
+00:01:06,900 --> 00:01:09,810
+ <font color="#E5E5E5">但 </font><font color="#CCCCCC">首先 </font><font color="#E5E5E5">我们会有的 </font>
+
+30
+00:01:09,810 --> 00:01:11,250
+ <font color="#CCCCCC">一个班，我们会有一个主要的 </font>
+
+31
+00:01:11,250 --> 00:01:14,400
+屏幕和主屏幕<font color="#CCCCCC">会 </font>
+
+32
+00:01:14,400 --> 00:01:17,430
+ <font color="#CCCCCC">从 </font><font color="#E5E5E5">屏幕上 </font><font color="#CCCCCC">继承 </font><font color="#E5E5E5">基本上 </font><font color="#CCCCCC">使用一个 </font>
+
+33
+00:01:17,430 --> 00:01:19,320
+屏幕经理，我们需要<font color="#E5E5E5">从导入</font>
+
+34
+00:01:19,320 --> 00:01:22,280
+屏幕并从屏幕继承
+
+35
+00:01:22,280 --> 00:01:26,130
+然后使主屏幕上会通过<font color="#CCCCCC">，则 </font>
+
+36
+00:01:26,130 --> 00:01:28,759
+我们要上另一个屏幕
+
+37
+00:01:28,759 --> 00:01:31,320
+它也<font color="#E5E5E5">将从屏幕继承 </font>
+
+38
+00:01:31,320 --> 00:01:34,470
+再一次<font color="#CCCCCC">它会 </font><font color="#E5E5E5">通过然后 </font>
+
+39
+00:01:34,470 --> 00:01:38,570
+我们将有班级屏幕<font color="#E5E5E5">管理 </font>
+
+40
+00:01:38,570 --> 00:01:42,509
+管理它真的很容易<font color="#CCCCCC">koi </font>
+
+41
+00:01:42,509 --> 00:01:44,250
+当你喜欢做<font color="#CCCCCC">教程或只是 </font>
+
+42
+00:01:44,250 --> 00:01:45,509
+就像试图<font color="#E5E5E5">了解 </font><font color="#CCCCCC">某事 </font>
+
+43
+00:01:45,509 --> 00:01:46,799
+ <font color="#E5E5E5">做这个功能 </font><font color="#CCCCCC">真的很容易 </font>
+
+44
+00:01:46,799 --> 00:01:48,149
+ <font color="#CCCCCC">命名与你的相同 </font>
+
+45
+00:01:48,149 --> 00:01:51,270
+ <font color="#CCCCCC">与模块一起工作或 </font><font color="#E5E5E5">准确地工作 </font>
+
+46
+00:01:51,270 --> 00:01:52,890
+这是因为他们通常会将其<font color="#E5E5E5">命名 </font>
+
+47
+00:01:52,890 --> 00:01:55,140
+事情也是一个非常直观的名字
+
+48
+00:01:55,140 --> 00:01:57,090
+所以你<font color="#E5E5E5">可以在</font><font color="#CCCCCC">各种</font><font color="#E5E5E5"> 惹上 麻烦 </font>
+
+49
+00:01:57,090 --> 00:02:00,719
+ <font color="#E5E5E5">无论如何，屏幕管理器不这样 </font><font color="#CCCCCC">做 </font>
+
+50
+00:02:00,719 --> 00:02:03,570
+这<font color="#E5E5E5">将是一个屏幕管理类 </font>
+
+51
+00:02:03,570 --> 00:02:05,280
+我们稍后会介绍<font color="#CCCCCC">和 </font>
+
+52
+00:02:05,280 --> 00:02:07,890
+ <font color="#E5E5E5">那么它将 从屏幕 </font><font color="#CCCCCC">继承 </font>
+
+53
+00:02:07,890 --> 00:02:12,510
+这是经理
+
+54
+00:02:12,510 --> 00:02:15,690
+你猜对了<font color="#E5E5E5">，它会过得 </font><font color="#CCCCCC">很好 </font>
+
+55
+00:02:15,690 --> 00:02:18,360
+我们并不<font color="#CCCCCC">真正需要 </font><font color="#E5E5E5">在这个 </font><font color="#CCCCCC">任何逻辑 </font>
+
+56
+00:02:18,360 --> 00:02:25,710
+只是<font color="#E5E5E5">因为我们真的 </font><font color="#CCCCCC">是公正的 </font>
+
+57
+00:02:25,710 --> 00:02:27,930
+ <font color="#E5E5E5">像视觉和重力一样 </font>
+
+58
+00:02:27,930 --> 00:02:30,000
+在这一点上的东西，所以我们不实际
+
+59
+00:02:30,000 --> 00:02:34,260
+需要<font color="#CCCCCC">把这里的任何逻辑，但很快你 </font>
+
+60
+00:02:34,260 --> 00:02:36,420
+可以想象<font color="#E5E5E5">你可能会那样 </font>
+
+61
+00:02:36,420 --> 00:02:37,500
+基本上它
+
+62
+00:02:37,500 --> 00:02:39,450
+尽管我们需要摆脱<font color="#CCCCCC">这些 </font>
+
+63
+00:02:39,450 --> 00:02:41,910
+这里<font color="#CCCCCC">介绍所以</font><font color="#E5E5E5">不是 </font>
+
+64
+00:02:41,910 --> 00:02:44,490
+函数它<font color="#CCCCCC">只是一个变量， </font><font color="#E5E5E5">所以我们 </font>
+
+65
+00:02:44,490 --> 00:02:46,650
+ <font color="#E5E5E5">要继续前进， </font><font color="#CCCCCC">摆脱 </font><font color="#E5E5E5">那 </font>
+
+66
+00:02:46,650 --> 00:02:50,010
+ <font color="#CCCCCC">现在我们准备好 </font><font color="#E5E5E5">进入我们的KV了 </font>
+
+67
+00:02:50,010 --> 00:02:52,800
+文件， <font color="#E5E5E5">所以我们将保存 </font><font color="#CCCCCC">在那里，我们会 </font>
+
+68
+00:02:52,800 --> 00:02:54,900
+过来<font color="#E5E5E5">我们的 </font><font color="#CCCCCC">ki v文件，我只是 </font>
+
+69
+00:02:54,900 --> 00:02:56,460
+将<font color="#CCCCCC">继续并 </font><font color="#E5E5E5">删除所有内容 </font>
+
+70
+00:02:56,460 --> 00:02:58,740
+出于<font color="#E5E5E5">这个主要的 </font><font color="#CCCCCC">kv我们并不 </font><font color="#E5E5E5">需要 </font>
+
+71
+00:02:58,740 --> 00:03:02,430
+任何东西<font color="#CCCCCC">，如果 </font><font color="#E5E5E5">我会去的 </font>
+
+72
+00:03:02,430 --> 00:03:05,220
+ <font color="#E5E5E5">删除 </font><font color="#CCCCCC">好吧，现在我们 </font><font color="#E5E5E5">想要 </font><font color="#CCCCCC">做的是 </font>
+
+73
+00:03:05,220 --> 00:03:07,050
+我们想要利用<font color="#CCCCCC">会面或淡入淡出 </font>
+
+74
+00:03:07,050 --> 00:03:10,320
+过渡<font color="#E5E5E5">和后来你可以实际上 </font>
+
+75
+00:03:10,320 --> 00:03:12,570
+你可能会<font color="#E5E5E5">用 </font><font color="#CCCCCC">它做点什么</font><font color="#E5E5E5">， </font><font color="#CCCCCC">但是 </font>
+
+76
+00:03:12,570 --> 00:03:14,100
+实际上<font color="#E5E5E5">可能主要是使用淡入淡出 </font>
+
+77
+00:03:14,100 --> 00:03:15,480
+过渡<font color="#E5E5E5">将在关键V中 </font>
+
+78
+00:03:15,480 --> 00:03:19,140
+反正文件，但<font color="#CCCCCC">这样做 </font><font color="#E5E5E5">导入 </font>
+
+79
+00:03:19,140 --> 00:03:21,840
+你的<font color="#E5E5E5">ki V文件真的很简单 </font>
+
+80
+00:03:21,840 --> 00:03:24,480
+但我想这是它的<font color="#E5E5E5">翻转 </font>
+
+81
+00:03:24,480 --> 00:03:24,959
+周围
+
+82
+00:03:24,959 --> 00:03:26,850
+但无论如何，这<font color="#E5E5E5">只是我会展示的 </font>
+
+83
+00:03:26,850 --> 00:03:29,520
+你<font color="#E5E5E5">所以我们想要导入我们想要的东西 </font>
+
+84
+00:03:29,520 --> 00:03:32,940
+导入淡入淡出过渡，然后从
+
+85
+00:03:32,940 --> 00:03:39,570
+ <font color="#CCCCCC">那么 </font><font color="#E5E5E5">关键v UI x点屏幕 </font><font color="#CCCCCC">管理器 </font>
+
+86
+00:03:39,570 --> 00:03:45,030
+点<font color="#E5E5E5">褪色过渡没关系 </font><font color="#CCCCCC">，这就是我们的 </font>
+
+87
+00:03:45,030 --> 00:03:46,350
+导入这真的是<font color="#CCCCCC">我们唯一的事情 </font>
+
+88
+00:03:46,350 --> 00:03:48,510
+ <font color="#E5E5E5">现在需要</font><font color="#CCCCCC">在那里， </font><font color="#E5E5E5">我们会去的 </font>
+
+89
+00:03:48,510 --> 00:03:51,480
+ <font color="#CCCCCC">参考第一个屏幕管理和 </font>
+
+90
+00:03:51,480 --> 00:03:53,100
+基本上<font color="#CCCCCC">讲 </font><font color="#E5E5E5">什么屏幕 </font>
+
+91
+00:03:53,100 --> 00:03:56,790
+管理层首先<font color="#CCCCCC">管理我们 </font>
+
+92
+00:03:56,790 --> 00:04:02,640
+屏幕管理<font color="#CCCCCC">冒号选项卡和第一 </font>
+
+93
+00:04:02,640 --> 00:04:04,610
+我们<font color="#E5E5E5">将参考转换 </font>
+
+94
+00:04:04,610 --> 00:04:07,170
+ <font color="#E5E5E5">过渡是你知道的一个元素 </font>
+
+95
+00:04:07,170 --> 00:04:09,780
+ <font color="#E5E5E5">我们的屏幕管理器 </font><font color="#CCCCCC">没关系，所以我们 </font>
+
+96
+00:04:09,780 --> 00:04:12,540
+ <font color="#CCCCCC">从我们的屏幕继承而来 </font>
+
+97
+00:04:12,540 --> 00:04:15,060
+管理类他们过渡你
+
+98
+00:04:15,060 --> 00:04:16,560
+猜对了，我们<font color="#E5E5E5">打算 </font><font color="#CCCCCC">使用</font><font color="#E5E5E5">淡入淡出 </font>
+
+99
+00:04:16,560 --> 00:04:22,108
+ <font color="#E5E5E5">那么过渡到呃屏幕是什么 </font>
+
+100
+00:04:22,108 --> 00:04:23,410
+ <font color="#E5E5E5">我们正在管理的将保持 </font>
+
+101
+00:04:23,410 --> 00:04:25,630
+ <font color="#E5E5E5">判断主屏幕 </font><font color="#CCCCCC">，我们会 </font>
+
+102
+00:04:25,630 --> 00:04:29,530
+管理<font color="#E5E5E5">另一个屏幕，以后再做 </font>
+
+103
+00:04:29,530 --> 00:04:31,060
+ <font color="#E5E5E5">你可能可以 在这里 添加一些 </font><font color="#CCCCCC">东西 </font>
+
+104
+00:04:31,060 --> 00:04:32,530
+现在我们<font color="#CCCCCC">只是放弃 </font><font color="#E5E5E5">这些 </font>
+
+105
+00:04:32,530 --> 00:04:35,350
+完全空白<font color="#E5E5E5">，现在让我们创建我们的 </font>
+
+106
+00:04:35,350 --> 00:04:41,680
+主屏幕<font color="#E5E5E5">规则在这里，再次 </font><font color="#CCCCCC">电视 </font>
+
+107
+00:04:41,680 --> 00:04:44,080
+文件不像电子表格<font color="#CCCCCC">地球 </font>
+
+108
+00:04:44,080 --> 00:04:47,710
+ <font color="#E5E5E5">电子表格样式表 </font><font color="#CCCCCC">在这里 </font>
+
+109
+00:04:47,710 --> 00:04:49,750
+感觉你知道<font color="#E5E5E5">你 </font><font color="#CCCCCC">喜欢 </font><font color="#E5E5E5">你的参考 </font>
+
+110
+00:04:49,750 --> 00:04:53,560
+说一个ID，所以主屏幕是我们你知道的
+
+111
+00:04:53,560 --> 00:04:55,870
+ <font color="#E5E5E5">父母，然后我们有这个孩子你 </font>
+
+112
+00:04:55,870 --> 00:04:58,300
+ <font color="#E5E5E5">基本知道ID，然后我们可以通过 </font>
+
+113
+00:04:58,300 --> 00:05:00,160
+一些更多的东西和<font color="#CCCCCC">实际参考 </font>
+
+114
+00:05:00,160 --> 00:05:01,840
+该ID并让<font color="#CCCCCC">用户滚动到该位置 </font>
+
+115
+00:05:01,840 --> 00:05:03,610
+ <font color="#E5E5E5">ID和所有那种东西都很友善 </font>
+
+116
+00:05:03,610 --> 00:05:04,810
+它基本上是同样的事情， <font color="#CCCCCC">所以 </font><font color="#E5E5E5">在这里 </font>
+
+117
+00:05:04,810 --> 00:05:07,240
+这里我们要给<font color="#CCCCCC">它一个名字 </font>
+
+118
+00:05:07,240 --> 00:05:09,550
+ <font color="#E5E5E5">主屏幕的名称我们会说 </font>
+
+119
+00:05:09,550 --> 00:05:13,480
+是主要的<font color="#CCCCCC">，这基本上是它 </font><font color="#E5E5E5">然后 </font>
+
+120
+00:05:13,480 --> 00:05:16,300
+我们我们要在这里发展一个<font color="#E5E5E5">资本B </font>
+
+121
+00:05:16,300 --> 00:05:19,060
+按钮<font color="#E5E5E5">的方式我们想要一个 </font><font color="#CCCCCC">按钮选项卡 </font>
+
+122
+00:05:19,060 --> 00:05:20,410
+ <font color="#CCCCCC">在 </font><font color="#E5E5E5">我们就要有几个要素 </font>
+
+123
+00:05:20,410 --> 00:05:22,360
+ <font color="#E5E5E5">这里以及这个按钮将要做什么 </font>
+
+124
+00:05:22,360 --> 00:05:25,960
+是在释放其<font color="#E5E5E5">的一个函数</font>
+
+125
+00:05:25,960 --> 00:05:29,050
+ <font color="#E5E5E5">按钮在这里 </font><font color="#CCCCCC">释放我们想要什么 </font>
+
+126
+00:05:29,050 --> 00:05:31,990
+ <font color="#E5E5E5">发生好的应用程序点 </font><font color="#CCCCCC">根 </font>
+
+127
+00:05:31,990 --> 00:05:35,530
+点电流， <font color="#E5E5E5">所以我们的应用基本上是这样的 </font>
+
+128
+00:05:35,530 --> 00:05:38,110
+ <font color="#E5E5E5">正确的主要应用程序，然后我们说 </font>
+
+129
+00:05:38,110 --> 00:05:40,660
+ <font color="#E5E5E5">基本上为点根电流为 </font>
+
+130
+00:05:40,660 --> 00:05:42,730
+ <font color="#E5E5E5">我们正在查看的当前屏幕 </font>
+
+131
+00:05:42,730 --> 00:05:45,610
+我们想要将其<font color="#CCCCCC">改变为其他 </font>
+
+132
+00:05:45,610 --> 00:05:49,240
+如果按钮将<font color="#E5E5E5">是如此 </font>
+
+133
+00:05:49,240 --> 00:05:50,830
+主<font color="#E5E5E5">屏幕， </font><font color="#CCCCCC">它会 </font><font color="#E5E5E5">像嘿 </font>
+
+134
+00:05:50,830 --> 00:05:52,450
+转到其他页面或转到<font color="#E5E5E5">这些页面</font>
+
+135
+00:05:52,450 --> 00:05:54,669
+设置<font color="#E5E5E5">或基本上 </font><font color="#CCCCCC">是这样的 </font>
+
+136
+00:05:54,669 --> 00:05:57,370
+什么控制一下这个按钮， <font color="#CCCCCC">这样做 </font>
+
+137
+00:05:57,370 --> 00:06:00,160
+我们希望它能够转到<font color="#CCCCCC">另一个 </font>
+
+138
+00:06:00,160 --> 00:06:02,770
+页面，所以<font color="#CCCCCC">我们说的另一个名字 </font>
+
+139
+00:06:02,770 --> 00:06:05,890
+ <font color="#E5E5E5">无论如何 ，这个IDE的屏幕就像ID一样 </font>
+
+140
+00:06:05,890 --> 00:06:08,410
+这个名字<font color="#E5E5E5">将会是其他的 </font>
+
+141
+00:06:08,410 --> 00:06:09,820
+ <font color="#E5E5E5">无论如何 ， 你如何引用它们 </font>
+
+142
+00:06:09,820 --> 00:06:11,140
+这是在发布，但我们需要<font color="#E5E5E5">一些 </font>
+
+143
+00:06:11,140 --> 00:06:12,340
+ <font color="#E5E5E5">首先我们需要一些 </font><font color="#CCCCCC">其他的 </font><font color="#E5E5E5">东西 </font>
+
+144
+00:06:12,340 --> 00:06:14,380
+文本<font color="#E5E5E5">让用户知道这到底是什么 </font>
+
+145
+00:06:14,380 --> 00:06:18,160
+即将发生的<font color="#CCCCCC">只是看看如何 </font>
+
+146
+00:06:18,160 --> 00:06:20,169
+这<font color="#E5E5E5">实际上是下一个屏幕 </font>
+
+147
+00:06:20,169 --> 00:06:22,330
+可能最简单<font color="#CCCCCC">，然后最后 </font>
+
+148
+00:06:22,330 --> 00:06:25,270
+字体大小只会说<font color="#E5E5E5">50，所以它很好 </font>
+
+149
+00:06:25,270 --> 00:06:28,060
+并且<font color="#E5E5E5">很清楚，基本上就是这样 </font>
+
+150
+00:06:28,060 --> 00:06:30,130
+主屏幕<font color="#CCCCCC">，现在我们</font><font color="#E5E5E5">要 </font>
+
+151
+00:06:30,130 --> 00:06:33,160
+代码中的另一个屏幕我<font color="#CCCCCC">要去 </font>
+
+152
+00:06:33,160 --> 00:06:36,610
+ <font color="#E5E5E5">只需复制这个粘贴这个 </font>
+
+153
+00:06:36,610 --> 00:06:40,180
+而不是主屏幕，这是<font color="#E5E5E5">另一个 </font>
+
+154
+00:06:40,180 --> 00:06:45,159
+ <font color="#E5E5E5">当我们释放时，屏幕名称是其他</font>
+
+155
+00:06:45,159 --> 00:06:47,530
+ <font color="#CCCCCC">我们要更改 </font><font color="#E5E5E5">此屏幕上的按钮 </font>
+
+156
+00:06:47,530 --> 00:06:50,110
+回到<font color="#CCCCCC">主屏幕 </font><font color="#E5E5E5">然后 </font>
+
+157
+00:06:50,110 --> 00:06:52,000
+当然<font color="#E5E5E5">这会说一些 </font><font color="#CCCCCC">关于 </font>
+
+158
+00:06:52,000 --> 00:06:54,699
+ <font color="#E5E5E5">回家后我们会回去 </font>
+
+159
+00:06:54,699 --> 00:06:59,139
+ <font color="#E5E5E5">家 </font><font color="#CCCCCC">很好很容易 </font><font color="#E5E5E5">，现在我们已经有了 </font>
+
+160
+00:06:59,139 --> 00:07:02,800
+基本上<font color="#CCCCCC">我们都需要你知道 </font>
+
+161
+00:07:02,800 --> 00:07:05,500
+电视的东西，我们有我们的按钮
+
+162
+00:07:05,500 --> 00:07:07,330
+让我们的屏幕管理者管理我们的
+
+163
+00:07:07,330 --> 00:07:09,099
+屏幕或屏幕愿意改变
+
+164
+00:07:09,099 --> 00:07:11,139
+ <font color="#E5E5E5">当前屏幕以其他方式呈现 </font>
+
+165
+00:07:11,139 --> 00:07:12,719
+我们正在做的<font color="#E5E5E5">是淡化a </font>
+
+166
+00:07:12,719 --> 00:07:15,550
+ <font color="#E5E5E5">所以我认为我们已经 </font><font color="#CCCCCC">准备好 </font><font color="#E5E5E5">了 </font>
+
+167
+00:07:15,550 --> 00:07:18,580
+让我们看看我们是否有<font color="#CCCCCC">任何 </font><font color="#E5E5E5">错误，所以你 </font>
+
+168
+00:07:18,580 --> 00:07:21,610
+ <font color="#E5E5E5">可以运行，我们的屏幕出现短缺 </font>
+
+169
+00:07:21,610 --> 00:07:24,219
+关闭，我们有下一个屏幕，我们点击<font color="#CCCCCC">下一步 </font>
+
+170
+00:07:24,219 --> 00:07:26,169
+屏幕， <font color="#E5E5E5">我们看到它淡入此 </font>
+
+171
+00:07:26,169 --> 00:07:28,330
+屏幕<font color="#E5E5E5">在这里， </font><font color="#CCCCCC">我们将再次点击它 </font><font color="#E5E5E5">，我们 </font>
+
+172
+00:07:28,330 --> 00:07:30,310
+回家后<font color="#CCCCCC">我们 </font><font color="#E5E5E5">可以看到这一点 </font>
+
+173
+00:07:30,310 --> 00:07:33,250
+基本上按照我们的方式工作
+
+174
+00:07:33,250 --> 00:07:35,199
+至少<font color="#E5E5E5">目前显然是有意的 </font>
+
+175
+00:07:35,199 --> 00:07:37,029
+按钮是<font color="#E5E5E5">巨大的 </font><font color="#CCCCCC">，我们并不真的 </font>
+
+176
+00:07:37,029 --> 00:07:39,129
+做任何<font color="#E5E5E5">事情，但我们能够 </font><font color="#CCCCCC">去 </font>
+
+177
+00:07:39,129 --> 00:07:41,259
+ <font color="#E5E5E5">在各种屏幕之间来回移动 </font>
+
+178
+00:07:41,259 --> 00:07:44,050
+然后显然<font color="#E5E5E5">随着 </font><font color="#CCCCCC">时间的推移 </font><font color="#E5E5E5">我们 </font>
+
+179
+00:07:44,050 --> 00:07:46,150
+可以添加一些<font color="#CCCCCC">信息， </font><font color="#E5E5E5">这是你越 </font>
+
+180
+00:07:46,150 --> 00:07:48,580
+知道<font color="#E5E5E5">这里 </font><font color="#CCCCCC">的 </font><font color="#E5E5E5">粘性东西的逻辑和 </font>
+
+181
+00:07:48,580 --> 00:07:52,419
+然后<font color="#CCCCCC">进入我们的 </font><font color="#E5E5E5">实际电视文件添加 </font>
+
+182
+00:07:52,419 --> 00:07:54,430
+一些更多类型<font color="#CCCCCC">的 </font><font color="#E5E5E5">图形和 </font>
+
+183
+00:07:54,430 --> 00:07:56,110
+定制<font color="#E5E5E5">，也许不会使 </font>
+
+184
+00:07:56,110 --> 00:07:57,520
+按钮占据整个<font color="#CCCCCC">屏幕 </font>
+
+185
+00:07:57,520 --> 00:07:59,889
+一种东西， <font color="#CCCCCC">所以我们要添加的 </font><font color="#E5E5E5">东西 </font>
+
+186
+00:07:59,889 --> 00:08:02,409
+有<font color="#E5E5E5">那么我想 </font><font color="#CCCCCC">，大多数 </font><font color="#E5E5E5">还是</font><font color="#CCCCCC">最好 </font>
+
+187
+00:08:02,409 --> 00:08:04,210
+ <font color="#E5E5E5">从现在 </font><font color="#CCCCCC">开始 </font><font color="#E5E5E5">， 现在要做的事情 </font><font color="#CCCCCC">就是展示 </font>
+
+188
+00:08:04,210 --> 00:08:06,129
+以前的视频，我们<font color="#CCCCCC">实际上做了一个 </font>
+
+189
+00:08:06,129 --> 00:08:08,349
+ <font color="#CCCCCC">我们正在绘制东西的应用程序</font>
+
+190
+00:08:08,349 --> 00:08:10,900
+ <font color="#E5E5E5">为什么不 </font><font color="#CCCCCC">直接添加该应用程序？ </font>
+
+191
+00:08:10,900 --> 00:08:14,229
+就好像它是你知道<font color="#E5E5E5">什么都 </font><font color="#CCCCCC">如此 </font>
+
+192
+00:08:14,229 --> 00:08:15,490
+ <font color="#E5E5E5">我们将添加 </font><font color="#CCCCCC">该应用程序 </font>
+
+193
+00:08:15,490 --> 00:08:16,900
+基本上<font color="#CCCCCC">我们会来到主屏幕 </font>
+
+194
+00:08:16,900 --> 00:08:18,639
+打这个它会来我们的应用程序
+
+195
+00:08:18,639 --> 00:08:19,689
+ <font color="#CCCCCC">然后</font><font color="#E5E5E5">也许有一个按钮， </font>
+
+196
+00:08:19,689 --> 00:08:21,849
+ <font color="#E5E5E5">把我们带回家好吧简单一点 </font>
+
+197
+00:08:21,849 --> 00:08:23,889
+ <font color="#E5E5E5">像 </font><font color="#CCCCCC">这样 </font><font color="#E5E5E5">，这就是我们要去 </font>
+
+198
+00:08:23,889 --> 00:08:25,330
+ <font color="#CCCCCC">在下一个视频封面， </font><font color="#E5E5E5">敬请期待 </font>
+
+199
+00:08:25,330 --> 00:08:26,680
+ <font color="#E5E5E5">因为 </font><font color="#CCCCCC">如果你们 </font><font color="#E5E5E5">有任何问题 </font>
+
+200
+00:08:26,680 --> 00:08:27,909
+ <font color="#E5E5E5">或 </font><font color="#CCCCCC">对此视频的 </font><font color="#E5E5E5">评论 </font><font color="#CCCCCC">请感受 </font>
+
+201
+00:08:27,909 --> 00:08:30,069
+ <font color="#CCCCCC">免费将他们留下，否则如下 </font>
+
+202
+00:08:30,069 --> 00:08:31,389
+总是感谢您<font color="#CCCCCC">收看 </font><font color="#E5E5E5">谢谢 </font>
+
+203
+00:08:31,389 --> 00:08:33,880
+ <font color="#E5E5E5">所有支持订阅，直到下一个 </font>
+
+204
+00:08:33,880 --> 00:00:00,000
+时间
+

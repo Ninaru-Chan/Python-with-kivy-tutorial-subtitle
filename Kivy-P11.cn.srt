@@ -1,0 +1,496 @@
+1
+00:00:02,510 --> 00:00:04,560
+大家<font color="#E5E5E5">欢迎 </font><font color="#CCCCCC">来到 </font>
+
+2
+00:00:04,560 --> 00:00:07,740
+ <font color="#E5E5E5">在 11 </font><font color="#CCCCCC">凯维基础知识视频教程 </font>
+
+3
+00:00:07,740 --> 00:00:08,910
+ <font color="#E5E5E5">这个视频我们要去</font><font color="#CCCCCC">谈论 </font>
+
+4
+00:00:08,910 --> 00:00:11,690
+添加<font color="#CCCCCC">我们 </font><font color="#E5E5E5">不知道绘图 </font>
+
+5
+00:00:11,690 --> 00:00:14,400
+应用于<font color="#E5E5E5">这个小应用 </font>
+
+6
+00:00:14,400 --> 00:00:17,190
+ <font color="#E5E5E5">这里并使用按钮返回 </font>
+
+7
+00:00:17,190 --> 00:00:19,080
+和之间的应用程序和
+
+8
+00:00:19,080 --> 00:00:21,119
+ <font color="#E5E5E5">说主屏幕 </font><font color="#CCCCCC">或 </font><font color="#E5E5E5">任何你 </font>
+
+9
+00:00:21,119 --> 00:00:23,369
+可以设想它是一个游戏或我
+
+10
+00:00:23,369 --> 00:00:25,410
+不知道股票价格还是什么漂亮的
+
+11
+00:00:25,410 --> 00:00:27,869
+ <font color="#E5E5E5">无论你想要什么，所以这是什么 </font>
+
+12
+00:00:27,869 --> 00:00:29,640
+我们<font color="#E5E5E5">离开了，现在 </font><font color="#CCCCCC">基本上是这样 </font>
+
+13
+00:00:29,640 --> 00:00:31,320
+ <font color="#CCCCCC">将是我们的这 </font><font color="#E5E5E5">将是我们的主 </font><font color="#CCCCCC">屏幕 </font>
+
+14
+00:00:31,320 --> 00:00:33,090
+ <font color="#E5E5E5">然后我们将重命名下一个屏幕 </font>
+
+15
+00:00:33,090 --> 00:00:34,649
+ <font color="#CCCCCC">我 </font><font color="#E5E5E5">不 </font><font color="#CCCCCC">知道画好 </font>
+
+16
+00:00:34,649 --> 00:00:37,170
+让我们关闭的这一点，并<font color="#E5E5E5">继续 </font>
+
+17
+00:00:37,170 --> 00:00:38,520
+并开始， <font color="#E5E5E5">所以这实际上是 </font>
+
+18
+00:00:38,520 --> 00:00:41,579
+ <font color="#CCCCCC">我现在已经相当简单了 </font>
+
+19
+00:00:41,579 --> 00:00:44,160
+我使用主要<font color="#CCCCCC">以 </font><font color="#E5E5E5">主 </font><font color="#CCCCCC">让豚鼠我 </font>
+
+20
+00:00:44,160 --> 00:00:46,590
+要把这个装载机改成<font color="#E5E5E5">主要 </font>
+
+21
+00:00:46,590 --> 00:00:50,280
+现在<font color="#CCCCCC">KB </font><font color="#E5E5E5">呃那应该是唯一的 </font>
+
+22
+00:00:50,280 --> 00:00:54,270
+事情<font color="#CCCCCC">改变和 </font><font color="#E5E5E5">移动 </font><font color="#CCCCCC">反正 </font><font color="#E5E5E5">就这么 </font>
+
+23
+00:00:54,270 --> 00:00:57,600
+我们如何<font color="#E5E5E5">实际做出这些 </font><font color="#CCCCCC">改变 </font>
+
+24
+00:00:57,600 --> 00:00:59,399
+并继续前进， <font color="#E5E5E5">所以我们首先要做的 </font>
+
+25
+00:00:59,399 --> 00:01:03,870
+ <font color="#E5E5E5">需要我们的实际绘图 </font><font color="#CCCCCC">应用程序 </font>
+
+26
+00:01:03,870 --> 00:01:05,519
+我只是要重写它而已
+
+27
+00:01:05,519 --> 00:01:09,810
+ <font color="#E5E5E5">无论如何快速正确，所以我们有一个类 </font>
+
+28
+00:01:09,810 --> 00:01:12,210
+ <font color="#CCCCCC">我们会打电话 </font><font color="#E5E5E5">给我们，叫我画家 </font>
+
+29
+00:01:12,210 --> 00:01:14,640
+猜测或<font color="#E5E5E5">我认为我们称之为绘制或 </font>
+
+30
+00:01:14,640 --> 00:01:16,770
+ <font color="#E5E5E5">实际上需要的东西</font>
+
+31
+00:01:16,770 --> 00:01:18,180
+ <font color="#CCCCCC">从 </font><font color="#E5E5E5">我们没有的小部件 </font><font color="#CCCCCC">继承 </font>
+
+32
+00:01:18,180 --> 00:01:19,680
+进口，所以让我们实际上使我们的
+
+33
+00:01:19,680 --> 00:01:22,830
+ <font color="#CCCCCC">主题必要的进口以及 </font><font color="#E5E5E5">首先 </font>
+
+34
+00:01:22,830 --> 00:01:27,119
+我们希望<font color="#E5E5E5">从电视界面的x点小部件 </font>
+
+35
+00:01:27,119 --> 00:01:30,329
+我们将导入小部件， <font color="#CCCCCC">然后我们 </font>
+
+36
+00:01:30,329 --> 00:01:32,720
+需要我们也需要线和
+
+37
+00:01:32,720 --> 00:01:38,100
+我们将使用按钮<font color="#CCCCCC">， </font><font color="#E5E5E5">我们会真的 </font>
+
+38
+00:01:38,100 --> 00:01:40,350
+使用按钮，在这里最<font color="#CCCCCC">有可能的 </font><font color="#E5E5E5">我 </font>
+
+39
+00:01:40,350 --> 00:01:41,700
+认为<font color="#CCCCCC">我们会 </font><font color="#E5E5E5">在没有的情况下 </font><font color="#CCCCCC">找到 </font><font color="#E5E5E5">出路 </font>
+
+40
+00:01:41,700 --> 00:01:46,880
+ <font color="#CCCCCC">然后从K </font><font color="#E5E5E5">V点导入按钮</font>
+
+41
+00:01:46,880 --> 00:01:50,670
+图形输入线X让我们大写<font color="#E5E5E5">L </font>
+
+42
+00:01:50,670 --> 00:01:54,240
+ <font color="#E5E5E5">行好，所以现在我们准备继续 </font>
+
+43
+00:01:54,240 --> 00:01:56,850
+ <font color="#CCCCCC">与我们</font><font color="#E5E5E5">的</font><font color="#CCCCCC">画家 </font><font color="#E5E5E5">继承 </font>
+
+44
+00:01:56,850 --> 00:01:59,460
+窗口小部件，现在我们<font color="#CCCCCC">要 </font><font color="#E5E5E5">定义 </font>
+
+45
+00:01:59,460 --> 00:02:02,490
+在接触时<font color="#CCCCCC">再次 </font><font color="#E5E5E5">问自己 </font>
+
+46
+00:02:02,490 --> 00:02:04,229
+实际接触的地方在<font color="#E5E5E5">哪里 </font>
+
+47
+00:02:04,229 --> 00:02:08,038
+由<font color="#CCCCCC">是 </font><font color="#E5E5E5">，我们的代码或他们的代码下一个 </font>
+
+48
+00:02:08,038 --> 00:02:12,239
+ <font color="#E5E5E5">自我再次触摸就像我的代码或 </font>
+
+49
+00:02:12,239 --> 00:02:14,630
+是他们的代码
+
+50
+00:02:14,630 --> 00:02:17,220
+那么我们会<font color="#CCCCCC">用自己的点来说 </font>
+
+51
+00:02:17,220 --> 00:02:20,610
+画布<font color="#E5E5E5">更多的是 </font><font color="#CCCCCC">我的编码器 </font>
+
+52
+00:02:20,610 --> 00:02:23,970
+很好的触摸<font color="#CCCCCC">UT，然后在这里的元素 </font>
+
+53
+00:02:23,970 --> 00:02:27,990
+ <font color="#E5E5E5">我们想要的是线等于资本线 </font>
+
+54
+00:02:27,990 --> 00:02:32,730
+ <font color="#E5E5E5">然后点数等于触摸X </font>
+
+55
+00:02:32,730 --> 00:02:34,380
+ <font color="#E5E5E5">并触摸哎呀 </font>
+
+56
+00:02:34,380 --> 00:02:39,570
+触摸点<font color="#E5E5E5">和呃，如果这感觉 </font>
+
+57
+00:02:39,570 --> 00:02:41,580
+ <font color="#E5E5E5">你的回头速度太快了 </font>
+
+58
+00:02:41,580 --> 00:02:43,590
+ <font color="#E5E5E5">三个教程我认为是我们的地方 </font>
+
+59
+00:02:43,590 --> 00:02:46,230
+ <font color="#CCCCCC">实际上建立了这个原本所以 </font><font color="#E5E5E5">你 </font>
+
+60
+00:02:46,230 --> 00:02:48,360
+可以回到那里， <font color="#E5E5E5">看看 </font><font color="#CCCCCC">如何 </font>
+
+61
+00:02:48,360 --> 00:02:49,980
+它是如果你想要<font color="#E5E5E5">更多的解释完成 </font>
+
+62
+00:02:49,980 --> 00:02:52,640
+ <font color="#E5E5E5">那么我们又有了 </font><font color="#CCCCCC">定义 </font>
+
+63
+00:02:52,640 --> 00:02:56,190
+下划线触摸下划线移动自己
+
+64
+00:02:56,190 --> 00:03:02,300
+点<font color="#CCCCCC">自己的 </font><font color="#E5E5E5">逗号触摸和 </font><font color="#CCCCCC">触摸UD </font>
+
+65
+00:03:02,300 --> 00:03:10,590
+线点点加等于和触摸
+
+66
+00:03:10,590 --> 00:03:14,760
+ <font color="#CCCCCC">触摸XCOM为什么 </font><font color="#E5E5E5">好，那 </font><font color="#CCCCCC">就是了 </font>
+
+67
+00:03:14,760 --> 00:03:17,040
+ <font color="#E5E5E5">基本上它 不是 </font><font color="#CCCCCC">让你 去 </font><font color="#E5E5E5">写 </font>
+
+68
+00:03:17,040 --> 00:03:18,780
+ <font color="#E5E5E5">这里所有的东西都应该是这样 </font>
+
+69
+00:03:18,780 --> 00:03:22,170
+可以接受， <font color="#E5E5E5">所以这是我们的小部件 </font>
+
+70
+00:03:22,170 --> 00:03:24,480
+ <font color="#CCCCCC">我们</font><font color="#E5E5E5">收到了同样的权利和窗口小部件</font>
+
+71
+00:03:24,480 --> 00:03:26,400
+现在我们<font color="#E5E5E5">想要做的就是添加这个 </font>
+
+72
+00:03:26,400 --> 00:03:29,210
+小部件<font color="#E5E5E5">来改变我们的屏幕 </font>
+
+73
+00:03:29,210 --> 00:03:32,700
+ <font color="#CCCCCC">我们已经 </font><font color="#E5E5E5">有了，所以我们想要这个 </font>
+
+74
+00:03:32,700 --> 00:03:37,350
+小工<font color="#E5E5E5">画家在另一个屏幕上，但我们 </font>
+
+75
+00:03:37,350 --> 00:03:39,420
+ <font color="#CCCCCC">实际上不需要 </font><font color="#E5E5E5">通过这个来做到这一点 </font>
+
+76
+00:03:39,420 --> 00:03:42,120
+文件<font color="#E5E5E5">我们将 </font><font color="#CCCCCC">通过关键字V来完成 </font>
+
+77
+00:03:42,120 --> 00:03:46,800
+文件在另一个屏幕中， <font color="#E5E5E5">我们将摆脱 </font>
+
+78
+00:03:46,800 --> 00:03:48,690
+现在<font color="#CCCCCC">我们 </font><font color="#E5E5E5">终将拥有按钮</font>
+
+79
+00:03:48,690 --> 00:03:52,709
+但在那里只是为了它， <font color="#E5E5E5">但现在 </font>
+
+80
+00:03:52,709 --> 00:03:53,730
+ <font color="#E5E5E5">我们 </font><font color="#CCCCCC">不会有任何我们只是 </font>
+
+81
+00:03:53,730 --> 00:03:56,490
+ <font color="#CCCCCC">去 </font><font color="#E5E5E5">说其他名字然后我们添加 </font>
+
+82
+00:03:56,490 --> 00:04:01,260
+我们<font color="#E5E5E5">这里有趣的画家课，所以我们应该 </font>
+
+83
+00:04:01,260 --> 00:04:03,390
+ <font color="#CCCCCC">只能 </font><font color="#E5E5E5">说画家什么都没有 </font>
+
+84
+00:04:03,390 --> 00:04:06,030
+更像是<font color="#CCCCCC">我们一样 </font>
+
+85
+00:04:06,030 --> 00:04:08,160
+实际上<font color="#E5E5E5">将 </font><font color="#CCCCCC">画家 </font><font color="#E5E5E5">添加 </font><font color="#CCCCCC">到另一个画家 </font>
+
+86
+00:04:08,160 --> 00:04:11,760
+在<font color="#CCCCCC">这里屏幕， 但我们不是真的 </font>
+
+87
+00:04:11,760 --> 00:04:13,650
+但<font color="#CCCCCC">无论如何， </font><font color="#E5E5E5">所以这是一个画家小部件和 </font>
+
+88
+00:04:13,650 --> 00:04:16,579
+我们将<font color="#CCCCCC">它添加到另一个 </font><font color="#E5E5E5">屏幕 </font>
+
+89
+00:04:16,579 --> 00:04:20,608
+让我们保存并运行这个和
+
+90
+00:04:20,608 --> 00:04:22,500
+希望<font color="#E5E5E5">这能解决，所以我们去 </font><font color="#CCCCCC">了 </font>
+
+91
+00:04:22,500 --> 00:04:24,900
+下一个<font color="#E5E5E5">屏幕， </font><font color="#CCCCCC">并确信 </font><font color="#E5E5E5">我们 </font><font color="#CCCCCC">能够 </font>
+
+92
+00:04:24,900 --> 00:04:25,900
+ <font color="#CCCCCC">至 </font>
+
+93
+00:04:25,900 --> 00:04:31,480
+画<font color="#E5E5E5">耶 </font><font color="#CCCCCC">确定，所以这就是我们如何能够 </font>
+
+94
+00:04:31,480 --> 00:04:33,340
+ <font color="#E5E5E5">添加一个简单的 </font><font color="#CCCCCC">小部件 </font>
+
+95
+00:04:33,340 --> 00:04:36,910
+我们<font color="#E5E5E5">最初构建了这个 </font><font color="#CCCCCC">小部件 </font>
+
+96
+00:04:36,910 --> 00:04:40,300
+只是直接进入<font color="#CCCCCC">这个页面，但 </font>
+
+97
+00:04:40,300 --> 00:04:43,600
+这个<font color="#E5E5E5">显然 </font><font color="#CCCCCC">有多重 </font>
+
+98
+00:04:43,600 --> 00:04:47,020
+ <font color="#E5E5E5">但现在你可能想知道 在 </font><font color="#CCCCCC">哪里 </font>
+
+99
+00:04:47,020 --> 00:04:49,000
+如果我们想<font color="#E5E5E5">回到主体，该怎么办？ </font>
+
+100
+00:04:49,000 --> 00:04:50,050
+如果这<font color="#E5E5E5">就像一个网页一样</font>
+
+101
+00:04:50,050 --> 00:04:52,660
+设置页面<font color="#CCCCCC">，你希望用户 </font>
+
+102
+00:04:52,660 --> 00:04:55,210
+ <font color="#E5E5E5">能够回到 </font><font color="#CCCCCC">你的 </font><font color="#E5E5E5">主页面 </font>
+
+103
+00:04:55,210 --> 00:04:57,639
+需要<font color="#E5E5E5">在这里有另一个按钮，所以我 </font>
+
+104
+00:04:57,639 --> 00:04:58,570
+认为这就是我们将在<font color="#CCCCCC">下一节做</font>
+
+105
+00:04:58,570 --> 00:05:00,010
+ <font color="#E5E5E5">视频中，我们将添加一个按钮 </font><font color="#CCCCCC">来实现 </font>
+
+106
+00:05:00,010 --> 00:05:01,630
+ <font color="#E5E5E5">像我们 </font><font color="#CCCCCC">一样 前后来回 </font>
+
+107
+00:05:01,630 --> 00:05:03,070
+ <font color="#CCCCCC">之前只有 </font><font color="#E5E5E5">按钮占据了整体 </font>
+
+108
+00:05:03,070 --> 00:05:06,130
+页面<font color="#CCCCCC">，实际上 </font><font color="#E5E5E5">不会有新的 </font>
+
+109
+00:05:06,130 --> 00:05:07,990
+ <font color="#E5E5E5">在下一个视频中为我们添加一个代码 </font>
+
+110
+00:05:07,990 --> 00:05:09,669
+ <font color="#E5E5E5">按钮有关 </font><font color="#CCCCCC">我鼓励你 </font>
+
+111
+00:05:09,669 --> 00:05:11,889
+ <font color="#E5E5E5">继续尝试 </font><font color="#CCCCCC">看看你是否可以添加一个 </font>
+
+112
+00:05:11,889 --> 00:05:14,590
+按钮<font color="#CCCCCC">只是 </font><font color="#E5E5E5">一个小按钮， </font><font color="#CCCCCC">我想我们会的 </font>
+
+113
+00:05:14,590 --> 00:05:16,150
+可能<font color="#E5E5E5">会把我们的，也许在我们的 </font>
+
+114
+00:05:16,150 --> 00:05:18,880
+顶部这里<font color="#CCCCCC">回家</font><font color="#E5E5E5"> ，但只是 尝试 </font>
+
+115
+00:05:18,880 --> 00:05:20,380
+添加你<font color="#E5E5E5">自己的小按钮，看看你是否 </font>
+
+116
+00:05:20,380 --> 00:05:22,180
+可以， <font color="#E5E5E5">如果你不能 </font><font color="#CCCCCC">那么显然你 </font>
+
+117
+00:05:22,180 --> 00:05:23,919
+ <font color="#E5E5E5">仍然可以检查下一个视频 </font>
+
+118
+00:05:23,919 --> 00:05:25,690
+无论如何<font color="#E5E5E5">，这 </font><font color="#CCCCCC">就是我们接下来要做的 </font>
+
+119
+00:05:25,690 --> 00:05:27,580
+ <font color="#E5E5E5">视频， </font><font color="#CCCCCC">敬请关注 </font><font color="#E5E5E5">，如果你们 </font>
+
+120
+00:05:27,580 --> 00:05:29,020
+请有任何<font color="#E5E5E5">问题或意见 </font>
+
+121
+00:05:29,020 --> 00:05:30,669
+ <font color="#CCCCCC">随意将 </font><font color="#E5E5E5">它们 </font><font color="#CCCCCC">留 </font><font color="#E5E5E5">在下面 </font>
+
+122
+00:05:30,669 --> 00:05:32,229
+一如既往感谢收看<font color="#CCCCCC">感谢 </font>
+
+123
+00:05:32,229 --> 00:05:33,580
+ <font color="#CCCCCC">订阅中的所有</font><font color="#E5E5E5">支持 </font>
+
+124
+00:05:33,580 --> 00:00:00,000
+ <font color="#E5E5E5">直到下一次 </font>
+

@@ -1,0 +1,496 @@
+1
+00:00:02,510 --> 00:00:04,560
+everybody what is going on<font color="#E5E5E5"> welcome</font><font color="#CCCCCC"> to</font>
+
+2
+00:00:04,560 --> 00:00:07,740
+<font color="#CCCCCC">the</font><font color="#E5E5E5"> 11th</font><font color="#CCCCCC"> Cavey basics tutorial video</font><font color="#E5E5E5"> in</font>
+
+3
+00:00:07,740 --> 00:00:08,910
+<font color="#E5E5E5">this video we're gonna be talking</font><font color="#CCCCCC"> about</font>
+
+4
+00:00:08,910 --> 00:00:11,690
+adding<font color="#CCCCCC"> our I</font><font color="#E5E5E5"> don't know drawing</font>
+
+5
+00:00:11,690 --> 00:00:14,400
+application to<font color="#E5E5E5"> this little application</font>
+
+6
+00:00:14,400 --> 00:00:17,190
+<font color="#E5E5E5">here and using the buttons to go back</font>
+
+7
+00:00:17,190 --> 00:00:19,080
+and forth between the application and
+
+8
+00:00:19,080 --> 00:00:21,119
+<font color="#E5E5E5">say the home screen</font><font color="#CCCCCC"> or</font><font color="#E5E5E5"> whatever you</font>
+
+9
+00:00:21,119 --> 00:00:23,369
+could envision it being a game or I
+
+10
+00:00:23,369 --> 00:00:25,410
+don't know stock prices or what pretty
+
+11
+00:00:25,410 --> 00:00:27,869
+<font color="#E5E5E5">much whatever you wanted so this is what</font>
+
+12
+00:00:27,869 --> 00:00:29,640
+we<font color="#E5E5E5"> left off with and now</font><font color="#CCCCCC"> basically this</font>
+
+13
+00:00:29,640 --> 00:00:31,320
+<font color="#CCCCCC">will be our this</font><font color="#E5E5E5"> will be our home</font><font color="#CCCCCC"> screen</font>
+
+14
+00:00:31,320 --> 00:00:33,090
+<font color="#E5E5E5">and then we'll rename next screen to be</font>
+
+15
+00:00:33,090 --> 00:00:34,649
+<font color="#CCCCCC">I</font><font color="#E5E5E5"> don't</font><font color="#CCCCCC"> know draw okay</font>
+
+16
+00:00:34,649 --> 00:00:37,170
+so let's close out of this and go<font color="#E5E5E5"> ahead</font>
+
+17
+00:00:37,170 --> 00:00:38,520
+and get started<font color="#E5E5E5"> so this is actually</font>
+
+18
+00:00:38,520 --> 00:00:41,579
+going to be fairly simplistic<font color="#CCCCCC"> I've now</font>
+
+19
+00:00:41,579 --> 00:00:44,160
+I'm using main<font color="#CCCCCC"> to</font><font color="#E5E5E5"> main</font><font color="#CCCCCC"> to cavies I'm</font>
+
+20
+00:00:44,160 --> 00:00:46,590
+gonna change this the loader<font color="#E5E5E5"> to main to</font>
+
+21
+00:00:46,590 --> 00:00:50,280
+now<font color="#CCCCCC"> KB</font><font color="#E5E5E5"> uh and that should be the only</font>
+
+22
+00:00:50,280 --> 00:00:54,270
+thing<font color="#CCCCCC"> to change and anyway</font><font color="#E5E5E5"> moving on so</font>
+
+23
+00:00:54,270 --> 00:00:57,600
+how do we<font color="#E5E5E5"> actually make these</font><font color="#CCCCCC"> changes</font>
+
+24
+00:00:57,600 --> 00:00:59,399
+and move forward<font color="#E5E5E5"> so first we're going to</font>
+
+25
+00:00:59,399 --> 00:01:03,870
+<font color="#E5E5E5">need our actual drawing</font><font color="#CCCCCC"> applications so</font>
+
+26
+00:01:03,870 --> 00:01:05,519
+I'm just gonna rewrite it it's a pretty
+
+27
+00:01:05,519 --> 00:01:09,810
+quick<font color="#E5E5E5"> right anyways so we had a class it</font>
+
+28
+00:01:09,810 --> 00:01:12,210
+was<font color="#CCCCCC"> we'll call</font><font color="#E5E5E5"> that we call it painter I</font>
+
+29
+00:01:12,210 --> 00:01:14,640
+guess or<font color="#E5E5E5"> I think we called it draw or</font>
+
+30
+00:01:14,640 --> 00:01:16,770
+something before<font color="#E5E5E5"> and it actually needs</font>
+
+31
+00:01:16,770 --> 00:01:18,180
+<font color="#CCCCCC">to inherit from</font><font color="#E5E5E5"> widget which we haven't</font>
+
+32
+00:01:18,180 --> 00:01:19,680
+imported so let's actually make our
+
+33
+00:01:19,680 --> 00:01:22,830
+<font color="#CCCCCC">theme necessary imports as well so</font><font color="#E5E5E5"> first</font>
+
+34
+00:01:22,830 --> 00:01:27,119
+we want to<font color="#E5E5E5"> have from TV UI x dot widget</font>
+
+35
+00:01:27,119 --> 00:01:30,329
+we're going to import widget<font color="#CCCCCC"> then we</font>
+
+36
+00:01:30,329 --> 00:01:32,720
+need we're also going to need line and
+
+37
+00:01:32,720 --> 00:01:38,100
+we'll be using buttons<font color="#CCCCCC"> and</font><font color="#E5E5E5"> we'll really</font>
+
+38
+00:01:38,100 --> 00:01:40,350
+use the button in here most<font color="#CCCCCC"> likely</font><font color="#E5E5E5"> I</font>
+
+39
+00:01:40,350 --> 00:01:41,700
+think<font color="#CCCCCC"> we'll get</font><font color="#E5E5E5"> a way out without</font>
+
+40
+00:01:41,700 --> 00:01:46,880
+importing button<font color="#CCCCCC"> so then from k</font><font color="#E5E5E5"> V dot</font>
+
+41
+00:01:46,880 --> 00:01:50,670
+graphics import line X let's capital<font color="#E5E5E5"> L</font>
+
+42
+00:01:50,670 --> 00:01:54,240
+line<font color="#E5E5E5"> okay so now we're ready to continue</font>
+
+43
+00:01:54,240 --> 00:01:56,850
+<font color="#E5E5E5">on</font><font color="#CCCCCC"> with our painter</font><font color="#E5E5E5"> inheriting from</font>
+
+44
+00:01:56,850 --> 00:01:59,460
+widget and now we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> define the</font>
+
+45
+00:01:59,460 --> 00:02:02,490
+on touch down so<font color="#CCCCCC"> again</font><font color="#E5E5E5"> ask yourself</font>
+
+46
+00:02:02,490 --> 00:02:04,229
+where does on touch down actually<font color="#E5E5E5"> come</font>
+
+47
+00:02:04,229 --> 00:02:08,038
+from<font color="#CCCCCC"> is</font><font color="#E5E5E5"> that our code or their code next</font>
+
+48
+00:02:08,038 --> 00:02:12,239
+<font color="#E5E5E5">self touch again is that like my code or</font>
+
+49
+00:02:12,239 --> 00:02:14,630
+is that their code
+
+50
+00:02:14,630 --> 00:02:17,220
+then we're going<font color="#CCCCCC"> to say with self dot</font>
+
+51
+00:02:17,220 --> 00:02:20,610
+canvas<font color="#E5E5E5"> more is that</font><font color="#CCCCCC"> my coder they're</font>
+
+52
+00:02:20,610 --> 00:02:23,970
+good touch<font color="#CCCCCC"> UT and then the element here</font>
+
+53
+00:02:23,970 --> 00:02:27,990
+that<font color="#E5E5E5"> we want is line equals capital line</font>
+
+54
+00:02:27,990 --> 00:02:32,730
+<font color="#E5E5E5">and then the points are equal to touch X</font>
+
+55
+00:02:32,730 --> 00:02:34,380
+<font color="#E5E5E5">and touch whoops</font>
+
+56
+00:02:34,380 --> 00:02:39,570
+touch dot<font color="#E5E5E5"> y and uh if this feels like</font>
+
+57
+00:02:39,570 --> 00:02:41,580
+<font color="#E5E5E5">it's going too fast for you go back like</font>
+
+58
+00:02:41,580 --> 00:02:43,590
+<font color="#E5E5E5">three tutorials I think is where we</font>
+
+59
+00:02:43,590 --> 00:02:46,230
+<font color="#CCCCCC">actually built this originally so</font><font color="#E5E5E5"> you</font>
+
+60
+00:02:46,230 --> 00:02:48,360
+can go back there and<font color="#E5E5E5"> see how</font><font color="#CCCCCC"> that how</font>
+
+61
+00:02:48,360 --> 00:02:49,980
+it was done if you want<font color="#E5E5E5"> more explanation</font>
+
+62
+00:02:49,980 --> 00:02:52,640
+there<font color="#E5E5E5"> then again we</font><font color="#CCCCCC"> have on defined on</font>
+
+63
+00:02:52,640 --> 00:02:56,190
+underscore touch underscore move self
+
+64
+00:02:56,190 --> 00:03:02,300
+dot<font color="#CCCCCC"> ourself</font><font color="#E5E5E5"> comma touch and</font><font color="#CCCCCC"> touch UD</font>
+
+65
+00:03:02,300 --> 00:03:10,590
+line dot points plus equals and touch
+
+66
+00:03:10,590 --> 00:03:14,760
+<font color="#CCCCCC">XCOM on touch why</font><font color="#E5E5E5"> okay and that's</font>
+
+67
+00:03:14,760 --> 00:03:17,040
+<font color="#E5E5E5">basically it</font><font color="#CCCCCC"> we're</font><font color="#E5E5E5"> not</font><font color="#CCCCCC"> gonna</font><font color="#E5E5E5"> write</font>
+
+68
+00:03:17,040 --> 00:03:18,780
+anything<font color="#E5E5E5"> else here this should all be</font>
+
+69
+00:03:18,780 --> 00:03:22,170
+acceptable<font color="#E5E5E5"> so this is our little widget</font>
+
+70
+00:03:22,170 --> 00:03:24,480
+right same widget<font color="#CCCCCC"> that</font><font color="#E5E5E5"> we had before and</font>
+
+71
+00:03:24,480 --> 00:03:26,400
+now what we<font color="#E5E5E5"> want to do is add this</font>
+
+72
+00:03:26,400 --> 00:03:29,210
+widget<font color="#E5E5E5"> to our kind of screen changing</font>
+
+73
+00:03:29,210 --> 00:03:32,700
+<font color="#CCCCCC">that we've already</font><font color="#E5E5E5"> got so we want this</font>
+
+74
+00:03:32,700 --> 00:03:37,350
+widget<font color="#E5E5E5"> painter in another screen but we</font>
+
+75
+00:03:37,350 --> 00:03:39,420
+<font color="#CCCCCC">actually don't</font><font color="#E5E5E5"> have to do that via this</font>
+
+76
+00:03:39,420 --> 00:03:42,120
+file<font color="#E5E5E5"> we're going</font><font color="#CCCCCC"> to do it via the key V</font>
+
+77
+00:03:42,120 --> 00:03:46,800
+file so in another screen<font color="#E5E5E5"> we'll get rid</font>
+
+78
+00:03:46,800 --> 00:03:48,690
+of button for now<font color="#CCCCCC"> we'll</font><font color="#E5E5E5"> eventually have</font>
+
+79
+00:03:48,690 --> 00:03:52,709
+a but in there just to it<font color="#E5E5E5"> but for now</font>
+
+80
+00:03:52,709 --> 00:03:53,730
+<font color="#E5E5E5">we're not</font><font color="#CCCCCC"> gonna have anything we're just</font>
+
+81
+00:03:53,730 --> 00:03:56,490
+<font color="#CCCCCC">going</font><font color="#E5E5E5"> to say name other and then we add</font>
+
+82
+00:03:56,490 --> 00:04:01,260
+our fun<font color="#E5E5E5"> painter class here so we should</font>
+
+83
+00:04:01,260 --> 00:04:03,390
+<font color="#CCCCCC">just be</font><font color="#E5E5E5"> able to say just painter nothing</font>
+
+84
+00:04:03,390 --> 00:04:06,030
+more so it would be as<font color="#CCCCCC"> if we were</font>
+
+85
+00:04:06,030 --> 00:04:08,160
+actually<font color="#E5E5E5"> adding</font><font color="#CCCCCC"> the painter into another</font>
+
+86
+00:04:08,160 --> 00:04:11,760
+screen down<font color="#CCCCCC"> here but we're not really</font>
+
+87
+00:04:11,760 --> 00:04:13,650
+but<font color="#CCCCCC"> anyway</font><font color="#E5E5E5"> so it's a painter widget and</font>
+
+88
+00:04:13,650 --> 00:04:16,579
+we're adding<font color="#CCCCCC"> it to another</font><font color="#E5E5E5"> screen so</font>
+
+89
+00:04:16,579 --> 00:04:20,608
+let's save that and run this and
+
+90
+00:04:20,608 --> 00:04:22,500
+hopefully<font color="#E5E5E5"> this works out so we go to</font><font color="#CCCCCC"> the</font>
+
+91
+00:04:22,500 --> 00:04:24,900
+next<font color="#E5E5E5"> screen</font><font color="#CCCCCC"> and sure enough</font><font color="#E5E5E5"> we</font><font color="#CCCCCC"> are able</font>
+
+92
+00:04:24,900 --> 00:04:25,900
+<font color="#CCCCCC">to</font>
+
+93
+00:04:25,900 --> 00:04:31,480
+draw<font color="#E5E5E5"> yay</font><font color="#CCCCCC"> ok so that's how we were able</font>
+
+94
+00:04:31,480 --> 00:04:33,340
+<font color="#E5E5E5">to add just a simple</font><font color="#CCCCCC"> little widget that</font>
+
+95
+00:04:33,340 --> 00:04:36,910
+we had built<font color="#E5E5E5"> initially that</font><font color="#CCCCCC"> widget was</font>
+
+96
+00:04:36,910 --> 00:04:40,300
+just heading straight into<font color="#CCCCCC"> this page but</font>
+
+97
+00:04:40,300 --> 00:04:43,600
+this<font color="#E5E5E5"> one obviously</font><font color="#CCCCCC"> has sort of multiple</font>
+
+98
+00:04:43,600 --> 00:04:47,020
+<font color="#E5E5E5">pages but now you might wonder</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> at</font>
+
+99
+00:04:47,020 --> 00:04:49,000
+what if we want to<font color="#E5E5E5"> get back to the main</font>
+
+100
+00:04:49,000 --> 00:04:50,050
+page like what if this<font color="#E5E5E5"> was like a</font>
+
+101
+00:04:50,050 --> 00:04:52,660
+settings page<font color="#CCCCCC"> and you wanted the user to</font>
+
+102
+00:04:52,660 --> 00:04:55,210
+be<font color="#E5E5E5"> able to get back to the main page</font><font color="#CCCCCC"> you</font>
+
+103
+00:04:55,210 --> 00:04:57,639
+need<font color="#E5E5E5"> to have another button on here so I</font>
+
+104
+00:04:57,639 --> 00:04:58,570
+think that's what we'll do in the<font color="#CCCCCC"> next</font>
+
+105
+00:04:58,570 --> 00:05:00,010
+<font color="#E5E5E5">video we'll add a button</font><font color="#CCCCCC"> to go kind of</font>
+
+106
+00:05:00,010 --> 00:05:01,630
+back and<font color="#CCCCCC"> forth kind</font><font color="#E5E5E5"> of like we</font><font color="#CCCCCC"> did</font>
+
+107
+00:05:01,630 --> 00:05:03,070
+<font color="#CCCCCC">before only</font><font color="#E5E5E5"> the button took up the whole</font>
+
+108
+00:05:03,070 --> 00:05:06,130
+page<font color="#CCCCCC"> and in fact</font><font color="#E5E5E5"> there will be no new</font>
+
+109
+00:05:06,130 --> 00:05:07,990
+code in the<font color="#E5E5E5"> next videos for us adding a</font>
+
+110
+00:05:07,990 --> 00:05:09,669
+<font color="#E5E5E5">button is concerned</font><font color="#CCCCCC"> I encourage you to</font>
+
+111
+00:05:09,669 --> 00:05:11,889
+<font color="#E5E5E5">go ahead and try to</font><font color="#CCCCCC"> see if you can add a</font>
+
+112
+00:05:11,889 --> 00:05:14,590
+button<font color="#CCCCCC"> just</font><font color="#E5E5E5"> a small button</font><font color="#CCCCCC"> I think we'll</font>
+
+113
+00:05:14,590 --> 00:05:16,150
+probably<font color="#E5E5E5"> put ours up and maybe in the</font>
+
+114
+00:05:16,150 --> 00:05:18,880
+top here<font color="#CCCCCC"> to go</font><font color="#E5E5E5"> back home but just</font><font color="#CCCCCC"> try</font><font color="#E5E5E5"> to</font>
+
+115
+00:05:18,880 --> 00:05:20,380
+add your<font color="#E5E5E5"> own small button and see if you</font>
+
+116
+00:05:20,380 --> 00:05:22,180
+can and<font color="#E5E5E5"> if you can't</font><font color="#CCCCCC"> then obviously you</font>
+
+117
+00:05:22,180 --> 00:05:23,919
+<font color="#E5E5E5">can still check the next video so</font>
+
+118
+00:05:23,919 --> 00:05:25,690
+anyways<font color="#E5E5E5"> that's</font><font color="#CCCCCC"> what we'll do in the next</font>
+
+119
+00:05:25,690 --> 00:05:27,580
+<font color="#E5E5E5">video so stay</font><font color="#CCCCCC"> tuned</font><font color="#E5E5E5"> for that if you guys</font>
+
+120
+00:05:27,580 --> 00:05:29,020
+have any<font color="#E5E5E5"> questions or comments please</font>
+
+121
+00:05:29,020 --> 00:05:30,669
+<font color="#CCCCCC">feel free to leave</font><font color="#E5E5E5"> them below otherwise</font>
+
+122
+00:05:30,669 --> 00:05:32,229
+as always thanks for watching<font color="#E5E5E5"> thanks</font><font color="#CCCCCC"> for</font>
+
+123
+00:05:32,229 --> 00:05:33,580
+all the<font color="#E5E5E5"> support in</font><font color="#CCCCCC"> the subscriptions</font>
+
+124
+00:05:33,580 --> 00:00:00,000
+<font color="#E5E5E5">until next time</font>
+

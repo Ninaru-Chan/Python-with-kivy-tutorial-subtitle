@@ -1,0 +1,892 @@
+1
+00:00:02,240 --> 00:00:04,620
+hey guys what's going<font color="#CCCCCC"> on welcome to the</font>
+
+2
+00:00:04,620 --> 00:00:07,589
+<font color="#CCCCCC">fourth</font><font color="#E5E5E5"> Python with TV basics tutorial</font>
+
+3
+00:00:07,589 --> 00:00:10,019
+video in<font color="#E5E5E5"> the last video what we did is</font>
+
+4
+00:00:10,019 --> 00:00:12,090
+<font color="#CCCCCC">we showed</font><font color="#E5E5E5"> how</font><font color="#CCCCCC"> we can use the keavy</font>
+
+5
+00:00:12,090 --> 00:00:15,900
+language<font color="#E5E5E5"> for I suppose styling is the</font>
+
+6
+00:00:15,900 --> 00:00:18,840
+best word I<font color="#CCCCCC"> can think</font><font color="#E5E5E5"> of for it and so</font>
+
+7
+00:00:18,840 --> 00:00:21,180
+we saw how<font color="#E5E5E5"> we made our basic hello world</font>
+
+8
+00:00:21,180 --> 00:00:23,130
+application and all we're actually doing
+
+9
+00:00:23,130 --> 00:00:25,920
+in Python is returning<font color="#E5E5E5"> label which is</font>
+
+10
+00:00:25,920 --> 00:00:29,939
+referencing<font color="#E5E5E5"> our key</font><font color="#CCCCCC"> v file</font><font color="#E5E5E5"> now I'm going</font>
+
+11
+00:00:29,939 --> 00:00:32,070
+to call this<font color="#E5E5E5"> simple key</font><font color="#CCCCCC"> V</font><font color="#E5E5E5"> to this simple</font>
+
+12
+00:00:32,070 --> 00:00:34,969
+key<font color="#CCCCCC"> v2 and now our actual key</font><font color="#E5E5E5"> V file is</font>
+
+13
+00:00:34,969 --> 00:00:39,390
+simple key B to zoom in<font color="#E5E5E5"> here so now</font>
+
+14
+00:00:39,390 --> 00:00:40,680
+we're going to go ahead and do is I'm
+
+15
+00:00:40,680 --> 00:00:42,030
+going to call<font color="#E5E5E5"> this actually keep you</font>
+
+16
+00:00:42,030 --> 00:00:47,190
+video for now<font color="#CCCCCC"> and this works</font><font color="#E5E5E5"> as long</font><font color="#CCCCCC"> as</font>
+
+17
+00:00:47,190 --> 00:00:49,890
+you only have one label now what happens
+
+18
+00:00:49,890 --> 00:00:51,539
+if<font color="#E5E5E5"> you want our term like three labels</font>
+
+19
+00:00:51,539 --> 00:00:55,230
+<font color="#CCCCCC">like our</font><font color="#E5E5E5"> login application or all kinds</font>
+
+20
+00:00:55,230 --> 00:00:57,000
+of<font color="#E5E5E5"> things</font><font color="#CCCCCC"> really and then also I</font><font color="#E5E5E5"> was</font>
+
+21
+00:00:57,000 --> 00:00:58,559
+talking about how<font color="#E5E5E5"> you have parents and</font>
+
+22
+00:00:58,559 --> 00:00:59,969
+children widgets and<font color="#E5E5E5"> all this and how</font>
+
+23
+00:00:59,969 --> 00:01:02,579
+<font color="#E5E5E5">you can customize based on that so</font>
+
+24
+00:01:02,579 --> 00:01:03,359
+<font color="#E5E5E5">that's what we're gonna be</font><font color="#CCCCCC"> talking about</font>
+
+25
+00:01:03,359 --> 00:01:07,710
+here<font color="#E5E5E5"> at least to start so we're gonna go</font>
+
+26
+00:01:07,710 --> 00:01:11,880
+<font color="#CCCCCC">ahead and do is</font><font color="#E5E5E5"> show how at least</font><font color="#CCCCCC"> we can</font>
+
+27
+00:01:11,880 --> 00:01:14,970
+<font color="#E5E5E5">have two buttons for</font><font color="#CCCCCC"> example so of</font>
+
+28
+00:01:14,970 --> 00:01:16,619
+course you could say<font color="#E5E5E5"> button like this</font>
+
+29
+00:01:16,619 --> 00:01:19,830
+<font color="#E5E5E5">like</font><font color="#CCCCCC"> lighting and then add this text</font>
+
+30
+00:01:19,830 --> 00:01:23,310
+<font color="#CCCCCC">that should work no</font><font color="#E5E5E5"> problem but but then</font>
+
+31
+00:01:23,310 --> 00:01:24,990
+what if you<font color="#E5E5E5"> wanted to have only buttons</font>
+
+32
+00:01:24,990 --> 00:01:27,450
+that were in relation to<font color="#E5E5E5"> a specific</font>
+
+33
+00:01:27,450 --> 00:01:29,850
+screen<font color="#E5E5E5"> let's say or something like that</font>
+
+34
+00:01:29,850 --> 00:01:32,130
+<font color="#E5E5E5">so that's what we're going to cover here</font>
+
+35
+00:01:32,130 --> 00:01:33,659
+<font color="#CCCCCC">so what we're going to do is we're come</font>
+
+36
+00:01:33,659 --> 00:01:34,979
+down here<font color="#CCCCCC"> nationally we made one more</font>
+
+37
+00:01:34,979 --> 00:01:37,680
+import and that's going<font color="#E5E5E5"> to be widgets so</font>
+
+38
+00:01:37,680 --> 00:01:40,560
+we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to do is from TV</font><font color="#E5E5E5"> UI</font><font color="#CCCCCC"> X dot</font>
+
+39
+00:01:40,560 --> 00:01:45,380
+widgets<font color="#E5E5E5"> actually widget import widgets</font>
+
+40
+00:01:45,380 --> 00:01:47,369
+<font color="#E5E5E5">now we're going to come down here and</font>
+
+41
+00:01:47,369 --> 00:01:49,380
+we're<font color="#E5E5E5"> going</font><font color="#CCCCCC"> to say class and we're going</font>
+
+42
+00:01:49,380 --> 00:01:53,070
+<font color="#E5E5E5">to say class widgets</font><font color="#CCCCCC"> and widgets is</font>
+
+43
+00:01:53,070 --> 00:01:56,280
+going to<font color="#E5E5E5"> import</font><font color="#CCCCCC"> for inherit rather from</font>
+
+44
+00:01:56,280 --> 00:01:59,250
+widget which is right here<font color="#CCCCCC"> so that's our</font>
+
+45
+00:01:59,250 --> 00:02:01,320
+widgets class now we'll come down<font color="#CCCCCC"> here</font>
+
+46
+00:02:01,320 --> 00:02:04,560
+<font color="#CCCCCC">and our widgets class is</font><font color="#E5E5E5"> actually just</font>
+
+47
+00:02:04,560 --> 00:02:07,560
+<font color="#CCCCCC">going to pass</font><font color="#E5E5E5"> now if we were putting</font><font color="#CCCCCC"> our</font>
+
+48
+00:02:07,560 --> 00:02:12,180
+<font color="#E5E5E5">TV kind of code within</font><font color="#CCCCCC"> Python we would</font>
+
+49
+00:02:12,180 --> 00:02:13,830
+put all that<font color="#E5E5E5"> code in here</font>
+
+50
+00:02:13,830 --> 00:02:15,930
+but I'm going<font color="#E5E5E5"> to show you how we can do</font>
+
+51
+00:02:15,930 --> 00:02:18,300
+<font color="#E5E5E5">it with</font><font color="#CCCCCC"> the key B file</font><font color="#E5E5E5"> instead for now</font>
+
+52
+00:02:18,300 --> 00:02:18,810
+at least
+
+53
+00:02:18,810 --> 00:02:22,730
+so let's just delete this up to here<font color="#E5E5E5"> and</font>
+
+54
+00:02:22,730 --> 00:02:24,510
+<font color="#E5E5E5">now we're going</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> do is we're going</font><font color="#CCCCCC"> to</font>
+
+55
+00:02:24,510 --> 00:02:25,530
+say we're<font color="#E5E5E5"> going to use these</font><font color="#CCCCCC"> little</font>
+
+56
+00:02:25,530 --> 00:02:28,020
+brackets and<font color="#E5E5E5"> that's kind of to reference</font>
+
+57
+00:02:28,020 --> 00:02:31,140
+<font color="#CCCCCC">your parents I suppose</font><font color="#E5E5E5"> so</font>
+
+58
+00:02:31,140 --> 00:02:33,390
+we'll say widgets for the widget<font color="#E5E5E5"> parent</font>
+
+59
+00:02:33,390 --> 00:02:37,920
+<font color="#E5E5E5">:</font><font color="#CCCCCC"> 1 2 3 4 4 an indent</font><font color="#E5E5E5"> and now we want to</font>
+
+60
+00:02:37,920 --> 00:02:39,090
+do is we're<font color="#E5E5E5"> going to say</font><font color="#CCCCCC"> okay well</font>
+
+61
+00:02:39,090 --> 00:02:41,940
+within the widgets<font color="#E5E5E5"> class so this is kind</font>
+
+62
+00:02:41,940 --> 00:02:43,530
+of<font color="#E5E5E5"> like this is going to correspond with</font>
+
+63
+00:02:43,530 --> 00:02:46,440
+this<font color="#E5E5E5"> and it's going to</font><font color="#CCCCCC"> know kvo is going</font>
+
+64
+00:02:46,440 --> 00:02:49,380
+to know that<font color="#CCCCCC"> we're doing that because</font>
+
+65
+00:02:49,380 --> 00:02:53,100
+<font color="#CCCCCC">it's the name is simple key v2</font><font color="#E5E5E5"> so it's</font>
+
+66
+00:02:53,100 --> 00:02:54,420
+simple key<font color="#E5E5E5"> v2 is going</font><font color="#CCCCCC"> to reference</font>
+
+67
+00:02:54,420 --> 00:02:57,840
+simple<font color="#CCCCCC"> q2 kv then it's going to say ok</font>
+
+68
+00:02:57,840 --> 00:03:01,020
+well<font color="#E5E5E5"> in this widgets a class what do we</font>
+
+69
+00:03:01,020 --> 00:03:03,900
+want<font color="#E5E5E5"> and then it</font><font color="#CCCCCC"> returns it based on</font>
+
+70
+00:03:03,900 --> 00:03:05,970
+here where we're returning label at the
+
+71
+00:03:05,970 --> 00:03:07,890
+moment but<font color="#E5E5E5"> we can just copy the</font><font color="#CCCCCC"> paste</font>
+
+72
+00:03:07,890 --> 00:03:10,170
+<font color="#E5E5E5">and</font><font color="#CCCCCC"> now we want</font><font color="#E5E5E5"> it to return widgets and</font>
+
+73
+00:03:10,170 --> 00:03:12,030
+it's going<font color="#E5E5E5"> to reference this key</font><font color="#CCCCCC"> v file</font>
+
+74
+00:03:12,030 --> 00:03:14,880
+<font color="#E5E5E5">for information on widgets so within</font>
+
+75
+00:03:14,880 --> 00:03:16,260
+widgets we're going to say there's a
+
+76
+00:03:16,260 --> 00:03:19,200
+<font color="#E5E5E5">button and</font><font color="#CCCCCC"> that button is</font><font color="#E5E5E5"> going to have</font>
+
+77
+00:03:19,200 --> 00:03:21,780
+some parameters<font color="#E5E5E5"> so those parameters</font><font color="#CCCCCC"> are</font>
+
+78
+00:03:21,780 --> 00:03:23,959
+<font color="#E5E5E5">going to be we're</font><font color="#CCCCCC"> going to</font><font color="#E5E5E5"> have size</font>
+
+79
+00:03:23,959 --> 00:03:26,910
+<font color="#CCCCCC">we're</font><font color="#E5E5E5"> going to have a position</font><font color="#CCCCCC"> we're</font>
+
+80
+00:03:26,910 --> 00:03:29,940
+gonna have some text<font color="#CCCCCC"> will have a color</font>
+
+81
+00:03:29,940 --> 00:03:36,000
+<font color="#E5E5E5">and then font size and our actual size</font>
+
+82
+00:03:36,000 --> 00:03:38,550
+is the button<font color="#E5E5E5"> width height so we're</font>
+
+83
+00:03:38,550 --> 00:03:40,890
+going to<font color="#E5E5E5"> make this button</font><font color="#CCCCCC"> 100 wide so</font>
+
+84
+00:03:40,890 --> 00:03:43,080
+it's pixels 100 pixels wide 75 pixels
+
+85
+00:03:43,080 --> 00:03:45,390
+tall now we have position this<font color="#CCCCCC"> is a</font>
+
+86
+00:03:45,390 --> 00:03:47,640
+little<font color="#E5E5E5"> interesting in most GUI</font>
+
+87
+00:03:47,640 --> 00:03:52,110
+applications on the<font color="#E5E5E5"> computers</font><font color="#CCCCCC"> zero zero</font>
+
+88
+00:03:52,110 --> 00:03:55,500
+is corresponding to<font color="#E5E5E5"> where well normally</font>
+
+89
+00:03:55,500 --> 00:03:58,560
+it's<font color="#E5E5E5"> the top left corner if you're</font>
+
+90
+00:03:58,560 --> 00:04:00,230
+referencing let's say a<font color="#E5E5E5"> try or a</font>
+
+91
+00:04:00,230 --> 00:04:05,190
+rectangle it's a top left corner now or
+
+92
+00:04:05,190 --> 00:04:06,540
+if you're referencing a window it's
+
+93
+00:04:06,540 --> 00:04:08,220
+still<font color="#CCCCCC"> the top left corner is zero zero</font>
+
+94
+00:04:08,220 --> 00:04:09,810
+so if we were to position a button<font color="#E5E5E5"> at</font>
+
+95
+00:04:09,810 --> 00:04:12,090
+zero zero<font color="#CCCCCC"> normally would be the top left</font>
+
+96
+00:04:12,090 --> 00:04:15,989
+<font color="#CCCCCC">Cavey</font><font color="#E5E5E5"> not the case zero zero is the</font>
+
+97
+00:04:15,989 --> 00:04:18,450
+bottom left<font color="#CCCCCC"> like a graph would be</font><font color="#E5E5E5"> or</font>
+
+98
+00:04:18,450 --> 00:04:19,290
+<font color="#E5E5E5">something like that</font>
+
+99
+00:04:19,290 --> 00:04:20,459
+not sure why they've done it this way
+
+100
+00:04:20,459 --> 00:04:23,940
+<font color="#E5E5E5">everything else like HTML CSS zero zeros</font>
+
+101
+00:04:23,940 --> 00:04:27,510
+top left<font color="#E5E5E5"> every GUI I've ever used or GUI</font>
+
+102
+00:04:27,510 --> 00:04:29,880
+development kit<font color="#CCCCCC"> or something</font><font color="#E5E5E5"> has always</font>
+
+103
+00:04:29,880 --> 00:04:32,220
+been<font color="#E5E5E5"> zero zero</font><font color="#CCCCCC"> is top left I'm not</font><font color="#E5E5E5"> sure</font>
+
+104
+00:04:32,220 --> 00:04:33,210
+why they did<font color="#CCCCCC"> it</font><font color="#E5E5E5"> I'm</font><font color="#CCCCCC"> sure they have a</font>
+
+105
+00:04:33,210 --> 00:04:36,090
+<font color="#E5E5E5">good reason but they did so anyway</font>
+
+106
+00:04:36,090 --> 00:04:38,340
+zero zero<font color="#CCCCCC"> bottom left</font><font color="#E5E5E5"> keep that in mind</font>
+
+107
+00:04:38,340 --> 00:04:40,290
+too when<font color="#CCCCCC"> you're positioning elements we</font>
+
+108
+00:04:40,290 --> 00:04:41,910
+when<font color="#E5E5E5"> you position an element you say I</font>
+
+109
+00:04:41,910 --> 00:04:43,980
+want this<font color="#CCCCCC"> element will say button to be</font>
+
+110
+00:04:43,980 --> 00:04:46,230
+at zero zero<font color="#E5E5E5"> what will be at zero zero</font>
+
+111
+00:04:46,230 --> 00:04:48,090
+<font color="#E5E5E5">is the bottom left corner</font><font color="#CCCCCC"> of that</font>
+
+112
+00:04:48,090 --> 00:04:51,120
+<font color="#E5E5E5">element</font><font color="#CCCCCC"> so this button</font><font color="#E5E5E5"> is going to be at</font>
+
+113
+00:04:51,120 --> 00:04:53,370
+zero<font color="#CCCCCC"> zero so the bottom left corner now</font>
+
+114
+00:04:53,370 --> 00:04:56,190
+what if our window was 100 pixels tall
+
+115
+00:04:56,190 --> 00:04:58,350
+and we wanted<font color="#CCCCCC"> that button</font><font color="#E5E5E5"> to be exactly</font>
+
+116
+00:04:58,350 --> 00:05:01,350
+<font color="#CCCCCC">right at the top of our window well you</font>
+
+117
+00:05:01,350 --> 00:05:05,220
+could position<font color="#E5E5E5"> it at 100 pixels</font><font color="#CCCCCC"> right</font><font color="#E5E5E5"> or</font>
+
+118
+00:05:05,220 --> 00:05:06,600
+actually<font color="#CCCCCC"> I'm</font><font color="#E5E5E5"> sorry it would be</font><font color="#CCCCCC"> zero for</font>
+
+119
+00:05:06,600 --> 00:05:08,310
+X and then<font color="#CCCCCC"> why you would say</font><font color="#E5E5E5"> let's say</font>
+
+120
+00:05:08,310 --> 00:05:10,920
+100 pixels up but what would happen<font color="#E5E5E5"> is</font>
+
+121
+00:05:10,920 --> 00:05:12,360
+since<font color="#E5E5E5"> we're</font><font color="#CCCCCC"> referencing the bottom left</font>
+
+122
+00:05:12,360 --> 00:05:14,760
+that button would<font color="#E5E5E5"> be like the bottom of</font>
+
+123
+00:05:14,760 --> 00:05:16,680
+<font color="#E5E5E5">that button would be right at 0 100 and</font>
+
+124
+00:05:16,680 --> 00:05:18,120
+then the<font color="#E5E5E5"> button would continue off the</font>
+
+125
+00:05:18,120 --> 00:05:19,950
+screen<font color="#E5E5E5"> up so you have</font><font color="#CCCCCC"> to keep</font><font color="#E5E5E5"> these</font>
+
+126
+00:05:19,950 --> 00:05:24,930
+<font color="#CCCCCC">things in mind</font><font color="#E5E5E5"> anyways for now 0 0 text</font>
+
+127
+00:05:24,930 --> 00:05:27,150
+the text<font color="#CCCCCC"> of</font><font color="#E5E5E5"> this button</font><font color="#CCCCCC"> we're gonna say</font>
+
+128
+00:05:27,150 --> 00:05:30,900
+is<font color="#E5E5E5"> Keeley the colors are an RGB a which</font>
+
+129
+00:05:30,900 --> 00:05:33,150
+is red<font color="#CCCCCC"> green blue alpha alpha as a</font>
+
+130
+00:05:33,150 --> 00:05:35,370
+measure of opaqueness not transparency
+
+131
+00:05:35,370 --> 00:05:36,240
+some people say it's a measure of
+
+132
+00:05:36,240 --> 00:05:38,370
+<font color="#E5E5E5">transparency it's the opposite of that</font>
+
+133
+00:05:38,370 --> 00:05:44,100
+color<font color="#CCCCCC"> we'll say is a green so 0</font><font color="#E5E5E5"> 1 0 and</font>
+
+134
+00:05:44,100 --> 00:05:48,540
+then<font color="#E5E5E5"> full the opaqueness</font><font color="#CCCCCC"> I suppose so</font>
+
+135
+00:05:48,540 --> 00:05:51,900
+<font color="#CCCCCC">you can't see it</font><font color="#E5E5E5"> font size</font><font color="#CCCCCC"> will or</font><font color="#E5E5E5"> you</font>
+
+136
+00:05:51,900 --> 00:05:55,080
+can see it or rather it's a solid<font color="#CCCCCC"> font</font>
+
+137
+00:05:55,080 --> 00:06:00,180
+<font color="#E5E5E5">size 40</font><font color="#CCCCCC"> ok</font><font color="#E5E5E5"> now that's</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> one button we</font>
+
+138
+00:06:00,180 --> 00:06:02,520
+can save<font color="#CCCCCC"> that hopefully simple give</font><font color="#E5E5E5"> you</font>
+
+139
+00:06:02,520 --> 00:06:04,380
+<font color="#CCCCCC">two simple give</font><font color="#E5E5E5"> you everything is good</font>
+
+140
+00:06:04,380 --> 00:06:09,420
+let's run that and<font color="#CCCCCC"> see how</font><font color="#E5E5E5"> we do and</font>
+
+141
+00:06:09,420 --> 00:06:11,220
+yeah you can see<font color="#CCCCCC"> we have a button here</font>
+
+142
+00:06:11,220 --> 00:06:13,050
+<font color="#CCCCCC">and interestingly enough</font><font color="#E5E5E5"> this button</font>
+
+143
+00:06:13,050 --> 00:06:14,730
+actually<font color="#E5E5E5"> is somewhat interactive we can</font>
+
+144
+00:06:14,730 --> 00:06:16,410
+click on the<font color="#CCCCCC"> button and you see there is</font>
+
+145
+00:06:16,410 --> 00:06:20,100
+<font color="#E5E5E5">some sort of not a super cool event but</font>
+
+146
+00:06:20,100 --> 00:06:23,150
+there is an event<font color="#E5E5E5"> when you click it</font>
+
+147
+00:06:23,150 --> 00:06:27,420
+close this<font color="#CCCCCC"> so we</font><font color="#E5E5E5"> have that button</font><font color="#CCCCCC"> now</font>
+
+148
+00:06:27,420 --> 00:06:28,800
+<font color="#CCCCCC">let's say</font><font color="#E5E5E5"> we wanted to add</font><font color="#CCCCCC"> another</font>
+
+149
+00:06:28,800 --> 00:06:30,360
+button<font color="#CCCCCC"> how might</font><font color="#E5E5E5"> we do that well we</font>
+
+150
+00:06:30,360 --> 00:06:32,790
+<font color="#CCCCCC">would just do button :</font>
+
+151
+00:06:32,790 --> 00:06:35,910
+and for simplicity<font color="#E5E5E5"> let's just</font><font color="#CCCCCC"> highlight</font>
+
+152
+00:06:35,910 --> 00:06:39,990
+all<font color="#E5E5E5"> that copy paste and the size we're</font>
+
+153
+00:06:39,990 --> 00:06:41,110
+<font color="#CCCCCC">going to actually</font><font color="#E5E5E5"> we're gonna call this</font>
+
+154
+00:06:41,110 --> 00:06:43,690
+<font color="#CCCCCC">and then this</font><font color="#E5E5E5"> one will be tutorial so</font>
+
+155
+00:06:43,690 --> 00:06:46,300
+it'll be a<font color="#E5E5E5"> TV tutorials because</font>
+
+156
+00:06:46,300 --> 00:06:48,040
+tutorials is longer we<font color="#E5E5E5"> need to make this</font>
+
+157
+00:06:48,040 --> 00:06:52,290
+a<font color="#E5E5E5"> little wider so 170 should be fine</font>
+
+158
+00:06:52,290 --> 00:06:55,300
+position since<font color="#E5E5E5"> this one was 100 pixels</font>
+
+159
+00:06:55,300 --> 00:06:57,910
+wide we'll put this<font color="#E5E5E5"> one at 100 starting</font>
+
+160
+00:06:57,910 --> 00:07:02,710
+at 100<font color="#CCCCCC"> zero tutorials</font><font color="#E5E5E5"> good</font><font color="#CCCCCC"> will make it</font>
+
+161
+00:07:02,710 --> 00:07:04,060
+a different color<font color="#CCCCCC"> we'll say it's red</font>
+
+162
+00:07:04,060 --> 00:07:06,970
+instead<font color="#E5E5E5"> and font size can remain the</font>
+
+163
+00:07:06,970 --> 00:07:11,070
+same<font color="#E5E5E5"> let's save that</font><font color="#CCCCCC"> let's run that</font><font color="#E5E5E5"> and</font>
+
+164
+00:07:11,070 --> 00:07:13,090
+now you can<font color="#CCCCCC"> see we have these two</font>
+
+165
+00:07:13,090 --> 00:07:19,660
+<font color="#E5E5E5">buttons TV tutorials now</font><font color="#CCCCCC"> what I was</font>
+
+166
+00:07:19,660 --> 00:07:20,740
+going to<font color="#CCCCCC"> talk</font><font color="#E5E5E5"> about positioning them at</font>
+
+167
+00:07:20,740 --> 00:07:22,330
+the top but I think<font color="#CCCCCC"> we'll actually</font><font color="#E5E5E5"> save</font>
+
+168
+00:07:22,330 --> 00:07:25,480
+that for a later video but like I said
+
+169
+00:07:25,480 --> 00:07:28,840
+<font color="#CCCCCC">before</font><font color="#E5E5E5"> we can actually put some code</font>
+
+170
+00:07:28,840 --> 00:07:32,020
+into<font color="#CCCCCC"> here so for example let's</font><font color="#E5E5E5"> say sighs</font>
+
+171
+00:07:32,020 --> 00:07:37,180
+okay<font color="#CCCCCC"> uh size let's</font><font color="#E5E5E5"> say font size 40</font><font color="#CCCCCC"> uh</font>
+
+172
+00:07:37,180 --> 00:07:43,030
+<font color="#E5E5E5">we could say font size equals I don't</font>
+
+173
+00:07:43,030 --> 00:07:45,010
+know let's just<font color="#E5E5E5"> say 80</font><font color="#CCCCCC"> divided by 2 just</font>
+
+174
+00:07:45,010 --> 00:07:46,570
+<font color="#CCCCCC">to</font><font color="#E5E5E5"> just a show</font>
+
+175
+00:07:46,570 --> 00:07:50,950
+so font size is 80 over<font color="#CCCCCC"> to run that and</font>
+
+176
+00:07:50,950 --> 00:07:52,720
+you can see that still<font color="#CCCCCC"> worked</font><font color="#E5E5E5"> so we were</font>
+
+177
+00:07:52,720 --> 00:07:55,240
+able<font color="#CCCCCC"> to put you know some logic</font><font color="#E5E5E5"> in there</font>
+
+178
+00:07:55,240 --> 00:07:56,980
+and then<font color="#E5E5E5"> later on you can reference you</font>
+
+179
+00:07:56,980 --> 00:08:00,010
+<font color="#CCCCCC">take font sizes a certain aspect ratio</font>
+
+180
+00:08:00,010 --> 00:08:04,060
+of like the whole window<font color="#CCCCCC"> so to speak and</font>
+
+181
+00:08:04,060 --> 00:08:05,770
+then<font color="#CCCCCC"> also when you're placing buttons</font>
+
+182
+00:08:05,770 --> 00:08:07,480
+<font color="#E5E5E5">you want</font><font color="#CCCCCC"> to place a button right at</font><font color="#E5E5E5"> the</font>
+
+183
+00:08:07,480 --> 00:08:09,160
+top<font color="#CCCCCC"> you can use</font><font color="#E5E5E5"> some mathematics</font><font color="#CCCCCC"> how</font>
+
+184
+00:08:09,160 --> 00:08:10,810
+<font color="#CCCCCC">tall</font><font color="#E5E5E5"> is our window how tall</font><font color="#CCCCCC"> is our</font>
+
+185
+00:08:10,810 --> 00:08:13,090
+button go<font color="#E5E5E5"> to window height</font><font color="#CCCCCC"> minus the</font>
+
+186
+00:08:13,090 --> 00:08:14,470
+height of the button boom that's your
+
+187
+00:08:14,470 --> 00:08:17,260
+<font color="#CCCCCC">position</font><font color="#E5E5E5"> of the lower left corner</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> the</font>
+
+188
+00:08:17,260 --> 00:08:21,250
+button so to speak<font color="#E5E5E5"> so anyways um</font><font color="#CCCCCC"> more on</font>
+
+189
+00:08:21,250 --> 00:08:23,530
+<font color="#E5E5E5">that later those are</font><font color="#CCCCCC"> just the quick</font>
+
+190
+00:08:23,530 --> 00:08:27,040
+basics of of this but as you<font color="#CCCCCC"> can see</font>
+
+191
+00:08:27,040 --> 00:08:28,390
+<font color="#E5E5E5">we've actually</font><font color="#CCCCCC"> already got</font><font color="#E5E5E5"> some</font>
+
+192
+00:08:28,390 --> 00:08:30,490
+redundancy<font color="#E5E5E5"> and font size now of course</font>
+
+193
+00:08:30,490 --> 00:08:32,620
+we could<font color="#CCCCCC"> have in</font><font color="#E5E5E5"> Python over here you</font>
+
+194
+00:08:32,620 --> 00:08:34,120
+<font color="#E5E5E5">could say well</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> could just set a</font>
+
+195
+00:08:34,120 --> 00:08:36,549
+global<font color="#CCCCCC"> variable and you'd be all find 80</font>
+
+196
+00:08:36,549 --> 00:08:39,610
+<font color="#E5E5E5">and that's</font><font color="#CCCCCC"> true</font><font color="#E5E5E5"> but as things get a</font>
+
+197
+00:08:39,610 --> 00:08:41,830
+little more<font color="#E5E5E5"> complex you might find that</font>
+
+198
+00:08:41,830 --> 00:08:44,320
+this<font color="#CCCCCC"> is</font><font color="#E5E5E5"> the superior method</font><font color="#CCCCCC"> again it</font>
+
+199
+00:08:44,320 --> 00:08:46,540
+<font color="#CCCCCC">just kind of</font><font color="#E5E5E5"> depends on what your kind</font>
+
+200
+00:08:46,540 --> 00:08:49,420
+<font color="#E5E5E5">of interests are what your comfort level</font>
+
+201
+00:08:49,420 --> 00:08:51,490
+is what you're used to doing<font color="#CCCCCC"> a</font><font color="#E5E5E5"> lot</font><font color="#CCCCCC"> of</font>
+
+202
+00:08:51,490 --> 00:08:53,590
+people like like with<font color="#CCCCCC"> Python a lot of</font>
+
+203
+00:08:53,590 --> 00:08:54,730
+the<font color="#E5E5E5"> complaints of some of my</font>
+
+204
+00:08:54,730 --> 00:08:56,980
+videos have<font color="#CCCCCC"> been that I like to code too</font>
+
+205
+00:08:56,980 --> 00:08:58,839
+much into one one file instead of
+
+206
+00:08:58,839 --> 00:09:00,339
+separating<font color="#E5E5E5"> everything off into its own</font>
+
+207
+00:09:00,339 --> 00:09:02,889
+<font color="#E5E5E5">little file to me that's more</font>
+
+208
+00:09:02,889 --> 00:09:05,050
+<font color="#CCCCCC">complicated</font><font color="#E5E5E5"> more complex than necessary</font>
+
+209
+00:09:05,050 --> 00:09:06,040
+<font color="#CCCCCC">to make a bunch of different little</font>
+
+210
+00:09:06,040 --> 00:09:08,170
+files<font color="#E5E5E5"> but to other people it makes a</font>
+
+211
+00:09:08,170 --> 00:09:09,190
+whole lot of<font color="#E5E5E5"> sense</font>
+
+212
+00:09:09,190 --> 00:09:11,139
+it<font color="#E5E5E5"> just kind of depends</font><font color="#CCCCCC"> on you know kind</font>
+
+213
+00:09:11,139 --> 00:09:13,449
+of what<font color="#E5E5E5"> your style</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> and also</font><font color="#CCCCCC"> the</font>
+
+214
+00:09:13,449 --> 00:09:14,800
+<font color="#E5E5E5">complexity of</font><font color="#CCCCCC"> your program sometimes</font>
+
+215
+00:09:14,800 --> 00:09:17,410
+<font color="#CCCCCC">this</font><font color="#E5E5E5"> is going to make far more sense to</font>
+
+216
+00:09:17,410 --> 00:09:19,930
+use<font color="#E5E5E5"> so anyways that's it for</font><font color="#CCCCCC"> this</font>
+
+217
+00:09:19,930 --> 00:09:20,440
+tutorial
+
+218
+00:09:20,440 --> 00:09:21,639
+if you<font color="#E5E5E5"> guys have any questions or</font>
+
+219
+00:09:21,639 --> 00:09:23,079
+<font color="#E5E5E5">comments on this video please</font><font color="#CCCCCC"> feel free</font>
+
+220
+00:09:23,079 --> 00:09:25,029
+to leave<font color="#E5E5E5"> them</font><font color="#CCCCCC"> below</font><font color="#E5E5E5"> otherwise as always</font>
+
+221
+00:09:25,029 --> 00:09:26,199
+thanks for<font color="#CCCCCC"> watching</font><font color="#E5E5E5"> thanks for all the</font>
+
+222
+00:09:26,199 --> 00:09:27,850
+<font color="#CCCCCC">support and subscriptions</font><font color="#E5E5E5"> and until next</font>
+
+223
+00:09:27,850 --> 00:00:00,000
+<font color="#E5E5E5">time</font>
+
